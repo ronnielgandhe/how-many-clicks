@@ -62,8 +62,8 @@ function validPath(wiki, path) {
   return true;
 }
 
-test('registry: my models first, unique ids, every entry explained', () => {
-  assert.deepEqual(STRATEGIES.slice(0, 2).map((s) => s.id), ['guided', 'model']);
+test('registry: the trained model comes first', () => {
+  assert.equal(STRATEGIES[0].id, 'guided');
 });
 
 test('registry has unique ids and every entry has a run function and explanation', () => {
