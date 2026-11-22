@@ -1,0 +1,7 @@
+data/raw/
+data/*.npz
+data/graph.json
+data/live-cache.json
+.venv/
+build/
+__pycache__/

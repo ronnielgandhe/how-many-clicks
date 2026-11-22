@@ -1,0 +1,5432 @@
+{
+ "seed": 20261122,
+ "tune": [
+  {
+   "start": "Rapping",
+   "target": "Ska",
+   "optimal": 1,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 1,
+    "median_pages": 2
+   }
+  },
+  {
+   "start": "James Buchanan",
+   "target": "York",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 2,
+    "median_clicks": 4.0,
+    "median_pages": 5.0
+   }
+  },
+  {
+   "start": "Muhammad Iqbal",
+   "target": "Jesus",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Nottingham",
+   "target": "List of U.S. states by date of statehood",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 3.5,
+    "median_pages": 5.0
+   }
+  },
+  {
+   "start": "Steel",
+   "target": "Autumn",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 3.5,
+    "median_pages": 4.5
+   }
+  },
+  {
+   "start": "University",
+   "target": "Galaxy",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Cookiecutter shark",
+   "target": "Proton",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Cocoa",
+   "target": "Moon",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Cinema of the United States",
+   "target": "French Revolution",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 3.5,
+    "median_pages": 4.5
+   }
+  },
+  {
+   "start": "Mahjong",
+   "target": "Microsoft Windows",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "WTA Tour Championships",
+   "target": "Electronics",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "Tin whistle",
+   "target": "Cloud",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Ghana",
+   "target": "Nottingham",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Stefan Edberg",
+   "target": "Eastern Orthodox Church",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Bread",
+   "target": "First Crusade",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Madagascar",
+   "target": "James K. Polk",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "The Lion King",
+   "target": "Peru",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 4.0,
+    "median_pages": 5.0
+   }
+  },
+  {
+   "start": "Music of Italy",
+   "target": "Attila the Hun",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Cook Islands",
+   "target": "Steel",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Children's Crusade",
+   "target": "Vatican City",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Tantalum",
+   "target": "Western Sahara",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Eris (dwarf planet)",
+   "target": "Phoenix (spacecraft)",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Paris",
+   "target": "Vanuatu",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "X-Men  The Last Stand",
+   "target": "Information",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "United States Constitution",
+   "target": "Peace",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Modern history",
+   "target": "Anglicanism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Glacier",
+   "target": "Robert Schumann",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Effects of global warming",
+   "target": "Shinto",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Nicolaus Copernicus",
+   "target": "Iron",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Buddhist art",
+   "target": "Azerbaijani people",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "William N. Page",
+   "target": "Ghana",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "The Cantos",
+   "target": "The Fens",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Vietnam",
+   "target": "Rail transport",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "James Buchanan",
+   "target": "Buckingham Palace",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Ghana",
+   "target": "Anglicanism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Bread",
+   "target": "East Africa",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Muhammad Iqbal",
+   "target": "Buckingham Palace",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Liverpool and Manchester Railway",
+   "target": "Doctor Who",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Cheers",
+   "target": "Vatican City",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Richmond, Virginia",
+   "target": "Cloud",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Scattered disc",
+   "target": "Czech Republic",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Tourette syndrome",
+   "target": "First Crusade",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Microsoft Windows",
+   "target": "United States Constitution",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Mahjong",
+   "target": "Tantalum",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "2003 Atlantic hurricane season",
+   "target": "Vatican City",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 5,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Currency",
+   "target": "Cleopatra VII",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "International Court of Justice",
+   "target": "Flemish dialects",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 7.0
+   }
+  },
+  {
+   "start": "Fatty acid",
+   "target": "Lung cancer",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "Stefan Edberg",
+   "target": "Edward VII of the United Kingdom",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Union Flag",
+   "target": "Yeast",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "East-West Schism",
+   "target": "Neutron",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Kookaburra",
+   "target": "Iceland",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Pigment",
+   "target": "Jesus",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 3.5,
+    "median_pages": 5.0
+   }
+  },
+  {
+   "start": "Lake Tanganyika",
+   "target": "Ladysmith Black Mambazo",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Scientific classification",
+   "target": "Salsa music",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Ghana",
+   "target": "Luxembourg (city)",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Isan",
+   "target": "New Delhi",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "List of circulating currencies",
+   "target": "Trapdoor spider",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 8,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "Sesame Street",
+   "target": "Humphry Davy",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Mozambique",
+   "target": "Electrical resistance",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Propaganda",
+   "target": "Death Valley National Park",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Magnesium",
+   "target": "Marshall Islands",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Effects of global warming",
+   "target": "Amazon parrot",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Western Sahara",
+   "target": "Beryllium",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Wayne Rooney",
+   "target": "Heliocentrism",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Cheers",
+   "target": "Australian rules football",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "History of democracy",
+   "target": "Lake Baikal",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "BT Tower",
+   "target": "Heliocentrism",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Attila the Hun",
+   "target": "Peace",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Sumo",
+   "target": "Franz Schubert",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Venus and Adonis (opera)",
+   "target": "Jarvis Island",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Monarchy",
+   "target": "Miocene",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Roman Greece",
+   "target": "Louis XIV of France",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "The Beano",
+   "target": "Wave",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Muhammad Iqbal",
+   "target": "Maya mythology",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Atlantic Coast Line Railroad",
+   "target": "Seychelles",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Restoration comedy",
+   "target": "Vietnam",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Folic acid",
+   "target": "Hampshire",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Egypt",
+   "target": "Electric field",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Venezuela",
+   "target": "Dodo",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Elagabalus",
+   "target": "Pterosaur",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 6.5,
+    "median_pages": 8.0
+   }
+  },
+  {
+   "start": "Metamorphic rock",
+   "target": "Ska",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 12,
+    "median_pages": 13
+   }
+  },
+  {
+   "start": "Wrestling",
+   "target": "Lens (anatomy)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Market",
+   "target": "Flemish dialects",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 8.5,
+    "median_pages": 9.5
+   }
+  },
+  {
+   "start": "Water polo",
+   "target": "Eyelid",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Britney Spears",
+   "target": "Trinity test",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.0,
+    "median_pages": 6.0
+   }
+  },
+  {
+   "start": "Potassium nitrate",
+   "target": "Ivory",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 9,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "U.S. Navy Marine Mammal Program",
+   "target": "WTA Tour Championships",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Trapdoor spider",
+   "target": "Eris (dwarf planet)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Rail transport",
+   "target": "Gliese 876 d",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 10
+   }
+  },
+  {
+   "start": "Eva Per\u00f3n",
+   "target": "Exploration of Mars",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 14,
+    "median_pages": 21
+   }
+  },
+  {
+   "start": "Selena",
+   "target": "Thallium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 6.5,
+    "median_pages": 7.5
+   }
+  },
+  {
+   "start": "Pentateuch",
+   "target": "Robert Schumann",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.0,
+    "median_pages": 6.5
+   }
+  },
+  {
+   "start": "Vatican City",
+   "target": "Nintendo Entertainment System",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 4,
+    "unfinished": 1,
+    "median_clicks": 5.5,
+    "median_pages": 6.5
+   }
+  },
+  {
+   "start": "Proton",
+   "target": "Cookiecutter shark",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 6.0,
+    "median_pages": 8.0
+   }
+  },
+  {
+   "start": "Theatre",
+   "target": "Acetone",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 3,
+    "median_clicks": 8,
+    "median_pages": 14
+   }
+  },
+  {
+   "start": "Eyelid",
+   "target": "Louis XIV of France",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Gossypium",
+   "target": "Serbia and Montenegro",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 6.5
+   }
+  },
+  {
+   "start": "Climate change",
+   "target": "Old Swiss Confederacy",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Dimetrodon",
+   "target": "Krazy Kat",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Donald Knuth",
+   "target": "Stanis\u0142aw Koniecpolski",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Brandon Routh",
+   "target": "Shielded metal arc welding",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Caratacus",
+   "target": "Mustard seed",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Palio di Siena",
+   "target": "William and Mary",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "The Marriage of Figaro",
+   "target": "Children's Crusade",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Robert Schumann",
+   "target": "Gustavus Franklin Swift",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Iron(III) chloride",
+   "target": "Income disparity",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Proton",
+   "target": "Zheng He",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Abu Dhabi",
+   "target": "Music of Italy",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Radhanite",
+   "target": "Ska",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Old Nubian language",
+   "target": "Stag beetle",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Clifton Suspension Bridge",
+   "target": "Great Cormorant",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Cinema of the United States",
+   "target": "Nathu La",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Venezuela",
+   "target": "Hurricane Philippe (2005)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Kite (bird)",
+   "target": "Miles Davis",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Kigali",
+   "target": "Amazon parrot",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Pok\u00e9mon Trading Card Game",
+   "target": "Eurasian Collared Dove",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Great Pyramid of Giza",
+   "target": "Trapdoor spider",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Osiris",
+   "target": "Tiger shark",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "List of monarchs in the British Isles",
+   "target": "Margin of error",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  }
+ ],
+ "test": [
+  {
+   "start": "Dundee",
+   "target": "Santorini",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "Space Shuttle program",
+   "target": "Hebrew language",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Crystal",
+   "target": "Light",
+   "optimal": 1,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 1,
+    "median_pages": 2
+   }
+  },
+  {
+   "start": "Aruba",
+   "target": "United States Bill of Rights",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Tuberculosis",
+   "target": "Battle of Stalingrad",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Irish people",
+   "target": "Scotland",
+   "optimal": 1,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Nostradamus",
+   "target": "Socialism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "19th century",
+   "target": "Code of Hammurabi",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Tehran",
+   "target": "Malta",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Alcohol",
+   "target": "Cancer",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 3,
+    "unfinished": 1,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Middle Ages",
+   "target": "Southern Africa",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Tehran",
+   "target": "Marco Polo",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 1,
+    "median_clicks": 6.0,
+    "median_pages": 7.5
+   }
+  },
+  {
+   "start": "Ancient Rome",
+   "target": "Madrid",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Working poor",
+   "target": "Spanish language",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Western Front (World War I)",
+   "target": "Suez Canal",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "African Wild Dog",
+   "target": "Suez Canal",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Anarchism",
+   "target": "Biodiesel",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 8,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "John Marshall",
+   "target": "Ecuador",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Aquarium",
+   "target": "Philosophy",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Semiconductor",
+   "target": "World War II",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "El Lissitzky",
+   "target": "Christopher Columbus",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Montreal",
+   "target": "Houston, Texas",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Common cold",
+   "target": "Great Lakes",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Hebrew language",
+   "target": "Northern Ireland",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 8,
+    "median_pages": 10
+   }
+  },
+  {
+   "start": "Northern Ireland",
+   "target": "Amazon River",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 3.0,
+    "median_pages": 6.5
+   }
+  },
+  {
+   "start": "Citizenship",
+   "target": "Turkmenistan",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.5,
+    "median_pages": 7.5
+   }
+  },
+  {
+   "start": "DNA",
+   "target": "Common cold",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Northern Ireland",
+   "target": "Portugal",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Nigeria",
+   "target": "Scotland",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Sitting Bull",
+   "target": "Ice hockey",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Honey",
+   "target": "Aquarium",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Accountancy",
+   "target": "Bronze Age",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "River",
+   "target": "Cold War",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Watch",
+   "target": "Broadcasting",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Military dictatorship",
+   "target": "Ancient Rome",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Permian",
+   "target": "Agriculture",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Edward Teller",
+   "target": "Mineral",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Henry V of England",
+   "target": "Music",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Fossil",
+   "target": "Agriculture",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Edward the Confessor",
+   "target": "Agriculture",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 6.0,
+    "median_pages": 7.5
+   }
+  },
+  {
+   "start": "Asia",
+   "target": "Mammal",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Norway",
+   "target": "Socialism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Ice hockey",
+   "target": "Glass",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "St Paul's Cathedral",
+   "target": "Portugal",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Jake Gyllenhaal",
+   "target": "Great Lakes",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Condoleezza Rice",
+   "target": "Northern Ireland",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 3.5,
+    "median_pages": 4.5
+   }
+  },
+  {
+   "start": "Canada",
+   "target": "Nigeria",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Apollo 8",
+   "target": "Jerusalem",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 5,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Eagle",
+   "target": "Sweden",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.0,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "Atheism",
+   "target": "Oligarchy",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Richard III of England",
+   "target": "Malta",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Atheism",
+   "target": "Sri Lanka",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Lake Victoria",
+   "target": "Mississippi River",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Muhammad Ali Jinnah",
+   "target": "Arctic",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Madrid",
+   "target": "Jerusalem",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Denmark",
+   "target": "Jazz",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Leonardo da Vinci",
+   "target": "South Africa",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Amsterdam",
+   "target": "Panama",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Sweden",
+   "target": "Kiev",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Ben Nevis",
+   "target": "Canada",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 3.0,
+    "median_pages": 5.0
+   }
+  },
+  {
+   "start": "Bonobo",
+   "target": "Agriculture",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Quatermass and the Pit",
+   "target": "Plymouth",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "California",
+   "target": "Cayman Islands",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Sunset Boulevard (1950 film)",
+   "target": "Agriculture",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Expressionism",
+   "target": "Sweden",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Soup",
+   "target": "Amsterdam",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "British Empire",
+   "target": "Mississippi River",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Fresh water",
+   "target": "Krypton",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Sodium hydroxide",
+   "target": "Ununbium",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Blackjack",
+   "target": "Belarus",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Tufted Duck",
+   "target": "Berlin Wall",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Friedrich Nietzsche",
+   "target": "Anatomy",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Limerick",
+   "target": "Western Roman Empire",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Sweden",
+   "target": "Norway",
+   "optimal": 1,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 1,
+    "median_pages": 2
+   }
+  },
+  {
+   "start": "Chicken",
+   "target": "Ecuador",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Weakest Link",
+   "target": "DNA",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Gypsum",
+   "target": "Taoism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Cold War",
+   "target": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Windows Vista",
+   "target": "NATO",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Eurasian Jay",
+   "target": "Ishango bone",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Amsterdam",
+   "target": "Rabat",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Lead(II) nitrate",
+   "target": "Richard III of England",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Edward the Confessor",
+   "target": "Milan",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Victoria Cross",
+   "target": "Netherlands",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Suez Canal",
+   "target": "Continent",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Arctic Circle",
+   "target": "Ice hockey",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Terrorism",
+   "target": "Zulu",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Gaza Strip",
+   "target": "Society",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Mexico City",
+   "target": "Kyrgyzstan",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Soup",
+   "target": "Gal\u00e1pagos Islands",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Dresden",
+   "target": "Music",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "6th century",
+   "target": "Indira Gandhi",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "T-34",
+   "target": "Panama",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Pitcairn Islands",
+   "target": "Terrorism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Madrid",
+   "target": "Mammal",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Porgy and Bess",
+   "target": "Music",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 2,
+    "median_pages": 3
+   }
+  },
+  {
+   "start": "Finland",
+   "target": "Sri Lanka",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "James Bond",
+   "target": "Continent",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Viking",
+   "target": "Middle Ages",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "M*A*S*H (TV series)",
+   "target": "Heraldry",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Elizabeth I of England",
+   "target": "Arctic Circle",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "ATLAS experiment",
+   "target": "Apollo 8",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Southern Africa",
+   "target": "Los Angeles, California",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Battle of Stalingrad",
+   "target": "Terrorism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Salt Lake City, Utah",
+   "target": "Bible",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Islamic republic",
+   "target": "Philosophy",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Isles of Scilly",
+   "target": "Bronze Age",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Mesopotamia",
+   "target": "Multiple sclerosis",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Ice hockey",
+   "target": "Continent",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Belgium",
+   "target": "Belize",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Pete Sampras",
+   "target": "Ronald Reagan",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "San Jose, California",
+   "target": "Corundum",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Netherlands",
+   "target": "Dundee",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Battle of Marathon",
+   "target": "Hebrew language",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Friedrich Nietzsche",
+   "target": "Berlin Wall",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Netherlands",
+   "target": "Anarchism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Society",
+   "target": "United States Bill of Rights",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "El Lissitzky",
+   "target": "HIV",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Sport",
+   "target": "Taoism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "South Ossetia",
+   "target": "Slavery",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Zulu",
+   "target": "NATO",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Agriculture",
+   "target": "Jew",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Steam engine",
+   "target": "Madrid",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Oat",
+   "target": "Bratislava",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Johannesburg",
+   "target": "Jerusalem",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Storm of October 1804",
+   "target": "Madrid",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "The Waste Land",
+   "target": "Malta",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Atlantic Ocean",
+   "target": "Cattle",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Tripitaka",
+   "target": "Tibet",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Second Crusade",
+   "target": "19th century",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Rebecca Helferich Clarke",
+   "target": "Poison gas in World War I",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Ice hockey",
+   "target": "Hebrew language",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Spanish Inquisition",
+   "target": "Beeching Axe",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Latvia",
+   "target": "Philosophy",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Lesothosaurus",
+   "target": "Bill Clinton",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Barnacle",
+   "target": "Berlin Wall",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Strait of Malacca",
+   "target": "Azerbaijan",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Socialism",
+   "target": "Revolution",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "David Cameron",
+   "target": "Stone Age",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Citizenship",
+   "target": "Portugal",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Cat's Eye Nebula",
+   "target": "Sound",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Guernsey",
+   "target": "Harold Wilson",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "George H. W. Bush",
+   "target": "Communism",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Irish people",
+   "target": "Society",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Roman mythology",
+   "target": "Oligarchy",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Uganda",
+   "target": "Royal Dutch Shell",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Ganges River",
+   "target": "Suez Canal",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Alcohol",
+   "target": "Steam engine",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Graphic novel",
+   "target": "Belgium",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Fiberglass",
+   "target": "Day",
+   "optimal": 2,
+   "difficulty": "easy",
+   "human": null
+  },
+  {
+   "start": "Johannesburg",
+   "target": "University of Texas at Austin",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 7.5,
+    "median_pages": 8.5
+   }
+  },
+  {
+   "start": "British English",
+   "target": "Amazon River",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "Cattle",
+   "target": "Sequence alignment",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Socialism",
+   "target": "Gypsum",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Gmail",
+   "target": "Demand Note",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Lost (TV series)",
+   "target": "Citizenship",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "The Mismeasure of Man",
+   "target": "Condoleezza Rice",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "Amazon River",
+   "target": "Dinosaur",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Northern Ireland",
+   "target": "Lake Kariba",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Broadcasting",
+   "target": "Tsunami",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "World Bank Group",
+   "target": "Dundee",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Limerick",
+   "target": "Pea",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Comet Hale-Bopp",
+   "target": "Walt Disney",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 2,
+    "median_clicks": 14,
+    "median_pages": 31
+   }
+  },
+  {
+   "start": "EMD F7",
+   "target": "Michigan State University",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Edward Teller",
+   "target": "Soil science",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 5,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Crustacean",
+   "target": "Leonardo da Vinci",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.0,
+    "median_pages": 5.0
+   }
+  },
+  {
+   "start": "Rutherford B. Hayes",
+   "target": "Tank",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Bonobo",
+   "target": "Christian monasticism",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "Permian",
+   "target": "Uganda",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Reggae",
+   "target": "Telecommunication",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 6.0
+   }
+  },
+  {
+   "start": "Huntington's disease",
+   "target": "Humpback Whale",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Taoism",
+   "target": "Dinosaur",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 8,
+    "unfinished": 0,
+    "median_clicks": 5.5,
+    "median_pages": 6.5
+   }
+  },
+  {
+   "start": "Dundee",
+   "target": "Elizabeth I of England",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Sitting Bull",
+   "target": "Algerian Civil War",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Sputnik 1",
+   "target": "Ant",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Retinol",
+   "target": "Islamic republic",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Philosophiae Naturalis Principia Mathematica",
+   "target": "Bratislava",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Mongoose",
+   "target": "African Buffalo",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 6.5,
+    "median_pages": 12.0
+   }
+  },
+  {
+   "start": "Indian cricket team",
+   "target": "South Ossetia",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Cape Horn",
+   "target": "San Jose, California",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Working poor",
+   "target": "Fresh water",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 3.5,
+    "median_pages": 4.5
+   }
+  },
+  {
+   "start": "Gal\u00e1pagos Islands",
+   "target": "River",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Otto von Bismarck",
+   "target": "La Paz",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Sitting Bull",
+   "target": "Mammal",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Thalassemia",
+   "target": "Windows Vista",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 8.5,
+    "median_pages": 10.0
+   }
+  },
+  {
+   "start": "Quantum chemistry",
+   "target": "Belgium",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Viking",
+   "target": "Brain",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Copenhagen",
+   "target": "Trafalgar Square",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Hammurabi",
+   "target": "Alcohol",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.5,
+    "median_pages": 6.5
+   }
+  },
+  {
+   "start": "South Africa",
+   "target": "Island Fox",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Battle of Marathon",
+   "target": "Dinosaur",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "DNA",
+   "target": "Jerusalem",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "California",
+   "target": "Copenhagen",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Colossus of Rhodes",
+   "target": "Scotland",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Battle of Austerlitz",
+   "target": "6th century",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Sound",
+   "target": "Ancient Rome",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 5.5,
+    "median_pages": 6.5
+   }
+  },
+  {
+   "start": "List of universities in the United Kingdom",
+   "target": "Lyon",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Richard III of England",
+   "target": "Azerbaijan",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "James Bond",
+   "target": "African slave trade",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Royal Dutch Shell",
+   "target": "Sigmund Freud",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 16,
+    "median_pages": 17
+   }
+  },
+  {
+   "start": "Tsunami",
+   "target": "Poison gas in World War I",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.5,
+    "median_pages": 6.5
+   }
+  },
+  {
+   "start": "Radish",
+   "target": "British English",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Cattle",
+   "target": "Poison gas in World War I",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Kyrgyzstan",
+   "target": "Leonardo da Vinci",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Svart\u00e1lfar",
+   "target": "Jazz",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "List of universities in the United Kingdom",
+   "target": "Brain",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Charles Sumner",
+   "target": "Hippopotamus",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "HIV",
+   "target": "Permian",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 1,
+    "median_clicks": 4.5,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "Coconut crab",
+   "target": "Dam",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Common cold",
+   "target": "Fertile Crescent",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Pluto",
+   "target": "Sri Lanka",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Hippopotamus",
+   "target": "Recycling",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 14
+   }
+  },
+  {
+   "start": "Blackpool",
+   "target": "Watch",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Hurricane Dennis",
+   "target": "Aquarium",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 7.5,
+    "median_pages": 9.0
+   }
+  },
+  {
+   "start": "Hinduism",
+   "target": "Asunci\u00f3n",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Glass",
+   "target": "American football",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Gypsum",
+   "target": "Soil moisture",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 12,
+    "median_pages": 14
+   }
+  },
+  {
+   "start": "Matter",
+   "target": "Fossil",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 8,
+    "median_pages": 10
+   }
+  },
+  {
+   "start": "Batman",
+   "target": "Pluto",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.0,
+    "median_pages": 6.0
+   }
+  },
+  {
+   "start": "Bill Clinton",
+   "target": "Lyon",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "Geography of Ireland",
+   "target": "Definition of planet",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 4,
+    "unfinished": 0,
+    "median_clicks": 4.0,
+    "median_pages": 5.0
+   }
+  },
+  {
+   "start": "Bob Dylan",
+   "target": "Viking",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "David Cameron",
+   "target": "Eagle",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 3,
+    "median_pages": 4
+   }
+  },
+  {
+   "start": "History of post-Soviet Russia",
+   "target": "Edward VI of England",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Johannesburg",
+   "target": "Franklin Pierce",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Deconstructivism",
+   "target": "2004 Indian Ocean earthquake",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Aztec",
+   "target": "Columbus, Ohio",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Sitting Bull",
+   "target": "Latvia",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Taoism",
+   "target": "Grand Slam (tennis)",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Second Congo War",
+   "target": "Great Wall of China",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Opuntia imbricata",
+   "target": "Socialism",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Jacques Cartier",
+   "target": "Fossil",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Hamilton-Burr duel",
+   "target": "Hasekura Tsunenaga",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Hurricane Felix (1995)",
+   "target": "Armia Krajowa",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Philip II of Spain",
+   "target": "Michael Faraday",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Political science",
+   "target": "Michigan State University",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Rabat",
+   "target": "War in Somalia (2006\u2013present)",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Medieval music",
+   "target": "Edward Teller",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Benjamin Harrison",
+   "target": "Mount Everest",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Dallas, Texas",
+   "target": "The Ashes",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Pedro del Valle",
+   "target": "American football",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Postman Pat",
+   "target": "Montreal",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Steam engine",
+   "target": "British East India Company",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Felice Beato",
+   "target": "South Ossetia",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Viking",
+   "target": "James Callaghan",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Northern Pacific Railway",
+   "target": "Barnacle",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "55 Cancri",
+   "target": "John W. Campbell",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Fiberglass",
+   "target": "Fern",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Equatorial Guinea",
+   "target": "Light",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "List of Canadian provinces and territories by area",
+   "target": "Hinduism",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Agnosticism",
+   "target": "Leonardo da Vinci",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "6th century",
+   "target": "Red rain in Kerala",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Felice Beato",
+   "target": "Sound",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Milan",
+   "target": "Common cold",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Barcelona",
+   "target": "Victoria Cross",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Storm of October 1804",
+   "target": "Felice Beato",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Leo Tolstoy",
+   "target": "Arctic Circle",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Ice hockey",
+   "target": "Second Congo War",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Speaker of the United States House of Representatives",
+   "target": "Henry Fonda",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Elizabeth Fry",
+   "target": "Ben Nevis",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "African Buffalo",
+   "target": "Magna Carta",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Armia Krajowa",
+   "target": "Otto von Bismarck",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Robert Stephenson",
+   "target": "Sun Yat-sen",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Hebrew language",
+   "target": "Matrix (mathematics)",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Netherlands",
+   "target": "San Jose, California",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Fundamental Rights in India",
+   "target": "Demand Note",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "John F. Kennedy",
+   "target": "Second Congo War",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Tank",
+   "target": "Anarchism",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Porgy and Bess",
+   "target": "Che Guevara",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "BP",
+   "target": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Supply and demand",
+   "target": "Hurricane Dennis",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Western Roman Empire",
+   "target": "Benjamin Harrison",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Indian Railways",
+   "target": "El Aai\u00fan",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Pete Sampras",
+   "target": "Probability theory",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Hippopotamus",
+   "target": "Retinol",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "List of world's largest lakes",
+   "target": "Abhidhamma Pitaka",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "NATO",
+   "target": "Trinity",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Louis Freeh",
+   "target": "Hasekura Tsunenaga",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Hasekura Tsunenaga",
+   "target": "Lyndon B. Johnson",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Uganda",
+   "target": "Strontium",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Crystal",
+   "target": "Mind",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Reggae",
+   "target": "Antwerp",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Sri Lanka",
+   "target": "Number",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Gunpowder",
+   "target": "Broadcasting",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Zulu",
+   "target": "Gaza Strip",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Potassium iodide",
+   "target": "Cretaceous-Tertiary extinction event",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Richard Stallman",
+   "target": "William Tecumseh Sherman",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Tropical Storm Bonnie (2004)",
+   "target": "Sun Yat-sen",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Indian Railways",
+   "target": "Nashville, Tennessee",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Geology of Dorset",
+   "target": "Eurovision Song Contest",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Mount Unzen",
+   "target": "British Empire",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Tsunami",
+   "target": "Snowy Owl",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Persian Empire",
+   "target": "Great Lakes Storm of 1913",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Chicago Bears",
+   "target": "Diamond",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Harold Wilson",
+   "target": "Jacques Cartier",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Cretaceous-Tertiary extinction event",
+   "target": "Newcastle upon Tyne",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Spinosaurus",
+   "target": "Cancer",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Lego",
+   "target": "Potassium",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Kakariki",
+   "target": "Hebrew language",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Egg (food)",
+   "target": "Antwerp",
+   "optimal": 3,
+   "difficulty": "medium",
+   "human": null
+  },
+  {
+   "start": "Child",
+   "target": "The Ashes",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Sound",
+   "target": "Revolution",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 8,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "Humus",
+   "target": "Gangtok",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Sea of Galilee",
+   "target": "Shrine of Remembrance",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 10.0,
+    "median_pages": 14.5
+   }
+  },
+  {
+   "start": "Waheguru",
+   "target": "Definition of planet",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Sea of Galilee",
+   "target": "African dwarf frog",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 8,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "Recycling",
+   "target": "Working poor",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Helsinki",
+   "target": "Windows Vista",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "Fish",
+   "target": "Bill Clinton",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.0,
+    "median_pages": 5.0
+   }
+  },
+  {
+   "start": "Wood fuel",
+   "target": "Brush",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 11,
+    "median_pages": 13
+   }
+  },
+  {
+   "start": "Chola dynasty",
+   "target": "Thiamine",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Day",
+   "target": "Red rain in Kerala",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Number",
+   "target": "Retinol",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 8,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "Thiamine",
+   "target": "Windows Vista",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Epic of Gilgamesh",
+   "target": "Comet Hale-Bopp",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Brothers Grimm",
+   "target": "Windows Vista",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 23,
+    "unfinished": 6,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Bernard Hinault",
+   "target": "Sardar Vallabhbhai Patel",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Mesopotamia",
+   "target": "Hurricane Dennis",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 2,
+    "median_clicks": 6.0,
+    "median_pages": 7.5
+   }
+  },
+  {
+   "start": "Phishing",
+   "target": "Ozone depletion",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "South Africa",
+   "target": "Caloris Basin",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "African Buffalo",
+   "target": "Trans-Siberian Railway",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 10
+   }
+  },
+  {
+   "start": "Button",
+   "target": "Working poor",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 9,
+    "median_pages": 12
+   }
+  },
+  {
+   "start": "Panama",
+   "target": "Windows Vista",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 6.0
+   }
+  },
+  {
+   "start": "Batman",
+   "target": "Peanut",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 15,
+    "unfinished": 20,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Gmail",
+   "target": "La Paz",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 6,
+    "unfinished": 0,
+    "median_clicks": 5.0,
+    "median_pages": 6.0
+   }
+  },
+  {
+   "start": "Earl of Shaftesbury",
+   "target": "Potassium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Oppression",
+   "target": "Chromatophore",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 8,
+    "median_pages": 10
+   }
+  },
+  {
+   "start": "Computer programming",
+   "target": "Fresh water",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 21,
+    "unfinished": 8,
+    "median_clicks": 6,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Heraldry",
+   "target": "Ununbium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Toluene",
+   "target": "Darfur conflict",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.0,
+    "median_pages": 6.0
+   }
+  },
+  {
+   "start": "African dwarf frog",
+   "target": "Jaws (film)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Viking",
+   "target": "Phishing",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 9,
+    "median_pages": 11
+   }
+  },
+  {
+   "start": "Abhidhamma Pitaka",
+   "target": "Zulu",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 9.0,
+    "median_pages": 11.0
+   }
+  },
+  {
+   "start": "Microraptor",
+   "target": "Retinol",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 8,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "Great Lakes Storm of 1913",
+   "target": "Magellanic Penguin",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Sardar Vallabhbhai Patel",
+   "target": "Gmail",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Rutherford B. Hayes",
+   "target": "Perl",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 6.5,
+    "median_pages": 7.5
+   }
+  },
+  {
+   "start": "Agriculture",
+   "target": "Tropical Storm Delta (2005)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Retinol",
+   "target": "Great Lakes Storm of 1913",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Cai Lun",
+   "target": "Speaker of the United States House of Representatives",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Bernard Hinault",
+   "target": "The Lorax",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 12,
+    "median_pages": 13
+   }
+  },
+  {
+   "start": "Corundum",
+   "target": "Victoria Cross",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Golden Gate Highlands National Park",
+   "target": "Parsnip",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 11,
+    "median_pages": 12
+   }
+  },
+  {
+   "start": "Abidjan",
+   "target": "Myocardial infarction",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 1,
+    "median_clicks": 9.0,
+    "median_pages": 13.5
+   }
+  },
+  {
+   "start": "Batman",
+   "target": "Coconut crab",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 11,
+    "unfinished": 24,
+    "median_clicks": 7,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "Toluene",
+   "target": "Number",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Islamic republic",
+   "target": "Shrine of Remembrance",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Fiberglass",
+   "target": "2004 Indian Ocean earthquake",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Oxyrhynchus",
+   "target": "Californium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "William Mahone",
+   "target": "Hello Garci scandal",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Calvin Coolidge",
+   "target": "Extrasolar planet",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Ice hockey",
+   "target": "Holmium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Space Shuttle program",
+   "target": "Algerian Civil War",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "Caspian Sea",
+   "target": "Dundee United F.C.",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 4.5,
+    "median_pages": 5.5
+   }
+  },
+  {
+   "start": "The Waste Land",
+   "target": "Hurricane Alex (2004)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Mount Everest",
+   "target": "Demosthenes",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.0,
+    "median_pages": 11.5
+   }
+  },
+  {
+   "start": "Pinworm",
+   "target": "Amsterdam",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "WorkChoices",
+   "target": "Dundee United F.C.",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Silent film",
+   "target": "Soil science",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Apostolic Succession",
+   "target": "Maxwell's equations",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Myocardial infarction",
+   "target": "Maiasaura",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Igneous rock",
+   "target": "T-34",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "Michigan State University",
+   "target": "Sandy Koufax",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 3,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Bath School disaster",
+   "target": "The Magic Flute",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Los Angeles, California",
+   "target": "The Lorax",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 14,
+    "median_pages": 18
+   }
+  },
+  {
+   "start": "Ulysses S. Grant",
+   "target": "Microraptor",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 11,
+    "median_pages": 12
+   }
+  },
+  {
+   "start": "Urial",
+   "target": "3 Juno",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "The Ashes",
+   "target": "Thermodynamic temperature",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 8
+   }
+  },
+  {
+   "start": "Fish",
+   "target": "The Dandy",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 6
+   }
+  },
+  {
+   "start": "The Dandy",
+   "target": "Gregorian chant",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 7,
+    "median_pages": 10
+   }
+  },
+  {
+   "start": "Netherlands",
+   "target": "Spinosaurus",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 6,
+    "median_pages": 7
+   }
+  },
+  {
+   "start": "Santorini",
+   "target": "Ununbium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 4,
+    "median_pages": 5
+   }
+  },
+  {
+   "start": "The Pilgrim's Progress",
+   "target": "Phishing",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 1,
+    "median_clicks": 10,
+    "median_pages": 11
+   }
+  },
+  {
+   "start": "Jazz",
+   "target": "Phishing",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": {
+    "finished": 2,
+    "unfinished": 0,
+    "median_clicks": 5.0,
+    "median_pages": 10.0
+   }
+  },
+  {
+   "start": "Cultural diversity",
+   "target": "Strait of Malacca",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": {
+    "finished": 1,
+    "unfinished": 0,
+    "median_clicks": 5,
+    "median_pages": 9
+   }
+  },
+  {
+   "start": "Armia Krajowa",
+   "target": "Coconut oil",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Tiktaalik",
+   "target": "Pete Sampras",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "North Atlantic oscillation",
+   "target": "Myers-Briggs Type Indicator",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "St Paul's Cathedral",
+   "target": "Gmail",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Bench language",
+   "target": "1 Ceres",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Waheguru",
+   "target": "Ozone depletion",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "History of Buddhism",
+   "target": "Saltasaurus",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Toluene",
+   "target": "Saffron",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Edmond Halley",
+   "target": "Diamond cut",
+   "optimal": 6,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Nephron",
+   "target": "Manorialism",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Psittacosaurus",
+   "target": "Californium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Dallas, Texas",
+   "target": "Comet Hale-Bopp",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Philosophiae Naturalis Principia Mathematica",
+   "target": "Jake Gyllenhaal",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Michigan State University",
+   "target": "Malaspina Glacier",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Code of Hammurabi",
+   "target": "Snowy Owl",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Newsround",
+   "target": "Soup",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "English monarchs family tree",
+   "target": "Anarchism",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Pinworm",
+   "target": "Map projection",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "John W. Campbell",
+   "target": "Sun Yat-sen",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Mammal",
+   "target": "Woodworking",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Woodruff",
+   "target": "African dwarf frog",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Cold War",
+   "target": "Ununbium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "El Aai\u00fan",
+   "target": "Gangtok",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Arsenal F.C.",
+   "target": "Upsilon Andromedae",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "The Ashes",
+   "target": "Hurricane Dennis",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Expressionism",
+   "target": "Blackpool",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Jack Kerouac",
+   "target": "Civilization (computer game)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Sequence alignment",
+   "target": "Chola dynasty",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Second Crusade",
+   "target": "55 Cancri",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Citizenship",
+   "target": "Deconstructivism",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Norway",
+   "target": "Diamond cut",
+   "optimal": 6,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Jazz",
+   "target": "Lawrencium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Perl",
+   "target": "Potassium iodide",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Kakariki",
+   "target": "Quantum chemistry",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "The Pilgrim's Progress",
+   "target": "Aquarium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Bill Clinton",
+   "target": "John W. Campbell",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Weather",
+   "target": "History of Buddhism",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Grand Slam (tennis)",
+   "target": "Sassanid Empire",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Ancient Rome",
+   "target": "Troop sleeper",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Magellanic Penguin",
+   "target": "Thalassemia",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Jake Gyllenhaal",
+   "target": "Cultural diversity",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "The Lorax",
+   "target": "Monopoly (game)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Amsterdam",
+   "target": "Lynton and Barnstaple Railway",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "The Lorax",
+   "target": "Hovercraft",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Lake Victoria",
+   "target": "Fedora Core",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Harold Wilson",
+   "target": "Humpback Whale",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "History of Northwest Territories capital cities",
+   "target": "Lawrencium",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Georgetown, Guyana",
+   "target": "The Magic Flute",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Sunol Water Temple",
+   "target": "Lake Victoria",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Hello Garci scandal",
+   "target": "Thrush (bird)",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Jake Gyllenhaal",
+   "target": "Hurricane Alex (2004)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Computer programming",
+   "target": "Golden Gate Highlands National Park",
+   "optimal": 6,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Brain",
+   "target": "3 Juno",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Golden Gate Highlands National Park",
+   "target": "Bath School disaster",
+   "optimal": 6,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Ice hockey",
+   "target": "Gangtok",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Space Shuttle Endeavour",
+   "target": "Lake Kariba",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Washington streetcars",
+   "target": "Abhidhamma Pitaka",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "History of Burnside",
+   "target": "Morecambe and Wise",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Gangtok",
+   "target": "Asperger syndrome",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Oppression",
+   "target": "Ozone depletion",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Inner Hebrides",
+   "target": "Dam",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Edward Teller",
+   "target": "Oxyrhynchus",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "La Paz",
+   "target": "Bandicoot",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Zara Yaqob",
+   "target": "Troop sleeper",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Bible",
+   "target": "M*A*S*H (TV series)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Fresh water",
+   "target": "Separation of powers under the United States Constitution",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Ben Nevis",
+   "target": "Lake Kariba",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Hello Garci scandal",
+   "target": "Colossus of Rhodes",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Scottish mythology",
+   "target": "Gliese 876 b",
+   "optimal": 5,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Deconstructivism",
+   "target": "Space Shuttle Endeavour",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Edward the Confessor",
+   "target": "Coconut oil",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Panama Canal",
+   "target": "Bernard Hinault",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Manorialism",
+   "target": "Lost (TV series)",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "African Buffalo",
+   "target": "Humus",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  },
+  {
+   "start": "Muhammad Ali Jinnah",
+   "target": "Tiktaalik",
+   "optimal": 4,
+   "difficulty": "hard",
+   "human": null
+  }
+ ]
+}

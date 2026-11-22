@@ -1,0 +1,69 @@
+data ready in 16.3s, human clicks train/val/test 157519/30977/34923
+  tiny step 250 loss 0.1883 val_mae 0.7121 val_hop 0.5500 2s
+  tiny step 500 loss 0.1423 val_mae 0.7526 val_hop 0.5500 5s
+  tiny step 750 loss 0.1323 val_mae 0.7538 val_hop 0.5450 8s
+  tiny step 1000 loss 0.1284 val_mae 0.7796 val_hop 0.5400 11s
+  tiny step 1250 loss 0.1261 val_mae 0.7646 val_hop 0.5275 13s
+  tiny step 1500 loss 0.1237 val_mae 0.7777 val_hop 0.5375 16s
+  tiny step 1750 loss 0.1219 val_mae 0.7768 val_hop 0.5250 19s
+  tiny step 2000 loss 0.1212 val_mae 0.7740 val_hop 0.5350 21s
+  tiny step 2250 loss 0.1197 val_mae 0.7874 val_hop 0.5475 24s
+  tiny step 2500 loss 0.1176 val_mae 0.7850 val_hop 0.5375 26s
+  tiny step 2750 loss 0.1166 val_mae 0.7865 val_hop 0.5350 29s
+  tiny step 3000 loss 0.1160 val_mae 0.7857 val_hop 0.5425 31s
+  tiny step 3250 loss 0.1146 val_mae 0.7906 val_hop 0.5450 33s
+  tiny step 3500 loss 0.1147 val_mae 0.7942 val_hop 0.5500 36s
+  tiny step 3750 loss 0.1145 val_mae 0.7893 val_hop 0.5425 39s
+  tiny step 4000 loss 0.1146 val_mae 0.7928 val_hop 0.5450 41s
+tiny {"val": {"mae": 0.7834, "mae_predict_3": 0.5476, "pearson": 0.1997, "hop_acc": 0.5633, "hop_random": 0.2774, "human_agree": 0.1187, "human_agree_random": 0.0362}, "test": {"mae": 0.8141, "mae_predict_3": 0.5509, "pearson": 0.1261, "hop_acc": 0.5953, "hop_random": 0.2878, "human_agree": 0.1247, "human_agree_random": 0.0357}}
+  base step 250 loss 0.1571 val_mae 0.7002 val_hop 0.5450 6s
+  base step 500 loss 0.1275 val_mae 0.7316 val_hop 0.5525 12s
+  base step 750 loss 0.1217 val_mae 0.7173 val_hop 0.5350 18s
+  base step 1000 loss 0.1179 val_mae 0.7222 val_hop 0.5475 25s
+  base step 1250 loss 0.1158 val_mae 0.7331 val_hop 0.5400 32s
+  base step 1500 loss 0.1125 val_mae 0.7308 val_hop 0.5600 39s
+  base step 1750 loss 0.1102 val_mae 0.7238 val_hop 0.5550 45s
+  base step 2000 loss 0.1093 val_mae 0.7238 val_hop 0.5350 51s
+  base step 2250 loss 0.1084 val_mae 0.7236 val_hop 0.5475 57s
+  base step 2500 loss 0.1066 val_mae 0.7295 val_hop 0.5575 62s
+  base step 2750 loss 0.1058 val_mae 0.7310 val_hop 0.5600 69s
+  base step 3000 loss 0.1052 val_mae 0.7282 val_hop 0.5525 75s
+  base step 3250 loss 0.1038 val_mae 0.7345 val_hop 0.5650 81s
+  base step 3500 loss 0.1040 val_mae 0.7296 val_hop 0.5625 86s
+  base step 3750 loss 0.1038 val_mae 0.7344 val_hop 0.5575 92s
+  base step 4000 loss 0.1035 val_mae 0.7335 val_hop 0.5700 97s
+base {"val": {"mae": 0.7289, "mae_predict_3": 0.5476, "pearson": 0.2611, "hop_acc": 0.564, "hop_random": 0.2774, "human_agree": 0.1153, "human_agree_random": 0.0362}, "test": {"mae": 0.7544, "mae_predict_3": 0.5509, "pearson": 0.175, "hop_acc": 0.5953, "hop_random": 0.2878, "human_agree": 0.1127, "human_agree_random": 0.0357}}
+  imitate step 250 loss 0.5446 val_mae 1.0521 val_hop 0.4650 12s
+  imitate step 500 loss 0.5024 val_mae 1.1217 val_hop 0.5000 23s
+  imitate step 750 loss 0.4698 val_mae 1.5237 val_hop 0.4975 35s
+  imitate step 1000 loss 0.4515 val_mae 1.4916 val_hop 0.4675 47s
+  imitate step 1250 loss 0.4359 val_mae 1.6059 val_hop 0.4825 59s
+  imitate step 1500 loss 0.4246 val_mae 1.7395 val_hop 0.4875 72s
+  imitate step 1750 loss 0.4083 val_mae 1.6693 val_hop 0.4725 83s
+  imitate step 2000 loss 0.3955 val_mae 1.7094 val_hop 0.4750 99s
+  imitate step 2250 loss 0.3895 val_mae 1.6950 val_hop 0.5050 113s
+  imitate step 2500 loss 0.3829 val_mae 1.6253 val_hop 0.4950 126s
+  imitate step 2750 loss 0.3771 val_mae 1.6833 val_hop 0.4900 139s
+  imitate step 3000 loss 0.3720 val_mae 1.6189 val_hop 0.5025 153s
+  imitate step 3250 loss 0.3688 val_mae 1.6223 val_hop 0.5100 167s
+  imitate step 3500 loss 0.3664 val_mae 1.6241 val_hop 0.5150 182s
+  imitate step 3750 loss 0.3628 val_mae 1.6389 val_hop 0.5150 194s
+  imitate step 4000 loss 0.3608 val_mae 1.7003 val_hop 0.5075 210s
+imitate {"val": {"mae": 1.692, "mae_predict_3": 0.5476, "pearson": 0.1154, "hop_acc": 0.5033, "hop_random": 0.2774, "human_agree": 0.1973, "human_agree_random": 0.0362}, "test": {"mae": 1.7322, "mae_predict_3": 0.5509, "pearson": 0.0973, "hop_acc": 0.5227, "hop_random": 0.2878, "human_agree": 0.1833, "human_agree_random": 0.0357}}
+  human step 250 loss 0.6879 val_mae 0.7348 val_hop 0.5250 24s
+  human step 500 loss 0.6619 val_mae 0.7502 val_hop 0.5175 44s
+  human step 750 loss 0.6516 val_mae 0.7491 val_hop 0.5125 62s
+  human step 1000 loss 0.6455 val_mae 0.7545 val_hop 0.5075 81s
+  human step 1250 loss 0.6402 val_mae 0.7573 val_hop 0.4975 100s
+  human step 1500 loss 0.6385 val_mae 0.7604 val_hop 0.5025 117s
+human {"val": {"mae": 0.7592, "mae_predict_3": 0.5476, "pearson": 0.2896, "hop_acc": 0.5087, "hop_random": 0.2774, "human_agree": 0.1533, "human_agree_random": 0.0362}, "test": {"mae": 0.7921, "mae_predict_3": 0.5509, "pearson": 0.1881, "hop_acc": 0.5353, "hop_random": 0.2878, "human_agree": 0.132, "human_agree_random": 0.0357}}
+  full model step 1500 loss 0.1142 val_mae 0.7372 val_hop 0.5475 33s
+  no char trigrams (whole words only) step 1500 loss 0.1170 val_mae 0.7063 val_hop 0.5550 19s
+  no whole words (trigrams only) step 1500 loss 0.1210 val_mae 0.7456 val_hop 0.5450 30s
+  no hand features (embeddings only) step 1500 loss 0.1147 val_mae 0.7334 val_hop 0.5425 31s
+  hand features only (no embeddings) step 1500 loss 0.3006 val_mae 0.5870 val_hop 0.2878 1s
+tiny 67873 91268 41.2 0.5633 0.5953 0.1247
+base 533057 624900 96.8 0.564 0.5953 0.1127
+imitate 533057 624900 210.0 0.5033 0.5227 0.1833
+human 533057 624900 214.2 0.5087 0.5353 0.132
+total 652.3

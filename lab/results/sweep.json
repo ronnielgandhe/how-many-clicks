@@ -1,0 +1,53 @@
+{
+ "runs": [
+  {
+   "drop": 0.0,
+   "wd": 0.0,
+   "steps": 1500,
+   "val_mae": 0.747,
+   "hop_acc": 0.5538,
+   "secs": 42.6
+  },
+  {
+   "drop": 0.3,
+   "wd": 0.0,
+   "steps": 1500,
+   "val_mae": 0.7403,
+   "hop_acc": 0.5612,
+   "secs": 40.2
+  },
+  {
+   "drop": 0.3,
+   "wd": 0.05,
+   "steps": 1500,
+   "val_mae": 0.7394,
+   "hop_acc": 0.5638,
+   "secs": 45.6
+  },
+  {
+   "drop": 0.5,
+   "wd": 0.05,
+   "steps": 1500,
+   "val_mae": 0.7331,
+   "hop_acc": 0.5575,
+   "secs": 43.7
+  },
+  {
+   "drop": 0.3,
+   "wd": 0.2,
+   "steps": 1500,
+   "val_mae": 0.7395,
+   "hop_acc": 0.565,
+   "secs": 51.7
+  },
+  {
+   "drop": 0.3,
+   "wd": 0.05,
+   "steps": 4000,
+   "val_mae": 0.7374,
+   "hop_acc": 0.5675,
+   "secs": 159.2
+  }
+ ],
+ "constant_median_val_mae": 0.5391
+}

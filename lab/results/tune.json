@@ -1,0 +1,309 @@
+{
+ "pairs": 120,
+ "objective": "success*100 - extraClicks*10 - pages*0.2",
+ "family": [
+  {
+   "id": "tiny",
+   "guided": {
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.117,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.075,
+    "optimalRate": 0.925,
+    "pagesOpenedMean": 4.358,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.227
+   },
+   "greedy": {
+    "n": 120,
+    "success": 0.833,
+    "clicksMean": 3.56,
+    "optimalMean": 2.88,
+    "clicksOverOptimal": 0.68,
+    "optimalRate": 0.475,
+    "pagesOpenedMean": 71.683,
+    "pagesOpenedMedian": 51,
+    "msMean": 24.837
+   },
+   "guidedObjective": 98.38,
+   "greedyObjective": 62.16
+  },
+  {
+   "id": "base",
+   "guided": {
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.108,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.067,
+    "optimalRate": 0.933,
+    "pagesOpenedMean": 4.325,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.625
+   },
+   "greedy": {
+    "n": 120,
+    "success": 0.8,
+    "clicksMean": 3.479,
+    "optimalMean": 2.896,
+    "clicksOverOptimal": 0.583,
+    "optimalRate": 0.475,
+    "pagesOpenedMean": 74.042,
+    "pagesOpenedMedian": 51.5,
+    "msMean": 46.738
+   },
+   "guidedObjective": 98.47,
+   "greedyObjective": 59.36
+  },
+  {
+   "id": "imitate",
+   "guided": {
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.317,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.275,
+    "optimalRate": 0.775,
+    "pagesOpenedMean": 5.267,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.8
+   },
+   "greedy": {
+    "n": 120,
+    "success": 0.883,
+    "clicksMean": 3.528,
+    "optimalMean": 2.915,
+    "clicksOverOptimal": 0.613,
+    "optimalRate": 0.45,
+    "pagesOpenedMean": 42.742,
+    "pagesOpenedMedian": 11,
+    "msMean": 19.478
+   },
+   "guidedObjective": 96.2,
+   "greedyObjective": 73.62
+  },
+  {
+   "id": "human",
+   "guided": {
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.1,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.058,
+    "optimalRate": 0.942,
+    "pagesOpenedMean": 4.358,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.553
+   },
+   "greedy": {
+    "n": 120,
+    "success": 0.825,
+    "clicksMean": 3.535,
+    "optimalMean": 2.859,
+    "clicksOverOptimal": 0.677,
+    "optimalRate": 0.425,
+    "pagesOpenedMean": 67.567,
+    "pagesOpenedMedian": 38,
+    "msMean": 36.006
+   },
+   "guidedObjective": 98.55,
+   "greedyObjective": 62.22
+  }
+ ],
+ "grid": {
+  "model": [
+   {
+    "beam": 8,
+    "depthCost": 0,
+    "n": 120,
+    "success": 0.933,
+    "clicksMean": 4.741,
+    "optimalMean": 2.964,
+    "clicksOverOptimal": 1.777,
+    "optimalRate": 0.292,
+    "pagesOpenedMean": 37.983,
+    "pagesOpenedMedian": 9,
+    "msMean": 15.959,
+    "objective": 67.93
+   },
+   {
+    "beam": 8,
+    "depthCost": 5,
+    "n": 120,
+    "success": 0.908,
+    "clicksMean": 3.954,
+    "optimalMean": 2.936,
+    "clicksOverOptimal": 1.018,
+    "optimalRate": 0.367,
+    "pagesOpenedMean": 42.417,
+    "pagesOpenedMedian": 10,
+    "msMean": 18.03,
+    "objective": 72.14
+   },
+   {
+    "beam": 8,
+    "depthCost": 10,
+    "n": 120,
+    "success": 0.883,
+    "clicksMean": 3.528,
+    "optimalMean": 2.915,
+    "clicksOverOptimal": 0.613,
+    "optimalRate": 0.45,
+    "pagesOpenedMean": 42.742,
+    "pagesOpenedMedian": 11,
+    "msMean": 20.047,
+    "objective": 73.62
+   },
+   {
+    "beam": 8,
+    "depthCost": 20,
+    "n": 120,
+    "success": 0.908,
+    "clicksMean": 3.514,
+    "optimalMean": 2.945,
+    "clicksOverOptimal": 0.569,
+    "optimalRate": 0.533,
+    "pagesOpenedMean": 48.575,
+    "pagesOpenedMedian": 15,
+    "msMean": 22.731,
+    "objective": 75.4
+   },
+   {
+    "beam": 20,
+    "depthCost": 0,
+    "n": 120,
+    "success": 0.917,
+    "clicksMean": 4.491,
+    "optimalMean": 2.955,
+    "clicksOverOptimal": 1.536,
+    "optimalRate": 0.317,
+    "pagesOpenedMean": 39.525,
+    "pagesOpenedMedian": 9,
+    "msMean": 13.31,
+    "objective": 68.44
+   },
+   {
+    "beam": 20,
+    "depthCost": 5,
+    "n": 120,
+    "success": 0.917,
+    "clicksMean": 3.773,
+    "optimalMean": 2.955,
+    "clicksOverOptimal": 0.818,
+    "optimalRate": 0.408,
+    "pagesOpenedMean": 39.192,
+    "pagesOpenedMedian": 10,
+    "msMean": 14.459,
+    "objective": 75.68
+   },
+   {
+    "beam": 20,
+    "depthCost": 10,
+    "n": 120,
+    "success": 0.9,
+    "clicksMean": 3.509,
+    "optimalMean": 2.944,
+    "clicksOverOptimal": 0.565,
+    "optimalRate": 0.5,
+    "pagesOpenedMean": 43.733,
+    "pagesOpenedMedian": 11,
+    "msMean": 16.032,
+    "objective": 75.6
+   },
+   {
+    "beam": 20,
+    "depthCost": 20,
+    "n": 120,
+    "success": 0.858,
+    "clicksMean": 3.175,
+    "optimalMean": 2.874,
+    "clicksOverOptimal": 0.301,
+    "optimalRate": 0.608,
+    "pagesOpenedMean": 52.725,
+    "pagesOpenedMedian": 16,
+    "msMean": 18.965,
+    "objective": 72.24
+   }
+  ],
+  "guided": [
+   {
+    "depthCost": 0,
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.142,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.1,
+    "optimalRate": 0.917,
+    "pagesOpenedMean": 4.3,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.204,
+    "objective": 98.14
+   },
+   {
+    "depthCost": 5,
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.108,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.067,
+    "optimalRate": 0.942,
+    "pagesOpenedMean": 4.308,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.203,
+    "objective": 98.47
+   },
+   {
+    "depthCost": 10,
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.1,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.058,
+    "optimalRate": 0.942,
+    "pagesOpenedMean": 4.358,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.189,
+    "objective": 98.55
+   },
+   {
+    "depthCost": 20,
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.1,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.058,
+    "optimalRate": 0.942,
+    "pagesOpenedMean": 4.458,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.356,
+    "objective": 98.53
+   },
+   {
+    "depthCost": 40,
+    "n": 120,
+    "success": 1,
+    "clicksMean": 3.092,
+    "optimalMean": 3.042,
+    "clicksOverOptimal": 0.05,
+    "optimalRate": 0.95,
+    "pagesOpenedMean": 4.467,
+    "pagesOpenedMedian": 4,
+    "msMean": 1.368,
+    "objective": 98.61
+   }
+  ]
+ },
+ "chosen": {
+  "god": "human",
+  "model": {
+   "id": "imitate",
+   "beam": 20,
+   "depthCost": 5
+  },
+  "guided": {
+   "id": "human",
+   "depthCost": 40
+  }
+ }
+}
