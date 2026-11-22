@@ -1,0 +1,270 @@
+{
+ "pair": "test-415",
+ "start": "Jake Gyllenhaal",
+ "target": "Cultural diversity",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Jake Gyllenhaal",
+  "Philosophy",
+  "Sociology",
+  "Culture",
+  "Multiculturalism",
+  "Cultural identity",
+  "Culture",
+  "Multiculturalism",
+  "Cultural identity",
+  "Culture",
+  "Multiculturalism",
+  "Cultural identity",
+  "Culture",
+  "Multiculturalism",
+  "Cultural identity",
+  "Culture"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 10,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 5166,
+ "tokensOut": 253,
+ "costUsd": 0.002182,
+ "steps": [
+  {
+   "page": "Jake Gyllenhaal",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 16,
+     "ms": 709
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Sociology",
+     "valid": true,
+     "tokensIn": 519,
+     "tokensOut": 17,
+     "ms": 852
+    }
+   ],
+   "chosen": "Sociology",
+   "revisit": false
+  },
+  {
+   "page": "Sociology",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 285,
+     "tokensOut": 16,
+     "ms": 684
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": false
+  },
+  {
+   "page": "Culture",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Multiculturalism",
+     "valid": true,
+     "tokensIn": 383,
+     "tokensOut": 18,
+     "ms": 686
+    }
+   ],
+   "chosen": "Multiculturalism",
+   "revisit": false
+  },
+  {
+   "page": "Multiculturalism",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Cultural identity",
+     "valid": true,
+     "tokensIn": 406,
+     "tokensOut": 17,
+     "ms": 722
+    }
+   ],
+   "chosen": "Cultural identity",
+   "revisit": false
+  },
+  {
+   "page": "Cultural identity",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 201,
+     "tokensOut": 16,
+     "ms": 670
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": true
+  },
+  {
+   "page": "Culture",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Multiculturalism",
+     "valid": true,
+     "tokensIn": 391,
+     "tokensOut": 18,
+     "ms": 621
+    }
+   ],
+   "chosen": "Multiculturalism",
+   "revisit": true
+  },
+  {
+   "page": "Multiculturalism",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Cultural identity",
+     "valid": true,
+     "tokensIn": 414,
+     "tokensOut": 17,
+     "ms": 793
+    }
+   ],
+   "chosen": "Cultural identity",
+   "revisit": true
+  },
+  {
+   "page": "Cultural identity",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 209,
+     "tokensOut": 16,
+     "ms": 719
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": true
+  },
+  {
+   "page": "Culture",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Multiculturalism",
+     "valid": true,
+     "tokensIn": 399,
+     "tokensOut": 18,
+     "ms": 775
+    }
+   ],
+   "chosen": "Multiculturalism",
+   "revisit": true
+  },
+  {
+   "page": "Multiculturalism",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Cultural identity",
+     "valid": true,
+     "tokensIn": 422,
+     "tokensOut": 17,
+     "ms": 651
+    }
+   ],
+   "chosen": "Cultural identity",
+   "revisit": true
+  },
+  {
+   "page": "Cultural identity",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 217,
+     "tokensOut": 16,
+     "ms": 775
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": true
+  },
+  {
+   "page": "Culture",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Multiculturalism",
+     "valid": true,
+     "tokensIn": 407,
+     "tokensOut": 18,
+     "ms": 795
+    }
+   ],
+   "chosen": "Multiculturalism",
+   "revisit": true
+  },
+  {
+   "page": "Multiculturalism",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Cultural identity",
+     "valid": true,
+     "tokensIn": 430,
+     "tokensOut": 17,
+     "ms": 812
+    }
+   ],
+   "chosen": "Cultural identity",
+   "revisit": true
+  },
+  {
+   "page": "Cultural identity",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 225,
+     "tokensOut": 16,
+     "ms": 668
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": true
+  }
+ ]
+}

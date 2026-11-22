@@ -1,0 +1,83 @@
+{
+ "pair": "test-217",
+ "start": "Matter",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 10
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Matter",
+  "Science",
+  "Paleontology",
+  "Fossil"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 800,
+ "tokensOut": 58,
+ "costUsd": 0.000109,
+ "steps": [
+  {
+   "page": "Matter",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Science",
+     "valid": true,
+     "tokensIn": 221,
+     "tokensOut": 18,
+     "ms": 1107
+    }
+   ],
+   "chosen": "Science",
+   "revisit": false
+  },
+  {
+   "page": "Science",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Paleontology",
+     "valid": true,
+     "tokensIn": 318,
+     "tokensOut": 20,
+     "ms": 689
+    }
+   ],
+   "chosen": "Paleontology",
+   "revisit": false
+  },
+  {
+   "page": "Paleontology",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 20,
+     "ms": 803
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

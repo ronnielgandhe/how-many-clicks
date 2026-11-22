@@ -1,0 +1,83 @@
+{
+ "pair": "test-185",
+ "start": "Quantum chemistry",
+ "target": "Belgium",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Quantum chemistry",
+  "Physics",
+  "World War II",
+  "Belgium"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1449,
+ "tokensOut": 285,
+ "costUsd": 0.002156,
+ "steps": [
+  {
+   "page": "Quantum chemistry",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Physics",
+     "valid": true,
+     "tokensIn": 212,
+     "tokensOut": 123,
+     "ms": 2571
+    }
+   ],
+   "chosen": "Physics",
+   "revisit": false
+  },
+  {
+   "page": "Physics",
+   "offered": 107,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 597,
+     "tokensOut": 129,
+     "ms": 2612
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Belgium",
+     "valid": true,
+     "tokensIn": 640,
+     "tokensOut": 33,
+     "ms": 2103
+    }
+   ],
+   "chosen": "Belgium",
+   "revisit": false
+  }
+ ]
+}

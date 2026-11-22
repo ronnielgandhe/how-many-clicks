@@ -1,0 +1,142 @@
+{
+ "pair": "test-265",
+ "start": "Fundamental Rights in India",
+ "target": "Demand Note",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fundamental Rights in India",
+  "United States Bill of Rights",
+  "Alexander Hamilton",
+  "American Civil War",
+  "Abraham Lincoln",
+  "United States Constitution",
+  "United States dollar",
+  "Demand Note"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2465,
+ "tokensOut": 627,
+ "costUsd": 0.0112,
+ "steps": [
+  {
+   "page": "Fundamental Rights in India",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United States Bill of Rights",
+     "valid": true,
+     "tokensIn": 294,
+     "tokensOut": 88,
+     "ms": 3241
+    }
+   ],
+   "chosen": "United States Bill of Rights",
+   "revisit": false
+  },
+  {
+   "page": "United States Bill of Rights",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Alexander Hamilton",
+     "valid": true,
+     "tokensIn": 318,
+     "tokensOut": 97,
+     "ms": 6894
+    }
+   ],
+   "chosen": "Alexander Hamilton",
+   "revisit": false
+  },
+  {
+   "page": "Alexander Hamilton",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "American Civil War",
+     "valid": true,
+     "tokensIn": 320,
+     "tokensOut": 48,
+     "ms": 3567
+    }
+   ],
+   "chosen": "American Civil War",
+   "revisit": false
+  },
+  {
+   "page": "American Civil War",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Abraham Lincoln",
+     "valid": true,
+     "tokensIn": 379,
+     "tokensOut": 48,
+     "ms": 4328
+    }
+   ],
+   "chosen": "Abraham Lincoln",
+   "revisit": false
+  },
+  {
+   "page": "Abraham Lincoln",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "United States Constitution",
+     "valid": true,
+     "tokensIn": 392,
+     "tokensOut": 278,
+     "ms": 7586
+    }
+   ],
+   "chosen": "United States Constitution",
+   "revisit": false
+  },
+  {
+   "page": "United States Constitution",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "United States dollar",
+     "valid": true,
+     "tokensIn": 353,
+     "tokensOut": 45,
+     "ms": 4427
+    }
+   ],
+   "chosen": "United States dollar",
+   "revisit": false
+  },
+  {
+   "page": "United States dollar",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Demand Note",
+     "valid": true,
+     "tokensIn": 409,
+     "tokensOut": 23,
+     "ms": 3226
+    }
+   ],
+   "chosen": "Demand Note",
+   "revisit": false
+  }
+ ]
+}

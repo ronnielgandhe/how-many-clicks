@@ -1,0 +1,270 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Citizenship",
+  "City",
+  "Chicago",
+  "Germany",
+  "Berlin",
+  "20th century",
+  "Cubism",
+  "Architecture",
+  "Frank Lloyd Wright",
+  "New York City",
+  "Spain",
+  "Barcelona",
+  "Pablo Picasso",
+  "Cubism",
+  "Architecture",
+  "Art"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6130,
+ "tokensOut": 280,
+ "costUsd": 0.06024,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "City",
+     "valid": true,
+     "tokensIn": 271,
+     "tokensOut": 18,
+     "ms": 1211
+    }
+   ],
+   "chosen": "City",
+   "revisit": false
+  },
+  {
+   "page": "City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 426,
+     "tokensOut": 18,
+     "ms": 1384
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  },
+  {
+   "page": "Chicago",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 317,
+     "tokensOut": 18,
+     "ms": 1493
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 850,
+     "tokensOut": 18,
+     "ms": 3173
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": false
+  },
+  {
+   "page": "Berlin",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "20th century",
+     "valid": true,
+     "tokensIn": 484,
+     "tokensOut": 20,
+     "ms": 1461
+    }
+   ],
+   "chosen": "20th century",
+   "revisit": false
+  },
+  {
+   "page": "20th century",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Cubism",
+     "valid": true,
+     "tokensIn": 588,
+     "tokensOut": 19,
+     "ms": 1354
+    }
+   ],
+   "chosen": "Cubism",
+   "revisit": false
+  },
+  {
+   "page": "Cubism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 234,
+     "tokensOut": 18,
+     "ms": 1247
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": false
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 20,
+     "ms": 1284
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": false
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 20,
+     "ms": 1751
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": false
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Spain",
+     "valid": true,
+     "tokensIn": 491,
+     "tokensOut": 18,
+     "ms": 1488
+    }
+   ],
+   "chosen": "Spain",
+   "revisit": false
+  },
+  {
+   "page": "Spain",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Barcelona",
+     "valid": true,
+     "tokensIn": 555,
+     "tokensOut": 18,
+     "ms": 1348
+    }
+   ],
+   "chosen": "Barcelona",
+   "revisit": false
+  },
+  {
+   "page": "Barcelona",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Pablo Picasso",
+     "valid": true,
+     "tokensIn": 409,
+     "tokensOut": 20,
+     "ms": 1593
+    }
+   ],
+   "chosen": "Pablo Picasso",
+   "revisit": false
+  },
+  {
+   "page": "Pablo Picasso",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Cubism",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 19,
+     "ms": 2473
+    }
+   ],
+   "chosen": "Cubism",
+   "revisit": true
+  },
+  {
+   "page": "Cubism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 254,
+     "tokensOut": 18,
+     "ms": 1313
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 364,
+     "tokensOut": 18,
+     "ms": 1429
+    }
+   ],
+   "chosen": "Art",
+   "revisit": false
+  }
+ ]
+}

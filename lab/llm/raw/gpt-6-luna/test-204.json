@@ -1,0 +1,131 @@
+{
+ "pair": "test-204",
+ "start": "Svart\u00e1lfar",
+ "target": "Jazz",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Svart\u00e1lfar",
+  "Celtic mythology",
+  "Apollo",
+  "Flute",
+  "Musical instrument",
+  "Music",
+  "Jazz"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 1438,
+ "tokensOut": 114,
+ "costUsd": 0.000201,
+ "steps": [
+  {
+   "page": "Svart\u00e1lfar",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Celtic mythology",
+     "valid": true,
+     "tokensIn": 185,
+     "tokensOut": 21,
+     "ms": 917
+    }
+   ],
+   "chosen": "Celtic mythology",
+   "revisit": false
+  },
+  {
+   "page": "Celtic mythology",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Apollo",
+     "valid": true,
+     "tokensIn": 239,
+     "tokensOut": 18,
+     "ms": 1064
+    }
+   ],
+   "chosen": "Apollo",
+   "revisit": false
+  },
+  {
+   "page": "Apollo",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Flute",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 19,
+     "ms": 1122
+    }
+   ],
+   "chosen": "Flute",
+   "revisit": false
+  },
+  {
+   "page": "Flute",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Musical instrument",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 20,
+     "ms": 1129
+    }
+   ],
+   "chosen": "Musical instrument",
+   "revisit": false
+  },
+  {
+   "page": "Musical instrument",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Music",
+     "valid": true,
+     "tokensIn": 210,
+     "tokensOut": 18,
+     "ms": 1213
+    }
+   ],
+   "chosen": "Music",
+   "revisit": false
+  },
+  {
+   "page": "Music",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Jazz",
+     "valid": true,
+     "tokensIn": 273,
+     "tokensOut": 18,
+     "ms": 830
+    }
+   ],
+   "chosen": "Jazz",
+   "revisit": false
+  }
+ ]
+}

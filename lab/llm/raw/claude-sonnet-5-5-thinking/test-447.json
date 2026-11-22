@@ -1,0 +1,270 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Manorialism",
+  "France",
+  "United States",
+  "Television",
+  "Broadcasting",
+  "Television",
+  "Film",
+  "Actor",
+  "The Simpsons",
+  "Seinfeld",
+  "Television",
+  "DVD",
+  "Sony",
+  "Television",
+  "Film",
+  "Actor"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 12659,
+ "tokensOut": 4993,
+ "costUsd": 0.075248,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 623,
+     "tokensOut": 441,
+     "ms": 4823
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1110,
+     "tokensOut": 178,
+     "ms": 2124
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 2784,
+     "tokensOut": 368,
+     "ms": 2907
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 667,
+     "tokensOut": 241,
+     "ms": 2875
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": false
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 651,
+     "tokensOut": 320,
+     "ms": 3314
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 677,
+     "tokensOut": 356,
+     "ms": 3545
+    }
+   ],
+   "chosen": "Film",
+   "revisit": false
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Actor",
+     "valid": true,
+     "tokensIn": 663,
+     "tokensOut": 305,
+     "ms": 3555
+    }
+   ],
+   "chosen": "Actor",
+   "revisit": false
+  },
+  {
+   "page": "Actor",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "The Simpsons",
+     "valid": true,
+     "tokensIn": 654,
+     "tokensOut": 162,
+     "ms": 1929
+    }
+   ],
+   "chosen": "The Simpsons",
+   "revisit": false
+  },
+  {
+   "page": "The Simpsons",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Seinfeld",
+     "valid": true,
+     "tokensIn": 786,
+     "tokensOut": 362,
+     "ms": 3419
+    }
+   ],
+   "chosen": "Seinfeld",
+   "revisit": false
+  },
+  {
+   "page": "Seinfeld",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 611,
+     "tokensOut": 311,
+     "ms": 3176
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "DVD",
+     "valid": true,
+     "tokensIn": 701,
+     "tokensOut": 599,
+     "ms": 5752
+    }
+   ],
+   "chosen": "DVD",
+   "revisit": false
+  },
+  {
+   "page": "DVD",
+   "offered": 4,
+   "attempts": [
+    {
+     "raw": "Sony",
+     "valid": true,
+     "tokensIn": 610,
+     "tokensOut": 167,
+     "ms": 1930
+    }
+   ],
+   "chosen": "Sony",
+   "revisit": false
+  },
+  {
+   "page": "Sony",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 712,
+     "tokensOut": 253,
+     "ms": 2578
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 712,
+     "tokensOut": 626,
+     "ms": 5443
+    }
+   ],
+   "chosen": "Film",
+   "revisit": true
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Actor",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 304,
+     "ms": 2953
+    }
+   ],
+   "chosen": "Actor",
+   "revisit": true
+  }
+ ]
+}

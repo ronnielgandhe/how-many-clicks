@@ -1,0 +1,62 @@
+{
+ "pair": "test-111",
+ "start": "San Jose, California",
+ "target": "Corundum",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "San Jose, California",
+  "Aluminium",
+  "Corundum"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 865,
+ "tokensOut": 39,
+ "costUsd": 0.000106,
+ "steps": [
+  {
+   "page": "San Jose, California",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Aluminium",
+     "valid": true,
+     "tokensIn": 381,
+     "tokensOut": 19,
+     "ms": 984
+    }
+   ],
+   "chosen": "Aluminium",
+   "revisit": false
+  },
+  {
+   "page": "Aluminium",
+   "offered": 80,
+   "attempts": [
+    {
+     "raw": "Corundum",
+     "valid": true,
+     "tokensIn": 484,
+     "tokensOut": 20,
+     "ms": 952
+    }
+   ],
+   "chosen": "Corundum",
+   "revisit": false
+  }
+ ]
+}

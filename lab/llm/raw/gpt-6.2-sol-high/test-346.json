@@ -1,0 +1,99 @@
+{
+ "pair": "test-346",
+ "start": "Islamic republic",
+ "target": "Shrine of Remembrance",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Islamic republic",
+  "Monarchy",
+  "Australia",
+  "Melbourne",
+  "Shrine of Remembrance"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1854,
+ "tokensOut": 142,
+ "costUsd": 0.005128,
+ "steps": [
+  {
+   "page": "Islamic republic",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Monarchy",
+     "valid": true,
+     "tokensIn": 212,
+     "tokensOut": 83,
+     "ms": 1863
+    }
+   ],
+   "chosen": "Monarchy",
+   "revisit": false
+  },
+  {
+   "page": "Monarchy",
+   "offered": 113,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 637,
+     "tokensOut": 18,
+     "ms": 1097
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Melbourne",
+     "valid": true,
+     "tokensIn": 554,
+     "tokensOut": 19,
+     "ms": 1277
+    }
+   ],
+   "chosen": "Melbourne",
+   "revisit": false
+  },
+  {
+   "page": "Melbourne",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Shrine of Remembrance",
+     "valid": true,
+     "tokensIn": 451,
+     "tokensOut": 22,
+     "ms": 1060
+    }
+   ],
+   "chosen": "Shrine of Remembrance",
+   "revisit": false
+  }
+ ]
+}

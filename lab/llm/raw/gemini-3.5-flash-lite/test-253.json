@@ -1,0 +1,206 @@
+{
+ "pair": "test-253",
+ "start": "Milan",
+ "target": "Common cold",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Milan",
+  "Italy",
+  "Ancient Rome",
+  "Ancient Greece",
+  "Hippocrates",
+  "Medicine",
+  "Health",
+  "Medicine",
+  "Science",
+  "Biology",
+  "Virus",
+  "Common cold"
+ ],
+ "clicks": 11,
+ "stepsTaken": 11,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 11,
+ "tokensIn": 3892,
+ "tokensOut": 180,
+ "costUsd": 0.001618,
+ "steps": [
+  {
+   "page": "Milan",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Italy",
+     "valid": true,
+     "tokensIn": 296,
+     "tokensOut": 16,
+     "ms": 670
+    }
+   ],
+   "chosen": "Italy",
+   "revisit": false
+  },
+  {
+   "page": "Italy",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Ancient Rome",
+     "valid": true,
+     "tokensIn": 488,
+     "tokensOut": 17,
+     "ms": 807
+    }
+   ],
+   "chosen": "Ancient Rome",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Rome",
+   "offered": 88,
+   "attempts": [
+    {
+     "raw": "Ancient Greece",
+     "valid": true,
+     "tokensIn": 512,
+     "tokensOut": 17,
+     "ms": 697
+    }
+   ],
+   "chosen": "Ancient Greece",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Greece",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Hippocrates",
+     "valid": true,
+     "tokensIn": 430,
+     "tokensOut": 17,
+     "ms": 752
+    }
+   ],
+   "chosen": "Hippocrates",
+   "revisit": false
+  },
+  {
+   "page": "Hippocrates",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 251,
+     "tokensOut": 16,
+     "ms": 602
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 335,
+     "tokensOut": 16,
+     "ms": 623
+    }
+   ],
+   "chosen": "Health",
+   "revisit": false
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 16,
+     "ms": 648
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": true
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Science",
+     "valid": true,
+     "tokensIn": 339,
+     "tokensOut": 16,
+     "ms": 664
+    }
+   ],
+   "chosen": "Science",
+   "revisit": false
+  },
+  {
+   "page": "Science",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 329,
+     "tokensOut": 16,
+     "ms": 657
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  },
+  {
+   "page": "Biology",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Virus",
+     "valid": true,
+     "tokensIn": 378,
+     "tokensOut": 16,
+     "ms": 775
+    }
+   ],
+   "chosen": "Virus",
+   "revisit": false
+  },
+  {
+   "page": "Virus",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Common cold",
+     "valid": true,
+     "tokensIn": 299,
+     "tokensOut": 17,
+     "ms": 672
+    }
+   ],
+   "chosen": "Common cold",
+   "revisit": false
+  }
+ ]
+}

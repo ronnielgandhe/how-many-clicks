@@ -1,0 +1,83 @@
+{
+ "pair": "test-221",
+ "start": "Bob Dylan",
+ "target": "Viking",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Bob Dylan",
+  "England",
+  "Denmark",
+  "Viking"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1655,
+ "tokensOut": 56,
+ "costUsd": 0.00387,
+ "steps": [
+  {
+   "page": "Bob Dylan",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 346,
+     "tokensOut": 18,
+     "ms": 1025
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Denmark",
+     "valid": true,
+     "tokensIn": 915,
+     "tokensOut": 19,
+     "ms": 1179
+    }
+   ],
+   "chosen": "Denmark",
+   "revisit": false
+  },
+  {
+   "page": "Denmark",
+   "offered": 51,
+   "attempts": [
+    {
+     "raw": "Viking",
+     "valid": true,
+     "tokensIn": 394,
+     "tokensOut": 19,
+     "ms": 988
+    }
+   ],
+   "chosen": "Viking",
+   "revisit": false
+  }
+ ]
+}

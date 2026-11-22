@@ -1,0 +1,270 @@
+{
+ "pair": "test-236",
+ "start": "Rabat",
+ "target": "War in Somalia (2006\u2013present)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Rabat",
+  "Morocco",
+  "African Union",
+  "Somalia",
+  "Mogadishu",
+  "Ethiopia",
+  "Horn of Africa",
+  "Eritrea",
+  "Somalia",
+  "United States",
+  "George W. Bush",
+  "Iraq War",
+  "Terrorism",
+  "Osama bin Laden",
+  "Kenya",
+  "Djibouti"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 8863,
+ "tokensOut": 881,
+ "costUsd": 0.026536,
+ "steps": [
+  {
+   "page": "Rabat",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Morocco",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 66,
+     "ms": 4277
+    }
+   ],
+   "chosen": "Morocco",
+   "revisit": false
+  },
+  {
+   "page": "Morocco",
+   "offered": 68,
+   "attempts": [
+    {
+     "raw": "African Union",
+     "valid": true,
+     "tokensIn": 475,
+     "tokensOut": 75,
+     "ms": 5293
+    }
+   ],
+   "chosen": "African Union",
+   "revisit": false
+  },
+  {
+   "page": "African Union",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 554,
+     "tokensOut": 23,
+     "ms": 4117
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": false
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mogadishu",
+     "valid": true,
+     "tokensIn": 728,
+     "tokensOut": 86,
+     "ms": 5192
+    }
+   ],
+   "chosen": "Mogadishu",
+   "revisit": false
+  },
+  {
+   "page": "Mogadishu",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 349,
+     "tokensOut": 38,
+     "ms": 3935
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": false
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Horn of Africa",
+     "valid": true,
+     "tokensIn": 715,
+     "tokensOut": 24,
+     "ms": 4394
+    }
+   ],
+   "chosen": "Horn of Africa",
+   "revisit": false
+  },
+  {
+   "page": "Horn of Africa",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Eritrea",
+     "valid": true,
+     "tokensIn": 354,
+     "tokensOut": 123,
+     "ms": 6006
+    }
+   ],
+   "chosen": "Eritrea",
+   "revisit": false
+  },
+  {
+   "page": "Eritrea",
+   "offered": 99,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 619,
+     "tokensOut": 101,
+     "ms": 4984
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 742,
+     "tokensOut": 23,
+     "ms": 2399
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "George W. Bush",
+     "valid": true,
+     "tokensIn": 1474,
+     "tokensOut": 68,
+     "ms": 4449
+    }
+   ],
+   "chosen": "George W. Bush",
+   "revisit": false
+  },
+  {
+   "page": "George W. Bush",
+   "offered": 84,
+   "attempts": [
+    {
+     "raw": "Iraq War",
+     "valid": true,
+     "tokensIn": 594,
+     "tokensOut": 120,
+     "ms": 7113
+    }
+   ],
+   "chosen": "Iraq War",
+   "revisit": false
+  },
+  {
+   "page": "Iraq War",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Terrorism",
+     "valid": true,
+     "tokensIn": 444,
+     "tokensOut": 23,
+     "ms": 4348
+    }
+   ],
+   "chosen": "Terrorism",
+   "revisit": false
+  },
+  {
+   "page": "Terrorism",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Osama bin Laden",
+     "valid": true,
+     "tokensIn": 377,
+     "tokensOut": 66,
+     "ms": 5795
+    }
+   ],
+   "chosen": "Osama bin Laden",
+   "revisit": false
+  },
+  {
+   "page": "Osama bin Laden",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "Kenya",
+     "valid": true,
+     "tokensIn": 441,
+     "tokensOut": 22,
+     "ms": 31353
+    }
+   ],
+   "chosen": "Kenya",
+   "revisit": false
+  },
+  {
+   "page": "Kenya",
+   "offered": 133,
+   "attempts": [
+    {
+     "raw": "Djibouti",
+     "valid": true,
+     "tokensIn": 754,
+     "tokensOut": 23,
+     "ms": 3684
+    }
+   ],
+   "chosen": "Djibouti",
+   "revisit": false
+  }
+ ]
+}

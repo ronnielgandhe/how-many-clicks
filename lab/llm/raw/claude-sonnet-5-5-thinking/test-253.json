@@ -1,0 +1,78 @@
+{
+ "pair": "test-253",
+ "start": "Milan",
+ "target": "Common cold",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Milan",
+  "Black Death",
+  "Smallpox",
+  "Common cold"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2561,
+ "tokensOut": 451,
+ "costUsd": 0.009632,
+ "steps": [
+  {
+   "page": "Milan",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Black Death",
+     "valid": true,
+     "tokensIn": 747,
+     "tokensOut": 156,
+     "ms": 2273
+    }
+   ],
+   "chosen": "Black Death",
+   "revisit": false
+  },
+  {
+   "page": "Black Death",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Smallpox",
+     "valid": true,
+     "tokensIn": 935,
+     "tokensOut": 245,
+     "ms": 2869
+    }
+   ],
+   "chosen": "Smallpox",
+   "revisit": false
+  },
+  {
+   "page": "Smallpox",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Common cold",
+     "valid": true,
+     "tokensIn": 879,
+     "tokensOut": 50,
+     "ms": 1705
+    }
+   ],
+   "chosen": "Common cold",
+   "revisit": false
+  }
+ ]
+}

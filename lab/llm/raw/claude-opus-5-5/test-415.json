@@ -1,0 +1,158 @@
+{
+ "pair": "test-415",
+ "start": "Jake Gyllenhaal",
+ "target": "Cultural diversity",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jake Gyllenhaal",
+  "New York City",
+  "Culture",
+  "Multiculturalism",
+  "Cultural identity",
+  "Culture",
+  "Anthropology",
+  "Globalization",
+  "Cultural diversity"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 6818,
+ "tokensOut": 717,
+ "costUsd": 0.041612,
+ "steps": [
+  {
+   "page": "Jake Gyllenhaal",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 692,
+     "tokensOut": 49,
+     "ms": 1863
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": false
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 1037,
+     "tokensOut": 49,
+     "ms": 1462
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": false
+  },
+  {
+   "page": "Culture",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Multiculturalism",
+     "valid": true,
+     "tokensIn": 912,
+     "tokensOut": 53,
+     "ms": 1378
+    }
+   ],
+   "chosen": "Multiculturalism",
+   "revisit": false
+  },
+  {
+   "page": "Multiculturalism",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Cultural identity",
+     "valid": true,
+     "tokensIn": 949,
+     "tokensOut": 107,
+     "ms": 1496
+    }
+   ],
+   "chosen": "Cultural identity",
+   "revisit": false
+  },
+  {
+   "page": "Cultural identity",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 593,
+     "tokensOut": 118,
+     "ms": 2101
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": true
+  },
+  {
+   "page": "Culture",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Anthropology",
+     "valid": true,
+     "tokensIn": 931,
+     "tokensOut": 167,
+     "ms": 2053
+    }
+   ],
+   "chosen": "Anthropology",
+   "revisit": false
+  },
+  {
+   "page": "Anthropology",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Globalization",
+     "valid": true,
+     "tokensIn": 850,
+     "tokensOut": 121,
+     "ms": 1569
+    }
+   ],
+   "chosen": "Globalization",
+   "revisit": false
+  },
+  {
+   "page": "Globalization",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Cultural diversity",
+     "valid": true,
+     "tokensIn": 854,
+     "tokensOut": 53,
+     "ms": 915
+    }
+   ],
+   "chosen": "Cultural diversity",
+   "revisit": false
+  }
+ ]
+}

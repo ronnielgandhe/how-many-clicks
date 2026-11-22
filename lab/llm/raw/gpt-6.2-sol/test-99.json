@@ -1,0 +1,94 @@
+{
+ "pair": "test-99",
+ "start": "M*A*S*H (TV series)",
+ "target": "Heraldry",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "M*A*S*H (TV series)",
+  "United States",
+  "Bald Eagle",
+  "Eagle",
+  "Heraldry"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2320,
+ "tokensOut": 78,
+ "costUsd": 0.00542,
+ "steps": [
+  {
+   "page": "M*A*S*H (TV series)",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 19,
+     "ms": 1030
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Bald Eagle",
+     "valid": true,
+     "tokensIn": 1450,
+     "tokensOut": 20,
+     "ms": 981
+    }
+   ],
+   "chosen": "Bald Eagle",
+   "revisit": false
+  },
+  {
+   "page": "Bald Eagle",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Eagle",
+     "valid": true,
+     "tokensIn": 307,
+     "tokensOut": 19,
+     "ms": 1049
+    }
+   ],
+   "chosen": "Eagle",
+   "revisit": false
+  },
+  {
+   "page": "Eagle",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Heraldry",
+     "valid": true,
+     "tokensIn": 331,
+     "tokensOut": 20,
+     "ms": 1247
+    }
+   ],
+   "chosen": "Heraldry",
+   "revisit": false
+  }
+ ]
+}

@@ -12,6 +12,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, 'raw')
 SEED = 20261122
 PER_DIFF = 20
+EXT_PER_DIFF = 10
 MAX_STEPS = 15
 PROMPT_VERSION = 'v1'
 CAP_USD = 20.0
@@ -63,6 +64,12 @@ def sample_pairs(pairs):
         pool = [(i, p) for i, p in enumerate(pairs['test']) if p['difficulty'] == d]
         for i, p in sorted(rnd.sample(pool, PER_DIFF), key=lambda x: x[0]):
             out.append({'id': f'test-{i}', **p})
+    rnd = random.Random(SEED + 1)
+    taken = {p['id'] for p in out}
+    for d in DIFFS:
+        pool = [(i, p) for i, p in enumerate(pairs['test']) if p['difficulty'] == d and f'test-{i}' not in taken]
+        for i, p in sorted(rnd.sample(pool, EXT_PER_DIFF), key=lambda x: x[0]):
+            out.append({'id': f'test-{i}', 'extension': True, **p})
     return out
 
 

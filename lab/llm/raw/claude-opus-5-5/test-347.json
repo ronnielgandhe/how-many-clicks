@@ -1,0 +1,115 @@
+{
+ "pair": "test-347",
+ "start": "Fiberglass",
+ "target": "2004 Indian Ocean earthquake",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fiberglass",
+  "Quartz",
+  "Continental crust",
+  "Continent",
+  "Sumatra",
+  "2004 Indian Ocean earthquake"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 3474,
+ "tokensOut": 540,
+ "costUsd": 0.024696,
+ "steps": [
+  {
+   "page": "Fiberglass",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Quartz",
+     "valid": true,
+     "tokensIn": 598,
+     "tokensOut": 165,
+     "ms": 1834
+    }
+   ],
+   "chosen": "Quartz",
+   "revisit": false
+  },
+  {
+   "page": "Quartz",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Continental crust",
+     "valid": true,
+     "tokensIn": 643,
+     "tokensOut": 83,
+     "ms": 1899
+    }
+   ],
+   "chosen": "Continental crust",
+   "revisit": false
+  },
+  {
+   "page": "Continental crust",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Continent",
+     "valid": true,
+     "tokensIn": 593,
+     "tokensOut": 146,
+     "ms": 1983
+    }
+   ],
+   "chosen": "Continent",
+   "revisit": false
+  },
+  {
+   "page": "Continent",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Sumatra",
+     "valid": true,
+     "tokensIn": 936,
+     "tokensOut": 86,
+     "ms": 1196
+    }
+   ],
+   "chosen": "Sumatra",
+   "revisit": false
+  },
+  {
+   "page": "Sumatra",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "2004 Indian Ocean earthquake",
+     "valid": true,
+     "tokensIn": 704,
+     "tokensOut": 60,
+     "ms": 919
+    }
+   ],
+   "chosen": "2004 Indian Ocean earthquake",
+   "revisit": false
+  }
+ ]
+}

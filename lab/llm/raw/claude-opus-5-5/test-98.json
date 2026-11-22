@@ -1,0 +1,62 @@
+{
+ "pair": "test-98",
+ "start": "Viking",
+ "target": "Middle Ages",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Viking",
+  "Byzantine Empire",
+  "Middle Ages"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2055,
+ "tokensOut": 161,
+ "costUsd": 0.01144,
+ "steps": [
+  {
+   "page": "Viking",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Byzantine Empire",
+     "valid": true,
+     "tokensIn": 931,
+     "tokensOut": 109,
+     "ms": 1435
+    }
+   ],
+   "chosen": "Byzantine Empire",
+   "revisit": false
+  },
+  {
+   "page": "Byzantine Empire",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 1124,
+     "tokensOut": 52,
+     "ms": 1663
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  }
+ ]
+}

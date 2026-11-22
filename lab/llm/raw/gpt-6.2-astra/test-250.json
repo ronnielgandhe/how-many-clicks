@@ -1,0 +1,78 @@
+{
+ "pair": "test-250",
+ "start": "Agnosticism",
+ "target": "Leonardo da Vinci",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Agnosticism",
+  "Philosophy",
+  "Renaissance",
+  "Leonardo da Vinci"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1199,
+ "tokensOut": 60,
+ "costUsd": 0.011992,
+ "steps": [
+  {
+   "page": "Agnosticism",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 207,
+     "tokensOut": 20,
+     "ms": 1123
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Renaissance",
+     "valid": true,
+     "tokensIn": 557,
+     "tokensOut": 19,
+     "ms": 1725
+    }
+   ],
+   "chosen": "Renaissance",
+   "revisit": false
+  },
+  {
+   "page": "Renaissance",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Leonardo da Vinci",
+     "valid": true,
+     "tokensIn": 435,
+     "tokensOut": 21,
+     "ms": 1244
+    }
+   ],
+   "chosen": "Leonardo da Vinci",
+   "revisit": false
+  }
+ ]
+}

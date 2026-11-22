@@ -1,0 +1,78 @@
+{
+ "pair": "test-92",
+ "start": "T-34",
+ "target": "Panama",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "T-34",
+  "Cuba",
+  "North America",
+  "Panama"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1410,
+ "tokensOut": 176,
+ "costUsd": 0.00458,
+ "steps": [
+  {
+   "page": "T-34",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Cuba",
+     "valid": true,
+     "tokensIn": 404,
+     "tokensOut": 68,
+     "ms": 5047
+    }
+   ],
+   "chosen": "Cuba",
+   "revisit": false
+  },
+  {
+   "page": "Cuba",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 491,
+     "tokensOut": 86,
+     "ms": 4610
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "Panama",
+     "valid": true,
+     "tokensIn": 515,
+     "tokensOut": 22,
+     "ms": 4379
+    }
+   ],
+   "chosen": "Panama",
+   "revisit": false
+  }
+ ]
+}

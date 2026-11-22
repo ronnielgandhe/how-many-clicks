@@ -1,0 +1,62 @@
+{
+ "pair": "test-126",
+ "start": "The Waste Land",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Waste Land",
+  "English language",
+  "Malta"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2026,
+ "tokensOut": 202,
+ "costUsd": 0.006072,
+ "steps": [
+  {
+   "page": "The Waste Land",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "English language",
+     "valid": true,
+     "tokensIn": 641,
+     "tokensOut": 153,
+     "ms": 2050
+    }
+   ],
+   "chosen": "English language",
+   "revisit": false
+  },
+  {
+   "page": "English language",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 1385,
+     "tokensOut": 49,
+     "ms": 1362
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

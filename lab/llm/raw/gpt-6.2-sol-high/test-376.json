@@ -1,0 +1,94 @@
+{
+ "pair": "test-376",
+ "start": "Tiktaalik",
+ "target": "Pete Sampras",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tiktaalik",
+  "Canada",
+  "United Kingdom",
+  "The Championships, Wimbledon",
+  "Pete Sampras"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1886,
+ "tokensOut": 178,
+ "costUsd": 0.005552,
+ "steps": [
+  {
+   "page": "Tiktaalik",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 48,
+     "ms": 1419
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 89,
+     "ms": 2010
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "The Championships, Wimbledon",
+     "valid": true,
+     "tokensIn": 924,
+     "tokensOut": 21,
+     "ms": 1242
+    }
+   ],
+   "chosen": "The Championships, Wimbledon",
+   "revisit": false
+  },
+  {
+   "page": "The Championships, Wimbledon",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Pete Sampras",
+     "valid": true,
+     "tokensIn": 281,
+     "tokensOut": 20,
+     "ms": 1183
+    }
+   ],
+   "chosen": "Pete Sampras",
+   "revisit": false
+  }
+ ]
+}

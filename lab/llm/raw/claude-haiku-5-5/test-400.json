@@ -1,0 +1,270 @@
+{
+ "pair": "test-400",
+ "start": "Expressionism",
+ "target": "Blackpool",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Expressionism",
+  "Germany",
+  "England",
+  "Liverpool",
+  "Manchester",
+  "England",
+  "Brighton",
+  "Manchester",
+  "Liverpool and Manchester Railway",
+  "Liverpool",
+  "England",
+  "Irish Sea",
+  "Liverpool",
+  "Manchester",
+  "Coronation Street",
+  "England"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 7,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 17042,
+ "tokensOut": 5031,
+ "costUsd": 0.00422,
+ "steps": [
+  {
+   "page": "Expressionism",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 614,
+     "tokensOut": 417,
+     "ms": 2333
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 1781,
+     "tokensOut": 213,
+     "ms": 1250
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Liverpool",
+     "valid": true,
+     "tokensIn": 1818,
+     "tokensOut": 245,
+     "ms": 1446
+    }
+   ],
+   "chosen": "Liverpool",
+   "revisit": false
+  },
+  {
+   "page": "Liverpool",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 820,
+     "tokensOut": 191,
+     "ms": 1203
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": false
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 1183,
+     "tokensOut": 535,
+     "ms": 3059
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Brighton",
+     "valid": true,
+     "tokensIn": 1831,
+     "tokensOut": 230,
+     "ms": 1404
+    }
+   ],
+   "chosen": "Brighton",
+   "revisit": false
+  },
+  {
+   "page": "Brighton",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 731,
+     "tokensOut": 316,
+     "ms": 1634
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": true
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Liverpool and Manchester Railway",
+     "valid": true,
+     "tokensIn": 1195,
+     "tokensOut": 626,
+     "ms": 3326
+    }
+   ],
+   "chosen": "Liverpool and Manchester Railway",
+   "revisit": false
+  },
+  {
+   "page": "Liverpool and Manchester Railway",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Liverpool",
+     "valid": true,
+     "tokensIn": 670,
+     "tokensOut": 227,
+     "ms": 1278
+    }
+   ],
+   "chosen": "Liverpool",
+   "revisit": true
+  },
+  {
+   "page": "Liverpool",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 857,
+     "tokensOut": 409,
+     "ms": 2258
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Irish Sea",
+     "valid": true,
+     "tokensIn": 1863,
+     "tokensOut": 357,
+     "ms": 1872
+    }
+   ],
+   "chosen": "Irish Sea",
+   "revisit": false
+  },
+  {
+   "page": "Irish Sea",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Liverpool",
+     "valid": true,
+     "tokensIn": 782,
+     "tokensOut": 274,
+     "ms": 1698
+    }
+   ],
+   "chosen": "Liverpool",
+   "revisit": true
+  },
+  {
+   "page": "Liverpool",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 872,
+     "tokensOut": 297,
+     "ms": 1701
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": true
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Coronation Street",
+     "valid": true,
+     "tokensIn": 1235,
+     "tokensOut": 382,
+     "ms": 2216
+    }
+   ],
+   "chosen": "Coronation Street",
+   "revisit": false
+  },
+  {
+   "page": "Coronation Street",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 790,
+     "tokensOut": 312,
+     "ms": 1871
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "pair": "test-238",
+ "start": "Benjamin Harrison",
+ "target": "Mount Everest",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Benjamin Harrison",
+  "United Kingdom",
+  "India",
+  "Himalayas",
+  "Mount Everest"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 4575,
+ "tokensOut": 387,
+ "costUsd": 0.01302,
+ "steps": [
+  {
+   "page": "Benjamin Harrison",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 711,
+     "tokensOut": 139,
+     "ms": 1978
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 1877,
+     "tokensOut": 145,
+     "ms": 1931
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Himalayas",
+     "valid": true,
+     "tokensIn": 1120,
+     "tokensOut": 51,
+     "ms": 1462
+    }
+   ],
+   "chosen": "Himalayas",
+   "revisit": false
+  },
+  {
+   "page": "Himalayas",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Mount Everest",
+     "valid": true,
+     "tokensIn": 867,
+     "tokensOut": 52,
+     "ms": 1461
+    }
+   ],
+   "chosen": "Mount Everest",
+   "revisit": false
+  }
+ ]
+}

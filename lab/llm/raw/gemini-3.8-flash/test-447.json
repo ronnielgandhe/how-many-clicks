@@ -1,0 +1,254 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Manorialism",
+  "France",
+  "California",
+  "Television",
+  "Broadcasting",
+  "Television",
+  "BBC",
+  "United States",
+  "Television",
+  "Film",
+  "Television",
+  "BBC",
+  "Doctor Who",
+  "Star Trek",
+  "Lost (TV series)"
+ ],
+ "clicks": 14,
+ "stepsTaken": 14,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 14,
+ "tokensIn": 5400,
+ "tokensOut": 1712,
+ "costUsd": 0.01047,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 229,
+     "tokensOut": 146,
+     "ms": 2963
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "California",
+     "valid": true,
+     "tokensIn": 497,
+     "tokensOut": 143,
+     "ms": 3164
+    }
+   ],
+   "chosen": "California",
+   "revisit": false
+  },
+  {
+   "page": "California",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 339,
+     "tokensOut": 37,
+     "ms": 2057
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 252,
+     "tokensOut": 17,
+     "ms": 2187
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": false
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 244,
+     "tokensOut": 16,
+     "ms": 3055
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "BBC",
+     "valid": true,
+     "tokensIn": 256,
+     "tokensOut": 269,
+     "ms": 4322
+    }
+   ],
+   "chosen": "BBC",
+   "revisit": false
+  },
+  {
+   "page": "BBC",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 348,
+     "tokensOut": 165,
+     "ms": 4003
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 1427,
+     "tokensOut": 247,
+     "ms": 5026
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 263,
+     "tokensOut": 148,
+     "ms": 3082
+    }
+   ],
+   "chosen": "Film",
+   "revisit": false
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 16,
+     "ms": 1557
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "BBC",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 16,
+     "ms": 2458
+    }
+   ],
+   "chosen": "BBC",
+   "revisit": true
+  },
+  {
+   "page": "BBC",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Doctor Who",
+     "valid": true,
+     "tokensIn": 359,
+     "tokensOut": 231,
+     "ms": 3874
+    }
+   ],
+   "chosen": "Doctor Who",
+   "revisit": false
+  },
+  {
+   "page": "Doctor Who",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Star Trek",
+     "valid": true,
+     "tokensIn": 371,
+     "tokensOut": 224,
+     "ms": 3585
+    }
+   ],
+   "chosen": "Star Trek",
+   "revisit": false
+  },
+  {
+   "page": "Star Trek",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Lost (TV series)",
+     "valid": true,
+     "tokensIn": 281,
+     "tokensOut": 37,
+     "ms": 2622
+    }
+   ],
+   "chosen": "Lost (TV series)",
+   "revisit": false
+  }
+ ]
+}

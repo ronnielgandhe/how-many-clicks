@@ -1,0 +1,206 @@
+{
+ "pair": "test-382",
+ "start": "Toluene",
+ "target": "Saffron",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Toluene",
+  "Ethanol",
+  "India",
+  "Flag of India",
+  "India",
+  "Kerala",
+  "Black pepper",
+  "Sichuan Pepper",
+  "Star anise",
+  "Plant",
+  "Safflower",
+  "Saffron"
+ ],
+ "clicks": 11,
+ "stepsTaken": 11,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 11,
+ "tokensIn": 3822,
+ "tokensOut": 730,
+ "costUsd": 0.014944,
+ "steps": [
+  {
+   "page": "Toluene",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Ethanol",
+     "valid": true,
+     "tokensIn": 223,
+     "tokensOut": 39,
+     "ms": 1335
+    }
+   ],
+   "chosen": "Ethanol",
+   "revisit": false
+  },
+  {
+   "page": "Ethanol",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 360,
+     "tokensOut": 44,
+     "ms": 1360
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Flag of India",
+     "valid": true,
+     "tokensIn": 513,
+     "tokensOut": 20,
+     "ms": 1367
+    }
+   ],
+   "chosen": "Flag of India",
+   "revisit": false
+  },
+  {
+   "page": "Flag of India",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 50,
+     "ms": 1423
+    }
+   ],
+   "chosen": "India",
+   "revisit": true
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Kerala",
+     "valid": true,
+     "tokensIn": 519,
+     "tokensOut": 233,
+     "ms": 4224
+    }
+   ],
+   "chosen": "Kerala",
+   "revisit": false
+  },
+  {
+   "page": "Kerala",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Black pepper",
+     "valid": true,
+     "tokensIn": 346,
+     "tokensOut": 19,
+     "ms": 1168
+    }
+   ],
+   "chosen": "Black pepper",
+   "revisit": false
+  },
+  {
+   "page": "Black pepper",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Sichuan Pepper",
+     "valid": true,
+     "tokensIn": 369,
+     "tokensOut": 124,
+     "ms": 2826
+    }
+   ],
+   "chosen": "Sichuan Pepper",
+   "revisit": false
+  },
+  {
+   "page": "Sichuan Pepper",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Star anise",
+     "valid": true,
+     "tokensIn": 249,
+     "tokensOut": 82,
+     "ms": 2261
+    }
+   ],
+   "chosen": "Star anise",
+   "revisit": false
+  },
+  {
+   "page": "Star anise",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Plant",
+     "valid": true,
+     "tokensIn": 241,
+     "tokensOut": 57,
+     "ms": 1550
+    }
+   ],
+   "chosen": "Plant",
+   "revisit": false
+  },
+  {
+   "page": "Plant",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Safflower",
+     "valid": true,
+     "tokensIn": 473,
+     "tokensOut": 42,
+     "ms": 1411
+    }
+   ],
+   "chosen": "Safflower",
+   "revisit": false
+  },
+  {
+   "page": "Safflower",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Saffron",
+     "valid": true,
+     "tokensIn": 259,
+     "tokensOut": 20,
+     "ms": 1171
+    }
+   ],
+   "chosen": "Saffron",
+   "revisit": false
+  }
+ ]
+}

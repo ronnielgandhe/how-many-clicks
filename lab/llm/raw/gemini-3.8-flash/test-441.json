@@ -1,0 +1,94 @@
+{
+ "pair": "test-441",
+ "start": "Ben Nevis",
+ "target": "Lake Kariba",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Ben Nevis",
+  "United Kingdom",
+  "British Empire",
+  "Zambia",
+  "Lake Kariba"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2390,
+ "tokensOut": 317,
+ "costUsd": 0.002981,
+ "steps": [
+  {
+   "page": "Ben Nevis",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 228,
+     "tokensOut": 118,
+     "ms": 2319
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "British Empire",
+     "valid": true,
+     "tokensIn": 917,
+     "tokensOut": 64,
+     "ms": 2093
+    }
+   ],
+   "chosen": "British Empire",
+   "revisit": false
+  },
+  {
+   "page": "British Empire",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Zambia",
+     "valid": true,
+     "tokensIn": 691,
+     "tokensOut": 81,
+     "ms": 2656
+    }
+   ],
+   "chosen": "Zambia",
+   "revisit": false
+  },
+  {
+   "page": "Zambia",
+   "offered": 96,
+   "attempts": [
+    {
+     "raw": "Lake Kariba",
+     "valid": true,
+     "tokensIn": 554,
+     "tokensOut": 54,
+     "ms": 1777
+    }
+   ],
+   "chosen": "Lake Kariba",
+   "revisit": false
+  }
+ ]
+}

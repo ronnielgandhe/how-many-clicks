@@ -1,0 +1,78 @@
+{
+ "pair": "test-111",
+ "start": "San Jose, California",
+ "target": "Corundum",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "San Jose, California",
+  "Quartz",
+  "Mineral",
+  "Corundum"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 917,
+ "tokensOut": 394,
+ "costUsd": 0.002165,
+ "steps": [
+  {
+   "page": "San Jose, California",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Quartz",
+     "valid": true,
+     "tokensIn": 383,
+     "tokensOut": 285,
+     "ms": 5096
+    }
+   ],
+   "chosen": "Quartz",
+   "revisit": false
+  },
+  {
+   "page": "Quartz",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Mineral",
+     "valid": true,
+     "tokensIn": 223,
+     "tokensOut": 68,
+     "ms": 2426
+    }
+   ],
+   "chosen": "Mineral",
+   "revisit": false
+  },
+  {
+   "page": "Mineral",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Corundum",
+     "valid": true,
+     "tokensIn": 311,
+     "tokensOut": 41,
+     "ms": 4598
+    }
+   ],
+   "chosen": "Corundum",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "pair": "test-291",
+ "start": "Tsunami",
+ "target": "Snowy Owl",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tsunami",
+  "Canada",
+  "Arctic",
+  "Wolverine",
+  "Chordate",
+  "Bird",
+  "Snowy Owl"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2151,
+ "tokensOut": 249,
+ "costUsd": 0.006792,
+ "steps": [
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 420,
+     "tokensOut": 40,
+     "ms": 4099
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 472,
+     "tokensOut": 22,
+     "ms": 3234
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Wolverine",
+     "valid": true,
+     "tokensIn": 314,
+     "tokensOut": 23,
+     "ms": 5156
+    }
+   ],
+   "chosen": "Wolverine",
+   "revisit": false
+  },
+  {
+   "page": "Wolverine",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Chordate",
+     "valid": true,
+     "tokensIn": 272,
+     "tokensOut": 105,
+     "ms": 6612
+    }
+   ],
+   "chosen": "Chordate",
+   "revisit": false
+  },
+  {
+   "page": "Chordate",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Bird",
+     "valid": true,
+     "tokensIn": 245,
+     "tokensOut": 22,
+     "ms": 5616
+    }
+   ],
+   "chosen": "Bird",
+   "revisit": false
+  },
+  {
+   "page": "Bird",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Snowy Owl",
+     "valid": true,
+     "tokensIn": 428,
+     "tokensOut": 37,
+     "ms": 3735
+    }
+   ],
+   "chosen": "Snowy Owl",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "pair": "test-120",
+ "start": "Zulu",
+ "target": "NATO",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Zulu",
+  "United Kingdom",
+  "NATO"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1162,
+ "tokensOut": 38,
+ "costUsd": 0.010816,
+ "steps": [
+  {
+   "page": "Zulu",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 19,
+     "ms": 1832
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "NATO",
+     "valid": true,
+     "tokensIn": 919,
+     "tokensOut": 19,
+     "ms": 1390
+    }
+   ],
+   "chosen": "NATO",
+   "revisit": false
+  }
+ ]
+}

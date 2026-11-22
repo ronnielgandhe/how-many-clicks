@@ -1,0 +1,158 @@
+{
+ "pair": "test-291",
+ "start": "Tsunami",
+ "target": "Snowy Owl",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tsunami",
+  "Canada",
+  "Arctic",
+  "Greenland",
+  "Iceland",
+  "Fish",
+  "Vertebrate",
+  "Bird",
+  "Snowy Owl"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 6592,
+ "tokensOut": 2324,
+ "costUsd": 0.036424,
+ "steps": [
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 935,
+     "tokensOut": 227,
+     "ms": 6063
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 1040,
+     "tokensOut": 196,
+     "ms": 2407
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Greenland",
+     "valid": true,
+     "tokensIn": 742,
+     "tokensOut": 385,
+     "ms": 6737
+    }
+   ],
+   "chosen": "Greenland",
+   "revisit": false
+  },
+  {
+   "page": "Greenland",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Iceland",
+     "valid": true,
+     "tokensIn": 791,
+     "tokensOut": 534,
+     "ms": 5004
+    }
+   ],
+   "chosen": "Iceland",
+   "revisit": false
+  },
+  {
+   "page": "Iceland",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Fish",
+     "valid": true,
+     "tokensIn": 829,
+     "tokensOut": 654,
+     "ms": 9714
+    }
+   ],
+   "chosen": "Fish",
+   "revisit": false
+  },
+  {
+   "page": "Fish",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Vertebrate",
+     "valid": true,
+     "tokensIn": 660,
+     "tokensOut": 226,
+     "ms": 2484
+    }
+   ],
+   "chosen": "Vertebrate",
+   "revisit": false
+  },
+  {
+   "page": "Vertebrate",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Bird",
+     "valid": true,
+     "tokensIn": 649,
+     "tokensOut": 49,
+     "ms": 780
+    }
+   ],
+   "chosen": "Bird",
+   "revisit": false
+  },
+  {
+   "page": "Bird",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Snowy Owl",
+     "valid": true,
+     "tokensIn": 946,
+     "tokensOut": 53,
+     "ms": 1013
+    }
+   ],
+   "chosen": "Snowy Owl",
+   "revisit": false
+  }
+ ]
+}

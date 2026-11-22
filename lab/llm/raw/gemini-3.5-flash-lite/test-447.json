@@ -1,0 +1,277 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Manorialism",
+  "Europe",
+  "United Kingdom",
+  "Television",
+  "Broadcasting",
+  "Television",
+  "Internet",
+  "World Wide Web",
+  "History of the Internet",
+  "Television",
+  "Broadcasting",
+  "Television",
+  "Technology",
+  "Computer",
+  "Television",
+  "Computer and video games"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 1,
+ "calls": 16,
+ "tokensIn": 6044,
+ "tokensOut": 268,
+ "costUsd": 0.002483,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 229,
+     "tokensOut": 16,
+     "ms": 741
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": false,
+     "tokensIn": 728,
+     "tokensOut": 17,
+     "ms": 725
+    },
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 752,
+     "tokensOut": 17,
+     "ms": 717
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 922,
+     "tokensOut": 16,
+     "ms": 667
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 253,
+     "tokensOut": 17,
+     "ms": 696
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": false
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 245,
+     "tokensOut": 16,
+     "ms": 747
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Internet",
+     "valid": true,
+     "tokensIn": 257,
+     "tokensOut": 16,
+     "ms": 707
+    }
+   ],
+   "chosen": "Internet",
+   "revisit": false
+  },
+  {
+   "page": "Internet",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "World Wide Web",
+     "valid": true,
+     "tokensIn": 312,
+     "tokensOut": 18,
+     "ms": 679
+    }
+   ],
+   "chosen": "World Wide Web",
+   "revisit": false
+  },
+  {
+   "page": "World Wide Web",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "History of the Internet",
+     "valid": true,
+     "tokensIn": 272,
+     "tokensOut": 19,
+     "ms": 711
+    }
+   ],
+   "chosen": "History of the Internet",
+   "revisit": false
+  },
+  {
+   "page": "History of the Internet",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 306,
+     "tokensOut": 16,
+     "ms": 698
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 17,
+     "ms": 721
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": true
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 262,
+     "tokensOut": 16,
+     "ms": 710
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Technology",
+     "valid": true,
+     "tokensIn": 274,
+     "tokensOut": 16,
+     "ms": 729
+    }
+   ],
+   "chosen": "Technology",
+   "revisit": false
+  },
+  {
+   "page": "Technology",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Computer",
+     "valid": true,
+     "tokensIn": 329,
+     "tokensOut": 16,
+     "ms": 820
+    }
+   ],
+   "chosen": "Computer",
+   "revisit": false
+  },
+  {
+   "page": "Computer",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 353,
+     "tokensOut": 16,
+     "ms": 617
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Computer and video games",
+     "valid": true,
+     "tokensIn": 280,
+     "tokensOut": 19,
+     "ms": 728
+    }
+   ],
+   "chosen": "Computer and video games",
+   "revisit": false
+  }
+ ]
+}

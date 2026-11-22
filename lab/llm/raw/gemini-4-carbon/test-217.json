@@ -1,0 +1,99 @@
+{
+ "pair": "test-217",
+ "start": "Matter",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 10
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Matter",
+  "Granite",
+  "Precambrian",
+  "Cambrian explosion",
+  "Fossil"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1104,
+ "tokensOut": 135,
+ "costUsd": 0.003558,
+ "steps": [
+  {
+   "page": "Matter",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Granite",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 23,
+     "ms": 11941
+    }
+   ],
+   "chosen": "Granite",
+   "revisit": false
+  },
+  {
+   "page": "Granite",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Precambrian",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 49,
+     "ms": 3863
+    }
+   ],
+   "chosen": "Precambrian",
+   "revisit": false
+  },
+  {
+   "page": "Precambrian",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Cambrian explosion",
+     "valid": true,
+     "tokensIn": 253,
+     "tokensOut": 40,
+     "ms": 4241
+    }
+   ],
+   "chosen": "Cambrian explosion",
+   "revisit": false
+  },
+  {
+   "page": "Cambrian explosion",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 23,
+     "ms": 3829
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Manorialism",
+  "Europe",
+  "North America",
+  "United States",
+  "Television",
+  "Film",
+  "DVD",
+  "Sony",
+  "Television",
+  "Broadcasting",
+  "Television",
+  "Film",
+  "DVD",
+  "Compact Disc",
+  "Big Bang",
+  "BBC"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 13634,
+ "tokensOut": 3008,
+ "costUsd": 0.057348,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 623,
+     "tokensOut": 201,
+     "ms": 2393
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 1608,
+     "tokensOut": 273,
+     "ms": 2927
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1114,
+     "tokensOut": 117,
+     "ms": 2141
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 2789,
+     "tokensOut": 192,
+     "ms": 2305
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 672,
+     "tokensOut": 172,
+     "ms": 2255
+    }
+   ],
+   "chosen": "Film",
+   "revisit": false
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "DVD",
+     "valid": true,
+     "tokensIn": 658,
+     "tokensOut": 263,
+     "ms": 2732
+    }
+   ],
+   "chosen": "DVD",
+   "revisit": false
+  },
+  {
+   "page": "DVD",
+   "offered": 4,
+   "attempts": [
+    {
+     "raw": "Sony",
+     "valid": true,
+     "tokensIn": 584,
+     "tokensOut": 151,
+     "ms": 2099
+    }
+   ],
+   "chosen": "Sony",
+   "revisit": false
+  },
+  {
+   "page": "Sony",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 686,
+     "tokensOut": 148,
+     "ms": 2146
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 686,
+     "tokensOut": 242,
+     "ms": 2684
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": false
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 670,
+     "tokensOut": 165,
+     "ms": 2324
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 696,
+     "tokensOut": 220,
+     "ms": 2649
+    }
+   ],
+   "chosen": "Film",
+   "revisit": true
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "DVD",
+     "valid": true,
+     "tokensIn": 682,
+     "tokensOut": 281,
+     "ms": 3107
+    }
+   ],
+   "chosen": "DVD",
+   "revisit": true
+  },
+  {
+   "page": "DVD",
+   "offered": 4,
+   "attempts": [
+    {
+     "raw": "Compact Disc",
+     "valid": true,
+     "tokensIn": 608,
+     "tokensOut": 208,
+     "ms": 2598
+    }
+   ],
+   "chosen": "Compact Disc",
+   "revisit": false
+  },
+  {
+   "page": "Compact Disc",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Big Bang",
+     "valid": true,
+     "tokensIn": 634,
+     "tokensOut": 239,
+     "ms": 2658
+    }
+   ],
+   "chosen": "Big Bang",
+   "revisit": false
+  },
+  {
+   "page": "Big Bang",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "BBC",
+     "valid": true,
+     "tokensIn": 924,
+     "tokensOut": 136,
+     "ms": 2256
+    }
+   ],
+   "chosen": "BBC",
+   "revisit": false
+  }
+ ]
+}

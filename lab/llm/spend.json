@@ -1,6 +1,6 @@
 {
  "capUsd": 20.0,
- "totalUsd": 0.6236,
+ "totalUsd": 7.7548,
  "batches": [
   {
    "kind": "adhoc",
@@ -225,6 +225,87 @@
      "thinking": "xhigh"
     }
    }
+  },
+  {
+   "kind": "main",
+   "models": [
+    "claude-haiku-5-5",
+    "gpt-6-luna",
+    "gemini-3.5-flash-lite",
+    "gemini-3.8-flash",
+    "gpt-6.2-sol",
+    "gemini-4-carbon",
+    "claude-sonnet-5-5",
+    "claude-sonnet-5-5-thinking",
+    "gpt-6.2-sol-high",
+    "claude-opus-5-5",
+    "gpt-6.2-astra"
+   ],
+   "games": 605,
+   "estimateUsd": 6.7784,
+   "spentBeforeUsd": 0.6236,
+   "started": "2026-11-22T01:24:15",
+   "actualUsd": 7.1312,
+   "finished": "2026-11-22T01:54:27",
+   "stoppedAtCap": false,
+   "settings": {
+    "claude-haiku-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6-luna": {
+     "temperature": 0,
+     "reasoning_effort": "none",
+     "thinking": false
+    },
+    "gemini-3.5-flash-lite": {
+     "temperature": 0,
+     "reasoning_effort": "minimal",
+     "thinking": false
+    },
+    "gemini-3.8-flash": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gpt-6.2-sol": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gemini-4-carbon": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "claude-sonnet-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "claude-sonnet-5-5-thinking": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": "xhigh"
+    },
+    "gpt-6.2-sol-high": {
+     "temperature": null,
+     "reasoning_effort": "high",
+     "thinking": false
+    },
+    "claude-opus-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6.2-astra": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    }
+   }
   }
- ]
+ ],
+ "note": "totalUsd = sum of batch actuals (tokens x published price), including discarded pilot runs and ad hoc smoke calls"
 }

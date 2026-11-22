@@ -1,0 +1,94 @@
+{
+ "pair": "test-98",
+ "start": "Viking",
+ "target": "Middle Ages",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Viking",
+  "10th century",
+  "Dark Ages",
+  "Europe",
+  "Middle Ages"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1724,
+ "tokensOut": 76,
+ "costUsd": 0.00021,
+ "steps": [
+  {
+   "page": "Viking",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "10th century",
+     "valid": true,
+     "tokensIn": 418,
+     "tokensOut": 20,
+     "ms": 1268
+    }
+   ],
+   "chosen": "10th century",
+   "revisit": false
+  },
+  {
+   "page": "10th century",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Dark Ages",
+     "valid": true,
+     "tokensIn": 269,
+     "tokensOut": 19,
+     "ms": 984
+    }
+   ],
+   "chosen": "Dark Ages",
+   "revisit": false
+  },
+  {
+   "page": "Dark Ages",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 293,
+     "tokensOut": 18,
+     "ms": 811
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 744,
+     "tokensOut": 19,
+     "ms": 1383
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  }
+ ]
+}

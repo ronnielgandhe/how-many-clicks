@@ -1,0 +1,94 @@
+{
+ "pair": "test-244",
+ "start": "Viking",
+ "target": "James Callaghan",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Viking",
+  "United Kingdom",
+  "Prime Minister of the United Kingdom",
+  "List of Prime Ministers of the United Kingdom",
+  "James Callaghan"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2460,
+ "tokensOut": 103,
+ "costUsd": 0.00595,
+ "steps": [
+  {
+   "page": "Viking",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 457,
+     "tokensOut": 23,
+     "ms": 3372
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Prime Minister of the United Kingdom",
+     "valid": true,
+     "tokensIn": 955,
+     "tokensOut": 27,
+     "ms": 3388
+    }
+   ],
+   "chosen": "Prime Minister of the United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "Prime Minister of the United Kingdom",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "List of Prime Ministers of the United Kingdom",
+     "valid": true,
+     "tokensIn": 437,
+     "tokensOut": 29,
+     "ms": 5325
+    }
+   ],
+   "chosen": "List of Prime Ministers of the United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "List of Prime Ministers of the United Kingdom",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "James Callaghan",
+     "valid": true,
+     "tokensIn": 611,
+     "tokensOut": 24,
+     "ms": 3460
+    }
+   ],
+   "chosen": "James Callaghan",
+   "revisit": false
+  }
+ ]
+}

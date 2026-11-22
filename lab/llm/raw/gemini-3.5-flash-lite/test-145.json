@@ -1,0 +1,238 @@
+{
+ "pair": "test-145",
+ "start": "Uganda",
+ "target": "Royal Dutch Shell",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Uganda",
+  "United Kingdom",
+  "Petroleum",
+  "United Kingdom",
+  "Petroleum",
+  "United Kingdom",
+  "Petroleum",
+  "United Kingdom",
+  "Petroleum",
+  "United Kingdom",
+  "Petroleum",
+  "North Sea oil",
+  "BP",
+  "Royal Dutch Shell"
+ ],
+ "clicks": 13,
+ "stepsTaken": 13,
+ "revisits": 8,
+ "invalidAttempts": 0,
+ "calls": 13,
+ "tokensIn": 8253,
+ "tokensOut": 222,
+ "costUsd": 0.003031,
+ "steps": [
+  {
+   "page": "Uganda",
+   "offered": 160,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 778,
+     "tokensOut": 17,
+     "ms": 825
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 916,
+     "tokensOut": 17,
+     "ms": 733
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": false
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 441,
+     "tokensOut": 17,
+     "ms": 768
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 921,
+     "tokensOut": 17,
+     "ms": 658
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": true
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 17,
+     "ms": 699
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 926,
+     "tokensOut": 17,
+     "ms": 854
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": true
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 451,
+     "tokensOut": 17,
+     "ms": 753
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 931,
+     "tokensOut": 17,
+     "ms": 785
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": true
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 456,
+     "tokensOut": 17,
+     "ms": 801
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 936,
+     "tokensOut": 17,
+     "ms": 648
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": true
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "North Sea oil",
+     "valid": true,
+     "tokensIn": 461,
+     "tokensOut": 18,
+     "ms": 676
+    }
+   ],
+   "chosen": "North Sea oil",
+   "revisit": false
+  },
+  {
+   "page": "North Sea oil",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "BP",
+     "valid": true,
+     "tokensIn": 294,
+     "tokensOut": 16,
+     "ms": 834
+    }
+   ],
+   "chosen": "BP",
+   "revisit": false
+  },
+  {
+   "page": "BP",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Royal Dutch Shell",
+     "valid": true,
+     "tokensIn": 296,
+     "tokensOut": 18,
+     "ms": 834
+    }
+   ],
+   "chosen": "Royal Dutch Shell",
+   "revisit": false
+  }
+ ]
+}

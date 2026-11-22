@@ -1,0 +1,78 @@
+{
+ "pair": "test-129",
+ "start": "Second Crusade",
+ "target": "19th century",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Second Crusade",
+  "Europe",
+  "18th century",
+  "19th century"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1661,
+ "tokensOut": 134,
+ "costUsd": 0.001748,
+ "steps": [
+  {
+   "page": "Second Crusade",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 275,
+     "tokensOut": 16,
+     "ms": 1249
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "18th century",
+     "valid": true,
+     "tokensIn": 727,
+     "tokensOut": 73,
+     "ms": 2103
+    }
+   ],
+   "chosen": "18th century",
+   "revisit": false
+  },
+  {
+   "page": "18th century",
+   "offered": 95,
+   "attempts": [
+    {
+     "raw": "19th century",
+     "valid": true,
+     "tokensIn": 659,
+     "tokensOut": 45,
+     "ms": 1742
+    }
+   ],
+   "chosen": "19th century",
+   "revisit": false
+  }
+ ]
+}

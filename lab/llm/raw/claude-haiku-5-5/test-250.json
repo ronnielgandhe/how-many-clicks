@@ -1,0 +1,78 @@
+{
+ "pair": "test-250",
+ "start": "Agnosticism",
+ "target": "Leonardo da Vinci",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Agnosticism",
+  "Philosophy",
+  "Renaissance",
+  "Leonardo da Vinci"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2789,
+ "tokensOut": 345,
+ "costUsd": 0.000451,
+ "steps": [
+  {
+   "page": "Agnosticism",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 586,
+     "tokensOut": 189,
+     "ms": 962
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Renaissance",
+     "valid": true,
+     "tokensIn": 1216,
+     "tokensOut": 100,
+     "ms": 616
+    }
+   ],
+   "chosen": "Renaissance",
+   "revisit": false
+  },
+  {
+   "page": "Renaissance",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Leonardo da Vinci",
+     "valid": true,
+     "tokensIn": 987,
+     "tokensOut": 56,
+     "ms": 489
+    }
+   ],
+   "chosen": "Leonardo da Vinci",
+   "revisit": false
+  }
+ ]
+}

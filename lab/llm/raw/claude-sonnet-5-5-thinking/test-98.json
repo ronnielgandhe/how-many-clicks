@@ -1,0 +1,62 @@
+{
+ "pair": "test-98",
+ "start": "Viking",
+ "target": "Middle Ages",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Viking",
+  "Europe",
+  "Middle Ages"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2535,
+ "tokensOut": 268,
+ "costUsd": 0.00775,
+ "steps": [
+  {
+   "page": "Viking",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 931,
+     "tokensOut": 216,
+     "ms": 1628
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 1604,
+     "tokensOut": 52,
+     "ms": 1379
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  }
+ ]
+}

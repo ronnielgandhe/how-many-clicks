@@ -1,0 +1,62 @@
+{
+ "pair": "test-76",
+ "start": "Gypsum",
+ "target": "Taoism",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Gypsum",
+  "Asia",
+  "Taoism"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2101,
+ "tokensOut": 172,
+ "costUsd": 0.000296,
+ "steps": [
+  {
+   "page": "Gypsum",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Asia",
+     "valid": true,
+     "tokensIn": 635,
+     "tokensOut": 108,
+     "ms": 939
+    }
+   ],
+   "chosen": "Asia",
+   "revisit": false
+  },
+  {
+   "page": "Asia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Taoism",
+     "valid": true,
+     "tokensIn": 1466,
+     "tokensOut": 64,
+     "ms": 519
+    }
+   ],
+   "chosen": "Taoism",
+   "revisit": false
+  }
+ ]
+}

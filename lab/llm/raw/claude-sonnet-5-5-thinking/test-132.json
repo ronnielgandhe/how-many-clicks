@@ -1,0 +1,94 @@
+{
+ "pair": "test-132",
+ "start": "Spanish Inquisition",
+ "target": "Beeching Axe",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Spanish Inquisition",
+  "England",
+  "Isambard Kingdom Brunel",
+  "Bristol",
+  "Beeching Axe"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 4383,
+ "tokensOut": 889,
+ "costUsd": 0.017656,
+ "steps": [
+  {
+   "page": "Spanish Inquisition",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 808,
+     "tokensOut": 93,
+     "ms": 5304
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 1820,
+     "tokensOut": 333,
+     "ms": 6027
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Bristol",
+     "valid": true,
+     "tokensIn": 737,
+     "tokensOut": 410,
+     "ms": 4412
+    }
+   ],
+   "chosen": "Bristol",
+   "revisit": false
+  },
+  {
+   "page": "Bristol",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Beeching Axe",
+     "valid": true,
+     "tokensIn": 1018,
+     "tokensOut": 53,
+     "ms": 1459
+    }
+   ],
+   "chosen": "Beeching Axe",
+   "revisit": false
+  }
+ ]
+}

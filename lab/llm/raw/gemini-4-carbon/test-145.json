@@ -1,0 +1,110 @@
+{
+ "pair": "test-145",
+ "start": "Uganda",
+ "target": "Royal Dutch Shell",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Uganda",
+  "Nigeria",
+  "Petroleum",
+  "North Sea oil",
+  "BP",
+  "Royal Dutch Shell"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2369,
+ "tokensOut": 480,
+ "costUsd": 0.009538,
+ "steps": [
+  {
+   "page": "Uganda",
+   "offered": 160,
+   "attempts": [
+    {
+     "raw": "Nigeria",
+     "valid": true,
+     "tokensIn": 812,
+     "tokensOut": 350,
+     "ms": 8827
+    }
+   ],
+   "chosen": "Nigeria",
+   "revisit": false
+  },
+  {
+   "page": "Nigeria",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 457,
+     "tokensOut": 22,
+     "ms": 3590
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": false
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "North Sea oil",
+     "valid": true,
+     "tokensIn": 479,
+     "tokensOut": 24,
+     "ms": 4023
+    }
+   ],
+   "chosen": "North Sea oil",
+   "revisit": false
+  },
+  {
+   "page": "North Sea oil",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "BP",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 60,
+     "ms": 4822
+    }
+   ],
+   "chosen": "BP",
+   "revisit": false
+  },
+  {
+   "page": "BP",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Royal Dutch Shell",
+     "valid": true,
+     "tokensIn": 313,
+     "tokensOut": 24,
+     "ms": 37970
+    }
+   ],
+   "chosen": "Royal Dutch Shell",
+   "revisit": false
+  }
+ ]
+}

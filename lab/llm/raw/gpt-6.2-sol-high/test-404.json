@@ -1,0 +1,270 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Citizenship",
+  "City",
+  "New York City",
+  "Spain",
+  "Barcelona",
+  "Spain",
+  "Renaissance",
+  "Architecture",
+  "Frank Lloyd Wright",
+  "Los Angeles, California",
+  "Frank Lloyd Wright",
+  "Berlin",
+  "Prague",
+  "Cubism",
+  "Architecture",
+  "Aesthetics"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6056,
+ "tokensOut": 1221,
+ "costUsd": 0.024322,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "City",
+     "valid": true,
+     "tokensIn": 271,
+     "tokensOut": 72,
+     "ms": 1722
+    }
+   ],
+   "chosen": "City",
+   "revisit": false
+  },
+  {
+   "page": "City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 426,
+     "tokensOut": 105,
+     "ms": 3049
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": false
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Spain",
+     "valid": true,
+     "tokensIn": 471,
+     "tokensOut": 208,
+     "ms": 4034
+    }
+   ],
+   "chosen": "Spain",
+   "revisit": false
+  },
+  {
+   "page": "Spain",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Barcelona",
+     "valid": true,
+     "tokensIn": 535,
+     "tokensOut": 40,
+     "ms": 1557
+    }
+   ],
+   "chosen": "Barcelona",
+   "revisit": false
+  },
+  {
+   "page": "Barcelona",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Spain",
+     "valid": true,
+     "tokensIn": 389,
+     "tokensOut": 117,
+     "ms": 2063
+    }
+   ],
+   "chosen": "Spain",
+   "revisit": true
+  },
+  {
+   "page": "Spain",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Renaissance",
+     "valid": true,
+     "tokensIn": 539,
+     "tokensOut": 72,
+     "ms": 1773
+    }
+   ],
+   "chosen": "Renaissance",
+   "revisit": false
+  },
+  {
+   "page": "Renaissance",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 444,
+     "tokensOut": 18,
+     "ms": 1108
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": false
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 342,
+     "tokensOut": 68,
+     "ms": 1725
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": false
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 93,
+     "ms": 2229
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  },
+  {
+   "page": "Los Angeles, California",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 603,
+     "tokensOut": 71,
+     "ms": 1605
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": true
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 73,
+     "ms": 1528
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": false
+  },
+  {
+   "page": "Berlin",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "Prague",
+     "valid": true,
+     "tokensIn": 507,
+     "tokensOut": 130,
+     "ms": 3409
+    }
+   ],
+   "chosen": "Prague",
+   "revisit": false
+  },
+  {
+   "page": "Prague",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Cubism",
+     "valid": true,
+     "tokensIn": 386,
+     "tokensOut": 60,
+     "ms": 1504
+    }
+   ],
+   "chosen": "Cubism",
+   "revisit": false
+  },
+  {
+   "page": "Cubism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 254,
+     "tokensOut": 18,
+     "ms": 956
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Aesthetics",
+     "valid": true,
+     "tokensIn": 364,
+     "tokensOut": 76,
+     "ms": 1661
+    }
+   ],
+   "chosen": "Aesthetics",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "pair": "test-253",
+ "start": "Milan",
+ "target": "Common cold",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Milan",
+  "Black Death",
+  "Smallpox",
+  "Common cold"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1091,
+ "tokensOut": 57,
+ "costUsd": 0.002752,
+ "steps": [
+  {
+   "page": "Milan",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Black Death",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 19,
+     "ms": 1023
+    }
+   ],
+   "chosen": "Black Death",
+   "revisit": false
+  },
+  {
+   "page": "Black Death",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Smallpox",
+     "valid": true,
+     "tokensIn": 404,
+     "tokensOut": 19,
+     "ms": 1181
+    }
+   ],
+   "chosen": "Smallpox",
+   "revisit": false
+  },
+  {
+   "page": "Smallpox",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Common cold",
+     "valid": true,
+     "tokensIn": 379,
+     "tokensOut": 19,
+     "ms": 1162
+    }
+   ],
+   "chosen": "Common cold",
+   "revisit": false
+  }
+ ]
+}

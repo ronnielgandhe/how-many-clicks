@@ -1,0 +1,195 @@
+{
+ "pair": "test-367",
+ "start": "The Ashes",
+ "target": "Thermodynamic temperature",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Ashes",
+  "Australia",
+  "El Ni\u00f1o-Southern Oscillation",
+  "Global warming",
+  "Greenhouse effect",
+  "Earth's atmosphere",
+  "Heat",
+  "Physics",
+  "Thermodynamics",
+  "Absolute zero",
+  "Thermodynamic temperature"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 10,
+ "tokensIn": 8410,
+ "tokensOut": 2431,
+ "costUsd": 0.002057,
+ "steps": [
+  {
+   "page": "The Ashes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 623,
+     "tokensOut": 368,
+     "ms": 1804
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "El Ni\u00f1o-Southern Oscillation",
+     "valid": true,
+     "tokensIn": 1182,
+     "tokensOut": 374,
+     "ms": 2133
+    }
+   ],
+   "chosen": "El Ni\u00f1o-Southern Oscillation",
+   "revisit": false
+  },
+  {
+   "page": "El Ni\u00f1o-Southern Oscillation",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Global warming",
+     "valid": true,
+     "tokensIn": 775,
+     "tokensOut": 213,
+     "ms": 1119
+    }
+   ],
+   "chosen": "Global warming",
+   "revisit": false
+  },
+  {
+   "page": "Global warming",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Greenhouse effect",
+     "valid": true,
+     "tokensIn": 798,
+     "tokensOut": 304,
+     "ms": 1545
+    }
+   ],
+   "chosen": "Greenhouse effect",
+   "revisit": false
+  },
+  {
+   "page": "Greenhouse effect",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Earth's atmosphere",
+     "valid": true,
+     "tokensIn": 669,
+     "tokensOut": 382,
+     "ms": 1887
+    }
+   ],
+   "chosen": "Earth's atmosphere",
+   "revisit": false
+  },
+  {
+   "page": "Earth's atmosphere",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Heat",
+     "valid": true,
+     "tokensIn": 766,
+     "tokensOut": 154,
+     "ms": 939
+    }
+   ],
+   "chosen": "Heat",
+   "revisit": false
+  },
+  {
+   "page": "Heat",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Physics",
+     "valid": true,
+     "tokensIn": 751,
+     "tokensOut": 335,
+     "ms": 1699
+    }
+   ],
+   "chosen": "Physics",
+   "revisit": false
+  },
+  {
+   "page": "Physics",
+   "offered": 107,
+   "attempts": [
+    {
+     "raw": "Thermodynamics",
+     "valid": true,
+     "tokensIn": 1367,
+     "tokensOut": 120,
+     "ms": 711
+    }
+   ],
+   "chosen": "Thermodynamics",
+   "revisit": false
+  },
+  {
+   "page": "Thermodynamics",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Absolute zero",
+     "valid": true,
+     "tokensIn": 730,
+     "tokensOut": 125,
+     "ms": 797
+    }
+   ],
+   "chosen": "Absolute zero",
+   "revisit": false
+  },
+  {
+   "page": "Absolute zero",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Thermodynamic temperature",
+     "valid": true,
+     "tokensIn": 749,
+     "tokensOut": 56,
+     "ms": 517
+    }
+   ],
+   "chosen": "Thermodynamic temperature",
+   "revisit": false
+  }
+ ]
+}

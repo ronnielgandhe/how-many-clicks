@@ -1,0 +1,78 @@
+{
+ "pair": "test-102",
+ "start": "Southern Africa",
+ "target": "Los Angeles, California",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Southern Africa",
+  "North America",
+  "California",
+  "Los Angeles, California"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1229,
+ "tokensOut": 58,
+ "costUsd": 0.012152,
+ "steps": [
+  {
+   "page": "Southern Africa",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 384,
+     "tokensOut": 19,
+     "ms": 1313
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "California",
+     "valid": true,
+     "tokensIn": 495,
+     "tokensOut": 18,
+     "ms": 1516
+    }
+   ],
+   "chosen": "California",
+   "revisit": false
+  },
+  {
+   "page": "California",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 350,
+     "tokensOut": 21,
+     "ms": 1595
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  }
+ ]
+}

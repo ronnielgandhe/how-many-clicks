@@ -1,0 +1,179 @@
+{
+ "pair": "test-207",
+ "start": "HIV",
+ "target": "Permian",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 1,
+  "median_clicks": 4.5,
+  "median_pages": 5.5
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "HIV",
+  "Chimpanzee",
+  "Miocene",
+  "Oligocene",
+  "Eocene",
+  "Paleocene",
+  "Cretaceous",
+  "Jurassic",
+  "Triassic",
+  "Permian"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 2477,
+ "tokensOut": 155,
+ "costUsd": 0.001131,
+ "steps": [
+  {
+   "page": "HIV",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Chimpanzee",
+     "valid": true,
+     "tokensIn": 233,
+     "tokensOut": 18,
+     "ms": 754
+    }
+   ],
+   "chosen": "Chimpanzee",
+   "revisit": false
+  },
+  {
+   "page": "Chimpanzee",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Miocene",
+     "valid": true,
+     "tokensIn": 266,
+     "tokensOut": 17,
+     "ms": 777
+    }
+   ],
+   "chosen": "Miocene",
+   "revisit": false
+  },
+  {
+   "page": "Miocene",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Oligocene",
+     "valid": true,
+     "tokensIn": 251,
+     "tokensOut": 18,
+     "ms": 712
+    }
+   ],
+   "chosen": "Oligocene",
+   "revisit": false
+  },
+  {
+   "page": "Oligocene",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Eocene",
+     "valid": true,
+     "tokensIn": 249,
+     "tokensOut": 17,
+     "ms": 623
+    }
+   ],
+   "chosen": "Eocene",
+   "revisit": false
+  },
+  {
+   "page": "Eocene",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Paleocene",
+     "valid": true,
+     "tokensIn": 282,
+     "tokensOut": 17,
+     "ms": 689
+    }
+   ],
+   "chosen": "Paleocene",
+   "revisit": false
+  },
+  {
+   "page": "Paleocene",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Cretaceous",
+     "valid": true,
+     "tokensIn": 264,
+     "tokensOut": 18,
+     "ms": 826
+    }
+   ],
+   "chosen": "Cretaceous",
+   "revisit": false
+  },
+  {
+   "page": "Cretaceous",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Jurassic",
+     "valid": true,
+     "tokensIn": 368,
+     "tokensOut": 16,
+     "ms": 871
+    }
+   ],
+   "chosen": "Jurassic",
+   "revisit": false
+  },
+  {
+   "page": "Jurassic",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Triassic",
+     "valid": true,
+     "tokensIn": 303,
+     "tokensOut": 17,
+     "ms": 805
+    }
+   ],
+   "chosen": "Triassic",
+   "revisit": false
+  },
+  {
+   "page": "Triassic",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Permian",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 17,
+     "ms": 12274
+    }
+   ],
+   "chosen": "Permian",
+   "revisit": false
+  }
+ ]
+}

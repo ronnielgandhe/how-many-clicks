@@ -1,0 +1,270 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Manorialism",
+  "France",
+  "United States",
+  "Television",
+  "Broadcasting",
+  "Television",
+  "BBC",
+  "Doctor Who",
+  "The Simpsons",
+  "Seinfeld",
+  "New York City",
+  "U.S. state",
+  "Los Angeles, California",
+  "Television",
+  "Film",
+  "DVD"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6369,
+ "tokensOut": 1281,
+ "costUsd": 0.025548,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 66,
+     "ms": 1506
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 510,
+     "tokensOut": 126,
+     "ms": 2402
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 1448,
+     "tokensOut": 67,
+     "ms": 1736
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 111,
+     "ms": 2914
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": false
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 252,
+     "tokensOut": 132,
+     "ms": 2718
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "BBC",
+     "valid": true,
+     "tokensIn": 264,
+     "tokensOut": 85,
+     "ms": 2068
+    }
+   ],
+   "chosen": "BBC",
+   "revisit": false
+  },
+  {
+   "page": "BBC",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Doctor Who",
+     "valid": true,
+     "tokensIn": 355,
+     "tokensOut": 32,
+     "ms": 1199
+    }
+   ],
+   "chosen": "Doctor Who",
+   "revisit": false
+  },
+  {
+   "page": "Doctor Who",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "The Simpsons",
+     "valid": true,
+     "tokensIn": 370,
+     "tokensOut": 142,
+     "ms": 3012
+    }
+   ],
+   "chosen": "The Simpsons",
+   "revisit": false
+  },
+  {
+   "page": "The Simpsons",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Seinfeld",
+     "valid": true,
+     "tokensIn": 327,
+     "tokensOut": 77,
+     "ms": 1846
+    }
+   ],
+   "chosen": "Seinfeld",
+   "revisit": false
+  },
+  {
+   "page": "Seinfeld",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 225,
+     "tokensOut": 20,
+     "ms": 1021
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": false
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "U.S. state",
+     "valid": true,
+     "tokensIn": 493,
+     "tokensOut": 205,
+     "ms": 3941
+    }
+   ],
+   "chosen": "U.S. state",
+   "revisit": false
+  },
+  {
+   "page": "U.S. state",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 434,
+     "tokensOut": 68,
+     "ms": 1820
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  },
+  {
+   "page": "Los Angeles, California",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 616,
+     "tokensOut": 19,
+     "ms": 892
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 113,
+     "ms": 3543
+    }
+   ],
+   "chosen": "Film",
+   "revisit": false
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "DVD",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 18,
+     "ms": 1224
+    }
+   ],
+   "chosen": "DVD",
+   "revisit": false
+  }
+ ]
+}

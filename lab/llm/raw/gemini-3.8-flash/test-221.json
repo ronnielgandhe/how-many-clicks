@@ -1,0 +1,83 @@
+{
+ "pair": "test-221",
+ "start": "Bob Dylan",
+ "target": "Viking",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Bob Dylan",
+  "England",
+  "Canute the Great",
+  "Viking"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1498,
+ "tokensOut": 254,
+ "costUsd": 0.002076,
+ "steps": [
+  {
+   "page": "Bob Dylan",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 337,
+     "tokensOut": 76,
+     "ms": 2878
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Canute the Great",
+     "valid": true,
+     "tokensIn": 891,
+     "tokensOut": 133,
+     "ms": 3924
+    }
+   ],
+   "chosen": "Canute the Great",
+   "revisit": false
+  },
+  {
+   "page": "Canute the Great",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Viking",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 45,
+     "ms": 1844
+    }
+   ],
+   "chosen": "Viking",
+   "revisit": false
+  }
+ ]
+}

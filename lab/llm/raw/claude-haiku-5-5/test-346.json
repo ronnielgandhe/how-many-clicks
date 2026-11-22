@@ -1,0 +1,147 @@
+{
+ "pair": "test-346",
+ "start": "Islamic republic",
+ "target": "Shrine of Remembrance",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Islamic republic",
+  "Middle East",
+  "World War I",
+  "Western Front (World War I)",
+  "Battle of Amiens",
+  "Australia",
+  "Melbourne",
+  "Shrine of Remembrance"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 6514,
+ "tokensOut": 1404,
+ "costUsd": 0.001353,
+ "steps": [
+  {
+   "page": "Islamic republic",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Middle East",
+     "valid": true,
+     "tokensIn": 604,
+     "tokensOut": 309,
+     "ms": 1666
+    }
+   ],
+   "chosen": "Middle East",
+   "revisit": false
+  },
+  {
+   "page": "Middle East",
+   "offered": 83,
+   "attempts": [
+    {
+     "raw": "World War I",
+     "valid": true,
+     "tokensIn": 1111,
+     "tokensOut": 173,
+     "ms": 1044
+    }
+   ],
+   "chosen": "World War I",
+   "revisit": false
+  },
+  {
+   "page": "World War I",
+   "offered": 82,
+   "attempts": [
+    {
+     "raw": "Western Front (World War I)",
+     "valid": true,
+     "tokensIn": 1125,
+     "tokensOut": 315,
+     "ms": 1711
+    }
+   ],
+   "chosen": "Western Front (World War I)",
+   "revisit": false
+  },
+  {
+   "page": "Western Front (World War I)",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Battle of Amiens",
+     "valid": true,
+     "tokensIn": 769,
+     "tokensOut": 290,
+     "ms": 1634
+    }
+   ],
+   "chosen": "Battle of Amiens",
+   "revisit": false
+  },
+  {
+   "page": "Battle of Amiens",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 648,
+     "tokensOut": 142,
+     "ms": 975
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Melbourne",
+     "valid": true,
+     "tokensIn": 1211,
+     "tokensOut": 119,
+     "ms": 774
+    }
+   ],
+   "chosen": "Melbourne",
+   "revisit": false
+  },
+  {
+   "page": "Melbourne",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Shrine of Remembrance",
+     "valid": true,
+     "tokensIn": 1046,
+     "tokensOut": 56,
+     "ms": 491
+    }
+   ],
+   "chosen": "Shrine of Remembrance",
+   "revisit": false
+  }
+ ]
+}

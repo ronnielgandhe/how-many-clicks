@@ -1,0 +1,110 @@
+{
+ "pair": "test-386",
+ "start": "Dallas, Texas",
+ "target": "Comet Hale-Bopp",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Dallas, Texas",
+  "United States",
+  "Moon",
+  "Solar System",
+  "Comet",
+  "Comet Hale-Bopp"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2900,
+ "tokensOut": 88,
+ "costUsd": 0.00109,
+ "steps": [
+  {
+   "page": "Dallas, Texas",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 17,
+     "ms": 788
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Moon",
+     "valid": true,
+     "tokensIn": 1415,
+     "tokensOut": 16,
+     "ms": 869
+    }
+   ],
+   "chosen": "Moon",
+   "revisit": false
+  },
+  {
+   "page": "Moon",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "Solar System",
+     "valid": true,
+     "tokensIn": 360,
+     "tokensOut": 17,
+     "ms": 762
+    }
+   ],
+   "chosen": "Solar System",
+   "revisit": false
+  },
+  {
+   "page": "Solar System",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Comet",
+     "valid": true,
+     "tokensIn": 429,
+     "tokensOut": 17,
+     "ms": 724
+    }
+   ],
+   "chosen": "Comet",
+   "revisit": false
+  },
+  {
+   "page": "Comet",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Comet Hale-Bopp",
+     "valid": true,
+     "tokensIn": 356,
+     "tokensOut": 21,
+     "ms": 693
+    }
+   ],
+   "chosen": "Comet Hale-Bopp",
+   "revisit": false
+  }
+ ]
+}

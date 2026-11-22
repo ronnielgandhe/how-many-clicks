@@ -1,0 +1,270 @@
+{
+ "pair": "test-437",
+ "start": "La Paz",
+ "target": "Bandicoot",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "La Paz",
+  "English language",
+  "Australia",
+  "Wombat",
+  "Mammal",
+  "Australia",
+  "Kangaroo",
+  "Wallaby",
+  "Mammal",
+  "Platypus",
+  "Tasmanian Devil",
+  "Dingo",
+  "Carnivore",
+  "Mammal",
+  "Australia",
+  "Papua New Guinea"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 12974,
+ "tokensOut": 2730,
+ "costUsd": 0.106496,
+ "steps": [
+  {
+   "page": "La Paz",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "English language",
+     "valid": true,
+     "tokensIn": 578,
+     "tokensOut": 117,
+     "ms": 1962
+    }
+   ],
+   "chosen": "English language",
+   "revisit": false
+  },
+  {
+   "page": "English language",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 1386,
+     "tokensOut": 95,
+     "ms": 1005
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Wombat",
+     "valid": true,
+     "tokensIn": 1180,
+     "tokensOut": 116,
+     "ms": 2266
+    }
+   ],
+   "chosen": "Wombat",
+   "revisit": false
+  },
+  {
+   "page": "Wombat",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 616,
+     "tokensOut": 158,
+     "ms": 1983
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 833,
+     "tokensOut": 256,
+     "ms": 3358
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 1194,
+     "tokensOut": 132,
+     "ms": 2146
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": false
+  },
+  {
+   "page": "Kangaroo",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Wallaby",
+     "valid": true,
+     "tokensIn": 690,
+     "tokensOut": 124,
+     "ms": 1979
+    }
+   ],
+   "chosen": "Wallaby",
+   "revisit": false
+  },
+  {
+   "page": "Wallaby",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 646,
+     "tokensOut": 199,
+     "ms": 2212
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Platypus",
+     "valid": true,
+     "tokensIn": 855,
+     "tokensOut": 167,
+     "ms": 1809
+    }
+   ],
+   "chosen": "Platypus",
+   "revisit": false
+  },
+  {
+   "page": "Platypus",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Tasmanian Devil",
+     "valid": true,
+     "tokensIn": 749,
+     "tokensOut": 120,
+     "ms": 1951
+    }
+   ],
+   "chosen": "Tasmanian Devil",
+   "revisit": false
+  },
+  {
+   "page": "Tasmanian Devil",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Dingo",
+     "valid": true,
+     "tokensIn": 676,
+     "tokensOut": 177,
+     "ms": 2657
+    }
+   ],
+   "chosen": "Dingo",
+   "revisit": false
+  },
+  {
+   "page": "Dingo",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Carnivore",
+     "valid": true,
+     "tokensIn": 659,
+     "tokensOut": 437,
+     "ms": 4583
+    }
+   ],
+   "chosen": "Carnivore",
+   "revisit": false
+  },
+  {
+   "page": "Carnivore",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 779,
+     "tokensOut": 188,
+     "ms": 2592
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 886,
+     "tokensOut": 251,
+     "ms": 2996
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Papua New Guinea",
+     "valid": true,
+     "tokensIn": 1247,
+     "tokensOut": 193,
+     "ms": 2404
+    }
+   ],
+   "chosen": "Papua New Guinea",
+   "revisit": false
+  }
+ ]
+}

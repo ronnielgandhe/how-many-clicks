@@ -5,7 +5,7 @@ import os
 import random
 import statistics
 
-from game import DIFFS, HERE, MAX_STEPS, MODELS, PER_DIFF, PRICE_SOURCES, PRICED_ON, PROMPT_VERSION, RAW, SEED, load_env, sample_pairs
+from game import DIFFS, HERE, MAX_STEPS, MODELS, PER_DIFF, EXT_PER_DIFF, PRICE_SOURCES, PRICED_ON, PROMPT_VERSION, RAW, SEED, load_env, sample_pairs
 
 SITE_OUT = os.path.expanduser('~/Desktop/rg-portfolio/src/data/clicks/llm.json')
 BENCH = os.path.expanduser('~/Desktop/rg-portfolio/src/data/clicks/benchmark.json')
@@ -136,7 +136,7 @@ def main():
         'dataset': {'name': 'Wikispeedia navigation paths and link graph (Stanford SNAP), 4,604 articles', 'url': 'https://snap.stanford.edu/data/wikispeedia.html',
                     'license': 'SNAP research dataset; cite West & Leskovec (WWW 2012) and West, Pineau & Precup (IJCAI 2009). Article content is Wikipedia, CC BY-SA.'},
         'protocol': {'pairs': len({g['pair'] for rows in games.values() for g in rows}), 'perDifficulty': {d: len({g['pair'] for rows in games.values() for g in rows if g['difficulty'] == d}) for d in DIFFS},
-                     'plannedPairs': len(sample), 'plannedPerDifficulty': PER_DIFF, 'pairSource': 'seeded stratified sample (seed 20261122) of the lab test pairs (data/pairs.json "test", 150 per difficulty)',
+                     'plannedPairs': len(sample), 'plannedPerDifficulty': PER_DIFF + EXT_PER_DIFF, 'pairSource': 'seeded stratified sample of the lab test pairs (data/pairs.json "test", 150 per difficulty): 20 per difficulty with seed 20261122, then 10 more per difficulty from the remainder with seed 20261123 (extension added after the first 60 because budget allowed; protocol unchanged)',
                      'difficulty': 'shortest path length: easy <= 2, medium 3, hard 4+ (same as the lab benchmark)',
                      'maxSteps': MAX_STEPS, 'sees': 'link titles only', 'temperature': 0,
                      'temperatureNote': 'temperature 0 sent where the API accepts it; models whose settings show temperature null do not accept it (Claude 5.5 via current SDK, OpenAI reasoning models)',

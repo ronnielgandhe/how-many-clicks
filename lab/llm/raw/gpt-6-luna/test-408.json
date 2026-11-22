@@ -1,0 +1,110 @@
+{
+ "pair": "test-408",
+ "start": "Kakariki",
+ "target": "Quantum chemistry",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Kakariki",
+  "Scientific classification",
+  "Genetics",
+  "DNA",
+  "Linus Pauling",
+  "Quantum chemistry"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1467,
+ "tokensOut": 96,
+ "costUsd": 0.000195,
+ "steps": [
+  {
+   "page": "Kakariki",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Scientific classification",
+     "valid": true,
+     "tokensIn": 214,
+     "tokensOut": 19,
+     "ms": 1006
+    }
+   ],
+   "chosen": "Scientific classification",
+   "revisit": false
+  },
+  {
+   "page": "Scientific classification",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Genetics",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 19,
+     "ms": 1906
+    }
+   ],
+   "chosen": "Genetics",
+   "revisit": false
+  },
+  {
+   "page": "Genetics",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "DNA",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 18,
+     "ms": 931
+    }
+   ],
+   "chosen": "DNA",
+   "revisit": false
+  },
+  {
+   "page": "DNA",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Linus Pauling",
+     "valid": true,
+     "tokensIn": 302,
+     "tokensOut": 21,
+     "ms": 887
+    }
+   ],
+   "chosen": "Linus Pauling",
+   "revisit": false
+  },
+  {
+   "page": "Linus Pauling",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Quantum chemistry",
+     "valid": true,
+     "tokensIn": 385,
+     "tokensOut": 19,
+     "ms": 838
+    }
+   ],
+   "chosen": "Quantum chemistry",
+   "revisit": false
+  }
+ ]
+}

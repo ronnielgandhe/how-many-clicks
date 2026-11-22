@@ -1,0 +1,78 @@
+{
+ "pair": "test-102",
+ "start": "Southern Africa",
+ "target": "Los Angeles, California",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Southern Africa",
+  "North America",
+  "California",
+  "Los Angeles, California"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1186,
+ "tokensOut": 52,
+ "costUsd": 0.000486,
+ "steps": [
+  {
+   "page": "Southern Africa",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 368,
+     "tokensOut": 17,
+     "ms": 772
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "California",
+     "valid": true,
+     "tokensIn": 480,
+     "tokensOut": 16,
+     "ms": 672
+    }
+   ],
+   "chosen": "California",
+   "revisit": false
+  },
+  {
+   "page": "California",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 338,
+     "tokensOut": 19,
+     "ms": 730
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  }
+ ]
+}

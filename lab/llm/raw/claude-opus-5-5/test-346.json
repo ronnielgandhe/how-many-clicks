@@ -1,0 +1,115 @@
+{
+ "pair": "test-346",
+ "start": "Islamic republic",
+ "target": "Shrine of Remembrance",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Islamic republic",
+  "Pakistan",
+  "United Kingdom",
+  "Kylie Minogue",
+  "Melbourne",
+  "Shrine of Remembrance"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 5172,
+ "tokensOut": 616,
+ "costUsd": 0.033008,
+ "steps": [
+  {
+   "page": "Islamic republic",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Pakistan",
+     "valid": true,
+     "tokensIn": 604,
+     "tokensOut": 213,
+     "ms": 2539
+    }
+   ],
+   "chosen": "Pakistan",
+   "revisit": false
+  },
+  {
+   "page": "Pakistan",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 896,
+     "tokensOut": 143,
+     "ms": 1428
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Kylie Minogue",
+     "valid": true,
+     "tokensIn": 1884,
+     "tokensOut": 153,
+     "ms": 1763
+    }
+   ],
+   "chosen": "Kylie Minogue",
+   "revisit": false
+  },
+  {
+   "page": "Kylie Minogue",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Melbourne",
+     "valid": true,
+     "tokensIn": 752,
+     "tokensOut": 51,
+     "ms": 908
+    }
+   ],
+   "chosen": "Melbourne",
+   "revisit": false
+  },
+  {
+   "page": "Melbourne",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Shrine of Remembrance",
+     "valid": true,
+     "tokensIn": 1036,
+     "tokensOut": 56,
+     "ms": 1704
+    }
+   ],
+   "chosen": "Shrine of Remembrance",
+   "revisit": false
+  }
+ ]
+}

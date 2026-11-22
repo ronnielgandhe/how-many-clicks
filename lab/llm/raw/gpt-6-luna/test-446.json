@@ -1,0 +1,158 @@
+{
+ "pair": "test-446",
+ "start": "Panama Canal",
+ "target": "Bernard Hinault",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Panama Canal",
+  "France",
+  "Lille",
+  "France",
+  "Lille",
+  "France",
+  "Paris",
+  "Tour de France",
+  "Bernard Hinault"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 3329,
+ "tokensOut": 151,
+ "costUsd": 0.000408,
+ "steps": [
+  {
+   "page": "Panama Canal",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 285,
+     "tokensOut": 18,
+     "ms": 598
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Lille",
+     "valid": true,
+     "tokensIn": 498,
+     "tokensOut": 19,
+     "ms": 1020
+    }
+   ],
+   "chosen": "Lille",
+   "revisit": false
+  },
+  {
+   "page": "Lille",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 333,
+     "tokensOut": 18,
+     "ms": 605
+    }
+   ],
+   "chosen": "France",
+   "revisit": true
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Lille",
+     "valid": true,
+     "tokensIn": 502,
+     "tokensOut": 19,
+     "ms": 835
+    }
+   ],
+   "chosen": "Lille",
+   "revisit": true
+  },
+  {
+   "page": "Lille",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 337,
+     "tokensOut": 18,
+     "ms": 682
+    }
+   ],
+   "chosen": "France",
+   "revisit": true
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Paris",
+     "valid": true,
+     "tokensIn": 506,
+     "tokensOut": 18,
+     "ms": 1202
+    }
+   ],
+   "chosen": "Paris",
+   "revisit": false
+  },
+  {
+   "page": "Paris",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Tour de France",
+     "valid": true,
+     "tokensIn": 605,
+     "tokensOut": 20,
+     "ms": 771
+    }
+   ],
+   "chosen": "Tour de France",
+   "revisit": false
+  },
+  {
+   "page": "Tour de France",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Bernard Hinault",
+     "valid": true,
+     "tokensIn": 263,
+     "tokensOut": 21,
+     "ms": 811
+    }
+   ],
+   "chosen": "Bernard Hinault",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "pair": "test-445",
+ "start": "Edward the Confessor",
+ "target": "Coconut oil",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Edward the Confessor",
+  "England",
+  "Indonesian language",
+  "Indonesia",
+  "Palm oil",
+  "Fruit",
+  "Coconut",
+  "Coconut oil"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2778,
+ "tokensOut": 332,
+ "costUsd": 0.008876,
+ "steps": [
+  {
+   "page": "Edward the Confessor",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 89,
+     "ms": 1869
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Indonesian language",
+     "valid": true,
+     "tokensIn": 918,
+     "tokensOut": 103,
+     "ms": 2345
+    }
+   ],
+   "chosen": "Indonesian language",
+   "revisit": false
+  },
+  {
+   "page": "Indonesian language",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Indonesia",
+     "valid": true,
+     "tokensIn": 276,
+     "tokensOut": 32,
+     "ms": 1280
+    }
+   ],
+   "chosen": "Indonesia",
+   "revisit": false
+  },
+  {
+   "page": "Indonesia",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Palm oil",
+     "valid": true,
+     "tokensIn": 400,
+     "tokensOut": 19,
+     "ms": 1227
+    }
+   ],
+   "chosen": "Palm oil",
+   "revisit": false
+  },
+  {
+   "page": "Palm oil",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Fruit",
+     "valid": true,
+     "tokensIn": 256,
+     "tokensOut": 50,
+     "ms": 1541
+    }
+   ],
+   "chosen": "Fruit",
+   "revisit": false
+  },
+  {
+   "page": "Fruit",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Coconut",
+     "valid": true,
+     "tokensIn": 333,
+     "tokensOut": 19,
+     "ms": 1087
+    }
+   ],
+   "chosen": "Coconut",
+   "revisit": false
+  },
+  {
+   "page": "Coconut",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Coconut oil",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 20,
+     "ms": 1116
+    }
+   ],
+   "chosen": "Coconut oil",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "pair": "test-367",
+ "start": "The Ashes",
+ "target": "Thermodynamic temperature",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Ashes",
+  "England",
+  "Winter",
+  "Water",
+  "Phase (matter)",
+  "Absolute zero",
+  "Thermodynamic temperature"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 6031,
+ "tokensOut": 1511,
+ "costUsd": 0.027172,
+ "steps": [
+  {
+   "page": "The Ashes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 623,
+     "tokensOut": 378,
+     "ms": 4728
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Winter",
+     "valid": true,
+     "tokensIn": 1819,
+     "tokensOut": 448,
+     "ms": 6759
+    }
+   ],
+   "chosen": "Winter",
+   "revisit": false
+  },
+  {
+   "page": "Winter",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Water",
+     "valid": true,
+     "tokensIn": 799,
+     "tokensOut": 236,
+     "ms": 2403
+    }
+   ],
+   "chosen": "Water",
+   "revisit": false
+  },
+  {
+   "page": "Water",
+   "offered": 131,
+   "attempts": [
+    {
+     "raw": "Phase (matter)",
+     "valid": true,
+     "tokensIn": 1381,
+     "tokensOut": 262,
+     "ms": 2609
+    }
+   ],
+   "chosen": "Phase (matter)",
+   "revisit": false
+  },
+  {
+   "page": "Phase (matter)",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Absolute zero",
+     "valid": true,
+     "tokensIn": 701,
+     "tokensOut": 131,
+     "ms": 1717
+    }
+   ],
+   "chosen": "Absolute zero",
+   "revisit": false
+  },
+  {
+   "page": "Absolute zero",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Thermodynamic temperature",
+     "valid": true,
+     "tokensIn": 708,
+     "tokensOut": 56,
+     "ms": 1509
+    }
+   ],
+   "chosen": "Thermodynamic temperature",
+   "revisit": false
+  }
+ ]
+}

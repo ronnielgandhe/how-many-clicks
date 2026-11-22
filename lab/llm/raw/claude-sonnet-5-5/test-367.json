@@ -1,0 +1,115 @@
+{
+ "pair": "test-367",
+ "start": "The Ashes",
+ "target": "Thermodynamic temperature",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Ashes",
+  "England",
+  "Stephen Hawking",
+  "Thermodynamics",
+  "Absolute zero",
+  "Thermodynamic temperature"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4640,
+ "tokensOut": 584,
+ "costUsd": 0.01512,
+ "steps": [
+  {
+   "page": "The Ashes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 623,
+     "tokensOut": 232,
+     "ms": 2634
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Stephen Hawking",
+     "valid": true,
+     "tokensIn": 1819,
+     "tokensOut": 191,
+     "ms": 2235
+    }
+   ],
+   "chosen": "Stephen Hawking",
+   "revisit": false
+  },
+  {
+   "page": "Stephen Hawking",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Thermodynamics",
+     "valid": true,
+     "tokensIn": 797,
+     "tokensOut": 53,
+     "ms": 1305
+    }
+   ],
+   "chosen": "Thermodynamics",
+   "revisit": false
+  },
+  {
+   "page": "Thermodynamics",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Absolute zero",
+     "valid": true,
+     "tokensIn": 691,
+     "tokensOut": 52,
+     "ms": 1270
+    }
+   ],
+   "chosen": "Absolute zero",
+   "revisit": false
+  },
+  {
+   "page": "Absolute zero",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Thermodynamic temperature",
+     "valid": true,
+     "tokensIn": 710,
+     "tokensOut": 56,
+     "ms": 1339
+    }
+   ],
+   "chosen": "Thermodynamic temperature",
+   "revisit": false
+  }
+ ]
+}

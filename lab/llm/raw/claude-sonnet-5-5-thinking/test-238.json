@@ -1,0 +1,78 @@
+{
+ "pair": "test-238",
+ "start": "Benjamin Harrison",
+ "target": "Mount Everest",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Benjamin Harrison",
+  "United Kingdom",
+  "Earth",
+  "Mount Everest"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 3919,
+ "tokensOut": 611,
+ "costUsd": 0.013948,
+ "steps": [
+  {
+   "page": "Benjamin Harrison",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 711,
+     "tokensOut": 210,
+     "ms": 6076
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 1877,
+     "tokensOut": 349,
+     "ms": 4057
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Mount Everest",
+     "valid": true,
+     "tokensIn": 1331,
+     "tokensOut": 52,
+     "ms": 1402
+    }
+   ],
+   "chosen": "Mount Everest",
+   "revisit": false
+  }
+ ]
+}

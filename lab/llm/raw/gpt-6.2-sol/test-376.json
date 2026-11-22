@@ -1,0 +1,94 @@
+{
+ "pair": "test-376",
+ "start": "Tiktaalik",
+ "target": "Pete Sampras",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tiktaalik",
+  "Canada",
+  "United States",
+  "Tennis",
+  "Pete Sampras"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2484,
+ "tokensOut": 76,
+ "costUsd": 0.005728,
+ "steps": [
+  {
+   "page": "Tiktaalik",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 18,
+     "ms": 1009
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 19,
+     "ms": 1015
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Tennis",
+     "valid": true,
+     "tokensIn": 1447,
+     "tokensOut": 19,
+     "ms": 1031
+    }
+   ],
+   "chosen": "Tennis",
+   "revisit": false
+  },
+  {
+   "page": "Tennis",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Pete Sampras",
+     "valid": true,
+     "tokensIn": 356,
+     "tokensOut": 20,
+     "ms": 1107
+    }
+   ],
+   "chosen": "Pete Sampras",
+   "revisit": false
+  }
+ ]
+}

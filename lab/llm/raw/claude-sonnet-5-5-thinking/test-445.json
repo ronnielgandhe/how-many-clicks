@@ -1,0 +1,142 @@
+{
+ "pair": "test-445",
+ "start": "Edward the Confessor",
+ "target": "Coconut oil",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Edward the Confessor",
+  "England",
+  "Indonesian language",
+  "Indonesia",
+  "Palm oil",
+  "Biodiesel",
+  "List of vegetable oils",
+  "Coconut oil"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 6512,
+ "tokensOut": 1090,
+ "costUsd": 0.023924,
+ "steps": [
+  {
+   "page": "Edward the Confessor",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 684,
+     "tokensOut": 261,
+     "ms": 3922
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Indonesian language",
+     "valid": true,
+     "tokensIn": 1818,
+     "tokensOut": 197,
+     "ms": 2577
+    }
+   ],
+   "chosen": "Indonesian language",
+   "revisit": false
+  },
+  {
+   "page": "Indonesian language",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Indonesia",
+     "valid": true,
+     "tokensIn": 711,
+     "tokensOut": 218,
+     "ms": 5050
+    }
+   ],
+   "chosen": "Indonesia",
+   "revisit": false
+  },
+  {
+   "page": "Indonesia",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Palm oil",
+     "valid": true,
+     "tokensIn": 924,
+     "tokensOut": 78,
+     "ms": 2407
+    }
+   ],
+   "chosen": "Palm oil",
+   "revisit": false
+  },
+  {
+   "page": "Palm oil",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Biodiesel",
+     "valid": true,
+     "tokensIn": 694,
+     "tokensOut": 168,
+     "ms": 3220
+    }
+   ],
+   "chosen": "Biodiesel",
+   "revisit": false
+  },
+  {
+   "page": "Biodiesel",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "List of vegetable oils",
+     "valid": true,
+     "tokensIn": 804,
+     "tokensOut": 116,
+     "ms": 1583
+    }
+   ],
+   "chosen": "List of vegetable oils",
+   "revisit": false
+  },
+  {
+   "page": "List of vegetable oils",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Coconut oil",
+     "valid": true,
+     "tokensIn": 877,
+     "tokensOut": 52,
+     "ms": 833
+    }
+   ],
+   "chosen": "Coconut oil",
+   "revisit": false
+  }
+ ]
+}

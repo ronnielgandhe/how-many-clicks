@@ -1,0 +1,131 @@
+{
+ "pair": "test-355",
+ "start": "Mount Everest",
+ "target": "Demosthenes",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.0,
+  "median_pages": 11.5
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Mount Everest",
+  "Sanskrit",
+  "Latin",
+  "1st century BC",
+  "Julius Caesar",
+  "Alexander the Great",
+  "Demosthenes"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 4648,
+ "tokensOut": 1493,
+ "costUsd": 0.024226,
+ "steps": [
+  {
+   "page": "Mount Everest",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Sanskrit",
+     "valid": true,
+     "tokensIn": 732,
+     "tokensOut": 198,
+     "ms": 6034
+    }
+   ],
+   "chosen": "Sanskrit",
+   "revisit": false
+  },
+  {
+   "page": "Sanskrit",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Latin",
+     "valid": true,
+     "tokensIn": 743,
+     "tokensOut": 216,
+     "ms": 3139
+    }
+   ],
+   "chosen": "Latin",
+   "revisit": false
+  },
+  {
+   "page": "Latin",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "1st century BC",
+     "valid": true,
+     "tokensIn": 754,
+     "tokensOut": 411,
+     "ms": 4698
+    }
+   ],
+   "chosen": "1st century BC",
+   "revisit": false
+  },
+  {
+   "page": "1st century BC",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Julius Caesar",
+     "valid": true,
+     "tokensIn": 763,
+     "tokensOut": 254,
+     "ms": 2617
+    }
+   ],
+   "chosen": "Julius Caesar",
+   "revisit": false
+  },
+  {
+   "page": "Julius Caesar",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Alexander the Great",
+     "valid": true,
+     "tokensIn": 722,
+     "tokensOut": 362,
+     "ms": 4072
+    }
+   ],
+   "chosen": "Alexander the Great",
+   "revisit": false
+  },
+  {
+   "page": "Alexander the Great",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Demosthenes",
+     "valid": true,
+     "tokensIn": 934,
+     "tokensOut": 52,
+     "ms": 1314
+    }
+   ],
+   "chosen": "Demosthenes",
+   "revisit": false
+  }
+ ]
+}

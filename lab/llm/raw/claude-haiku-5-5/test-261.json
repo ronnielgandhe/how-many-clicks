@@ -1,0 +1,94 @@
+{
+ "pair": "test-261",
+ "start": "Armia Krajowa",
+ "target": "Otto von Bismarck",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Armia Krajowa",
+  "Nazi Germany",
+  "German reunification",
+  "Germany",
+  "Otto von Bismarck"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3981,
+ "tokensOut": 748,
+ "costUsd": 0.000772,
+ "steps": [
+  {
+   "page": "Armia Krajowa",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Nazi Germany",
+     "valid": true,
+     "tokensIn": 643,
+     "tokensOut": 198,
+     "ms": 999
+    }
+   ],
+   "chosen": "Nazi Germany",
+   "revisit": false
+  },
+  {
+   "page": "Nazi Germany",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "German reunification",
+     "valid": true,
+     "tokensIn": 885,
+     "tokensOut": 303,
+     "ms": 1946
+    }
+   ],
+   "chosen": "German reunification",
+   "revisit": false
+  },
+  {
+   "page": "German reunification",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 652,
+     "tokensOut": 162,
+     "ms": 1229
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Otto von Bismarck",
+     "valid": true,
+     "tokensIn": 1801,
+     "tokensOut": 85,
+     "ms": 777
+    }
+   ],
+   "chosen": "Otto von Bismarck",
+   "revisit": false
+  }
+ ]
+}

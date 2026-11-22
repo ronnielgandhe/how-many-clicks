@@ -1,0 +1,147 @@
+{
+ "pair": "test-367",
+ "start": "The Ashes",
+ "target": "Thermodynamic temperature",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Ashes",
+  "World War II",
+  "Nuclear weapon",
+  "Neutron",
+  "Physics",
+  "Thermodynamics",
+  "Absolute zero",
+  "Thermodynamic temperature"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2531,
+ "tokensOut": 1149,
+ "costUsd": 0.006207,
+ "steps": [
+  {
+   "page": "The Ashes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 222,
+     "tokensOut": 514,
+     "ms": 7546
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Nuclear weapon",
+     "valid": true,
+     "tokensIn": 639,
+     "tokensOut": 17,
+     "ms": 2757
+    }
+   ],
+   "chosen": "Nuclear weapon",
+   "revisit": false
+  },
+  {
+   "page": "Nuclear weapon",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Neutron",
+     "valid": true,
+     "tokensIn": 299,
+     "tokensOut": 259,
+     "ms": 4064
+    }
+   ],
+   "chosen": "Neutron",
+   "revisit": false
+  },
+  {
+   "page": "Neutron",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Physics",
+     "valid": true,
+     "tokensIn": 249,
+     "tokensOut": 117,
+     "ms": 2281
+    }
+   ],
+   "chosen": "Physics",
+   "revisit": false
+  },
+  {
+   "page": "Physics",
+   "offered": 107,
+   "attempts": [
+    {
+     "raw": "Thermodynamics",
+     "valid": true,
+     "tokensIn": 607,
+     "tokensOut": 67,
+     "ms": 2217
+    }
+   ],
+   "chosen": "Thermodynamics",
+   "revisit": false
+  },
+  {
+   "page": "Thermodynamics",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Absolute zero",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 123,
+     "ms": 2573
+    }
+   ],
+   "chosen": "Absolute zero",
+   "revisit": false
+  },
+  {
+   "page": "Absolute zero",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Thermodynamic temperature",
+     "valid": true,
+     "tokensIn": 255,
+     "tokensOut": 52,
+     "ms": 2279
+    }
+   ],
+   "chosen": "Thermodynamic temperature",
+   "revisit": false
+  }
+ ]
+}

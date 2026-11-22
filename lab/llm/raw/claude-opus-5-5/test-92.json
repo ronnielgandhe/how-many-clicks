@@ -1,0 +1,94 @@
+{
+ "pair": "test-92",
+ "start": "T-34",
+ "target": "Panama",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "T-34",
+  "Cuba",
+  "Caribbean Sea",
+  "South America",
+  "Panama"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3870,
+ "tokensOut": 419,
+ "costUsd": 0.02386,
+ "steps": [
+  {
+   "page": "T-34",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Cuba",
+     "valid": true,
+     "tokensIn": 905,
+     "tokensOut": 82,
+     "ms": 2351
+    }
+   ],
+   "chosen": "Cuba",
+   "revisit": false
+  },
+  {
+   "page": "Cuba",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Caribbean Sea",
+     "valid": true,
+     "tokensIn": 1044,
+     "tokensOut": 195,
+     "ms": 2910
+    }
+   ],
+   "chosen": "Caribbean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Caribbean Sea",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "South America",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 93,
+     "ms": 1306
+    }
+   ],
+   "chosen": "South America",
+   "revisit": false
+  },
+  {
+   "page": "South America",
+   "offered": 99,
+   "attempts": [
+    {
+     "raw": "Panama",
+     "valid": true,
+     "tokensIn": 1223,
+     "tokensOut": 49,
+     "ms": 1594
+    }
+   ],
+   "chosen": "Panama",
+   "revisit": false
+  }
+ ]
+}

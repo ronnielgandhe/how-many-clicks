@@ -1,0 +1,131 @@
+{
+ "pair": "test-206",
+ "start": "Charles Sumner",
+ "target": "Hippopotamus",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 6,
+  "median_pages": 7
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Charles Sumner",
+  "Bible",
+  "Ancient Egypt",
+  "Africa",
+  "Elephant",
+  "Mammal",
+  "Hippopotamus"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2635,
+ "tokensOut": 116,
+ "costUsd": 0.000322,
+ "steps": [
+  {
+   "page": "Charles Sumner",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Bible",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 18,
+     "ms": 1116
+    }
+   ],
+   "chosen": "Bible",
+   "revisit": false
+  },
+  {
+   "page": "Bible",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Ancient Egypt",
+     "valid": true,
+     "tokensIn": 256,
+     "tokensOut": 20,
+     "ms": 1110
+    }
+   ],
+   "chosen": "Ancient Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Egypt",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 430,
+     "tokensOut": 18,
+     "ms": 983
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Elephant",
+     "valid": true,
+     "tokensIn": 1028,
+     "tokensOut": 19,
+     "ms": 981
+    }
+   ],
+   "chosen": "Elephant",
+   "revisit": false
+  },
+  {
+   "page": "Elephant",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 20,
+     "ms": 1132
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hippopotamus",
+     "valid": true,
+     "tokensIn": 358,
+     "tokensOut": 21,
+     "ms": 888
+    }
+   ],
+   "chosen": "Hippopotamus",
+   "revisit": false
+  }
+ ]
+}

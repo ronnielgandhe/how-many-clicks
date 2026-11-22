@@ -1,0 +1,94 @@
+{
+ "pair": "test-265",
+ "start": "Fundamental Rights in India",
+ "target": "Demand Note",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fundamental Rights in India",
+  "United States Bill of Rights",
+  "United States",
+  "United States dollar",
+  "Demand Note"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2377,
+ "tokensOut": 80,
+ "costUsd": 0.005554,
+ "steps": [
+  {
+   "page": "Fundamental Rights in India",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United States Bill of Rights",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 22,
+     "ms": 1059
+    }
+   ],
+   "chosen": "United States Bill of Rights",
+   "revisit": false
+  },
+  {
+   "page": "United States Bill of Rights",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 19,
+     "ms": 932
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "United States dollar",
+     "valid": true,
+     "tokensIn": 1451,
+     "tokensOut": 20,
+     "ms": 869
+    }
+   ],
+   "chosen": "United States dollar",
+   "revisit": false
+  },
+  {
+   "page": "United States dollar",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Demand Note",
+     "valid": true,
+     "tokensIn": 372,
+     "tokensOut": 19,
+     "ms": 913
+    }
+   ],
+   "chosen": "Demand Note",
+   "revisit": false
+  }
+ ]
+}

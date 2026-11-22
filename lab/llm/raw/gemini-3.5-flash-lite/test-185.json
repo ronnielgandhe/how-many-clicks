@@ -1,0 +1,115 @@
+{
+ "pair": "test-185",
+ "start": "Quantum chemistry",
+ "target": "Belgium",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Quantum chemistry",
+  "Chemistry",
+  "Science",
+  "Italy",
+  "European Union",
+  "Belgium"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2004,
+ "tokensOut": 81,
+ "costUsd": 0.000804,
+ "steps": [
+  {
+   "page": "Quantum chemistry",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Chemistry",
+     "valid": true,
+     "tokensIn": 212,
+     "tokensOut": 16,
+     "ms": 846
+    }
+   ],
+   "chosen": "Chemistry",
+   "revisit": false
+  },
+  {
+   "page": "Chemistry",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Science",
+     "valid": true,
+     "tokensIn": 338,
+     "tokensOut": 16,
+     "ms": 786
+    }
+   ],
+   "chosen": "Science",
+   "revisit": false
+  },
+  {
+   "page": "Science",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Italy",
+     "valid": true,
+     "tokensIn": 314,
+     "tokensOut": 16,
+     "ms": 781
+    }
+   ],
+   "chosen": "Italy",
+   "revisit": false
+  },
+  {
+   "page": "Italy",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "European Union",
+     "valid": true,
+     "tokensIn": 492,
+     "tokensOut": 17,
+     "ms": 711
+    }
+   ],
+   "chosen": "European Union",
+   "revisit": false
+  },
+  {
+   "page": "European Union",
+   "offered": 133,
+   "attempts": [
+    {
+     "raw": "Belgium",
+     "valid": true,
+     "tokensIn": 648,
+     "tokensOut": 16,
+     "ms": 612
+    }
+   ],
+   "chosen": "Belgium",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Manorialism",
+  "France",
+  "United States",
+  "Television",
+  "Film",
+  "21st century",
+  "The Lord of the Rings film trilogy",
+  "Miranda Otto",
+  "The Lord of the Rings film trilogy",
+  "The Shawshank Redemption",
+  "DVD",
+  "Sony",
+  "Television",
+  "BBC",
+  "Doctor Who",
+  "Star Trek"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6274,
+ "tokensOut": 295,
+ "costUsd": 0.061992,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 18,
+     "ms": 1457
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 510,
+     "tokensOut": 19,
+     "ms": 1187
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 1448,
+     "tokensOut": 19,
+     "ms": 1313
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 18,
+     "ms": 1333
+    }
+   ],
+   "chosen": "Film",
+   "revisit": false
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "21st century",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 20,
+     "ms": 2428
+    }
+   ],
+   "chosen": "21st century",
+   "revisit": false
+  },
+  {
+   "page": "21st century",
+   "offered": 155,
+   "attempts": [
+    {
+     "raw": "The Lord of the Rings film trilogy",
+     "valid": true,
+     "tokensIn": 849,
+     "tokensOut": 24,
+     "ms": 1364
+    }
+   ],
+   "chosen": "The Lord of the Rings film trilogy",
+   "revisit": false
+  },
+  {
+   "page": "The Lord of the Rings film trilogy",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Miranda Otto",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 20,
+     "ms": 1705
+    }
+   ],
+   "chosen": "Miranda Otto",
+   "revisit": false
+  },
+  {
+   "page": "Miranda Otto",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "The Lord of the Rings film trilogy",
+     "valid": true,
+     "tokensIn": 263,
+     "tokensOut": 24,
+     "ms": 2304
+    }
+   ],
+   "chosen": "The Lord of the Rings film trilogy",
+   "revisit": true
+  },
+  {
+   "page": "The Lord of the Rings film trilogy",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "The Shawshank Redemption",
+     "valid": true,
+     "tokensIn": 288,
+     "tokensOut": 22,
+     "ms": 1696
+    }
+   ],
+   "chosen": "The Shawshank Redemption",
+   "revisit": false
+  },
+  {
+   "page": "The Shawshank Redemption",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "DVD",
+     "valid": true,
+     "tokensIn": 256,
+     "tokensOut": 18,
+     "ms": 1546
+    }
+   ],
+   "chosen": "DVD",
+   "revisit": false
+  },
+  {
+   "page": "DVD",
+   "offered": 4,
+   "attempts": [
+    {
+     "raw": "Sony",
+     "valid": true,
+     "tokensIn": 237,
+     "tokensOut": 18,
+     "ms": 1576
+    }
+   ],
+   "chosen": "Sony",
+   "revisit": false
+  },
+  {
+   "page": "Sony",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 302,
+     "tokensOut": 19,
+     "ms": 1678
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "BBC",
+     "valid": true,
+     "tokensIn": 298,
+     "tokensOut": 18,
+     "ms": 1275
+    }
+   ],
+   "chosen": "BBC",
+   "revisit": false
+  },
+  {
+   "page": "BBC",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Doctor Who",
+     "valid": true,
+     "tokensIn": 389,
+     "tokensOut": 19,
+     "ms": 1604
+    }
+   ],
+   "chosen": "Doctor Who",
+   "revisit": false
+  },
+  {
+   "page": "Doctor Who",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Star Trek",
+     "valid": true,
+     "tokensIn": 404,
+     "tokensOut": 19,
+     "ms": 3187
+    }
+   ],
+   "chosen": "Star Trek",
+   "revisit": false
+  }
+ ]
+}

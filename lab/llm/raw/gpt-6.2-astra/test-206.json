@@ -1,0 +1,179 @@
+{
+ "pair": "test-206",
+ "start": "Charles Sumner",
+ "target": "Hippopotamus",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 6,
+  "median_pages": 7
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Charles Sumner",
+  "Ancient Rome",
+  "Egypt",
+  "Nile",
+  "Lake Edward",
+  "Africa",
+  "Lion",
+  "Elephant",
+  "Mammal",
+  "Hippopotamus"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 3886,
+ "tokensOut": 172,
+ "costUsd": 0.037968,
+ "steps": [
+  {
+   "page": "Charles Sumner",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Ancient Rome",
+     "valid": true,
+     "tokensIn": 241,
+     "tokensOut": 20,
+     "ms": 1569
+    }
+   ],
+   "chosen": "Ancient Rome",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Rome",
+   "offered": 88,
+   "attempts": [
+    {
+     "raw": "Egypt",
+     "valid": true,
+     "tokensIn": 523,
+     "tokensOut": 18,
+     "ms": 1740
+    }
+   ],
+   "chosen": "Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Egypt",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Nile",
+     "valid": true,
+     "tokensIn": 462,
+     "tokensOut": 19,
+     "ms": 2857
+    }
+   ],
+   "chosen": "Nile",
+   "revisit": false
+  },
+  {
+   "page": "Nile",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Lake Edward",
+     "valid": true,
+     "tokensIn": 307,
+     "tokensOut": 19,
+     "ms": 2491
+    }
+   ],
+   "chosen": "Lake Edward",
+   "revisit": false
+  },
+  {
+   "page": "Lake Edward",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 226,
+     "tokensOut": 18,
+     "ms": 1861
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Lion",
+     "valid": true,
+     "tokensIn": 1043,
+     "tokensOut": 18,
+     "ms": 1218
+    }
+   ],
+   "chosen": "Lion",
+   "revisit": false
+  },
+  {
+   "page": "Lion",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Elephant",
+     "valid": true,
+     "tokensIn": 360,
+     "tokensOut": 19,
+     "ms": 1931
+    }
+   ],
+   "chosen": "Elephant",
+   "revisit": false
+  },
+  {
+   "page": "Elephant",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 349,
+     "tokensOut": 20,
+     "ms": 1457
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hippopotamus",
+     "valid": true,
+     "tokensIn": 375,
+     "tokensOut": 21,
+     "ms": 1401
+    }
+   ],
+   "chosen": "Hippopotamus",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "pair": "test-222",
+ "start": "David Cameron",
+ "target": "Eagle",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "David Cameron",
+  "Germany",
+  "Albania",
+  "Roman Empire",
+  "Holy Roman Empire",
+  "Poland",
+  "United States",
+  "Bald Eagle",
+  "Eagle"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 10720,
+ "tokensOut": 996,
+ "costUsd": 0.0628,
+ "steps": [
+  {
+   "page": "David Cameron",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 1031,
+     "tokensOut": 104,
+     "ms": 1168
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Albania",
+     "valid": true,
+     "tokensIn": 1780,
+     "tokensOut": 118,
+     "ms": 1444
+    }
+   ],
+   "chosen": "Albania",
+   "revisit": false
+  },
+  {
+   "page": "Albania",
+   "offered": 139,
+   "attempts": [
+    {
+     "raw": "Roman Empire",
+     "valid": true,
+     "tokensIn": 1504,
+     "tokensOut": 197,
+     "ms": 2460
+    }
+   ],
+   "chosen": "Roman Empire",
+   "revisit": false
+  },
+  {
+   "page": "Roman Empire",
+   "offered": 53,
+   "attempts": [
+    {
+     "raw": "Holy Roman Empire",
+     "valid": true,
+     "tokensIn": 939,
+     "tokensOut": 207,
+     "ms": 2080
+    }
+   ],
+   "chosen": "Holy Roman Empire",
+   "revisit": false
+  },
+  {
+   "page": "Holy Roman Empire",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Poland",
+     "valid": true,
+     "tokensIn": 890,
+     "tokensOut": 155,
+     "ms": 2314
+    }
+   ],
+   "chosen": "Poland",
+   "revisit": false
+  },
+  {
+   "page": "Poland",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 995,
+     "tokensOut": 112,
+     "ms": 2168
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Bald Eagle",
+     "valid": true,
+     "tokensIn": 2807,
+     "tokensOut": 53,
+     "ms": 1414
+    }
+   ],
+   "chosen": "Bald Eagle",
+   "revisit": false
+  },
+  {
+   "page": "Bald Eagle",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Eagle",
+     "valid": true,
+     "tokensIn": 774,
+     "tokensOut": 50,
+     "ms": 946
+    }
+   ],
+   "chosen": "Eagle",
+   "revisit": false
+  }
+ ]
+}

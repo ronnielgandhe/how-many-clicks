@@ -1,0 +1,270 @@
+{
+ "pair": "test-437",
+ "start": "La Paz",
+ "target": "Bandicoot",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "La Paz",
+  "Bolivia",
+  "South America",
+  "Biodiversity",
+  "Biology",
+  "Animal",
+  "Mammal",
+  "Australia",
+  "Kangaroo",
+  "Wallaby",
+  "Australia",
+  "Platypus",
+  "Mammal",
+  "Australia",
+  "Kangaroo",
+  "Mammal"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 5570,
+ "tokensOut": 252,
+ "costUsd": 0.002301,
+ "steps": [
+  {
+   "page": "La Paz",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Bolivia",
+     "valid": true,
+     "tokensIn": 197,
+     "tokensOut": 17,
+     "ms": 742
+    }
+   ],
+   "chosen": "Bolivia",
+   "revisit": false
+  },
+  {
+   "page": "Bolivia",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "South America",
+     "valid": true,
+     "tokensIn": 391,
+     "tokensOut": 17,
+     "ms": 708
+    }
+   ],
+   "chosen": "South America",
+   "revisit": false
+  },
+  {
+   "page": "South America",
+   "offered": 99,
+   "attempts": [
+    {
+     "raw": "Biodiversity",
+     "valid": true,
+     "tokensIn": 546,
+     "tokensOut": 17,
+     "ms": 663
+    }
+   ],
+   "chosen": "Biodiversity",
+   "revisit": false
+  },
+  {
+   "page": "Biodiversity",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 316,
+     "tokensOut": 16,
+     "ms": 650
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  },
+  {
+   "page": "Biology",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 368,
+     "tokensOut": 16,
+     "ms": 798
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 17,
+     "ms": 725
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 351,
+     "tokensOut": 16,
+     "ms": 737
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 547,
+     "tokensOut": 17,
+     "ms": 878
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": false
+  },
+  {
+   "page": "Kangaroo",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Wallaby",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 17,
+     "ms": 750
+    }
+   ],
+   "chosen": "Wallaby",
+   "revisit": false
+  },
+  {
+   "page": "Wallaby",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 236,
+     "tokensOut": 16,
+     "ms": 666
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Platypus",
+     "valid": true,
+     "tokensIn": 554,
+     "tokensOut": 19,
+     "ms": 662
+    }
+   ],
+   "chosen": "Platypus",
+   "revisit": false
+  },
+  {
+   "page": "Platypus",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 293,
+     "tokensOut": 17,
+     "ms": 569
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 367,
+     "tokensOut": 16,
+     "ms": 712
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 563,
+     "tokensOut": 17,
+     "ms": 642
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": true
+  },
+  {
+   "page": "Kangaroo",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 17,
+     "ms": 700
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  }
+ ]
+}

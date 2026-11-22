@@ -1,0 +1,115 @@
+{
+ "pair": "test-355",
+ "start": "Mount Everest",
+ "target": "Demosthenes",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.0,
+  "median_pages": 11.5
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Mount Everest",
+  "Sanskrit",
+  "Latin",
+  "Ancient Rome",
+  "Ancient Greece",
+  "Demosthenes"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4375,
+ "tokensOut": 697,
+ "costUsd": 0.01572,
+ "steps": [
+  {
+   "page": "Mount Everest",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Sanskrit",
+     "valid": true,
+     "tokensIn": 732,
+     "tokensOut": 151,
+     "ms": 2349
+    }
+   ],
+   "chosen": "Sanskrit",
+   "revisit": false
+  },
+  {
+   "page": "Sanskrit",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Latin",
+     "valid": true,
+     "tokensIn": 743,
+     "tokensOut": 225,
+     "ms": 2563
+    }
+   ],
+   "chosen": "Latin",
+   "revisit": false
+  },
+  {
+   "page": "Latin",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Ancient Rome",
+     "valid": true,
+     "tokensIn": 754,
+     "tokensOut": 216,
+     "ms": 1906
+    }
+   ],
+   "chosen": "Ancient Rome",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Rome",
+   "offered": 88,
+   "attempts": [
+    {
+     "raw": "Ancient Greece",
+     "valid": true,
+     "tokensIn": 1137,
+     "tokensOut": 53,
+     "ms": 1685
+    }
+   ],
+   "chosen": "Ancient Greece",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Greece",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Demosthenes",
+     "valid": true,
+     "tokensIn": 1009,
+     "tokensOut": 52,
+     "ms": 1244
+    }
+   ],
+   "chosen": "Demosthenes",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "pair": "test-291",
+ "start": "Tsunami",
+ "target": "Snowy Owl",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tsunami",
+  "Canada",
+  "Arctic",
+  "Canada",
+  "Arctic",
+  "Troodon",
+  "Bird",
+  "Snowy Owl"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 6119,
+ "tokensOut": 1839,
+ "costUsd": 0.001531,
+ "steps": [
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 935,
+     "tokensOut": 248,
+     "ms": 1613
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 1040,
+     "tokensOut": 153,
+     "ms": 973
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 742,
+     "tokensOut": 467,
+     "ms": 2476
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": true
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 1049,
+     "tokensOut": 341,
+     "ms": 1779
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Troodon",
+     "valid": true,
+     "tokensIn": 751,
+     "tokensOut": 454,
+     "ms": 2533
+    }
+   ],
+   "chosen": "Troodon",
+   "revisit": false
+  },
+  {
+   "page": "Troodon",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Bird",
+     "valid": true,
+     "tokensIn": 663,
+     "tokensOut": 98,
+     "ms": 776
+    }
+   ],
+   "chosen": "Bird",
+   "revisit": false
+  },
+  {
+   "page": "Bird",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Snowy Owl",
+     "valid": true,
+     "tokensIn": 939,
+     "tokensOut": 78,
+     "ms": 700
+    }
+   ],
+   "chosen": "Snowy Owl",
+   "revisit": false
+  }
+ ]
+}

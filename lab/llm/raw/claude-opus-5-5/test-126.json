@@ -1,0 +1,110 @@
+{
+ "pair": "test-126",
+ "start": "The Waste Land",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Waste Land",
+  "London",
+  "British Empire",
+  "Italy",
+  "Mediterranean Sea",
+  "Malta"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 5497,
+ "tokensOut": 413,
+ "costUsd": 0.030248,
+ "steps": [
+  {
+   "page": "The Waste Land",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "London",
+     "valid": true,
+     "tokensIn": 641,
+     "tokensOut": 47,
+     "ms": 2236
+    }
+   ],
+   "chosen": "London",
+   "revisit": false
+  },
+  {
+   "page": "London",
+   "offered": 102,
+   "attempts": [
+    {
+     "raw": "British Empire",
+     "valid": true,
+     "tokensIn": 1300,
+     "tokensOut": 50,
+     "ms": 1765
+    }
+   ],
+   "chosen": "British Empire",
+   "revisit": false
+  },
+  {
+   "page": "British Empire",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Italy",
+     "valid": true,
+     "tokensIn": 1457,
+     "tokensOut": 167,
+     "ms": 1742
+    }
+   ],
+   "chosen": "Italy",
+   "revisit": false
+  },
+  {
+   "page": "Italy",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Mediterranean Sea",
+     "valid": true,
+     "tokensIn": 1114,
+     "tokensOut": 100,
+     "ms": 1167
+    }
+   ],
+   "chosen": "Mediterranean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Mediterranean Sea",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 985,
+     "tokensOut": 49,
+     "ms": 978
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

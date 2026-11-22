@@ -1,0 +1,117 @@
+{
+ "pair": "test-441",
+ "start": "Ben Nevis",
+ "target": "Lake Kariba",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Ben Nevis",
+  "Great Britain",
+  "Europe",
+  "Africa",
+  "Zambia",
+  "Lake Kariba"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 1,
+ "calls": 6,
+ "tokensIn": 3223,
+ "tokensOut": 112,
+ "costUsd": 0.000378,
+ "steps": [
+  {
+   "page": "Ben Nevis",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Great Britain",
+     "valid": true,
+     "tokensIn": 229,
+     "tokensOut": 19,
+     "ms": 1006
+    }
+   ],
+   "chosen": "Great Britain",
+   "revisit": false
+  },
+  {
+   "page": "Great Britain",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": false,
+     "tokensIn": 319,
+     "tokensOut": 18,
+     "ms": 1022
+    },
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 342,
+     "tokensOut": 18,
+     "ms": 680
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 742,
+     "tokensOut": 18,
+     "ms": 832
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Zambia",
+     "valid": true,
+     "tokensIn": 1028,
+     "tokensOut": 19,
+     "ms": 1219
+    }
+   ],
+   "chosen": "Zambia",
+   "revisit": false
+  },
+  {
+   "page": "Zambia",
+   "offered": 96,
+   "attempts": [
+    {
+     "raw": "Lake Kariba",
+     "valid": true,
+     "tokensIn": 563,
+     "tokensOut": 20,
+     "ms": 1009
+    }
+   ],
+   "chosen": "Lake Kariba",
+   "revisit": false
+  }
+ ]
+}

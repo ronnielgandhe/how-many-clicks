@@ -1,0 +1,126 @@
+{
+ "pair": "test-127",
+ "start": "Atlantic Ocean",
+ "target": "Cattle",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Atlantic Ocean",
+  "Earth",
+  "Animal",
+  "Mammal",
+  "Hippopotamus",
+  "Whale",
+  "Cattle"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2519,
+ "tokensOut": 101,
+ "costUsd": 0.001008,
+ "steps": [
+  {
+   "page": "Atlantic Ocean",
+   "offered": 125,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 634,
+     "tokensOut": 16,
+     "ms": 794
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 604,
+     "tokensOut": 16,
+     "ms": 739
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 282,
+     "tokensOut": 17,
+     "ms": 823
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hippopotamus",
+     "valid": true,
+     "tokensIn": 342,
+     "tokensOut": 18,
+     "ms": 817
+    }
+   ],
+   "chosen": "Hippopotamus",
+   "revisit": false
+  },
+  {
+   "page": "Hippopotamus",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Whale",
+     "valid": true,
+     "tokensIn": 347,
+     "tokensOut": 17,
+     "ms": 748
+    }
+   ],
+   "chosen": "Whale",
+   "revisit": false
+  },
+  {
+   "page": "Whale",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Cattle",
+     "valid": true,
+     "tokensIn": 310,
+     "tokensOut": 17,
+     "ms": 843
+    }
+   ],
+   "chosen": "Cattle",
+   "revisit": false
+  }
+ ]
+}

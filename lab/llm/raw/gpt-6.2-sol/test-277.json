@@ -1,0 +1,158 @@
+{
+ "pair": "test-277",
+ "start": "Louis Freeh",
+ "target": "Hasekura Tsunenaga",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Louis Freeh",
+  "Opus Dei",
+  "Spain",
+  "Habsburg Spain",
+  "Philippines",
+  "Manila",
+  "Mexico",
+  "Japan",
+  "Hasekura Tsunenaga"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 3091,
+ "tokensOut": 157,
+ "costUsd": 0.007752,
+ "steps": [
+  {
+   "page": "Louis Freeh",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Opus Dei",
+     "valid": true,
+     "tokensIn": 218,
+     "tokensOut": 20,
+     "ms": 1439
+    }
+   ],
+   "chosen": "Opus Dei",
+   "revisit": false
+  },
+  {
+   "page": "Opus Dei",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Spain",
+     "valid": true,
+     "tokensIn": 219,
+     "tokensOut": 18,
+     "ms": 1266
+    }
+   ],
+   "chosen": "Spain",
+   "revisit": false
+  },
+  {
+   "page": "Spain",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Habsburg Spain",
+     "valid": true,
+     "tokensIn": 538,
+     "tokensOut": 21,
+     "ms": 1284
+    }
+   ],
+   "chosen": "Habsburg Spain",
+   "revisit": false
+  },
+  {
+   "page": "Habsburg Spain",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Philippines",
+     "valid": true,
+     "tokensIn": 405,
+     "tokensOut": 19,
+     "ms": 1167
+    }
+   ],
+   "chosen": "Philippines",
+   "revisit": false
+  },
+  {
+   "page": "Philippines",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "Manila",
+     "valid": true,
+     "tokensIn": 382,
+     "tokensOut": 19,
+     "ms": 1164
+    }
+   ],
+   "chosen": "Manila",
+   "revisit": false
+  },
+  {
+   "page": "Manila",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Mexico",
+     "valid": true,
+     "tokensIn": 293,
+     "tokensOut": 18,
+     "ms": 1252
+    }
+   ],
+   "chosen": "Mexico",
+   "revisit": false
+  },
+  {
+   "page": "Mexico",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Japan",
+     "valid": true,
+     "tokensIn": 452,
+     "tokensOut": 18,
+     "ms": 1066
+    }
+   ],
+   "chosen": "Japan",
+   "revisit": false
+  },
+  {
+   "page": "Japan",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Hasekura Tsunenaga",
+     "valid": true,
+     "tokensIn": 584,
+     "tokensOut": 24,
+     "ms": 1098
+    }
+   ],
+   "chosen": "Hasekura Tsunenaga",
+   "revisit": false
+  }
+ ]
+}

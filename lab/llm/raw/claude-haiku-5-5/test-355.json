@@ -1,0 +1,115 @@
+{
+ "pair": "test-355",
+ "start": "Mount Everest",
+ "target": "Demosthenes",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.0,
+  "median_pages": 11.5
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Mount Everest",
+  "Earth",
+  "Government",
+  "Democracy",
+  "Ancient Greece",
+  "Demosthenes"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4647,
+ "tokensOut": 847,
+ "costUsd": 0.000888,
+ "steps": [
+  {
+   "page": "Mount Everest",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 732,
+     "tokensOut": 277,
+     "ms": 1734
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Government",
+     "valid": true,
+     "tokensIn": 1321,
+     "tokensOut": 244,
+     "ms": 1529
+    }
+   ],
+   "chosen": "Government",
+   "revisit": false
+  },
+  {
+   "page": "Government",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Democracy",
+     "valid": true,
+     "tokensIn": 727,
+     "tokensOut": 126,
+     "ms": 911
+    }
+   ],
+   "chosen": "Democracy",
+   "revisit": false
+  },
+  {
+   "page": "Democracy",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Ancient Greece",
+     "valid": true,
+     "tokensIn": 865,
+     "tokensOut": 129,
+     "ms": 778
+    }
+   ],
+   "chosen": "Ancient Greece",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Greece",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Demosthenes",
+     "valid": true,
+     "tokensIn": 1002,
+     "tokensOut": 71,
+     "ms": 533
+    }
+   ],
+   "chosen": "Demosthenes",
+   "revisit": false
+  }
+ ]
+}

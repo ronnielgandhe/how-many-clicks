@@ -1,0 +1,270 @@
+{
+ "pair": "test-253",
+ "start": "Milan",
+ "target": "Common cold",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Milan",
+  "Black Death",
+  "Medicine",
+  "Health",
+  "Medicine",
+  "Health",
+  "Medicine",
+  "Health",
+  "Medicine",
+  "Health",
+  "Medicine",
+  "Health",
+  "Medicine",
+  "Health",
+  "Medicine",
+  "Biology"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 11,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 4455,
+ "tokensOut": 272,
+ "costUsd": 0.000582,
+ "steps": [
+  {
+   "page": "Milan",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Black Death",
+     "valid": true,
+     "tokensIn": 298,
+     "tokensOut": 19,
+     "ms": 888
+    }
+   ],
+   "chosen": "Black Death",
+   "revisit": false
+  },
+  {
+   "page": "Black Death",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 394,
+     "tokensOut": 18,
+     "ms": 1222
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 18,
+     "ms": 1038
+    }
+   ],
+   "chosen": "Health",
+   "revisit": false
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 224,
+     "tokensOut": 18,
+     "ms": 1601
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": true
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 329,
+     "tokensOut": 18,
+     "ms": 730
+    }
+   ],
+   "chosen": "Health",
+   "revisit": true
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 228,
+     "tokensOut": 18,
+     "ms": 775
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": true
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 333,
+     "tokensOut": 18,
+     "ms": 910
+    }
+   ],
+   "chosen": "Health",
+   "revisit": true
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 18,
+     "ms": 716
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": true
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 337,
+     "tokensOut": 18,
+     "ms": 778
+    }
+   ],
+   "chosen": "Health",
+   "revisit": true
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 236,
+     "tokensOut": 18,
+     "ms": 1452
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": true
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 341,
+     "tokensOut": 18,
+     "ms": 645
+    }
+   ],
+   "chosen": "Health",
+   "revisit": true
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 240,
+     "tokensOut": 18,
+     "ms": 649
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": true
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 345,
+     "tokensOut": 18,
+     "ms": 1046
+    }
+   ],
+   "chosen": "Health",
+   "revisit": true
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 244,
+     "tokensOut": 18,
+     "ms": 2146
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": true
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 349,
+     "tokensOut": 19,
+     "ms": 852
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  }
+ ]
+}

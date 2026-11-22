@@ -1,0 +1,115 @@
+{
+ "pair": "test-355",
+ "start": "Mount Everest",
+ "target": "Demosthenes",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.0,
+  "median_pages": 11.5
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Mount Everest",
+  "Sanskrit",
+  "Philosophy",
+  "Aristotle",
+  "Alexander the Great",
+  "Demosthenes"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1853,
+ "tokensOut": 101,
+ "costUsd": 0.018864,
+ "steps": [
+  {
+   "page": "Mount Everest",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Sanskrit",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 20,
+     "ms": 1226
+    }
+   ],
+   "chosen": "Sanskrit",
+   "revisit": false
+  },
+  {
+   "page": "Sanskrit",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 295,
+     "tokensOut": 20,
+     "ms": 2039
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 559,
+     "tokensOut": 20,
+     "ms": 1168
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Alexander the Great",
+     "valid": true,
+     "tokensIn": 312,
+     "tokensOut": 20,
+     "ms": 1523
+    }
+   ],
+   "chosen": "Alexander the Great",
+   "revisit": false
+  },
+  {
+   "page": "Alexander the Great",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Demosthenes",
+     "valid": true,
+     "tokensIn": 396,
+     "tokensOut": 21,
+     "ms": 1445
+    }
+   ],
+   "chosen": "Demosthenes",
+   "revisit": false
+  }
+ ]
+}

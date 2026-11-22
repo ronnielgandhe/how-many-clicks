@@ -1,0 +1,83 @@
+{
+ "pair": "test-204",
+ "start": "Svart\u00e1lfar",
+ "target": "Jazz",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Svart\u00e1lfar",
+  "German language",
+  "Chicago",
+  "Jazz"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2364,
+ "tokensOut": 202,
+ "costUsd": 0.006748,
+ "steps": [
+  {
+   "page": "Svart\u00e1lfar",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "German language",
+     "valid": true,
+     "tokensIn": 560,
+     "tokensOut": 48,
+     "ms": 1703
+    }
+   ],
+   "chosen": "German language",
+   "revisit": false
+  },
+  {
+   "page": "German language",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 1020,
+     "tokensOut": 104,
+     "ms": 1720
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  },
+  {
+   "page": "Chicago",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Jazz",
+     "valid": true,
+     "tokensIn": 784,
+     "tokensOut": 50,
+     "ms": 1380
+    }
+   ],
+   "chosen": "Jazz",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "pair": "test-277",
+ "start": "Louis Freeh",
+ "target": "Hasekura Tsunenaga",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Louis Freeh",
+  "People's Republic of China",
+  "Japan",
+  "Hasekura Tsunenaga"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1293,
+ "tokensOut": 310,
+ "costUsd": 0.002132,
+ "steps": [
+  {
+   "page": "Louis Freeh",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "People's Republic of China",
+     "valid": true,
+     "tokensIn": 210,
+     "tokensOut": 173,
+     "ms": 41616
+    }
+   ],
+   "chosen": "People's Republic of China",
+   "revisit": false
+  },
+  {
+   "page": "People's Republic of China",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Japan",
+     "valid": true,
+     "tokensIn": 524,
+     "tokensOut": 81,
+     "ms": 2430
+    }
+   ],
+   "chosen": "Japan",
+   "revisit": false
+  },
+  {
+   "page": "Japan",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Hasekura Tsunenaga",
+     "valid": true,
+     "tokensIn": 559,
+     "tokensOut": 56,
+     "ms": 1562
+    }
+   ],
+   "chosen": "Hasekura Tsunenaga",
+   "revisit": false
+  }
+ ]
+}

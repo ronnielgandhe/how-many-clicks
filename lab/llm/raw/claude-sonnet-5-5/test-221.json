@@ -1,0 +1,83 @@
+{
+ "pair": "test-221",
+ "start": "Bob Dylan",
+ "target": "Viking",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Bob Dylan",
+  "England",
+  "Norway",
+  "Viking"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 3615,
+ "tokensOut": 340,
+ "costUsd": 0.01063,
+ "steps": [
+  {
+   "page": "Bob Dylan",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 843,
+     "tokensOut": 182,
+     "ms": 1870
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Norway",
+     "valid": true,
+     "tokensIn": 1814,
+     "tokensOut": 109,
+     "ms": 2029
+    }
+   ],
+   "chosen": "Norway",
+   "revisit": false
+  },
+  {
+   "page": "Norway",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Viking",
+     "valid": true,
+     "tokensIn": 958,
+     "tokensOut": 49,
+     "ms": 1413
+    }
+   ],
+   "chosen": "Viking",
+   "revisit": false
+  }
+ ]
+}

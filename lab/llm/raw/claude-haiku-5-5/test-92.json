@@ -1,0 +1,94 @@
+{
+ "pair": "test-92",
+ "start": "T-34",
+ "target": "Panama",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "T-34",
+  "Cuba",
+  "Caribbean Sea",
+  "Venezuela",
+  "Panama"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3540,
+ "tokensOut": 803,
+ "costUsd": 0.000756,
+ "steps": [
+  {
+   "page": "T-34",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Cuba",
+     "valid": true,
+     "tokensIn": 905,
+     "tokensOut": 193,
+     "ms": 1229
+    }
+   ],
+   "chosen": "Cuba",
+   "revisit": false
+  },
+  {
+   "page": "Cuba",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Caribbean Sea",
+     "valid": true,
+     "tokensIn": 1044,
+     "tokensOut": 352,
+     "ms": 2034
+    }
+   ],
+   "chosen": "Caribbean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Caribbean Sea",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Venezuela",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 209,
+     "ms": 1195
+    }
+   ],
+   "chosen": "Venezuela",
+   "revisit": false
+  },
+  {
+   "page": "Venezuela",
+   "offered": 51,
+   "attempts": [
+    {
+     "raw": "Panama",
+     "valid": true,
+     "tokensIn": 893,
+     "tokensOut": 49,
+     "ms": 488
+    }
+   ],
+   "chosen": "Panama",
+   "revisit": false
+  }
+ ]
+}

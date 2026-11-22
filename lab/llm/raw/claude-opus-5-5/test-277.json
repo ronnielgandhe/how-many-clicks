@@ -1,0 +1,126 @@
+{
+ "pair": "test-277",
+ "start": "Louis Freeh",
+ "target": "Hasekura Tsunenaga",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Louis Freeh",
+  "Opus Dei",
+  "Spain",
+  "Philippines",
+  "Mexico",
+  "Japan",
+  "Hasekura Tsunenaga"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 5459,
+ "tokensOut": 868,
+ "costUsd": 0.039196,
+ "steps": [
+  {
+   "page": "Louis Freeh",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Opus Dei",
+     "valid": true,
+     "tokensIn": 603,
+     "tokensOut": 181,
+     "ms": 2318
+    }
+   ],
+   "chosen": "Opus Dei",
+   "revisit": false
+  },
+  {
+   "page": "Opus Dei",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Spain",
+     "valid": true,
+     "tokensIn": 613,
+     "tokensOut": 176,
+     "ms": 2530
+    }
+   ],
+   "chosen": "Spain",
+   "revisit": false
+  },
+  {
+   "page": "Spain",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Philippines",
+     "valid": true,
+     "tokensIn": 1177,
+     "tokensOut": 237,
+     "ms": 2915
+    }
+   ],
+   "chosen": "Philippines",
+   "revisit": false
+  },
+  {
+   "page": "Philippines",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "Mexico",
+     "valid": true,
+     "tokensIn": 877,
+     "tokensOut": 167,
+     "ms": 1820
+    }
+   ],
+   "chosen": "Mexico",
+   "revisit": false
+  },
+  {
+   "page": "Mexico",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Japan",
+     "valid": true,
+     "tokensIn": 972,
+     "tokensOut": 49,
+     "ms": 923
+    }
+   ],
+   "chosen": "Japan",
+   "revisit": false
+  },
+  {
+   "page": "Japan",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Hasekura Tsunenaga",
+     "valid": true,
+     "tokensIn": 1217,
+     "tokensOut": 58,
+     "ms": 1472
+    }
+   ],
+   "chosen": "Hasekura Tsunenaga",
+   "revisit": false
+  }
+ ]
+}

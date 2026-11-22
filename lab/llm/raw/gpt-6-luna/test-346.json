@@ -1,0 +1,161 @@
+{
+ "pair": "test-346",
+ "start": "Islamic republic",
+ "target": "Shrine of Remembrance",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Islamic republic",
+  "Afghanistan",
+  "United Kingdom",
+  "World War I",
+  "New Zealand",
+  "Australia",
+  "Melbourne",
+  "Shrine of Remembrance"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 2,
+ "calls": 9,
+ "tokensIn": 5068,
+ "tokensOut": 172,
+ "costUsd": 0.000593,
+ "steps": [
+  {
+   "page": "Islamic republic",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Afghanistan",
+     "valid": true,
+     "tokensIn": 202,
+     "tokensOut": 19,
+     "ms": 824
+    }
+   ],
+   "chosen": "Afghanistan",
+   "revisit": false
+  },
+  {
+   "page": "Afghanistan",
+   "offered": 66,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 440,
+     "tokensOut": 19,
+     "ms": 736
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": false,
+     "tokensIn": 914,
+     "tokensOut": 18,
+     "ms": 1161
+    },
+    {
+     "raw": "World War I",
+     "valid": true,
+     "tokensIn": 937,
+     "tokensOut": 20,
+     "ms": 967
+    }
+   ],
+   "chosen": "World War I",
+   "revisit": false
+  },
+  {
+   "page": "World War I",
+   "offered": 82,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": false,
+     "tokensIn": 516,
+     "tokensOut": 18,
+     "ms": 721
+    },
+    {
+     "raw": "New Zealand",
+     "valid": true,
+     "tokensIn": 539,
+     "tokensOut": 19,
+     "ms": 1024
+    }
+   ],
+   "chosen": "New Zealand",
+   "revisit": false
+  },
+  {
+   "page": "New Zealand",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 517,
+     "tokensOut": 18,
+     "ms": 915
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Melbourne",
+     "valid": true,
+     "tokensIn": 553,
+     "tokensOut": 19,
+     "ms": 865
+    }
+   ],
+   "chosen": "Melbourne",
+   "revisit": false
+  },
+  {
+   "page": "Melbourne",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Shrine of Remembrance",
+     "valid": true,
+     "tokensIn": 450,
+     "tokensOut": 22,
+     "ms": 1021
+    }
+   ],
+   "chosen": "Shrine of Remembrance",
+   "revisit": false
+  }
+ ]
+}

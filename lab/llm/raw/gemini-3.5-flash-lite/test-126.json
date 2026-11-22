@@ -1,0 +1,110 @@
+{
+ "pair": "test-126",
+ "start": "The Waste Land",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Waste Land",
+  "London",
+  "United Kingdom",
+  "British Empire",
+  "Europe",
+  "Malta"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 3184,
+ "tokensOut": 83,
+ "costUsd": 0.001163,
+ "steps": [
+  {
+   "page": "The Waste Land",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "London",
+     "valid": true,
+     "tokensIn": 234,
+     "tokensOut": 16,
+     "ms": 707
+    }
+   ],
+   "chosen": "London",
+   "revisit": false
+  },
+  {
+   "page": "London",
+   "offered": 102,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 608,
+     "tokensOut": 17,
+     "ms": 691
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "British Empire",
+     "valid": true,
+     "tokensIn": 918,
+     "tokensOut": 17,
+     "ms": 772
+    }
+   ],
+   "chosen": "British Empire",
+   "revisit": false
+  },
+  {
+   "page": "British Empire",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 692,
+     "tokensOut": 16,
+     "ms": 770
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 732,
+     "tokensOut": 17,
+     "ms": 784
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

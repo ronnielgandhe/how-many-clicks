@@ -1,0 +1,158 @@
+{
+ "pair": "test-265",
+ "start": "Fundamental Rights in India",
+ "target": "Demand Note",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fundamental Rights in India",
+  "United States Bill of Rights",
+  "Alexander Hamilton",
+  "American Civil War",
+  "Abraham Lincoln",
+  "Supreme Court of the United States",
+  "United States",
+  "United States dollar",
+  "Demand Note"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 8495,
+ "tokensOut": 1643,
+ "costUsd": 0.03342,
+ "steps": [
+  {
+   "page": "Fundamental Rights in India",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United States Bill of Rights",
+     "valid": true,
+     "tokensIn": 690,
+     "tokensOut": 142,
+     "ms": 2067
+    }
+   ],
+   "chosen": "United States Bill of Rights",
+   "revisit": false
+  },
+  {
+   "page": "United States Bill of Rights",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Alexander Hamilton",
+     "valid": true,
+     "tokensIn": 717,
+     "tokensOut": 243,
+     "ms": 2598
+    }
+   ],
+   "chosen": "Alexander Hamilton",
+   "revisit": false
+  },
+  {
+   "page": "Alexander Hamilton",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "American Civil War",
+     "valid": true,
+     "tokensIn": 736,
+     "tokensOut": 151,
+     "ms": 2210
+    }
+   ],
+   "chosen": "American Civil War",
+   "revisit": false
+  },
+  {
+   "page": "American Civil War",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Abraham Lincoln",
+     "valid": true,
+     "tokensIn": 863,
+     "tokensOut": 222,
+     "ms": 2667
+    }
+   ],
+   "chosen": "Abraham Lincoln",
+   "revisit": false
+  },
+  {
+   "page": "Abraham Lincoln",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Supreme Court of the United States",
+     "valid": true,
+     "tokensIn": 892,
+     "tokensOut": 426,
+     "ms": 3762
+    }
+   ],
+   "chosen": "Supreme Court of the United States",
+   "revisit": false
+  },
+  {
+   "page": "Supreme Court of the United States",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 836,
+     "tokensOut": 290,
+     "ms": 3440
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "United States dollar",
+     "valid": true,
+     "tokensIn": 2831,
+     "tokensOut": 118,
+     "ms": 1862
+    }
+   ],
+   "chosen": "United States dollar",
+   "revisit": false
+  },
+  {
+   "page": "United States dollar",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Demand Note",
+     "valid": true,
+     "tokensIn": 930,
+     "tokensOut": 51,
+     "ms": 1512
+    }
+   ],
+   "chosen": "Demand Note",
+   "revisit": false
+  }
+ ]
+}

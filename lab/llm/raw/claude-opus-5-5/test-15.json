@@ -1,0 +1,67 @@
+{
+ "pair": "test-15",
+ "start": "African Wild Dog",
+ "target": "Suez Canal",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 4
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "African Wild Dog",
+  "Africa",
+  "Suez Canal"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2624,
+ "tokensOut": 101,
+ "costUsd": 0.012516,
+ "steps": [
+  {
+   "page": "African Wild Dog",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 607,
+     "tokensOut": 49,
+     "ms": 1684
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Suez Canal",
+     "valid": true,
+     "tokensIn": 2017,
+     "tokensOut": 52,
+     "ms": 1438
+    }
+   ],
+   "chosen": "Suez Canal",
+   "revisit": false
+  }
+ ]
+}

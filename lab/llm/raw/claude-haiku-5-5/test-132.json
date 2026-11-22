@@ -1,0 +1,270 @@
+{
+ "pair": "test-132",
+ "start": "Spanish Inquisition",
+ "target": "Beeching Axe",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Spanish Inquisition",
+  "England",
+  "Isambard Kingdom Brunel",
+  "London Underground",
+  "Derby",
+  "M1 motorway",
+  "United Kingdom",
+  "Industrial Revolution",
+  "Rail transport",
+  "United Kingdom",
+  "Industrial Revolution",
+  "Rail transport",
+  "United Kingdom",
+  "Industrial Revolution",
+  "Liverpool and Manchester Railway",
+  "Robert Stephenson"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 16813,
+ "tokensOut": 4902,
+ "costUsd": 0.004132,
+ "steps": [
+  {
+   "page": "Spanish Inquisition",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 808,
+     "tokensOut": 155,
+     "ms": 1082
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 1820,
+     "tokensOut": 359,
+     "ms": 2052
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "London Underground",
+     "valid": true,
+     "tokensIn": 737,
+     "tokensOut": 270,
+     "ms": 1629
+    }
+   ],
+   "chosen": "London Underground",
+   "revisit": false
+  },
+  {
+   "page": "London Underground",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Derby",
+     "valid": true,
+     "tokensIn": 639,
+     "tokensOut": 242,
+     "ms": 1591
+    }
+   ],
+   "chosen": "Derby",
+   "revisit": false
+  },
+  {
+   "page": "Derby",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "M1 motorway",
+     "valid": true,
+     "tokensIn": 781,
+     "tokensOut": 366,
+     "ms": 1978
+    }
+   ],
+   "chosen": "M1 motorway",
+   "revisit": false
+  },
+  {
+   "page": "M1 motorway",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 672,
+     "tokensOut": 291,
+     "ms": 1686
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 1910,
+     "tokensOut": 514,
+     "ms": 2747
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 991,
+     "tokensOut": 174,
+     "ms": 1174
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 880,
+     "tokensOut": 245,
+     "ms": 1357
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 1932,
+     "tokensOut": 706,
+     "ms": 3806
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": true
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 1013,
+     "tokensOut": 198,
+     "ms": 1147
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": true
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 902,
+     "tokensOut": 203,
+     "ms": 1308
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 1954,
+     "tokensOut": 409,
+     "ms": 2212
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": true
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Liverpool and Manchester Railway",
+     "valid": true,
+     "tokensIn": 1035,
+     "tokensOut": 335,
+     "ms": 1752
+    }
+   ],
+   "chosen": "Liverpool and Manchester Railway",
+   "revisit": false
+  },
+  {
+   "page": "Liverpool and Manchester Railway",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Robert Stephenson",
+     "valid": true,
+     "tokensIn": 739,
+     "tokensOut": 435,
+     "ms": 2413
+    }
+   ],
+   "chosen": "Robert Stephenson",
+   "revisit": false
+  }
+ ]
+}

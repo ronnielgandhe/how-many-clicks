@@ -1,0 +1,270 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Citizenship",
+  "City",
+  "Toronto",
+  "Chicago",
+  "New York City",
+  "Beijing",
+  "Berlin",
+  "Paris",
+  "Pablo Picasso",
+  "Cubism",
+  "Architecture",
+  "Frank Lloyd Wright",
+  "Los Angeles, California",
+  "Berlin",
+  "Weimar Republic",
+  "Berlin"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 14164,
+ "tokensOut": 7611,
+ "costUsd": 0.104438,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "City",
+     "valid": true,
+     "tokensIn": 702,
+     "tokensOut": 268,
+     "ms": 2062
+    }
+   ],
+   "chosen": "City",
+   "revisit": false
+  },
+  {
+   "page": "City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Toronto",
+     "valid": true,
+     "tokensIn": 972,
+     "tokensOut": 541,
+     "ms": 6118
+    }
+   ],
+   "chosen": "Toronto",
+   "revisit": false
+  },
+  {
+   "page": "Toronto",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 846,
+     "tokensOut": 292,
+     "ms": 2803
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  },
+  {
+   "page": "Chicago",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 790,
+     "tokensOut": 287,
+     "ms": 2535
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": false
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Beijing",
+     "valid": true,
+     "tokensIn": 1043,
+     "tokensOut": 934,
+     "ms": 7115
+    }
+   ],
+   "chosen": "Beijing",
+   "revisit": false
+  },
+  {
+   "page": "Beijing",
+   "offered": 101,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 1211,
+     "tokensOut": 426,
+     "ms": 3330
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": false
+  },
+  {
+   "page": "Berlin",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "Paris",
+     "valid": true,
+     "tokensIn": 1082,
+     "tokensOut": 668,
+     "ms": 5417
+    }
+   ],
+   "chosen": "Paris",
+   "revisit": false
+  },
+  {
+   "page": "Paris",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Pablo Picasso",
+     "valid": true,
+     "tokensIn": 1302,
+     "tokensOut": 644,
+     "ms": 4945
+    }
+   ],
+   "chosen": "Pablo Picasso",
+   "revisit": false
+  },
+  {
+   "page": "Pablo Picasso",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Cubism",
+     "valid": true,
+     "tokensIn": 691,
+     "tokensOut": 224,
+     "ms": 2337
+    }
+   ],
+   "chosen": "Cubism",
+   "revisit": false
+  },
+  {
+   "page": "Cubism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 650,
+     "tokensOut": 111,
+     "ms": 1593
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": false
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 851,
+     "tokensOut": 397,
+     "ms": 3120
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": false
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 697,
+     "tokensOut": 338,
+     "ms": 3036
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  },
+  {
+   "page": "Los Angeles, California",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 1317,
+     "tokensOut": 1068,
+     "ms": 8875
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": true
+  },
+  {
+   "page": "Berlin",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "Weimar Republic",
+     "valid": true,
+     "tokensIn": 1131,
+     "tokensOut": 787,
+     "ms": 6546
+    }
+   ],
+   "chosen": "Weimar Republic",
+   "revisit": false
+  },
+  {
+   "page": "Weimar Republic",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 879,
+     "tokensOut": 626,
+     "ms": 4882
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": true
+  }
+ ]
+}

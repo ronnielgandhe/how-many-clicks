@@ -1,0 +1,206 @@
+{
+ "pair": "test-291",
+ "start": "Tsunami",
+ "target": "Snowy Owl",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tsunami",
+  "Canada",
+  "Arctic",
+  "Canada",
+  "Arctic",
+  "Wolverine",
+  "Arctic",
+  "Greenland",
+  "Arctic",
+  "Troodon",
+  "Bird",
+  "Snowy Owl"
+ ],
+ "clicks": 11,
+ "stepsTaken": 11,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 11,
+ "tokensIn": 3759,
+ "tokensOut": 915,
+ "costUsd": 0.016668,
+ "steps": [
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 395,
+     "tokensOut": 38,
+     "ms": 1423
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 445,
+     "tokensOut": 19,
+     "ms": 1217
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 290,
+     "tokensOut": 214,
+     "ms": 4082
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": true
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 449,
+     "tokensOut": 108,
+     "ms": 2303
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Wolverine",
+     "valid": true,
+     "tokensIn": 294,
+     "tokensOut": 88,
+     "ms": 2235
+    }
+   ],
+   "chosen": "Wolverine",
+   "revisit": false
+  },
+  {
+   "page": "Wolverine",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 253,
+     "tokensOut": 54,
+     "ms": 1395
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Greenland",
+     "valid": true,
+     "tokensIn": 298,
+     "tokensOut": 138,
+     "ms": 2819
+    }
+   ],
+   "chosen": "Greenland",
+   "revisit": false
+  },
+  {
+   "page": "Greenland",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 65,
+     "ms": 1741
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Troodon",
+     "valid": true,
+     "tokensIn": 302,
+     "tokensOut": 153,
+     "ms": 3296
+    }
+   ],
+   "chosen": "Troodon",
+   "revisit": false
+  },
+  {
+   "page": "Troodon",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Bird",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 18,
+     "ms": 1176
+    }
+   ],
+   "chosen": "Bird",
+   "revisit": false
+  },
+  {
+   "page": "Bird",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Snowy Owl",
+     "valid": true,
+     "tokensIn": 428,
+     "tokensOut": 20,
+     "ms": 1125
+    }
+   ],
+   "chosen": "Snowy Owl",
+   "revisit": false
+  }
+ ]
+}

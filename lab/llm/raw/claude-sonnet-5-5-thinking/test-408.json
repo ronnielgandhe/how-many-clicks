@@ -1,0 +1,110 @@
+{
+ "pair": "test-408",
+ "start": "Kakariki",
+ "target": "Quantum chemistry",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Kakariki",
+  "Scientific classification",
+  "Genetics",
+  "Science",
+  "Chemistry",
+  "Quantum chemistry"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 3762,
+ "tokensOut": 1096,
+ "costUsd": 0.018484,
+ "steps": [
+  {
+   "page": "Kakariki",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Scientific classification",
+     "valid": true,
+     "tokensIn": 612,
+     "tokensOut": 249,
+     "ms": 4692
+    }
+   ],
+   "chosen": "Scientific classification",
+   "revisit": false
+  },
+  {
+   "page": "Scientific classification",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Genetics",
+     "valid": true,
+     "tokensIn": 719,
+     "tokensOut": 308,
+     "ms": 2785
+    }
+   ],
+   "chosen": "Genetics",
+   "revisit": false
+  },
+  {
+   "page": "Genetics",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Science",
+     "valid": true,
+     "tokensIn": 742,
+     "tokensOut": 276,
+     "ms": 2888
+    }
+   ],
+   "chosen": "Science",
+   "revisit": false
+  },
+  {
+   "page": "Science",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Chemistry",
+     "valid": true,
+     "tokensIn": 821,
+     "tokensOut": 209,
+     "ms": 2267
+    }
+   ],
+   "chosen": "Chemistry",
+   "revisit": false
+  },
+  {
+   "page": "Chemistry",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Quantum chemistry",
+     "valid": true,
+     "tokensIn": 868,
+     "tokensOut": 54,
+     "ms": 1036
+    }
+   ],
+   "chosen": "Quantum chemistry",
+   "revisit": false
+  }
+ ]
+}

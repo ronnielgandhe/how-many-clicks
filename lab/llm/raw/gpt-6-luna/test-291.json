@@ -1,0 +1,270 @@
+{
+ "pair": "test-291",
+ "start": "Tsunami",
+ "target": "Snowy Owl",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Tsunami",
+  "Russia",
+  "Arctic",
+  "Canada",
+  "Arctic Ocean",
+  "Snow",
+  "Arctic",
+  "Canada",
+  "Arctic",
+  "Canada",
+  "Arctic",
+  "Canada",
+  "Arctic",
+  "Canada",
+  "Arctic",
+  "Canada"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 10,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 5528,
+ "tokensOut": 278,
+ "costUsd": 0.000692,
+ "steps": [
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Russia",
+     "valid": true,
+     "tokensIn": 385,
+     "tokensOut": 18,
+     "ms": 1098
+    }
+   ],
+   "chosen": "Russia",
+   "revisit": false
+  },
+  {
+   "page": "Russia",
+   "offered": 105,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 591,
+     "tokensOut": 19,
+     "ms": 1203
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 280,
+     "tokensOut": 18,
+     "ms": 1338
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic Ocean",
+     "valid": true,
+     "tokensIn": 439,
+     "tokensOut": 20,
+     "ms": 869
+    }
+   ],
+   "chosen": "Arctic Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Arctic Ocean",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Snow",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 18,
+     "ms": 990
+    }
+   ],
+   "chosen": "Snow",
+   "revisit": false
+  },
+  {
+   "page": "Snow",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 19,
+     "ms": 882
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 18,
+     "ms": 621
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": true
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 448,
+     "tokensOut": 19,
+     "ms": 976
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 293,
+     "tokensOut": 18,
+     "ms": 758
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": true
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 452,
+     "tokensOut": 19,
+     "ms": 1053
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 297,
+     "tokensOut": 18,
+     "ms": 805
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": true
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 456,
+     "tokensOut": 19,
+     "ms": 1041
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 301,
+     "tokensOut": 18,
+     "ms": 626
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": true
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 460,
+     "tokensOut": 19,
+     "ms": 1184
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": true
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 18,
+     "ms": 637
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": true
+  }
+ ]
+}

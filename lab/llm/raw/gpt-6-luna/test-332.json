@@ -1,0 +1,99 @@
+{
+ "pair": "test-332",
+ "start": "Abhidhamma Pitaka",
+ "target": "Zulu",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 9.0,
+  "median_pages": 11.0
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Abhidhamma Pitaka",
+  "Buddha",
+  "India",
+  "Africa",
+  "Zulu"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1937,
+ "tokensOut": 74,
+ "costUsd": 0.000231,
+ "steps": [
+  {
+   "page": "Abhidhamma Pitaka",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Buddha",
+     "valid": true,
+     "tokensIn": 196,
+     "tokensOut": 20,
+     "ms": 1368
+    }
+   ],
+   "chosen": "Buddha",
+   "revisit": false
+  },
+  {
+   "page": "Buddha",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 208,
+     "tokensOut": 18,
+     "ms": 842
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 504,
+     "tokensOut": 18,
+     "ms": 602
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Zulu",
+     "valid": true,
+     "tokensIn": 1029,
+     "tokensOut": 18,
+     "ms": 934
+    }
+   ],
+   "chosen": "Zulu",
+   "revisit": false
+  }
+ ]
+}

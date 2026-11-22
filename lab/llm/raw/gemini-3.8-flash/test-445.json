@@ -1,0 +1,190 @@
+{
+ "pair": "test-445",
+ "start": "Edward the Confessor",
+ "target": "Coconut oil",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Edward the Confessor",
+  "England",
+  "British Empire",
+  "India",
+  "Kerala",
+  "Maldives",
+  "Indonesia",
+  "Palm oil",
+  "Fruit",
+  "Coconut",
+  "Coconut oil"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 10,
+ "tokensIn": 4273,
+ "tokensOut": 1012,
+ "costUsd": 0.007,
+ "steps": [
+  {
+   "page": "Edward the Confessor",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 70,
+     "ms": 1930
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "British Empire",
+     "valid": true,
+     "tokensIn": 894,
+     "tokensOut": 95,
+     "ms": 2925
+    }
+   ],
+   "chosen": "British Empire",
+   "revisit": false
+  },
+  {
+   "page": "British Empire",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 691,
+     "tokensOut": 174,
+     "ms": 3589
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Kerala",
+     "valid": true,
+     "tokensIn": 494,
+     "tokensOut": 63,
+     "ms": 4501
+    }
+   ],
+   "chosen": "Kerala",
+   "revisit": false
+  },
+  {
+   "page": "Kerala",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Maldives",
+     "valid": true,
+     "tokensIn": 328,
+     "tokensOut": 311,
+     "ms": 4959
+    }
+   ],
+   "chosen": "Maldives",
+   "revisit": false
+  },
+  {
+   "page": "Maldives",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Indonesia",
+     "valid": true,
+     "tokensIn": 319,
+     "tokensOut": 135,
+     "ms": 2845
+    }
+   ],
+   "chosen": "Indonesia",
+   "revisit": false
+  },
+  {
+   "page": "Indonesia",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Palm oil",
+     "valid": true,
+     "tokensIn": 391,
+     "tokensOut": 59,
+     "ms": 2312
+    }
+   ],
+   "chosen": "Palm oil",
+   "revisit": false
+  },
+  {
+   "page": "Palm oil",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Fruit",
+     "valid": true,
+     "tokensIn": 251,
+     "tokensOut": 16,
+     "ms": 1276
+    }
+   ],
+   "chosen": "Fruit",
+   "revisit": false
+  },
+  {
+   "page": "Fruit",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Coconut",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 50,
+     "ms": 2114
+    }
+   ],
+   "chosen": "Coconut",
+   "revisit": false
+  },
+  {
+   "page": "Coconut",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Coconut oil",
+     "valid": true,
+     "tokensIn": 319,
+     "tokensOut": 39,
+     "ms": 2020
+    }
+   ],
+   "chosen": "Coconut oil",
+   "revisit": false
+  }
+ ]
+}

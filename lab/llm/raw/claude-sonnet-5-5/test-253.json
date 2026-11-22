@@ -1,0 +1,126 @@
+{
+ "pair": "test-253",
+ "start": "Milan",
+ "target": "Common cold",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Milan",
+  "Black Death",
+  "Medicine",
+  "Health",
+  "World Health Organization",
+  "Smallpox",
+  "Common cold"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 4853,
+ "tokensOut": 595,
+ "costUsd": 0.015656,
+ "steps": [
+  {
+   "page": "Milan",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Black Death",
+     "valid": true,
+     "tokensIn": 747,
+     "tokensOut": 97,
+     "ms": 1884
+    }
+   ],
+   "chosen": "Black Death",
+   "revisit": false
+  },
+  {
+   "page": "Black Death",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 935,
+     "tokensOut": 50,
+     "ms": 1412
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 804,
+     "tokensOut": 48,
+     "ms": 1632
+    }
+   ],
+   "chosen": "Health",
+   "revisit": false
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "World Health Organization",
+     "valid": true,
+     "tokensIn": 626,
+     "tokensOut": 188,
+     "ms": 2414
+    }
+   ],
+   "chosen": "World Health Organization",
+   "revisit": false
+  },
+  {
+   "page": "World Health Organization",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Smallpox",
+     "valid": true,
+     "tokensIn": 847,
+     "tokensOut": 162,
+     "ms": 2398
+    }
+   ],
+   "chosen": "Smallpox",
+   "revisit": false
+  },
+  {
+   "page": "Smallpox",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Common cold",
+     "valid": true,
+     "tokensIn": 894,
+     "tokensOut": 50,
+     "ms": 1502
+    }
+   ],
+   "chosen": "Common cold",
+   "revisit": false
+  }
+ ]
+}

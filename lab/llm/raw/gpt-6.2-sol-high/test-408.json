@@ -1,0 +1,94 @@
+{
+ "pair": "test-408",
+ "start": "Kakariki",
+ "target": "Quantum chemistry",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Kakariki",
+  "Animal",
+  "Energy",
+  "Quantum mechanics",
+  "Quantum chemistry"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1277,
+ "tokensOut": 229,
+ "costUsd": 0.004844,
+ "steps": [
+  {
+   "page": "Kakariki",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 224,
+     "tokensOut": 122,
+     "ms": 2820
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Energy",
+     "valid": true,
+     "tokensIn": 300,
+     "tokensOut": 47,
+     "ms": 1360
+    }
+   ],
+   "chosen": "Energy",
+   "revisit": false
+  },
+  {
+   "page": "Energy",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Quantum mechanics",
+     "valid": true,
+     "tokensIn": 402,
+     "tokensOut": 41,
+     "ms": 1192
+    }
+   ],
+   "chosen": "Quantum mechanics",
+   "revisit": false
+  },
+  {
+   "page": "Quantum mechanics",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Quantum chemistry",
+     "valid": true,
+     "tokensIn": 351,
+     "tokensOut": 19,
+     "ms": 1110
+    }
+   ],
+   "chosen": "Quantum chemistry",
+   "revisit": false
+  }
+ ]
+}

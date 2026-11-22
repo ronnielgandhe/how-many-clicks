@@ -1,0 +1,270 @@
+{
+ "pair": "test-437",
+ "start": "La Paz",
+ "target": "Bandicoot",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "La Paz",
+  "Peru",
+  "Asia",
+  "India",
+  "Mammal",
+  "Australia",
+  "Kangaroo",
+  "Animal",
+  "Mammal",
+  "Australia",
+  "Mammal",
+  "Australia",
+  "Mammal",
+  "Australia",
+  "Mammal",
+  "Australia"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 8,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6596,
+ "tokensOut": 283,
+ "costUsd": 0.000801,
+ "steps": [
+  {
+   "page": "La Paz",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Peru",
+     "valid": true,
+     "tokensIn": 195,
+     "tokensOut": 19,
+     "ms": 816
+    }
+   ],
+   "chosen": "Peru",
+   "revisit": false
+  },
+  {
+   "page": "Peru",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Asia",
+     "valid": true,
+     "tokensIn": 567,
+     "tokensOut": 18,
+     "ms": 624
+    }
+   ],
+   "chosen": "Asia",
+   "revisit": false
+  },
+  {
+   "page": "Asia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 681,
+     "tokensOut": 18,
+     "ms": 669
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 503,
+     "tokensOut": 20,
+     "ms": 707
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 354,
+     "tokensOut": 18,
+     "ms": 701
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 549,
+     "tokensOut": 20,
+     "ms": 791
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": false
+  },
+  {
+   "page": "Kangaroo",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 18,
+     "ms": 805
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 304,
+     "tokensOut": 20,
+     "ms": 834
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 364,
+     "tokensOut": 18,
+     "ms": 658
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 559,
+     "tokensOut": 20,
+     "ms": 849
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 369,
+     "tokensOut": 18,
+     "ms": 784
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 564,
+     "tokensOut": 20,
+     "ms": 654
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 374,
+     "tokensOut": 18,
+     "ms": 696
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 569,
+     "tokensOut": 20,
+     "ms": 662
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 379,
+     "tokensOut": 18,
+     "ms": 944
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  }
+ ]
+}

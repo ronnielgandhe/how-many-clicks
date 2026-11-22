@@ -1,0 +1,78 @@
+{
+ "pair": "test-261",
+ "start": "Armia Krajowa",
+ "target": "Otto von Bismarck",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Armia Krajowa",
+  "Berlin",
+  "Germany",
+  "Otto von Bismarck"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1580,
+ "tokensOut": 102,
+ "costUsd": 0.00418,
+ "steps": [
+  {
+   "page": "Armia Krajowa",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 244,
+     "tokensOut": 39,
+     "ms": 1264
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": false
+  },
+  {
+   "page": "Berlin",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 483,
+     "tokensOut": 40,
+     "ms": 1444
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Otto von Bismarck",
+     "valid": true,
+     "tokensIn": 853,
+     "tokensOut": 23,
+     "ms": 1190
+    }
+   ],
+   "chosen": "Otto von Bismarck",
+   "revisit": false
+  }
+ ]
+}

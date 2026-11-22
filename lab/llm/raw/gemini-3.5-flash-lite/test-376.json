@@ -1,0 +1,174 @@
+{
+ "pair": "test-376",
+ "start": "Tiktaalik",
+ "target": "Pete Sampras",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tiktaalik",
+  "Vertebrate",
+  "Animal",
+  "Human",
+  "Mammal",
+  "Human",
+  "United States dollar",
+  "United States",
+  "Tennis",
+  "Pete Sampras"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 4539,
+ "tokensOut": 153,
+ "costUsd": 0.001744,
+ "steps": [
+  {
+   "page": "Tiktaalik",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Vertebrate",
+     "valid": true,
+     "tokensIn": 224,
+     "tokensOut": 19,
+     "ms": 810
+    }
+   ],
+   "chosen": "Vertebrate",
+   "revisit": false
+  },
+  {
+   "page": "Vertebrate",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 224,
+     "tokensOut": 16,
+     "ms": 694
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 287,
+     "tokensOut": 16,
+     "ms": 734
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 645,
+     "tokensOut": 17,
+     "ms": 765
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 349,
+     "tokensOut": 16,
+     "ms": 749
+    }
+   ],
+   "chosen": "Human",
+   "revisit": true
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "United States dollar",
+     "valid": true,
+     "tokensIn": 650,
+     "tokensOut": 18,
+     "ms": 798
+    }
+   ],
+   "chosen": "United States dollar",
+   "revisit": false
+  },
+  {
+   "page": "United States dollar",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 365,
+     "tokensOut": 17,
+     "ms": 632
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Tennis",
+     "valid": true,
+     "tokensIn": 1430,
+     "tokensOut": 16,
+     "ms": 730
+    }
+   ],
+   "chosen": "Tennis",
+   "revisit": false
+  },
+  {
+   "page": "Tennis",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Pete Sampras",
+     "valid": true,
+     "tokensIn": 365,
+     "tokensOut": 18,
+     "ms": 681
+    }
+   ],
+   "chosen": "Pete Sampras",
+   "revisit": false
+  }
+ ]
+}

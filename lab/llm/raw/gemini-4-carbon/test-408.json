@@ -1,0 +1,110 @@
+{
+ "pair": "test-408",
+ "start": "Kakariki",
+ "target": "Quantum chemistry",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Kakariki",
+  "Animal",
+  "Oxygen",
+  "Electron",
+  "Chemistry",
+  "Quantum chemistry"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1566,
+ "tokensOut": 187,
+ "costUsd": 0.005002,
+ "steps": [
+  {
+   "page": "Kakariki",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 248,
+     "tokensOut": 22,
+     "ms": 3036
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Oxygen",
+     "valid": true,
+     "tokensIn": 315,
+     "tokensOut": 45,
+     "ms": 5439
+    }
+   ],
+   "chosen": "Oxygen",
+   "revisit": false
+  },
+  {
+   "page": "Oxygen",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Electron",
+     "valid": true,
+     "tokensIn": 321,
+     "tokensOut": 47,
+     "ms": 3696
+    }
+   ],
+   "chosen": "Electron",
+   "revisit": false
+  },
+  {
+   "page": "Electron",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Chemistry",
+     "valid": true,
+     "tokensIn": 299,
+     "tokensOut": 50,
+     "ms": 4112
+    }
+   ],
+   "chosen": "Chemistry",
+   "revisit": false
+  },
+  {
+   "page": "Chemistry",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Quantum chemistry",
+     "valid": true,
+     "tokensIn": 383,
+     "tokensOut": 23,
+     "ms": 3527
+    }
+   ],
+   "chosen": "Quantum chemistry",
+   "revisit": false
+  }
+ ]
+}

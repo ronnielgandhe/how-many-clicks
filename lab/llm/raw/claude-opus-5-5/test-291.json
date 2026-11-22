@@ -1,0 +1,174 @@
+{
+ "pair": "test-291",
+ "start": "Tsunami",
+ "target": "Snowy Owl",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tsunami",
+  "Canada",
+  "Arctic",
+  "Greenland",
+  "North America",
+  "Arctic Ocean",
+  "Svalbard",
+  "Arctic Tern",
+  "Bird",
+  "Snowy Owl"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 7813,
+ "tokensOut": 1433,
+ "costUsd": 0.059912,
+ "steps": [
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 935,
+     "tokensOut": 76,
+     "ms": 1592
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 1040,
+     "tokensOut": 50,
+     "ms": 2011
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Greenland",
+     "valid": true,
+     "tokensIn": 742,
+     "tokensOut": 287,
+     "ms": 3225
+    }
+   ],
+   "chosen": "Greenland",
+   "revisit": false
+  },
+  {
+   "page": "Greenland",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 791,
+     "tokensOut": 256,
+     "ms": 2903
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "Arctic Ocean",
+     "valid": true,
+     "tokensIn": 1123,
+     "tokensOut": 157,
+     "ms": 2068
+    }
+   ],
+   "chosen": "Arctic Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Arctic Ocean",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Svalbard",
+     "valid": true,
+     "tokensIn": 723,
+     "tokensOut": 248,
+     "ms": 3631
+    }
+   ],
+   "chosen": "Svalbard",
+   "revisit": false
+  },
+  {
+   "page": "Svalbard",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Arctic Tern",
+     "valid": true,
+     "tokensIn": 737,
+     "tokensOut": 168,
+     "ms": 1593
+    }
+   ],
+   "chosen": "Arctic Tern",
+   "revisit": false
+  },
+  {
+   "page": "Arctic Tern",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Bird",
+     "valid": true,
+     "tokensIn": 766,
+     "tokensOut": 138,
+     "ms": 2178
+    }
+   ],
+   "chosen": "Bird",
+   "revisit": false
+  },
+  {
+   "page": "Bird",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Snowy Owl",
+     "valid": true,
+     "tokensIn": 956,
+     "tokensOut": 53,
+     "ms": 985
+    }
+   ],
+   "chosen": "Snowy Owl",
+   "revisit": false
+  }
+ ]
+}

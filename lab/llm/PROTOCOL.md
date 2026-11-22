@@ -97,3 +97,7 @@ Hard cap 20 USD across providers. `spend.json` logs every batch (estimate from p
 ## Files
 
 `game.py` environment + model callers, `run.py` batches and ledger, `analyze.py` stats, `raw/<model>/<pair>.json` full traces (pages, links offered count, raw answer, chosen link, tokens, latency per call), `spend.json` ledger, `results.json` copy of the site output. Keys come only from the environment at run time (`env.sh`); nothing in this folder holds a key.
+
+## Amendment 1 (2026-11-22, after the 60-pair run, before the extension)
+
+The 60-pair run cost 7.13 USD (7.75 USD total with pilots and probes), leaving room under the cap. To tighten the CIs without changing anything else, 10 more pairs per difficulty are added: drawn with `random.Random(20261123)` from the test pairs not already chosen, same difficulty buckets, same prompt v1, same models and settings. Final set: 90 pairs, 30 per difficulty. Pre-run estimate for the extension: 9.82 USD (conservative: max of mean and 0.75 x max pilot/main cost per game by difficulty). The decision to extend was made after seeing the 60-pair results; nothing about the protocol or analysis was changed because of them.

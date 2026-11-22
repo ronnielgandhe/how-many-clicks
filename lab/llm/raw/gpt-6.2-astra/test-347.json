@@ -1,0 +1,115 @@
+{
+ "pair": "test-347",
+ "start": "Fiberglass",
+ "target": "2004 Indian Ocean earthquake",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fiberglass",
+  "Quartz",
+  "Continental crust",
+  "Atlantic Ocean",
+  "Indian Ocean",
+  "2004 Indian Ocean earthquake"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1795,
+ "tokensOut": 98,
+ "costUsd": 0.01828,
+ "steps": [
+  {
+   "page": "Fiberglass",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Quartz",
+     "valid": true,
+     "tokensIn": 208,
+     "tokensOut": 18,
+     "ms": 1556
+    }
+   ],
+   "chosen": "Quartz",
+   "revisit": false
+  },
+  {
+   "page": "Quartz",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Continental crust",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 20,
+     "ms": 1675
+    }
+   ],
+   "chosen": "Continental crust",
+   "revisit": false
+  },
+  {
+   "page": "Continental crust",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Atlantic Ocean",
+     "valid": true,
+     "tokensIn": 206,
+     "tokensOut": 19,
+     "ms": 1460
+    }
+   ],
+   "chosen": "Atlantic Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Atlantic Ocean",
+   "offered": 125,
+   "attempts": [
+    {
+     "raw": "Indian Ocean",
+     "valid": true,
+     "tokensIn": 671,
+     "tokensOut": 19,
+     "ms": 1227
+    }
+   ],
+   "chosen": "Indian Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Indian Ocean",
+   "offered": 75,
+   "attempts": [
+    {
+     "raw": "2004 Indian Ocean earthquake",
+     "valid": true,
+     "tokensIn": 478,
+     "tokensOut": 22,
+     "ms": 1516
+    }
+   ],
+   "chosen": "2004 Indian Ocean earthquake",
+   "revisit": false
+  }
+ ]
+}

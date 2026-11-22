@@ -1,0 +1,110 @@
+{
+ "pair": "test-282",
+ "start": "Sri Lanka",
+ "target": "Number",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sri Lanka",
+  "Currency",
+  "Archimedes",
+  "Pi",
+  "Prime number",
+  "Number"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 3773,
+ "tokensOut": 326,
+ "costUsd": 0.021612,
+ "steps": [
+  {
+   "page": "Sri Lanka",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Currency",
+     "valid": true,
+     "tokensIn": 947,
+     "tokensOut": 49,
+     "ms": 955
+    }
+   ],
+   "chosen": "Currency",
+   "revisit": false
+  },
+  {
+   "page": "Currency",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Archimedes",
+     "valid": true,
+     "tokensIn": 683,
+     "tokensOut": 78,
+     "ms": 1359
+    }
+   ],
+   "chosen": "Archimedes",
+   "revisit": false
+  },
+  {
+   "page": "Archimedes",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Pi",
+     "valid": true,
+     "tokensIn": 699,
+     "tokensOut": 69,
+     "ms": 1898
+    }
+   ],
+   "chosen": "Pi",
+   "revisit": false
+  },
+  {
+   "page": "Pi",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Prime number",
+     "valid": true,
+     "tokensIn": 746,
+     "tokensOut": 82,
+     "ms": 1752
+    }
+   ],
+   "chosen": "Prime number",
+   "revisit": false
+  },
+  {
+   "page": "Prime number",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Number",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 48,
+     "ms": 1299
+    }
+   ],
+   "chosen": "Number",
+   "revisit": false
+  }
+ ]
+}

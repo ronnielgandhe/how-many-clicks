@@ -1,0 +1,147 @@
+{
+ "pair": "test-206",
+ "start": "Charles Sumner",
+ "target": "Hippopotamus",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 6,
+  "median_pages": 7
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Charles Sumner",
+  "Ancient Rome",
+  "Egypt",
+  "Nile",
+  "Africa",
+  "Elephant",
+  "Mammal",
+  "Hippopotamus"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 3159,
+ "tokensOut": 912,
+ "costUsd": 0.005789,
+ "steps": [
+  {
+   "page": "Charles Sumner",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Ancient Rome",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 317,
+     "ms": 4293
+    }
+   ],
+   "chosen": "Ancient Rome",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Rome",
+   "offered": 88,
+   "attempts": [
+    {
+     "raw": "Egypt",
+     "valid": true,
+     "tokensIn": 512,
+     "tokensOut": 77,
+     "ms": 2225
+    }
+   ],
+   "chosen": "Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Egypt",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Nile",
+     "valid": true,
+     "tokensIn": 449,
+     "tokensOut": 81,
+     "ms": 2073
+    }
+   ],
+   "chosen": "Nile",
+   "revisit": false
+  },
+  {
+   "page": "Nile",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 295,
+     "tokensOut": 131,
+     "ms": 2880
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Elephant",
+     "valid": true,
+     "tokensIn": 990,
+     "tokensOut": 162,
+     "ms": 3873
+    }
+   ],
+   "chosen": "Elephant",
+   "revisit": false
+  },
+  {
+   "page": "Elephant",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 331,
+     "tokensOut": 97,
+     "ms": 2598
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hippopotamus",
+     "valid": true,
+     "tokensIn": 351,
+     "tokensOut": 47,
+     "ms": 2537
+    }
+   ],
+   "chosen": "Hippopotamus",
+   "revisit": false
+  }
+ ]
+}

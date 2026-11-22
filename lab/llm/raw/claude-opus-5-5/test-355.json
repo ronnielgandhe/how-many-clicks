@@ -1,0 +1,163 @@
+{
+ "pair": "test-355",
+ "start": "Mount Everest",
+ "target": "Demosthenes",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.0,
+  "median_pages": 11.5
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Mount Everest",
+  "English language",
+  "Latin",
+  "Ancient Rome",
+  "Macedon",
+  "Athens",
+  "Aristotle",
+  "Alexander the Great",
+  "Demosthenes"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 7490,
+ "tokensOut": 907,
+ "costUsd": 0.0481,
+ "steps": [
+  {
+   "page": "Mount Everest",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "English language",
+     "valid": true,
+     "tokensIn": 732,
+     "tokensOut": 140,
+     "ms": 2396
+    }
+   ],
+   "chosen": "English language",
+   "revisit": false
+  },
+  {
+   "page": "English language",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Latin",
+     "valid": true,
+     "tokensIn": 1388,
+     "tokensOut": 101,
+     "ms": 1911
+    }
+   ],
+   "chosen": "Latin",
+   "revisit": false
+  },
+  {
+   "page": "Latin",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Ancient Rome",
+     "valid": true,
+     "tokensIn": 750,
+     "tokensOut": 166,
+     "ms": 1944
+    }
+   ],
+   "chosen": "Ancient Rome",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Rome",
+   "offered": 88,
+   "attempts": [
+    {
+     "raw": "Macedon",
+     "valid": true,
+     "tokensIn": 1133,
+     "tokensOut": 105,
+     "ms": 1380
+    }
+   ],
+   "chosen": "Macedon",
+   "revisit": false
+  },
+  {
+   "page": "Macedon",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Athens",
+     "valid": true,
+     "tokensIn": 637,
+     "tokensOut": 93,
+     "ms": 1756
+    }
+   ],
+   "chosen": "Athens",
+   "revisit": false
+  },
+  {
+   "page": "Athens",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 1114,
+     "tokensOut": 149,
+     "ms": 1674
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Alexander the Great",
+     "valid": true,
+     "tokensIn": 798,
+     "tokensOut": 101,
+     "ms": 2271
+    }
+   ],
+   "chosen": "Alexander the Great",
+   "revisit": false
+  },
+  {
+   "page": "Alexander the Great",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Demosthenes",
+     "valid": true,
+     "tokensIn": 938,
+     "tokensOut": 52,
+     "ms": 912
+    }
+   ],
+   "chosen": "Demosthenes",
+   "revisit": false
+  }
+ ]
+}

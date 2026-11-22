@@ -1,0 +1,99 @@
+{
+ "pair": "test-217",
+ "start": "Matter",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 10
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Matter",
+  "Granite",
+  "Precambrian",
+  "Cambrian explosion",
+  "Fossil"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1012,
+ "tokensOut": 171,
+ "costUsd": 0.003734,
+ "steps": [
+  {
+   "page": "Matter",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Granite",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 51,
+     "ms": 1415
+    }
+   ],
+   "chosen": "Granite",
+   "revisit": false
+  },
+  {
+   "page": "Granite",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Precambrian",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 51,
+     "ms": 1552
+    }
+   ],
+   "chosen": "Precambrian",
+   "revisit": false
+  },
+  {
+   "page": "Precambrian",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Cambrian explosion",
+     "valid": true,
+     "tokensIn": 229,
+     "tokensOut": 49,
+     "ms": 1419
+    }
+   ],
+   "chosen": "Cambrian explosion",
+   "revisit": false
+  },
+  {
+   "page": "Cambrian explosion",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 269,
+     "tokensOut": 20,
+     "ms": 939
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

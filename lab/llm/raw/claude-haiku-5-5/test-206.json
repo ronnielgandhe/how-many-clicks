@@ -1,0 +1,227 @@
+{
+ "pair": "test-206",
+ "start": "Charles Sumner",
+ "target": "Hippopotamus",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 6,
+  "median_pages": 7
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Charles Sumner",
+  "Ancient Greece",
+  "Ancient Egypt",
+  "Nile",
+  "Africa",
+  "Herbivore",
+  "Elephant",
+  "Herbivore",
+  "Africa",
+  "Herbivore",
+  "Animal",
+  "Mammal",
+  "Hippopotamus"
+ ],
+ "clicks": 12,
+ "stepsTaken": 12,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 12,
+ "tokensIn": 12086,
+ "tokensOut": 3176,
+ "costUsd": 0.002797,
+ "steps": [
+  {
+   "page": "Charles Sumner",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Ancient Greece",
+     "valid": true,
+     "tokensIn": 653,
+     "tokensOut": 298,
+     "ms": 1633
+    }
+   ],
+   "chosen": "Ancient Greece",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Greece",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Ancient Egypt",
+     "valid": true,
+     "tokensIn": 992,
+     "tokensOut": 346,
+     "ms": 2102
+    }
+   ],
+   "chosen": "Ancient Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Egypt",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Nile",
+     "valid": true,
+     "tokensIn": 994,
+     "tokensOut": 163,
+     "ms": 996
+    }
+   ],
+   "chosen": "Nile",
+   "revisit": false
+  },
+  {
+   "page": "Nile",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 792,
+     "tokensOut": 324,
+     "ms": 1802
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Herbivore",
+     "valid": true,
+     "tokensIn": 2039,
+     "tokensOut": 267,
+     "ms": 1467
+    }
+   ],
+   "chosen": "Herbivore",
+   "revisit": false
+  },
+  {
+   "page": "Herbivore",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Elephant",
+     "valid": true,
+     "tokensIn": 665,
+     "tokensOut": 229,
+     "ms": 1400
+    }
+   ],
+   "chosen": "Elephant",
+   "revisit": false
+  },
+  {
+   "page": "Elephant",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Herbivore",
+     "valid": true,
+     "tokensIn": 849,
+     "tokensOut": 241,
+     "ms": 1449
+    }
+   ],
+   "chosen": "Herbivore",
+   "revisit": true
+  },
+  {
+   "page": "Herbivore",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 676,
+     "tokensOut": 218,
+     "ms": 1297
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": true
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Herbivore",
+     "valid": true,
+     "tokensIn": 2060,
+     "tokensOut": 356,
+     "ms": 1905
+    }
+   ],
+   "chosen": "Herbivore",
+   "revisit": true
+  },
+  {
+   "page": "Herbivore",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 686,
+     "tokensOut": 491,
+     "ms": 2488
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 799,
+     "tokensOut": 164,
+     "ms": 1113
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hippopotamus",
+     "valid": true,
+     "tokensIn": 881,
+     "tokensOut": 79,
+     "ms": 572
+    }
+   ],
+   "chosen": "Hippopotamus",
+   "revisit": false
+  }
+ ]
+}

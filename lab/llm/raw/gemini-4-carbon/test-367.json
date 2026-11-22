@@ -1,0 +1,147 @@
+{
+ "pair": "test-367",
+ "start": "The Ashes",
+ "target": "Thermodynamic temperature",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Ashes",
+  "England",
+  "Jet engine",
+  "Force",
+  "Energy",
+  "Thermodynamics",
+  "Absolute zero",
+  "Thermodynamic temperature"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2727,
+ "tokensOut": 217,
+ "costUsd": 0.007624,
+ "steps": [
+  {
+   "page": "The Ashes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 22,
+     "ms": 3553
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Jet engine",
+     "valid": true,
+     "tokensIn": 929,
+     "tokensOut": 81,
+     "ms": 5298
+    }
+   ],
+   "chosen": "Jet engine",
+   "revisit": false
+  },
+  {
+   "page": "Jet engine",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Force",
+     "valid": true,
+     "tokensIn": 254,
+     "tokensOut": 22,
+     "ms": 5581
+    }
+   ],
+   "chosen": "Force",
+   "revisit": false
+  },
+  {
+   "page": "Force",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Energy",
+     "valid": true,
+     "tokensIn": 276,
+     "tokensOut": 22,
+     "ms": 8252
+    }
+   ],
+   "chosen": "Energy",
+   "revisit": false
+  },
+  {
+   "page": "Energy",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Thermodynamics",
+     "valid": true,
+     "tokensIn": 422,
+     "tokensOut": 23,
+     "ms": 3732
+    }
+   ],
+   "chosen": "Thermodynamics",
+   "revisit": false
+  },
+  {
+   "page": "Thermodynamics",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Absolute zero",
+     "valid": true,
+     "tokensIn": 295,
+     "tokensOut": 23,
+     "ms": 4299
+    }
+   ],
+   "chosen": "Absolute zero",
+   "revisit": false
+  },
+  {
+   "page": "Absolute zero",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Thermodynamic temperature",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 24,
+     "ms": 4771
+    }
+   ],
+   "chosen": "Thermodynamic temperature",
+   "revisit": false
+  }
+ ]
+}

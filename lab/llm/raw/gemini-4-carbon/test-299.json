@@ -1,0 +1,94 @@
+{
+ "pair": "test-299",
+ "start": "Egg (food)",
+ "target": "Antwerp",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Egg (food)",
+  "United Kingdom",
+  "North Sea",
+  "Belgium",
+  "Antwerp"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1984,
+ "tokensOut": 103,
+ "costUsd": 0.004998,
+ "steps": [
+  {
+   "page": "Egg (food)",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 23,
+     "ms": 3393
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "North Sea",
+     "valid": true,
+     "tokensIn": 956,
+     "tokensOut": 23,
+     "ms": 3160
+    }
+   ],
+   "chosen": "North Sea",
+   "revisit": false
+  },
+  {
+   "page": "North Sea",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Belgium",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 34,
+     "ms": 3807
+    }
+   ],
+   "chosen": "Belgium",
+   "revisit": false
+  },
+  {
+   "page": "Belgium",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Antwerp",
+     "valid": true,
+     "tokensIn": 456,
+     "tokensOut": 23,
+     "ms": 4574
+    }
+   ],
+   "chosen": "Antwerp",
+   "revisit": false
+  }
+ ]
+}

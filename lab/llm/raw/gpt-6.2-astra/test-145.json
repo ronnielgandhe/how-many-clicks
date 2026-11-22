@@ -1,0 +1,126 @@
+{
+ "pair": "test-145",
+ "start": "Uganda",
+ "target": "Royal Dutch Shell",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Uganda",
+  "Brunei",
+  "Petroleum",
+  "North Sea oil",
+  "The Hague",
+  "Netherlands",
+  "Royal Dutch Shell"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2754,
+ "tokensOut": 116,
+ "costUsd": 0.026672,
+ "steps": [
+  {
+   "page": "Uganda",
+   "offered": 160,
+   "attempts": [
+    {
+     "raw": "Brunei",
+     "valid": true,
+     "tokensIn": 809,
+     "tokensOut": 19,
+     "ms": 1473
+    }
+   ],
+   "chosen": "Brunei",
+   "revisit": false
+  },
+  {
+   "page": "Brunei",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 274,
+     "tokensOut": 19,
+     "ms": 1303
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": false
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "North Sea oil",
+     "valid": true,
+     "tokensIn": 458,
+     "tokensOut": 20,
+     "ms": 1444
+    }
+   ],
+   "chosen": "North Sea oil",
+   "revisit": false
+  },
+  {
+   "page": "North Sea oil",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "The Hague",
+     "valid": true,
+     "tokensIn": 284,
+     "tokensOut": 19,
+     "ms": 1460
+    }
+   ],
+   "chosen": "The Hague",
+   "revisit": false
+  },
+  {
+   "page": "The Hague",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Netherlands",
+     "valid": true,
+     "tokensIn": 281,
+     "tokensOut": 19,
+     "ms": 1319
+    }
+   ],
+   "chosen": "Netherlands",
+   "revisit": false
+  },
+  {
+   "page": "Netherlands",
+   "offered": 116,
+   "attempts": [
+    {
+     "raw": "Royal Dutch Shell",
+     "valid": true,
+     "tokensIn": 648,
+     "tokensOut": 20,
+     "ms": 1426
+    }
+   ],
+   "chosen": "Royal Dutch Shell",
+   "revisit": false
+  }
+ ]
+}

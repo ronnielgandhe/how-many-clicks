@@ -1,0 +1,99 @@
+{
+ "pair": "test-332",
+ "start": "Abhidhamma Pitaka",
+ "target": "Zulu",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 9.0,
+  "median_pages": 11.0
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Abhidhamma Pitaka",
+  "Buddhism",
+  "Christianity",
+  "Southern Africa",
+  "Zulu"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3336,
+ "tokensOut": 883,
+ "costUsd": 0.000775,
+ "steps": [
+  {
+   "page": "Abhidhamma Pitaka",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Buddhism",
+     "valid": true,
+     "tokensIn": 588,
+     "tokensOut": 293,
+     "ms": 1712
+    }
+   ],
+   "chosen": "Buddhism",
+   "revisit": false
+  },
+  {
+   "page": "Buddhism",
+   "offered": 50,
+   "attempts": [
+    {
+     "raw": "Christianity",
+     "valid": true,
+     "tokensIn": 899,
+     "tokensOut": 390,
+     "ms": 2214
+    }
+   ],
+   "chosen": "Christianity",
+   "revisit": false
+  },
+  {
+   "page": "Christianity",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Southern Africa",
+     "valid": true,
+     "tokensIn": 914,
+     "tokensOut": 128,
+     "ms": 888
+    }
+   ],
+   "chosen": "Southern Africa",
+   "revisit": false
+  },
+  {
+   "page": "Southern Africa",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Zulu",
+     "valid": true,
+     "tokensIn": 935,
+     "tokensOut": 72,
+     "ms": 716
+    }
+   ],
+   "chosen": "Zulu",
+   "revisit": false
+  }
+ ]
+}

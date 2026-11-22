@@ -1,0 +1,78 @@
+{
+ "pair": "test-129",
+ "start": "Second Crusade",
+ "target": "19th century",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Second Crusade",
+  "Europe",
+  "18th century",
+  "19th century"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1697,
+ "tokensOut": 89,
+ "costUsd": 0.004284,
+ "steps": [
+  {
+   "page": "Second Crusade",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 284,
+     "tokensOut": 49,
+     "ms": 1381
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "18th century",
+     "valid": true,
+     "tokensIn": 750,
+     "tokensOut": 20,
+     "ms": 1565
+    }
+   ],
+   "chosen": "18th century",
+   "revisit": false
+  },
+  {
+   "page": "18th century",
+   "offered": 95,
+   "attempts": [
+    {
+     "raw": "19th century",
+     "valid": true,
+     "tokensIn": 663,
+     "tokensOut": 20,
+     "ms": 1134
+    }
+   ],
+   "chosen": "19th century",
+   "revisit": false
+  }
+ ]
+}

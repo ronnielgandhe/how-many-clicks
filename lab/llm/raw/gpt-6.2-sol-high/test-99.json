@@ -1,0 +1,142 @@
+{
+ "pair": "test-99",
+ "start": "M*A*S*H (TV series)",
+ "target": "Heraldry",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "M*A*S*H (TV series)",
+  "United States",
+  "United Kingdom",
+  "Lion",
+  "Middle Ages",
+  "Richard III of England",
+  "British monarchy",
+  "Heraldry"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 4602,
+ "tokensOut": 540,
+ "costUsd": 0.014604,
+ "steps": [
+  {
+   "page": "M*A*S*H (TV series)",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 97,
+     "ms": 2147
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 1450,
+     "tokensOut": 197,
+     "ms": 3806
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Lion",
+     "valid": true,
+     "tokensIn": 930,
+     "tokensOut": 50,
+     "ms": 1630
+    }
+   ],
+   "chosen": "Lion",
+   "revisit": false
+  },
+  {
+   "page": "Lion",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 359,
+     "tokensOut": 49,
+     "ms": 1243
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Richard III of England",
+     "valid": true,
+     "tokensIn": 491,
+     "tokensOut": 53,
+     "ms": 1524
+    }
+   ],
+   "chosen": "Richard III of England",
+   "revisit": false
+  },
+  {
+   "page": "Richard III of England",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "British monarchy",
+     "valid": true,
+     "tokensIn": 323,
+     "tokensOut": 74,
+     "ms": 1746
+    }
+   ],
+   "chosen": "British monarchy",
+   "revisit": false
+  },
+  {
+   "page": "British monarchy",
+   "offered": 113,
+   "attempts": [
+    {
+     "raw": "Heraldry",
+     "valid": true,
+     "tokensIn": 817,
+     "tokensOut": 20,
+     "ms": 1041
+    }
+   ],
+   "chosen": "Heraldry",
+   "revisit": false
+  }
+ ]
+}

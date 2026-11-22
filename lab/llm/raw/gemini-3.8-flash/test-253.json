@@ -1,0 +1,142 @@
+{
+ "pair": "test-253",
+ "start": "Milan",
+ "target": "Common cold",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Milan",
+  "Black Death",
+  "Medicine",
+  "Health",
+  "World Health Organization",
+  "AIDS",
+  "Virus",
+  "Common cold"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2202,
+ "tokensOut": 924,
+ "costUsd": 0.005117,
+ "steps": [
+  {
+   "page": "Milan",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Black Death",
+     "valid": true,
+     "tokensIn": 296,
+     "tokensOut": 52,
+     "ms": 2587
+    }
+   ],
+   "chosen": "Black Death",
+   "revisit": false
+  },
+  {
+   "page": "Black Death",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 390,
+     "tokensOut": 152,
+     "ms": 2820
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 327,
+     "tokensOut": 158,
+     "ms": 2586
+    }
+   ],
+   "chosen": "Health",
+   "revisit": false
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "World Health Organization",
+     "valid": true,
+     "tokensIn": 227,
+     "tokensOut": 172,
+     "ms": 3358
+    }
+   ],
+   "chosen": "World Health Organization",
+   "revisit": false
+  },
+  {
+   "page": "World Health Organization",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "AIDS",
+     "valid": true,
+     "tokensIn": 345,
+     "tokensOut": 321,
+     "ms": 5993
+    }
+   ],
+   "chosen": "AIDS",
+   "revisit": false
+  },
+  {
+   "page": "AIDS",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Virus",
+     "valid": true,
+     "tokensIn": 326,
+     "tokensOut": 23,
+     "ms": 2933
+    }
+   ],
+   "chosen": "Virus",
+   "revisit": false
+  },
+  {
+   "page": "Virus",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Common cold",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 46,
+     "ms": 3593
+    }
+   ],
+   "chosen": "Common cold",
+   "revisit": false
+  }
+ ]
+}

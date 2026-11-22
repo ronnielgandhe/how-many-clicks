@@ -1,0 +1,94 @@
+{
+ "pair": "test-126",
+ "start": "The Waste Land",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Waste Land",
+  "Switzerland",
+  "Italy",
+  "Mediterranean Sea",
+  "Malta"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3563,
+ "tokensOut": 743,
+ "costUsd": 0.000728,
+ "steps": [
+  {
+   "page": "The Waste Land",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Switzerland",
+     "valid": true,
+     "tokensIn": 641,
+     "tokensOut": 297,
+     "ms": 1945
+    }
+   ],
+   "chosen": "Switzerland",
+   "revisit": false
+  },
+  {
+   "page": "Switzerland",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Italy",
+     "valid": true,
+     "tokensIn": 825,
+     "tokensOut": 160,
+     "ms": 953
+    }
+   ],
+   "chosen": "Italy",
+   "revisit": false
+  },
+  {
+   "page": "Italy",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Mediterranean Sea",
+     "valid": true,
+     "tokensIn": 1113,
+     "tokensOut": 237,
+     "ms": 1247
+    }
+   ],
+   "chosen": "Mediterranean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Mediterranean Sea",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 984,
+     "tokensOut": 49,
+     "ms": 629
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "pair": "test-282",
+ "start": "Sri Lanka",
+ "target": "Number",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sri Lanka",
+  "India",
+  "Currency",
+  "Archimedes",
+  "Pi",
+  "Prime number",
+  "Number"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2030,
+ "tokensOut": 111,
+ "costUsd": 0.00517,
+ "steps": [
+  {
+   "page": "Sri Lanka",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 407,
+     "tokensOut": 18,
+     "ms": 987
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Currency",
+     "valid": true,
+     "tokensIn": 507,
+     "tokensOut": 18,
+     "ms": 1006
+    }
+   ],
+   "chosen": "Currency",
+   "revisit": false
+  },
+  {
+   "page": "Currency",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Archimedes",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 20,
+     "ms": 1226
+    }
+   ],
+   "chosen": "Archimedes",
+   "revisit": false
+  },
+  {
+   "page": "Archimedes",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Pi",
+     "valid": true,
+     "tokensIn": 272,
+     "tokensOut": 18,
+     "ms": 1116
+    }
+   ],
+   "chosen": "Pi",
+   "revisit": false
+  },
+  {
+   "page": "Pi",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Prime number",
+     "valid": true,
+     "tokensIn": 306,
+     "tokensOut": 19,
+     "ms": 1100
+    }
+   ],
+   "chosen": "Prime number",
+   "revisit": false
+  },
+  {
+   "page": "Prime number",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Number",
+     "valid": true,
+     "tokensIn": 268,
+     "tokensOut": 18,
+     "ms": 1026
+    }
+   ],
+   "chosen": "Number",
+   "revisit": false
+  }
+ ]
+}

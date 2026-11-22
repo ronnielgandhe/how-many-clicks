@@ -1,0 +1,270 @@
+{
+ "pair": "test-417",
+ "start": "Amsterdam",
+ "target": "Lynton and Barnstaple Railway",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Amsterdam",
+  "Train",
+  "Rail transport",
+  "England",
+  "National parks of England and Wales",
+  "Dartmoor",
+  "England",
+  "National parks of England and Wales",
+  "Samuel Taylor Coleridge",
+  "Bristol",
+  "Beeching Axe",
+  "England",
+  "Isambard Kingdom Brunel",
+  "Plymouth",
+  "Dartmoor",
+  "England"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6758,
+ "tokensOut": 300,
+ "costUsd": 0.016516,
+ "steps": [
+  {
+   "page": "Amsterdam",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 18,
+     "ms": 881
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 358,
+     "tokensOut": 19,
+     "ms": 962
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 354,
+     "tokensOut": 18,
+     "ms": 1078
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 927,
+     "tokensOut": 23,
+     "ms": 1293
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": false
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 20,
+     "ms": 1023
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": false
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 230,
+     "tokensOut": 18,
+     "ms": 1025
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 939,
+     "tokensOut": 23,
+     "ms": 1185
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": true
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Samuel Taylor Coleridge",
+     "valid": true,
+     "tokensIn": 320,
+     "tokensOut": 22,
+     "ms": 1456
+    }
+   ],
+   "chosen": "Samuel Taylor Coleridge",
+   "revisit": false
+  },
+  {
+   "page": "Samuel Taylor Coleridge",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Bristol",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 20,
+     "ms": 1135
+    }
+   ],
+   "chosen": "Bristol",
+   "revisit": false
+  },
+  {
+   "page": "Bristol",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Beeching Axe",
+     "valid": true,
+     "tokensIn": 481,
+     "tokensOut": 20,
+     "ms": 1188
+    }
+   ],
+   "chosen": "Beeching Axe",
+   "revisit": false
+  },
+  {
+   "page": "Beeching Axe",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 278,
+     "tokensOut": 18,
+     "ms": 1108
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 961,
+     "tokensOut": 23,
+     "ms": 1128
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Plymouth",
+     "valid": true,
+     "tokensIn": 330,
+     "tokensOut": 20,
+     "ms": 1117
+    }
+   ],
+   "chosen": "Plymouth",
+   "revisit": false
+  },
+  {
+   "page": "Plymouth",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 366,
+     "tokensOut": 20,
+     "ms": 955
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": true
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 266,
+     "tokensOut": 18,
+     "ms": 1124
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  }
+ ]
+}

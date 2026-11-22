@@ -1,0 +1,270 @@
+{
+ "pair": "test-417",
+ "start": "Amsterdam",
+ "target": "Lynton and Barnstaple Railway",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Amsterdam",
+  "United Kingdom",
+  "Plymouth",
+  "Dartmoor",
+  "England",
+  "National parks of England and Wales",
+  "Samuel Taylor Coleridge",
+  "England",
+  "National parks of England and Wales",
+  "Dartmoor",
+  "England",
+  "National parks of England and Wales",
+  "Dartmoor",
+  "Granite",
+  "Batholith",
+  "Granite"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 7,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 15593,
+ "tokensOut": 4007,
+ "costUsd": 0.071256,
+ "steps": [
+  {
+   "page": "Amsterdam",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 785,
+     "tokensOut": 151,
+     "ms": 1926
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Plymouth",
+     "valid": true,
+     "tokensIn": 1882,
+     "tokensOut": 172,
+     "ms": 1493
+    }
+   ],
+   "chosen": "Plymouth",
+   "revisit": false
+  },
+  {
+   "page": "Plymouth",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 781,
+     "tokensOut": 187,
+     "ms": 2030
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": false
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 611,
+     "tokensOut": 114,
+     "ms": 1863
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 1844,
+     "tokensOut": 214,
+     "ms": 2425
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": false
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Samuel Taylor Coleridge",
+     "valid": true,
+     "tokensIn": 757,
+     "tokensOut": 334,
+     "ms": 3404
+    }
+   ],
+   "chosen": "Samuel Taylor Coleridge",
+   "revisit": false
+  },
+  {
+   "page": "Samuel Taylor Coleridge",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 753,
+     "tokensOut": 189,
+     "ms": 2055
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 1870,
+     "tokensOut": 292,
+     "ms": 3023
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": true
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 783,
+     "tokensOut": 217,
+     "ms": 2407
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": true
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 656,
+     "tokensOut": 191,
+     "ms": 1846
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 1889,
+     "tokensOut": 244,
+     "ms": 2170
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": true
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 802,
+     "tokensOut": 408,
+     "ms": 3705
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": true
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Granite",
+     "valid": true,
+     "tokensIn": 675,
+     "tokensOut": 385,
+     "ms": 3537
+    }
+   ],
+   "chosen": "Granite",
+   "revisit": false
+  },
+  {
+   "page": "Granite",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Batholith",
+     "valid": true,
+     "tokensIn": 816,
+     "tokensOut": 462,
+     "ms": 4075
+    }
+   ],
+   "chosen": "Batholith",
+   "revisit": false
+  },
+  {
+   "page": "Batholith",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Granite",
+     "valid": true,
+     "tokensIn": 689,
+     "tokensOut": 447,
+     "ms": 3889
+    }
+   ],
+   "chosen": "Granite",
+   "revisit": true
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-236",
+ "start": "Rabat",
+ "target": "War in Somalia (2006\u2013present)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Rabat",
+  "Arabic language",
+  "Somalia",
+  "Mogadishu",
+  "Ethiopia",
+  "Somalia",
+  "Mogadishu",
+  "Ethiopia",
+  "Somalia",
+  "Mogadishu",
+  "Somalia",
+  "Mogadishu",
+  "Ethiopia",
+  "Somalia",
+  "Mogadishu",
+  "Somalia"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 11,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 7807,
+ "tokensOut": 261,
+ "costUsd": 0.002995,
+ "steps": [
+  {
+   "page": "Rabat",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Arabic language",
+     "valid": true,
+     "tokensIn": 205,
+     "tokensOut": 17,
+     "ms": 696
+    }
+   ],
+   "chosen": "Arabic language",
+   "revisit": false
+  },
+  {
+   "page": "Arabic language",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 383,
+     "tokensOut": 17,
+     "ms": 688
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": false
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mogadishu",
+     "valid": true,
+     "tokensIn": 690,
+     "tokensOut": 19,
+     "ms": 677
+    }
+   ],
+   "chosen": "Mogadishu",
+   "revisit": false
+  },
+  {
+   "page": "Mogadishu",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 310,
+     "tokensOut": 17,
+     "ms": 687
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": false
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 679,
+     "tokensOut": 17,
+     "ms": 677
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mogadishu",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 18,
+     "ms": 1479
+    }
+   ],
+   "chosen": "Mogadishu",
+   "revisit": true
+  },
+  {
+   "page": "Mogadishu",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 318,
+     "tokensOut": 17,
+     "ms": 796
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": true
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 687,
+     "tokensOut": 17,
+     "ms": 679
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mogadishu",
+     "valid": true,
+     "tokensIn": 706,
+     "tokensOut": 18,
+     "ms": 646
+    }
+   ],
+   "chosen": "Mogadishu",
+   "revisit": true
+  },
+  {
+   "page": "Mogadishu",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 326,
+     "tokensOut": 17,
+     "ms": 684
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mogadishu",
+     "valid": true,
+     "tokensIn": 712,
+     "tokensOut": 18,
+     "ms": 760
+    }
+   ],
+   "chosen": "Mogadishu",
+   "revisit": true
+  },
+  {
+   "page": "Mogadishu",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 17,
+     "ms": 667
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": true
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 701,
+     "tokensOut": 17,
+     "ms": 676
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mogadishu",
+     "valid": true,
+     "tokensIn": 720,
+     "tokensOut": 18,
+     "ms": 736
+    }
+   ],
+   "chosen": "Mogadishu",
+   "revisit": true
+  },
+  {
+   "page": "Mogadishu",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 17,
+     "ms": 701
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  }
+ ]
+}

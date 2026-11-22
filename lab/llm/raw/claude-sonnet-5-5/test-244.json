@@ -1,0 +1,110 @@
+{
+ "pair": "test-244",
+ "start": "Viking",
+ "target": "James Callaghan",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Viking",
+  "Cardiff",
+  "Wales",
+  "Prime Minister of the United Kingdom",
+  "List of Prime Ministers of the United Kingdom",
+  "James Callaghan"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4860,
+ "tokensOut": 783,
+ "costUsd": 0.01755,
+ "steps": [
+  {
+   "page": "Viking",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Cardiff",
+     "valid": true,
+     "tokensIn": 931,
+     "tokensOut": 187,
+     "ms": 2146
+    }
+   ],
+   "chosen": "Cardiff",
+   "revisit": false
+  },
+  {
+   "page": "Cardiff",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Wales",
+     "valid": true,
+     "tokensIn": 737,
+     "tokensOut": 239,
+     "ms": 2928
+    }
+   ],
+   "chosen": "Wales",
+   "revisit": false
+  },
+  {
+   "page": "Wales",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Prime Minister of the United Kingdom",
+     "valid": true,
+     "tokensIn": 978,
+     "tokensOut": 151,
+     "ms": 1590
+    }
+   ],
+   "chosen": "Prime Minister of the United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "Prime Minister of the United Kingdom",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "List of Prime Ministers of the United Kingdom",
+     "valid": true,
+     "tokensIn": 948,
+     "tokensOut": 154,
+     "ms": 1726
+    }
+   ],
+   "chosen": "List of Prime Ministers of the United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "List of Prime Ministers of the United Kingdom",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "James Callaghan",
+     "valid": true,
+     "tokensIn": 1266,
+     "tokensOut": 52,
+     "ms": 1393
+    }
+   ],
+   "chosen": "James Callaghan",
+   "revisit": false
+  }
+ ]
+}

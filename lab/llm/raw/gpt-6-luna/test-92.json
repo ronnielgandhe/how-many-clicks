@@ -1,0 +1,110 @@
+{
+ "pair": "test-92",
+ "start": "T-34",
+ "target": "Panama",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "T-34",
+  "Cuba",
+  "Mexico",
+  "Guatemala",
+  "Costa Rica",
+  "Panama"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1887,
+ "tokensOut": 94,
+ "costUsd": 0.000236,
+ "steps": [
+  {
+   "page": "T-34",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Cuba",
+     "valid": true,
+     "tokensIn": 365,
+     "tokensOut": 19,
+     "ms": 1424
+    }
+   ],
+   "chosen": "Cuba",
+   "revisit": false
+  },
+  {
+   "page": "Cuba",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Mexico",
+     "valid": true,
+     "tokensIn": 452,
+     "tokensOut": 18,
+     "ms": 873
+    }
+   ],
+   "chosen": "Mexico",
+   "revisit": false
+  },
+  {
+   "page": "Mexico",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Guatemala",
+     "valid": true,
+     "tokensIn": 423,
+     "tokensOut": 19,
+     "ms": 1198
+    }
+   ],
+   "chosen": "Guatemala",
+   "revisit": false
+  },
+  {
+   "page": "Guatemala",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Costa Rica",
+     "valid": true,
+     "tokensIn": 333,
+     "tokensOut": 19,
+     "ms": 1446
+    }
+   ],
+   "chosen": "Costa Rica",
+   "revisit": false
+  },
+  {
+   "page": "Costa Rica",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Panama",
+     "valid": true,
+     "tokensIn": 314,
+     "tokensOut": 19,
+     "ms": 1276
+    }
+   ],
+   "chosen": "Panama",
+   "revisit": false
+  }
+ ]
+}

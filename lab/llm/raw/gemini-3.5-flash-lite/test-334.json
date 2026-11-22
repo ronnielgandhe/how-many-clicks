@@ -1,0 +1,115 @@
+{
+ "pair": "test-334",
+ "start": "Great Lakes Storm of 1913",
+ "target": "Magellanic Penguin",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Great Lakes Storm of 1913",
+  "North America",
+  "South America",
+  "Argentina",
+  "Penguin",
+  "Magellanic Penguin"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2373,
+ "tokensOut": 86,
+ "costUsd": 0.000927,
+ "steps": [
+  {
+   "page": "Great Lakes Storm of 1913",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 17,
+     "ms": 619
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "South America",
+     "valid": true,
+     "tokensIn": 486,
+     "tokensOut": 17,
+     "ms": 768
+    }
+   ],
+   "chosen": "South America",
+   "revisit": false
+  },
+  {
+   "page": "South America",
+   "offered": 99,
+   "attempts": [
+    {
+     "raw": "Argentina",
+     "valid": true,
+     "tokensIn": 554,
+     "tokensOut": 16,
+     "ms": 530
+    }
+   ],
+   "chosen": "Argentina",
+   "revisit": false
+  },
+  {
+   "page": "Argentina",
+   "offered": 163,
+   "attempts": [
+    {
+     "raw": "Penguin",
+     "valid": true,
+     "tokensIn": 752,
+     "tokensOut": 17,
+     "ms": 727
+    }
+   ],
+   "chosen": "Penguin",
+   "revisit": false
+  },
+  {
+   "page": "Penguin",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Magellanic Penguin",
+     "valid": true,
+     "tokensIn": 304,
+     "tokensOut": 19,
+     "ms": 663
+    }
+   ],
+   "chosen": "Magellanic Penguin",
+   "revisit": false
+  }
+ ]
+}

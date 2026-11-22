@@ -1,0 +1,110 @@
+{
+ "pair": "test-277",
+ "start": "Louis Freeh",
+ "target": "Hasekura Tsunenaga",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Louis Freeh",
+  "Federal Bureau of Investigation",
+  "Washington, D.C.",
+  "United States",
+  "Japan",
+  "Hasekura Tsunenaga"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2986,
+ "tokensOut": 94,
+ "costUsd": 0.001131,
+ "steps": [
+  {
+   "page": "Louis Freeh",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Federal Bureau of Investigation",
+     "valid": true,
+     "tokensIn": 210,
+     "tokensOut": 19,
+     "ms": 673
+    }
+   ],
+   "chosen": "Federal Bureau of Investigation",
+   "revisit": false
+  },
+  {
+   "page": "Federal Bureau of Investigation",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Washington, D.C.",
+     "valid": true,
+     "tokensIn": 299,
+     "tokensOut": 21,
+     "ms": 705
+    }
+   ],
+   "chosen": "Washington, D.C.",
+   "revisit": false
+  },
+  {
+   "page": "Washington, D.C.",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 482,
+     "tokensOut": 17,
+     "ms": 643
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Japan",
+     "valid": true,
+     "tokensIn": 1428,
+     "tokensOut": 16,
+     "ms": 643
+    }
+   ],
+   "chosen": "Japan",
+   "revisit": false
+  },
+  {
+   "page": "Japan",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Hasekura Tsunenaga",
+     "valid": true,
+     "tokensIn": 567,
+     "tokensOut": 21,
+     "ms": 636
+    }
+   ],
+   "chosen": "Hasekura Tsunenaga",
+   "revisit": false
+  }
+ ]
+}

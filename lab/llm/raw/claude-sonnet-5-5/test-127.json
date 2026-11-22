@@ -1,0 +1,62 @@
+{
+ "pair": "test-127",
+ "start": "Atlantic Ocean",
+ "target": "Cattle",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Atlantic Ocean",
+  "Argentina",
+  "Cattle"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 3037,
+ "tokensOut": 219,
+ "costUsd": 0.008264,
+ "steps": [
+  {
+   "page": "Atlantic Ocean",
+   "offered": 125,
+   "attempts": [
+    {
+     "raw": "Argentina",
+     "valid": true,
+     "tokensIn": 1441,
+     "tokensOut": 169,
+     "ms": 2139
+    }
+   ],
+   "chosen": "Argentina",
+   "revisit": false
+  },
+  {
+   "page": "Argentina",
+   "offered": 163,
+   "attempts": [
+    {
+     "raw": "Cattle",
+     "valid": true,
+     "tokensIn": 1596,
+     "tokensOut": 50,
+     "ms": 1370
+    }
+   ],
+   "chosen": "Cattle",
+   "revisit": false
+  }
+ ]
+}

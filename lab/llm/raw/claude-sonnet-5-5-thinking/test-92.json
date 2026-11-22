@@ -1,0 +1,78 @@
+{
+ "pair": "test-92",
+ "start": "T-34",
+ "target": "Panama",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "T-34",
+  "Cuba",
+  "Theodore Roosevelt",
+  "Panama"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2957,
+ "tokensOut": 374,
+ "costUsd": 0.009654,
+ "steps": [
+  {
+   "page": "T-34",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Cuba",
+     "valid": true,
+     "tokensIn": 905,
+     "tokensOut": 118,
+     "ms": 2222
+    }
+   ],
+   "chosen": "Cuba",
+   "revisit": false
+  },
+  {
+   "page": "Cuba",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Theodore Roosevelt",
+     "valid": true,
+     "tokensIn": 1044,
+     "tokensOut": 207,
+     "ms": 2421
+    }
+   ],
+   "chosen": "Theodore Roosevelt",
+   "revisit": false
+  },
+  {
+   "page": "Theodore Roosevelt",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Panama",
+     "valid": true,
+     "tokensIn": 1008,
+     "tokensOut": 49,
+     "ms": 1619
+    }
+   ],
+   "chosen": "Panama",
+   "revisit": false
+  }
+ ]
+}

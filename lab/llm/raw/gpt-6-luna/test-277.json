@@ -1,0 +1,78 @@
+{
+ "pair": "test-277",
+ "start": "Louis Freeh",
+ "target": "Hasekura Tsunenaga",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Louis Freeh",
+  "People's Republic of China",
+  "Japan",
+  "Hasekura Tsunenaga"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1300,
+ "tokensOut": 64,
+ "costUsd": 0.000162,
+ "steps": [
+  {
+   "page": "Louis Freeh",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "People's Republic of China",
+     "valid": true,
+     "tokensIn": 208,
+     "tokensOut": 22,
+     "ms": 1212
+    }
+   ],
+   "chosen": "People's Republic of China",
+   "revisit": false
+  },
+  {
+   "page": "People's Republic of China",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Japan",
+     "valid": true,
+     "tokensIn": 530,
+     "tokensOut": 18,
+     "ms": 1082
+    }
+   ],
+   "chosen": "Japan",
+   "revisit": false
+  },
+  {
+   "page": "Japan",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Hasekura Tsunenaga",
+     "valid": true,
+     "tokensIn": 562,
+     "tokensOut": 24,
+     "ms": 1064
+    }
+   ],
+   "chosen": "Hasekura Tsunenaga",
+   "revisit": false
+  }
+ ]
+}

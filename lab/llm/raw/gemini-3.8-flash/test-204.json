@@ -1,0 +1,83 @@
+{
+ "pair": "test-204",
+ "start": "Svart\u00e1lfar",
+ "target": "Jazz",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Svart\u00e1lfar",
+  "German language",
+  "United States",
+  "Jazz"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2054,
+ "tokensOut": 192,
+ "costUsd": 0.002261,
+ "steps": [
+  {
+   "page": "Svart\u00e1lfar",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "German language",
+     "valid": true,
+     "tokensIn": 186,
+     "tokensOut": 17,
+     "ms": 2215
+    }
+   ],
+   "chosen": "German language",
+   "revisit": false
+  },
+  {
+   "page": "German language",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 453,
+     "tokensOut": 113,
+     "ms": 2853
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Jazz",
+     "valid": true,
+     "tokensIn": 1415,
+     "tokensOut": 62,
+     "ms": 2350
+    }
+   ],
+   "chosen": "Jazz",
+   "revisit": false
+  }
+ ]
+}

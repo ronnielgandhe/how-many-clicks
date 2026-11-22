@@ -1,0 +1,67 @@
+{
+ "pair": "test-58",
+ "start": "Sweden",
+ "target": "Kiev",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 5
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sweden",
+  "Russia",
+  "Kiev"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1123,
+ "tokensOut": 37,
+ "costUsd": 0.000131,
+ "steps": [
+  {
+   "page": "Sweden",
+   "offered": 96,
+   "attempts": [
+    {
+     "raw": "Russia",
+     "valid": true,
+     "tokensIn": 535,
+     "tokensOut": 18,
+     "ms": 1051
+    }
+   ],
+   "chosen": "Russia",
+   "revisit": false
+  },
+  {
+   "page": "Russia",
+   "offered": 105,
+   "attempts": [
+    {
+     "raw": "Kiev",
+     "valid": true,
+     "tokensIn": 588,
+     "tokensOut": 19,
+     "ms": 1104
+    }
+   ],
+   "chosen": "Kiev",
+   "revisit": false
+  }
+ ]
+}

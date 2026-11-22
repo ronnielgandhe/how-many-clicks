@@ -1,0 +1,126 @@
+{
+ "pair": "test-265",
+ "start": "Fundamental Rights in India",
+ "target": "Demand Note",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fundamental Rights in India",
+  "United States Bill of Rights",
+  "Alexander Hamilton",
+  "American Civil War",
+  "United States",
+  "United States dollar",
+  "Demand Note"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 6725,
+ "tokensOut": 696,
+ "costUsd": 0.04082,
+ "steps": [
+  {
+   "page": "Fundamental Rights in India",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United States Bill of Rights",
+     "valid": true,
+     "tokensIn": 690,
+     "tokensOut": 135,
+     "ms": 1459
+    }
+   ],
+   "chosen": "United States Bill of Rights",
+   "revisit": false
+  },
+  {
+   "page": "United States Bill of Rights",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Alexander Hamilton",
+     "valid": true,
+     "tokensIn": 717,
+     "tokensOut": 185,
+     "ms": 2025
+    }
+   ],
+   "chosen": "Alexander Hamilton",
+   "revisit": false
+  },
+  {
+   "page": "Alexander Hamilton",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "American Civil War",
+     "valid": true,
+     "tokensIn": 736,
+     "tokensOut": 128,
+     "ms": 1855
+    }
+   ],
+   "chosen": "American Civil War",
+   "revisit": false
+  },
+  {
+   "page": "American Civil War",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 863,
+     "tokensOut": 146,
+     "ms": 1642
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "United States dollar",
+     "valid": true,
+     "tokensIn": 2810,
+     "tokensOut": 51,
+     "ms": 1532
+    }
+   ],
+   "chosen": "United States dollar",
+   "revisit": false
+  },
+  {
+   "page": "United States dollar",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Demand Note",
+     "valid": true,
+     "tokensIn": 909,
+     "tokensOut": 51,
+     "ms": 1640
+    }
+   ],
+   "chosen": "Demand Note",
+   "revisit": false
+  }
+ ]
+}

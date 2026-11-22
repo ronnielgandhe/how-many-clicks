@@ -1,0 +1,83 @@
+{
+ "pair": "test-58",
+ "start": "Sweden",
+ "target": "Kiev",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 5
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sweden",
+  "Soviet Union",
+  "Ukraine",
+  "Kiev"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 3121,
+ "tokensOut": 153,
+ "costUsd": 0.015544,
+ "steps": [
+  {
+   "page": "Sweden",
+   "offered": 96,
+   "attempts": [
+    {
+     "raw": "Soviet Union",
+     "valid": true,
+     "tokensIn": 1173,
+     "tokensOut": 52,
+     "ms": 922
+    }
+   ],
+   "chosen": "Soviet Union",
+   "revisit": false
+  },
+  {
+   "page": "Soviet Union",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Ukraine",
+     "valid": true,
+     "tokensIn": 992,
+     "tokensOut": 51,
+     "ms": 1542
+    }
+   ],
+   "chosen": "Ukraine",
+   "revisit": false
+  },
+  {
+   "page": "Ukraine",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Kiev",
+     "valid": true,
+     "tokensIn": 956,
+     "tokensOut": 50,
+     "ms": 2085
+    }
+   ],
+   "chosen": "Kiev",
+   "revisit": false
+  }
+ ]
+}

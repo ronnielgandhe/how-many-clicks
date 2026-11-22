@@ -1,0 +1,94 @@
+{
+ "pair": "test-282",
+ "start": "Sri Lanka",
+ "target": "Number",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sri Lanka",
+  "Sanskrit",
+  "Philosophy",
+  "Mathematics",
+  "Number"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3870,
+ "tokensOut": 917,
+ "costUsd": 0.000846,
+ "steps": [
+  {
+   "page": "Sri Lanka",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Sanskrit",
+     "valid": true,
+     "tokensIn": 947,
+     "tokensOut": 473,
+     "ms": 2383
+    }
+   ],
+   "chosen": "Sanskrit",
+   "revisit": false
+  },
+  {
+   "page": "Sanskrit",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 740,
+     "tokensOut": 273,
+     "ms": 1626
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 1216,
+     "tokensOut": 123,
+     "ms": 775
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": false
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Number",
+     "valid": true,
+     "tokensIn": 967,
+     "tokensOut": 48,
+     "ms": 472
+    }
+   ],
+   "chosen": "Number",
+   "revisit": false
+  }
+ ]
+}

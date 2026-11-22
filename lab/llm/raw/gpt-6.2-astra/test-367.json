@@ -1,0 +1,131 @@
+{
+ "pair": "test-367",
+ "start": "The Ashes",
+ "target": "Thermodynamic temperature",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Ashes",
+  "England",
+  "Snow",
+  "Water",
+  "Phase (matter)",
+  "Absolute zero",
+  "Thermodynamic temperature"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2617,
+ "tokensOut": 115,
+ "costUsd": 0.025536,
+ "steps": [
+  {
+   "page": "The Ashes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 18,
+     "ms": 1434
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Snow",
+     "valid": true,
+     "tokensIn": 918,
+     "tokensOut": 18,
+     "ms": 2250
+    }
+   ],
+   "chosen": "Snow",
+   "revisit": false
+  },
+  {
+   "page": "Snow",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Water",
+     "valid": true,
+     "tokensIn": 271,
+     "tokensOut": 18,
+     "ms": 1226
+    }
+   ],
+   "chosen": "Water",
+   "revisit": false
+  },
+  {
+   "page": "Water",
+   "offered": 131,
+   "attempts": [
+    {
+     "raw": "Phase (matter)",
+     "valid": true,
+     "tokensIn": 658,
+     "tokensOut": 21,
+     "ms": 1689
+    }
+   ],
+   "chosen": "Phase (matter)",
+   "revisit": false
+  },
+  {
+   "page": "Phase (matter)",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Absolute zero",
+     "valid": true,
+     "tokensIn": 269,
+     "tokensOut": 19,
+     "ms": 1395
+    }
+   ],
+   "chosen": "Absolute zero",
+   "revisit": false
+  },
+  {
+   "page": "Absolute zero",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Thermodynamic temperature",
+     "valid": true,
+     "tokensIn": 269,
+     "tokensOut": 21,
+     "ms": 1261
+    }
+   ],
+   "chosen": "Thermodynamic temperature",
+   "revisit": false
+  }
+ ]
+}

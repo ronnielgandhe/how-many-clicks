@@ -1,0 +1,163 @@
+{
+ "pair": "test-367",
+ "start": "The Ashes",
+ "target": "Thermodynamic temperature",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Ashes",
+  "London",
+  "Temperate",
+  "Weather",
+  "Ice",
+  "Energy",
+  "Thermodynamics",
+  "Absolute zero",
+  "Thermodynamic temperature"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 2633,
+ "tokensOut": 151,
+ "costUsd": 0.006776,
+ "steps": [
+  {
+   "page": "The Ashes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "London",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 18,
+     "ms": 1018
+    }
+   ],
+   "chosen": "London",
+   "revisit": false
+  },
+  {
+   "page": "London",
+   "offered": 102,
+   "attempts": [
+    {
+     "raw": "Temperate",
+     "valid": true,
+     "tokensIn": 615,
+     "tokensOut": 19,
+     "ms": 1261
+    }
+   ],
+   "chosen": "Temperate",
+   "revisit": false
+  },
+  {
+   "page": "Temperate",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Weather",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 18,
+     "ms": 1091
+    }
+   ],
+   "chosen": "Weather",
+   "revisit": false
+  },
+  {
+   "page": "Weather",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Ice",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 18,
+     "ms": 1269
+    }
+   ],
+   "chosen": "Ice",
+   "revisit": false
+  },
+  {
+   "page": "Ice",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Energy",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 18,
+     "ms": 922
+    }
+   ],
+   "chosen": "Energy",
+   "revisit": false
+  },
+  {
+   "page": "Energy",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Thermodynamics",
+     "valid": true,
+     "tokensIn": 410,
+     "tokensOut": 20,
+     "ms": 1068
+    }
+   ],
+   "chosen": "Thermodynamics",
+   "revisit": false
+  },
+  {
+   "page": "Thermodynamics",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Absolute zero",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 19,
+     "ms": 986
+    }
+   ],
+   "chosen": "Absolute zero",
+   "revisit": false
+  },
+  {
+   "page": "Absolute zero",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Thermodynamic temperature",
+     "valid": true,
+     "tokensIn": 272,
+     "tokensOut": 21,
+     "ms": 1013
+    }
+   ],
+   "chosen": "Thermodynamic temperature",
+   "revisit": false
+  }
+ ]
+}

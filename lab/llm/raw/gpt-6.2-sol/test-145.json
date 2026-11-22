@@ -1,0 +1,110 @@
+{
+ "pair": "test-145",
+ "start": "Uganda",
+ "target": "Royal Dutch Shell",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Uganda",
+  "Nigeria",
+  "Petroleum",
+  "North Sea oil",
+  "BP",
+  "Royal Dutch Shell"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2265,
+ "tokensOut": 95,
+ "costUsd": 0.00548,
+ "steps": [
+  {
+   "page": "Uganda",
+   "offered": 160,
+   "attempts": [
+    {
+     "raw": "Nigeria",
+     "valid": true,
+     "tokensIn": 809,
+     "tokensOut": 18,
+     "ms": 1138
+    }
+   ],
+   "chosen": "Nigeria",
+   "revisit": false
+  },
+  {
+   "page": "Nigeria",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 434,
+     "tokensOut": 19,
+     "ms": 1007
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": false
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "North Sea oil",
+     "valid": true,
+     "tokensIn": 457,
+     "tokensOut": 20,
+     "ms": 1016
+    }
+   ],
+   "chosen": "North Sea oil",
+   "revisit": false
+  },
+  {
+   "page": "North Sea oil",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "BP",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 18,
+     "ms": 1109
+    }
+   ],
+   "chosen": "BP",
+   "revisit": false
+  },
+  {
+   "page": "BP",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Royal Dutch Shell",
+     "valid": true,
+     "tokensIn": 282,
+     "tokensOut": 20,
+     "ms": 1011
+    }
+   ],
+   "chosen": "Royal Dutch Shell",
+   "revisit": false
+  }
+ ]
+}

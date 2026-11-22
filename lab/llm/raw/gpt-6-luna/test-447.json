@@ -1,0 +1,270 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Manorialism",
+  "Europe",
+  "North America",
+  "United States",
+  "Television",
+  "Film",
+  "Television",
+  "Film",
+  "Television",
+  "Film",
+  "Television",
+  "Film",
+  "Television",
+  "Film",
+  "Television",
+  "Film"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 10,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 5779,
+ "tokensOut": 278,
+ "costUsd": 0.000717,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 222,
+     "tokensOut": 18,
+     "ms": 608
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 740,
+     "tokensOut": 19,
+     "ms": 871
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 488,
+     "tokensOut": 19,
+     "ms": 665
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 1441,
+     "tokensOut": 19,
+     "ms": 1064
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 253,
+     "tokensOut": 18,
+     "ms": 818
+    }
+   ],
+   "chosen": "Film",
+   "revisit": false
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 254,
+     "tokensOut": 19,
+     "ms": 905
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 257,
+     "tokensOut": 18,
+     "ms": 670
+    }
+   ],
+   "chosen": "Film",
+   "revisit": true
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 19,
+     "ms": 689
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 18,
+     "ms": 1042
+    }
+   ],
+   "chosen": "Film",
+   "revisit": true
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 262,
+     "tokensOut": 19,
+     "ms": 609
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 18,
+     "ms": 686
+    }
+   ],
+   "chosen": "Film",
+   "revisit": true
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 266,
+     "tokensOut": 19,
+     "ms": 948
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 269,
+     "tokensOut": 18,
+     "ms": 624
+    }
+   ],
+   "chosen": "Film",
+   "revisit": true
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 19,
+     "ms": 943
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 273,
+     "tokensOut": 18,
+     "ms": 619
+    }
+   ],
+   "chosen": "Film",
+   "revisit": true
+  }
+ ]
+}

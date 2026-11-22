@@ -1,0 +1,67 @@
+{
+ "pair": "test-43",
+ "start": "St Paul's Cathedral",
+ "target": "Portugal",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "St Paul's Cathedral",
+  "Arthur Wellesley, 1st Duke of Wellington",
+  "Portugal"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1711,
+ "tokensOut": 178,
+ "costUsd": 0.010404,
+ "steps": [
+  {
+   "page": "St Paul's Cathedral",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Arthur Wellesley, 1st Duke of Wellington",
+     "valid": true,
+     "tokensIn": 792,
+     "tokensOut": 128,
+     "ms": 2371
+    }
+   ],
+   "chosen": "Arthur Wellesley, 1st Duke of Wellington",
+   "revisit": false
+  },
+  {
+   "page": "Arthur Wellesley, 1st Duke of Wellington",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Portugal",
+     "valid": true,
+     "tokensIn": 919,
+     "tokensOut": 50,
+     "ms": 894
+    }
+   ],
+   "chosen": "Portugal",
+   "revisit": false
+  }
+ ]
+}

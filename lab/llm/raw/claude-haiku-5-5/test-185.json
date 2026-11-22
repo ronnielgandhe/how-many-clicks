@@ -1,0 +1,115 @@
+{
+ "pair": "test-185",
+ "start": "Quantum chemistry",
+ "target": "Belgium",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Quantum chemistry",
+  "Quantum mechanics",
+  "Albert Einstein",
+  "World War I",
+  "Flanders",
+  "Belgium"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4673,
+ "tokensOut": 1059,
+ "costUsd": 0.000997,
+ "steps": [
+  {
+   "page": "Quantum chemistry",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Quantum mechanics",
+     "valid": true,
+     "tokensIn": 625,
+     "tokensOut": 389,
+     "ms": 1830
+    }
+   ],
+   "chosen": "Quantum mechanics",
+   "revisit": false
+  },
+  {
+   "page": "Quantum mechanics",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Albert Einstein",
+     "valid": true,
+     "tokensIn": 836,
+     "tokensOut": 286,
+     "ms": 1668
+    }
+   ],
+   "chosen": "Albert Einstein",
+   "revisit": false
+  },
+  {
+   "page": "Albert Einstein",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "World War I",
+     "valid": true,
+     "tokensIn": 1184,
+     "tokensOut": 203,
+     "ms": 1244
+    }
+   ],
+   "chosen": "World War I",
+   "revisit": false
+  },
+  {
+   "page": "World War I",
+   "offered": 82,
+   "attempts": [
+    {
+     "raw": "Flanders",
+     "valid": true,
+     "tokensIn": 1133,
+     "tokensOut": 131,
+     "ms": 966
+    }
+   ],
+   "chosen": "Flanders",
+   "revisit": false
+  },
+  {
+   "page": "Flanders",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Belgium",
+     "valid": true,
+     "tokensIn": 895,
+     "tokensOut": 50,
+     "ms": 462
+    }
+   ],
+   "chosen": "Belgium",
+   "revisit": false
+  }
+ ]
+}

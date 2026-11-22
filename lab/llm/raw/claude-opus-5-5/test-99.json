@@ -1,0 +1,126 @@
+{
+ "pair": "test-99",
+ "start": "M*A*S*H (TV series)",
+ "target": "Heraldry",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "M*A*S*H (TV series)",
+  "United States",
+  "Holy Roman Empire",
+  "Middle Ages",
+  "Wars of the Roses",
+  "Genealogy",
+  "Heraldry"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 6811,
+ "tokensOut": 607,
+ "costUsd": 0.039384,
+ "steps": [
+  {
+   "page": "M*A*S*H (TV series)",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 622,
+     "tokensOut": 48,
+     "ms": 1549
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Holy Roman Empire",
+     "valid": true,
+     "tokensIn": 2786,
+     "tokensOut": 134,
+     "ms": 2738
+    }
+   ],
+   "chosen": "Holy Roman Empire",
+   "revisit": false
+  },
+  {
+   "page": "Holy Roman Empire",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 886,
+     "tokensOut": 97,
+     "ms": 1575
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Wars of the Roses",
+     "valid": true,
+     "tokensIn": 1044,
+     "tokensOut": 158,
+     "ms": 1836
+    }
+   ],
+   "chosen": "Wars of the Roses",
+   "revisit": false
+  },
+  {
+   "page": "Wars of the Roses",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Genealogy",
+     "valid": true,
+     "tokensIn": 793,
+     "tokensOut": 119,
+     "ms": 1646
+    }
+   ],
+   "chosen": "Genealogy",
+   "revisit": false
+  },
+  {
+   "page": "Genealogy",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Heraldry",
+     "valid": true,
+     "tokensIn": 680,
+     "tokensOut": 51,
+     "ms": 1430
+    }
+   ],
+   "chosen": "Heraldry",
+   "revisit": false
+  }
+ ]
+}

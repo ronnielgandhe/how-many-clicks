@@ -1,0 +1,142 @@
+{
+ "pair": "test-265",
+ "start": "Fundamental Rights in India",
+ "target": "Demand Note",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fundamental Rights in India",
+  "United States Bill of Rights",
+  "United States",
+  "Currency",
+  "Banknote",
+  "Money",
+  "United States dollar",
+  "Demand Note"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 3144,
+ "tokensOut": 135,
+ "costUsd": 0.000382,
+ "steps": [
+  {
+   "page": "Fundamental Rights in India",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United States Bill of Rights",
+     "valid": true,
+     "tokensIn": 255,
+     "tokensOut": 22,
+     "ms": 1024
+    }
+   ],
+   "chosen": "United States Bill of Rights",
+   "revisit": false
+  },
+  {
+   "page": "United States Bill of Rights",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 279,
+     "tokensOut": 19,
+     "ms": 898
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Currency",
+     "valid": true,
+     "tokensIn": 1441,
+     "tokensOut": 18,
+     "ms": 925
+    }
+   ],
+   "chosen": "Currency",
+   "revisit": false
+  },
+  {
+   "page": "Currency",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Banknote",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 19,
+     "ms": 1213
+    }
+   ],
+   "chosen": "Banknote",
+   "revisit": false
+  },
+  {
+   "page": "Banknote",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Money",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 18,
+     "ms": 1018
+    }
+   ],
+   "chosen": "Money",
+   "revisit": false
+  },
+  {
+   "page": "Money",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "United States dollar",
+     "valid": true,
+     "tokensIn": 287,
+     "tokensOut": 20,
+     "ms": 861
+    }
+   ],
+   "chosen": "United States dollar",
+   "revisit": false
+  },
+  {
+   "page": "United States dollar",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Demand Note",
+     "valid": true,
+     "tokensIn": 369,
+     "tokensOut": 19,
+     "ms": 783
+    }
+   ],
+   "chosen": "Demand Note",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "pair": "test-382",
+ "start": "Toluene",
+ "target": "Saffron",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Toluene",
+  "Ethanol",
+  "India",
+  "Asia",
+  "Iran",
+  "Agriculture",
+  "Flower",
+  "Saffron"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 3006,
+ "tokensOut": 131,
+ "costUsd": 0.000366,
+ "steps": [
+  {
+   "page": "Toluene",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Ethanol",
+     "valid": true,
+     "tokensIn": 213,
+     "tokensOut": 20,
+     "ms": 914
+    }
+   ],
+   "chosen": "Ethanol",
+   "revisit": false
+  },
+  {
+   "page": "Ethanol",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 350,
+     "tokensOut": 18,
+     "ms": 699
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Asia",
+     "valid": true,
+     "tokensIn": 503,
+     "tokensOut": 18,
+     "ms": 720
+    }
+   ],
+   "chosen": "Asia",
+   "revisit": false
+  },
+  {
+   "page": "Asia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 685,
+     "tokensOut": 18,
+     "ms": 621
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 586,
+     "tokensOut": 19,
+     "ms": 696
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  },
+  {
+   "page": "Agriculture",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Flower",
+     "valid": true,
+     "tokensIn": 392,
+     "tokensOut": 18,
+     "ms": 1175
+    }
+   ],
+   "chosen": "Flower",
+   "revisit": false
+  },
+  {
+   "page": "Flower",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Saffron",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 20,
+     "ms": 1028
+    }
+   ],
+   "chosen": "Saffron",
+   "revisit": false
+  }
+ ]
+}

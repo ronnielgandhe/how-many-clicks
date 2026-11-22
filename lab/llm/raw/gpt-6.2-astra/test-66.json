@@ -1,0 +1,67 @@
+{
+ "pair": "test-66",
+ "start": "British Empire",
+ "target": "Mississippi River",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 3
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "British Empire",
+  "United States",
+  "Mississippi River"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2138,
+ "tokensOut": 39,
+ "costUsd": 0.018664,
+ "steps": [
+  {
+   "page": "British Empire",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 695,
+     "tokensOut": 19,
+     "ms": 1415
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Mississippi River",
+     "valid": true,
+     "tokensIn": 1443,
+     "tokensOut": 20,
+     "ms": 1444
+    }
+   ],
+   "chosen": "Mississippi River",
+   "revisit": false
+  }
+ ]
+}

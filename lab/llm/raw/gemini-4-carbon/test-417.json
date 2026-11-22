@@ -1,0 +1,270 @@
+{
+ "pair": "test-417",
+ "start": "Amsterdam",
+ "target": "Lynton and Barnstaple Railway",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Amsterdam",
+  "United Kingdom",
+  "England",
+  "National parks of England and Wales",
+  "Dartmoor",
+  "England",
+  "Isambard Kingdom Brunel",
+  "Plymouth",
+  "Devonian",
+  "England",
+  "National parks of England and Wales",
+  "Samuel Taylor Coleridge",
+  "Bristol",
+  "Beeching Axe",
+  "England",
+  "Wales"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 8323,
+ "tokensOut": 619,
+ "costUsd": 0.022836,
+ "steps": [
+  {
+   "page": "Amsterdam",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 364,
+     "tokensOut": 47,
+     "ms": 4070
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 960,
+     "tokensOut": 22,
+     "ms": 4033
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 937,
+     "tokensOut": 27,
+     "ms": 3351
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": false
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 51,
+     "ms": 6544
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": false
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 254,
+     "tokensOut": 22,
+     "ms": 3596
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 949,
+     "tokensOut": 27,
+     "ms": 3520
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Plymouth",
+     "valid": true,
+     "tokensIn": 338,
+     "tokensOut": 45,
+     "ms": 37399
+    }
+   ],
+   "chosen": "Plymouth",
+   "revisit": false
+  },
+  {
+   "page": "Plymouth",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Devonian",
+     "valid": true,
+     "tokensIn": 370,
+     "tokensOut": 23,
+     "ms": 3302
+    }
+   ],
+   "chosen": "Devonian",
+   "revisit": false
+  },
+  {
+   "page": "Devonian",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 354,
+     "tokensOut": 22,
+     "ms": 3739
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 962,
+     "tokensOut": 27,
+     "ms": 3402
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": true
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Samuel Taylor Coleridge",
+     "valid": true,
+     "tokensIn": 357,
+     "tokensOut": 132,
+     "ms": 6312
+    }
+   ],
+   "chosen": "Samuel Taylor Coleridge",
+   "revisit": false
+  },
+  {
+   "page": "Samuel Taylor Coleridge",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Bristol",
+     "valid": true,
+     "tokensIn": 343,
+     "tokensOut": 22,
+     "ms": 4782
+    }
+   ],
+   "chosen": "Bristol",
+   "revisit": false
+  },
+  {
+   "page": "Bristol",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Beeching Axe",
+     "valid": true,
+     "tokensIn": 510,
+     "tokensOut": 24,
+     "ms": 3417
+    }
+   ],
+   "chosen": "Beeching Axe",
+   "revisit": false
+  },
+  {
+   "page": "Beeching Axe",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 312,
+     "tokensOut": 43,
+     "ms": 5467
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Wales",
+     "valid": true,
+     "tokensIn": 981,
+     "tokensOut": 85,
+     "ms": 12719
+    }
+   ],
+   "chosen": "Wales",
+   "revisit": false
+  }
+ ]
+}

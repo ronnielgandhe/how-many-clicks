@@ -1,0 +1,254 @@
+{
+ "pair": "test-99",
+ "start": "M*A*S*H (TV series)",
+ "target": "Heraldry",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "M*A*S*H (TV series)",
+  "World War II",
+  "Flanders",
+  "Middle Ages",
+  "Richard III of England",
+  "Wars of the Roses",
+  "Rainbow",
+  "Gold",
+  "Color",
+  "Art",
+  "Middle Ages",
+  "Richard III of England",
+  "Wars of the Roses",
+  "Genealogy",
+  "Heraldry"
+ ],
+ "clicks": 14,
+ "stepsTaken": 14,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 14,
+ "tokensIn": 12597,
+ "tokensOut": 5207,
+ "costUsd": 0.003863,
+ "steps": [
+  {
+   "page": "M*A*S*H (TV series)",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 622,
+     "tokensOut": 310,
+     "ms": 1677
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Flanders",
+     "valid": true,
+     "tokensIn": 1432,
+     "tokensOut": 666,
+     "ms": 3369
+    }
+   ],
+   "chosen": "Flanders",
+   "revisit": false
+  },
+  {
+   "page": "Flanders",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 883,
+     "tokensOut": 284,
+     "ms": 1528
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Richard III of England",
+     "valid": true,
+     "tokensIn": 1040,
+     "tokensOut": 310,
+     "ms": 1678
+    }
+   ],
+   "chosen": "Richard III of England",
+   "revisit": false
+  },
+  {
+   "page": "Richard III of England",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Wars of the Roses",
+     "valid": true,
+     "tokensIn": 770,
+     "tokensOut": 233,
+     "ms": 1303
+    }
+   ],
+   "chosen": "Wars of the Roses",
+   "revisit": false
+  },
+  {
+   "page": "Wars of the Roses",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Rainbow",
+     "valid": true,
+     "tokensIn": 796,
+     "tokensOut": 561,
+     "ms": 2789
+    }
+   ],
+   "chosen": "Rainbow",
+   "revisit": false
+  },
+  {
+   "page": "Rainbow",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Gold",
+     "valid": true,
+     "tokensIn": 735,
+     "tokensOut": 223,
+     "ms": 1516
+    }
+   ],
+   "chosen": "Gold",
+   "revisit": false
+  },
+  {
+   "page": "Gold",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Color",
+     "valid": true,
+     "tokensIn": 1132,
+     "tokensOut": 320,
+     "ms": 1779
+    }
+   ],
+   "chosen": "Color",
+   "revisit": false
+  },
+  {
+   "page": "Color",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 711,
+     "tokensOut": 298,
+     "ms": 1870
+    }
+   ],
+   "chosen": "Art",
+   "revisit": false
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 1031,
+     "tokensOut": 496,
+     "ms": 2410
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": true
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Richard III of England",
+     "valid": true,
+     "tokensIn": 1079,
+     "tokensOut": 557,
+     "ms": 3013
+    }
+   ],
+   "chosen": "Richard III of England",
+   "revisit": true
+  },
+  {
+   "page": "Richard III of England",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Wars of the Roses",
+     "valid": true,
+     "tokensIn": 809,
+     "tokensOut": 266,
+     "ms": 1521
+    }
+   ],
+   "chosen": "Wars of the Roses",
+   "revisit": true
+  },
+  {
+   "page": "Wars of the Roses",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Genealogy",
+     "valid": true,
+     "tokensIn": 835,
+     "tokensOut": 632,
+     "ms": 3256
+    }
+   ],
+   "chosen": "Genealogy",
+   "revisit": false
+  },
+  {
+   "page": "Genealogy",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Heraldry",
+     "valid": true,
+     "tokensIn": 722,
+     "tokensOut": 51,
+     "ms": 495
+    }
+   ],
+   "chosen": "Heraldry",
+   "revisit": false
+  }
+ ]
+}
