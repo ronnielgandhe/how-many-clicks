@@ -1,0 +1,131 @@
+{
+ "pair": "test-175",
+ "start": "Retinol",
+ "target": "Islamic republic",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Retinol",
+  "World Health Organization",
+  "India",
+  "Pakistan",
+  "List of countries by system of government",
+  "Iran",
+  "Islamic republic"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 3183,
+ "tokensOut": 583,
+ "costUsd": 0.012196,
+ "steps": [
+  {
+   "page": "Retinol",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "World Health Organization",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 306,
+     "ms": 8914
+    }
+   ],
+   "chosen": "World Health Organization",
+   "revisit": false
+  },
+  {
+   "page": "World Health Organization",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 376,
+     "tokensOut": 102,
+     "ms": 4794
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Pakistan",
+     "valid": true,
+     "tokensIn": 530,
+     "tokensOut": 72,
+     "ms": 4071
+    }
+   ],
+   "chosen": "Pakistan",
+   "revisit": false
+  },
+  {
+   "page": "Pakistan",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "List of countries by system of government",
+     "valid": true,
+     "tokensIn": 425,
+     "tokensOut": 28,
+     "ms": 4413
+    }
+   ],
+   "chosen": "List of countries by system of government",
+   "revisit": false
+  },
+  {
+   "page": "List of countries by system of government",
+   "offered": 207,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 954,
+     "tokensOut": 37,
+     "ms": 3785
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Islamic republic",
+     "valid": true,
+     "tokensIn": 631,
+     "tokensOut": 38,
+     "ms": 48119
+    }
+   ],
+   "chosen": "Islamic republic",
+   "revisit": false
+  }
+ ]
+}

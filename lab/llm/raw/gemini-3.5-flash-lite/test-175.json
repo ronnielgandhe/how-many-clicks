@@ -1,0 +1,99 @@
+{
+ "pair": "test-175",
+ "start": "Retinol",
+ "target": "Islamic republic",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Retinol",
+  "World Health Organization",
+  "United Nations",
+  "Iran",
+  "Islamic republic"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1751,
+ "tokensOut": 68,
+ "costUsd": 0.000695,
+ "steps": [
+  {
+   "page": "Retinol",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "World Health Organization",
+     "valid": true,
+     "tokensIn": 230,
+     "tokensOut": 18,
+     "ms": 762
+    }
+   ],
+   "chosen": "World Health Organization",
+   "revisit": false
+  },
+  {
+   "page": "World Health Organization",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "United Nations",
+     "valid": true,
+     "tokensIn": 339,
+     "tokensOut": 17,
+     "ms": 663
+    }
+   ],
+   "chosen": "United Nations",
+   "revisit": false
+  },
+  {
+   "page": "United Nations",
+   "offered": 113,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 598,
+     "tokensOut": 16,
+     "ms": 658
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Islamic republic",
+     "valid": true,
+     "tokensIn": 584,
+     "tokensOut": 17,
+     "ms": 823
+    }
+   ],
+   "chosen": "Islamic republic",
+   "revisit": false
+  }
+ ]
+}

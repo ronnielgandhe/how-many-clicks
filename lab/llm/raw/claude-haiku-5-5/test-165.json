@@ -1,0 +1,131 @@
+{
+ "pair": "test-165",
+ "start": "Crustacean",
+ "target": "Leonardo da Vinci",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 4.0,
+  "median_pages": 5.0
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Crustacean",
+  "Fossil record",
+  "Paleontology",
+  "Geology",
+  "Science",
+  "Renaissance",
+  "Leonardo da Vinci"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 4647,
+ "tokensOut": 1219,
+ "costUsd": 0.001074,
+ "steps": [
+  {
+   "page": "Crustacean",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Fossil record",
+     "valid": true,
+     "tokensIn": 633,
+     "tokensOut": 330,
+     "ms": 1679
+    }
+   ],
+   "chosen": "Fossil record",
+   "revisit": false
+  },
+  {
+   "page": "Fossil record",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Paleontology",
+     "valid": true,
+     "tokensIn": 711,
+     "tokensOut": 215,
+     "ms": 1332
+    }
+   ],
+   "chosen": "Paleontology",
+   "revisit": false
+  },
+  {
+   "page": "Paleontology",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Geology",
+     "valid": true,
+     "tokensIn": 712,
+     "tokensOut": 223,
+     "ms": 1252
+    }
+   ],
+   "chosen": "Geology",
+   "revisit": false
+  },
+  {
+   "page": "Geology",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Science",
+     "valid": true,
+     "tokensIn": 765,
+     "tokensOut": 284,
+     "ms": 1654
+    }
+   ],
+   "chosen": "Science",
+   "revisit": false
+  },
+  {
+   "page": "Science",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Renaissance",
+     "valid": true,
+     "tokensIn": 827,
+     "tokensOut": 111,
+     "ms": 783
+    }
+   ],
+   "chosen": "Renaissance",
+   "revisit": false
+  },
+  {
+   "page": "Renaissance",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Leonardo da Vinci",
+     "valid": true,
+     "tokensIn": 999,
+     "tokensOut": 56,
+     "ms": 574
+    }
+   ],
+   "chosen": "Leonardo da Vinci",
+   "revisit": false
+  }
+ ]
+}

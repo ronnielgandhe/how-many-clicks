@@ -1,0 +1,99 @@
+{
+ "pair": "test-175",
+ "start": "Retinol",
+ "target": "Islamic republic",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Retinol",
+  "World Health Organization",
+  "Somalia",
+  "Iran",
+  "Islamic republic"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 4264,
+ "tokensOut": 587,
+ "costUsd": 0.014398,
+ "steps": [
+  {
+   "page": "Retinol",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "World Health Organization",
+     "valid": true,
+     "tokensIn": 640,
+     "tokensOut": 212,
+     "ms": 2789
+    }
+   ],
+   "chosen": "World Health Organization",
+   "revisit": false
+  },
+  {
+   "page": "World Health Organization",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 837,
+     "tokensOut": 192,
+     "ms": 2048
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": false
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 1533,
+     "tokensOut": 131,
+     "ms": 1831
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Islamic republic",
+     "valid": true,
+     "tokensIn": 1254,
+     "tokensOut": 52,
+     "ms": 758
+    }
+   ],
+   "chosen": "Islamic republic",
+   "revisit": false
+  }
+ ]
+}

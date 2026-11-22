@@ -1,0 +1,67 @@
+{
+ "pair": "test-9",
+ "start": "Alcohol",
+ "target": "Cancer",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 3,
+  "unfinished": 1,
+  "median_clicks": 6,
+  "median_pages": 7
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Alcohol",
+  "Benzene",
+  "Cancer"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 577,
+ "tokensOut": 38,
+ "costUsd": 0.006136,
+ "steps": [
+  {
+   "page": "Alcohol",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Benzene",
+     "valid": true,
+     "tokensIn": 304,
+     "tokensOut": 20,
+     "ms": 1280
+    }
+   ],
+   "chosen": "Benzene",
+   "revisit": false
+  },
+  {
+   "page": "Benzene",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Cancer",
+     "valid": true,
+     "tokensIn": 273,
+     "tokensOut": 18,
+     "ms": 1335
+    }
+   ],
+   "chosen": "Cancer",
+   "revisit": false
+  }
+ ]
+}

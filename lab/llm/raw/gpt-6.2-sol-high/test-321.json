@@ -1,0 +1,163 @@
+{
+ "pair": "test-321",
+ "start": "Button",
+ "target": "Working poor",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 9,
+  "median_pages": 12
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Button",
+  "Clothing",
+  "Industrial Revolution",
+  "Trade union",
+  "Employment",
+  "United States",
+  "Household income in the United States",
+  "Poverty",
+  "Working poor"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 3518,
+ "tokensOut": 390,
+ "costUsd": 0.010936,
+ "steps": [
+  {
+   "page": "Button",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Clothing",
+     "valid": true,
+     "tokensIn": 228,
+     "tokensOut": 54,
+     "ms": 1676
+    }
+   ],
+   "chosen": "Clothing",
+   "revisit": false
+  },
+  {
+   "page": "Clothing",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 40,
+     "ms": 1240
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Trade union",
+     "valid": true,
+     "tokensIn": 408,
+     "tokensOut": 40,
+     "ms": 1236
+    }
+   ],
+   "chosen": "Trade union",
+   "revisit": false
+  },
+  {
+   "page": "Trade union",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 18,
+     "ms": 849
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": false
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 176,
+     "ms": 3160
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Household income in the United States",
+     "valid": true,
+     "tokensIn": 1452,
+     "tokensOut": 24,
+     "ms": 1274
+    }
+   ],
+   "chosen": "Household income in the United States",
+   "revisit": false
+  },
+  {
+   "page": "Household income in the United States",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Poverty",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 19,
+     "ms": 978
+    }
+   ],
+   "chosen": "Poverty",
+   "revisit": false
+  },
+  {
+   "page": "Poverty",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Working poor",
+     "valid": true,
+     "tokensIn": 402,
+     "tokensOut": 19,
+     "ms": 1230
+    }
+   ],
+   "chosen": "Working poor",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "pair": "test-175",
+ "start": "Retinol",
+ "target": "Islamic republic",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Retinol",
+  "Alcohol",
+  "Islam",
+  "Iran",
+  "Islamic republic"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1623,
+ "tokensOut": 74,
+ "costUsd": 0.000199,
+ "steps": [
+  {
+   "page": "Retinol",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Alcohol",
+     "valid": true,
+     "tokensIn": 227,
+     "tokensOut": 18,
+     "ms": 1436
+    }
+   ],
+   "chosen": "Alcohol",
+   "revisit": false
+  },
+  {
+   "page": "Alcohol",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Islam",
+     "valid": true,
+     "tokensIn": 298,
+     "tokensOut": 18,
+     "ms": 952
+    }
+   ],
+   "chosen": "Islam",
+   "revisit": false
+  },
+  {
+   "page": "Islam",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 517,
+     "tokensOut": 18,
+     "ms": 1006
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Islamic republic",
+     "valid": true,
+     "tokensIn": 581,
+     "tokensOut": 20,
+     "ms": 1318
+    }
+   ],
+   "chosen": "Islamic republic",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "pair": "test-165",
+ "start": "Crustacean",
+ "target": "Leonardo da Vinci",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 4.0,
+  "median_pages": 5.0
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Crustacean",
+  "Animal",
+  "Aristotle",
+  "Raphael",
+  "Leonardo da Vinci"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2887,
+ "tokensOut": 833,
+ "costUsd": 0.014104,
+ "steps": [
+  {
+   "page": "Crustacean",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 633,
+     "tokensOut": 333,
+     "ms": 3146
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 748,
+     "tokensOut": 318,
+     "ms": 2930
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Raphael",
+     "valid": true,
+     "tokensIn": 781,
+     "tokensOut": 126,
+     "ms": 1683
+    }
+   ],
+   "chosen": "Raphael",
+   "revisit": false
+  },
+  {
+   "page": "Raphael",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Leonardo da Vinci",
+     "valid": true,
+     "tokensIn": 725,
+     "tokensOut": 56,
+     "ms": 1252
+    }
+   ],
+   "chosen": "Leonardo da Vinci",
+   "revisit": false
+  }
+ ]
+}

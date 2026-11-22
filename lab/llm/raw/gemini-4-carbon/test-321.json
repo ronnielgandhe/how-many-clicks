@@ -1,0 +1,147 @@
+{
+ "pair": "test-321",
+ "start": "Button",
+ "target": "Working poor",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 9,
+  "median_pages": 12
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Button",
+  "Clothing",
+  "Industrial Revolution",
+  "Sociology",
+  "Income disparity",
+  "United Nations",
+  "Poverty",
+  "Working poor"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2636,
+ "tokensOut": 264,
+ "costUsd": 0.007912,
+ "steps": [
+  {
+   "page": "Button",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Clothing",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 22,
+     "ms": 2298
+    }
+   ],
+   "chosen": "Clothing",
+   "revisit": false
+  },
+  {
+   "page": "Clothing",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 319,
+     "tokensOut": 23,
+     "ms": 2942
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Sociology",
+     "valid": true,
+     "tokensIn": 433,
+     "tokensOut": 102,
+     "ms": 18409
+    }
+   ],
+   "chosen": "Sociology",
+   "revisit": false
+  },
+  {
+   "page": "Sociology",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Income disparity",
+     "valid": true,
+     "tokensIn": 322,
+     "tokensOut": 49,
+     "ms": 9294
+    }
+   ],
+   "chosen": "Income disparity",
+   "revisit": false
+  },
+  {
+   "page": "Income disparity",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "United Nations",
+     "valid": true,
+     "tokensIn": 244,
+     "tokensOut": 23,
+     "ms": 3660
+    }
+   ],
+   "chosen": "United Nations",
+   "revisit": false
+  },
+  {
+   "page": "United Nations",
+   "offered": 113,
+   "attempts": [
+    {
+     "raw": "Poverty",
+     "valid": true,
+     "tokensIn": 643,
+     "tokensOut": 22,
+     "ms": 4262
+    }
+   ],
+   "chosen": "Poverty",
+   "revisit": false
+  },
+  {
+   "page": "Poverty",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Working poor",
+     "valid": true,
+     "tokensIn": 415,
+     "tokensOut": 23,
+     "ms": 2970
+    }
+   ],
+   "chosen": "Working poor",
+   "revisit": false
+  }
+ ]
+}

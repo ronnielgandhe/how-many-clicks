@@ -1,0 +1,67 @@
+{
+ "pair": "test-4",
+ "start": "Tuberculosis",
+ "target": "Battle of Stalingrad",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 3
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tuberculosis",
+  "World War II",
+  "Battle of Stalingrad"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1014,
+ "tokensOut": 72,
+ "costUsd": 0.002748,
+ "steps": [
+  {
+   "page": "Tuberculosis",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 333,
+     "tokensOut": 46,
+     "ms": 5082
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Battle of Stalingrad",
+     "valid": true,
+     "tokensIn": 681,
+     "tokensOut": 26,
+     "ms": 4476
+    }
+   ],
+   "chosen": "Battle of Stalingrad",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "pair": "test-175",
+ "start": "Retinol",
+ "target": "Islamic republic",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Retinol",
+  "World Health Organization",
+  "Maghreb",
+  "Mauritania",
+  "List of countries by system of government",
+  "Iran",
+  "Islamic republic"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 6189,
+ "tokensOut": 1106,
+ "costUsd": 0.023438,
+ "steps": [
+  {
+   "page": "Retinol",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "World Health Organization",
+     "valid": true,
+     "tokensIn": 640,
+     "tokensOut": 264,
+     "ms": 3099
+    }
+   ],
+   "chosen": "World Health Organization",
+   "revisit": false
+  },
+  {
+   "page": "World Health Organization",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Maghreb",
+     "valid": true,
+     "tokensIn": 837,
+     "tokensOut": 356,
+     "ms": 3197
+    }
+   ],
+   "chosen": "Maghreb",
+   "revisit": false
+  },
+  {
+   "page": "Maghreb",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Mauritania",
+     "valid": true,
+     "tokensIn": 689,
+     "tokensOut": 129,
+     "ms": 1860
+    }
+   ],
+   "chosen": "Mauritania",
+   "revisit": false
+  },
+  {
+   "page": "Mauritania",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "List of countries by system of government",
+     "valid": true,
+     "tokensIn": 729,
+     "tokensOut": 148,
+     "ms": 1818
+    }
+   ],
+   "chosen": "List of countries by system of government",
+   "revisit": false
+  },
+  {
+   "page": "List of countries by system of government",
+   "offered": 207,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 2024,
+     "tokensOut": 157,
+     "ms": 1613
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Islamic republic",
+     "valid": true,
+     "tokensIn": 1270,
+     "tokensOut": 52,
+     "ms": 1550
+    }
+   ],
+   "chosen": "Islamic republic",
+   "revisit": false
+  }
+ ]
+}

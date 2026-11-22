@@ -1,0 +1,83 @@
+{
+ "pair": "test-165",
+ "start": "Crustacean",
+ "target": "Leonardo da Vinci",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 4.0,
+  "median_pages": 5.0
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Crustacean",
+  "Animal",
+  "Human",
+  "Leonardo da Vinci"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1187,
+ "tokensOut": 57,
+ "costUsd": 0.000147,
+ "steps": [
+  {
+   "page": "Crustacean",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 18,
+     "ms": 1419
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 18,
+     "ms": 1092
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Leonardo da Vinci",
+     "valid": true,
+     "tokensIn": 663,
+     "tokensOut": 21,
+     "ms": 1538
+    }
+   ],
+   "chosen": "Leonardo da Vinci",
+   "revisit": false
+  }
+ ]
+}

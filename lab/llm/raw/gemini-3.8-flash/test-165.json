@@ -1,0 +1,115 @@
+{
+ "pair": "test-165",
+ "start": "Crustacean",
+ "target": "Leonardo da Vinci",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 4.0,
+  "median_pages": 5.0
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Crustacean",
+  "Isle of Wight",
+  "France",
+  "Italy",
+  "Italian Renaissance",
+  "Leonardo da Vinci"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1942,
+ "tokensOut": 511,
+ "costUsd": 0.003373,
+ "steps": [
+  {
+   "page": "Crustacean",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Isle of Wight",
+     "valid": true,
+     "tokensIn": 227,
+     "tokensOut": 232,
+     "ms": 3487
+    }
+   ],
+   "chosen": "Isle of Wight",
+   "revisit": false
+  },
+  {
+   "page": "Isle of Wight",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 323,
+     "tokensOut": 115,
+     "ms": 3172
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Italy",
+     "valid": true,
+     "tokensIn": 499,
+     "tokensOut": 59,
+     "ms": 4331
+    }
+   ],
+   "chosen": "Italy",
+   "revisit": false
+  },
+  {
+   "page": "Italy",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Italian Renaissance",
+     "valid": true,
+     "tokensIn": 497,
+     "tokensOut": 63,
+     "ms": 2624
+    }
+   ],
+   "chosen": "Italian Renaissance",
+   "revisit": false
+  },
+  {
+   "page": "Italian Renaissance",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Leonardo da Vinci",
+     "valid": true,
+     "tokensIn": 396,
+     "tokensOut": 42,
+     "ms": 2402
+    }
+   ],
+   "chosen": "Leonardo da Vinci",
+   "revisit": false
+  }
+ ]
+}
