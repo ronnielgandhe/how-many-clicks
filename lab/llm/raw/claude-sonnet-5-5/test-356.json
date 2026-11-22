@@ -1,0 +1,99 @@
+{
+ "pair": "test-356",
+ "start": "Pinworm",
+ "target": "Amsterdam",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 9
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Pinworm",
+  "Animal",
+  "Carolus Linnaeus",
+  "Netherlands",
+  "Amsterdam"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3369,
+ "tokensOut": 319,
+ "costUsd": 0.009928,
+ "steps": [
+  {
+   "page": "Pinworm",
+   "offered": 2,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 552,
+     "tokensOut": 49,
+     "ms": 812
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Carolus Linnaeus",
+     "valid": true,
+     "tokensIn": 744,
+     "tokensOut": 167,
+     "ms": 2389
+    }
+   ],
+   "chosen": "Carolus Linnaeus",
+   "revisit": false
+  },
+  {
+   "page": "Carolus Linnaeus",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Netherlands",
+     "valid": true,
+     "tokensIn": 714,
+     "tokensOut": 51,
+     "ms": 4108
+    }
+   ],
+   "chosen": "Netherlands",
+   "revisit": false
+  },
+  {
+   "page": "Netherlands",
+   "offered": 116,
+   "attempts": [
+    {
+     "raw": "Amsterdam",
+     "valid": true,
+     "tokensIn": 1359,
+     "tokensOut": 52,
+     "ms": 1381
+    }
+   ],
+   "chosen": "Amsterdam",
+   "revisit": false
+  }
+ ]
+}

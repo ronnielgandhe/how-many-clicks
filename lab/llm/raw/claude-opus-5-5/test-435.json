@@ -1,0 +1,110 @@
+{
+ "pair": "test-435",
+ "start": "Inner Hebrides",
+ "target": "Dam",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Inner Hebrides",
+  "Scotland",
+  "China",
+  "Yangtze River",
+  "Three Gorges Dam",
+  "Dam"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4423,
+ "tokensOut": 467,
+ "costUsd": 0.027032,
+ "steps": [
+  {
+   "page": "Inner Hebrides",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 588,
+     "tokensOut": 50,
+     "ms": 1058
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 1328,
+     "tokensOut": 229,
+     "ms": 2805
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Yangtze River",
+     "valid": true,
+     "tokensIn": 1161,
+     "tokensOut": 84,
+     "ms": 1850
+    }
+   ],
+   "chosen": "Yangtze River",
+   "revisit": false
+  },
+  {
+   "page": "Yangtze River",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Three Gorges Dam",
+     "valid": true,
+     "tokensIn": 665,
+     "tokensOut": 55,
+     "ms": 2056
+    }
+   ],
+   "chosen": "Three Gorges Dam",
+   "revisit": false
+  },
+  {
+   "page": "Three Gorges Dam",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Dam",
+     "valid": true,
+     "tokensIn": 681,
+     "tokensOut": 49,
+     "ms": 1659
+    }
+   ],
+   "chosen": "Dam",
+   "revisit": false
+  }
+ ]
+}

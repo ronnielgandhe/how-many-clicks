@@ -1,0 +1,238 @@
+{
+ "pair": "test-435",
+ "start": "Inner Hebrides",
+ "target": "Dam",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Inner Hebrides",
+  "Scotland",
+  "Agriculture",
+  "Irrigation",
+  "Canal",
+  "River",
+  "Flood",
+  "Nile",
+  "Egypt",
+  "Ethiopia",
+  "China",
+  "Yangtze River",
+  "Three Gorges Dam",
+  "Dam"
+ ],
+ "clicks": 13,
+ "stepsTaken": 13,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 13,
+ "tokensIn": 5541,
+ "tokensOut": 673,
+ "costUsd": 0.017812,
+ "steps": [
+  {
+   "page": "Inner Hebrides",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 237,
+     "tokensOut": 22,
+     "ms": 4157
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 666,
+     "tokensOut": 103,
+     "ms": 5471
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  },
+  {
+   "page": "Agriculture",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Irrigation",
+     "valid": true,
+     "tokensIn": 402,
+     "tokensOut": 117,
+     "ms": 5492
+    }
+   ],
+   "chosen": "Irrigation",
+   "revisit": false
+  },
+  {
+   "page": "Irrigation",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Canal",
+     "valid": true,
+     "tokensIn": 286,
+     "tokensOut": 36,
+     "ms": 5691
+    }
+   ],
+   "chosen": "Canal",
+   "revisit": false
+  },
+  {
+   "page": "Canal",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "River",
+     "valid": true,
+     "tokensIn": 302,
+     "tokensOut": 39,
+     "ms": 5045
+    }
+   ],
+   "chosen": "River",
+   "revisit": false
+  },
+  {
+   "page": "River",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Flood",
+     "valid": true,
+     "tokensIn": 553,
+     "tokensOut": 125,
+     "ms": 6576
+    }
+   ],
+   "chosen": "Flood",
+   "revisit": false
+  },
+  {
+   "page": "Flood",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Nile",
+     "valid": true,
+     "tokensIn": 385,
+     "tokensOut": 57,
+     "ms": 4501
+    }
+   ],
+   "chosen": "Nile",
+   "revisit": false
+  },
+  {
+   "page": "Nile",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Egypt",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 42,
+     "ms": 5262
+    }
+   ],
+   "chosen": "Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Egypt",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 493,
+     "tokensOut": 22,
+     "ms": 3873
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": false
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 712,
+     "tokensOut": 22,
+     "ms": 3202
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Yangtze River",
+     "valid": true,
+     "tokensIn": 565,
+     "tokensOut": 41,
+     "ms": 3747
+    }
+   ],
+   "chosen": "Yangtze River",
+   "revisit": false
+  },
+  {
+   "page": "Yangtze River",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Three Gorges Dam",
+     "valid": true,
+     "tokensIn": 294,
+     "tokensOut": 25,
+     "ms": 3559
+    }
+   ],
+   "chosen": "Three Gorges Dam",
+   "revisit": false
+  },
+  {
+   "page": "Three Gorges Dam",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Dam",
+     "valid": true,
+     "tokensIn": 306,
+     "tokensOut": 22,
+     "ms": 3329
+    }
+   ],
+   "chosen": "Dam",
+   "revisit": false
+  }
+ ]
+}

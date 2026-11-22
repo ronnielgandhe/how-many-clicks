@@ -1,0 +1,78 @@
+{
+ "pair": "test-231",
+ "start": "Jacques Cartier",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jacques Cartier",
+  "Gold",
+  "Geology",
+  "Fossil"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1099,
+ "tokensOut": 223,
+ "costUsd": 0.004428,
+ "steps": [
+  {
+   "page": "Jacques Cartier",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Gold",
+     "valid": true,
+     "tokensIn": 236,
+     "tokensOut": 164,
+     "ms": 6297
+    }
+   ],
+   "chosen": "Gold",
+   "revisit": false
+  },
+  {
+   "page": "Gold",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Geology",
+     "valid": true,
+     "tokensIn": 527,
+     "tokensOut": 36,
+     "ms": 6510
+    }
+   ],
+   "chosen": "Geology",
+   "revisit": false
+  },
+  {
+   "page": "Geology",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 336,
+     "tokensOut": 23,
+     "ms": 3866
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

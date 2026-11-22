@@ -1,0 +1,259 @@
+{
+ "pair": "test-312",
+ "start": "Number",
+ "target": "Retinol",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 9
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Number",
+  "Measurement",
+  "Science",
+  "Chemistry",
+  "Medicine",
+  "Eye",
+  "Retina",
+  "Color blindness",
+  "Retina",
+  "Eye",
+  "Retina",
+  "Light",
+  "Vitamin D",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 14,
+ "stepsTaken": 14,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 14,
+ "tokensIn": 4009,
+ "tokensOut": 1393,
+ "costUsd": 0.00823,
+ "steps": [
+  {
+   "page": "Number",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Measurement",
+     "valid": true,
+     "tokensIn": 336,
+     "tokensOut": 66,
+     "ms": 2227
+    }
+   ],
+   "chosen": "Measurement",
+   "revisit": false
+  },
+  {
+   "page": "Measurement",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Science",
+     "valid": true,
+     "tokensIn": 215,
+     "tokensOut": 49,
+     "ms": 2064
+    }
+   ],
+   "chosen": "Science",
+   "revisit": false
+  },
+  {
+   "page": "Science",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Chemistry",
+     "valid": true,
+     "tokensIn": 314,
+     "tokensOut": 75,
+     "ms": 1810
+    }
+   ],
+   "chosen": "Chemistry",
+   "revisit": false
+  },
+  {
+   "page": "Chemistry",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 342,
+     "tokensOut": 67,
+     "ms": 2137
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 330,
+     "tokensOut": 60,
+     "ms": 2353
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 299,
+     "tokensOut": 63,
+     "ms": 2727
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Color blindness",
+     "valid": true,
+     "tokensIn": 221,
+     "tokensOut": 198,
+     "ms": 3083
+    }
+   ],
+   "chosen": "Color blindness",
+   "revisit": false
+  },
+  {
+   "page": "Color blindness",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 148,
+     "ms": 2945
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 226,
+     "tokensOut": 150,
+     "ms": 2948
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": true
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 202,
+     "ms": 4307
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Light",
+     "valid": true,
+     "tokensIn": 230,
+     "tokensOut": 182,
+     "ms": 2769
+    }
+   ],
+   "chosen": "Light",
+   "revisit": false
+  },
+  {
+   "page": "Light",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Vitamin D",
+     "valid": true,
+     "tokensIn": 404,
+     "tokensOut": 58,
+     "ms": 2513
+    }
+   ],
+   "chosen": "Vitamin D",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin D",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 244,
+     "tokensOut": 58,
+     "ms": 2698
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 17,
+     "ms": 2082
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

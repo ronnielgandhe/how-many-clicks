@@ -1,0 +1,126 @@
+{
+ "pair": "test-418",
+ "start": "The Lorax",
+ "target": "Hovercraft",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Lorax",
+  "Smog",
+  "Automobile",
+  "United Kingdom",
+  "English Channel",
+  "Portsmouth",
+  "Hovercraft"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2399,
+ "tokensOut": 114,
+ "costUsd": 0.023752,
+ "steps": [
+  {
+   "page": "The Lorax",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Smog",
+     "valid": true,
+     "tokensIn": 210,
+     "tokensOut": 19,
+     "ms": 1846
+    }
+   ],
+   "chosen": "Smog",
+   "revisit": false
+  },
+  {
+   "page": "Smog",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Automobile",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 19,
+     "ms": 1728
+    }
+   ],
+   "chosen": "Automobile",
+   "revisit": false
+  },
+  {
+   "page": "Automobile",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 19,
+     "ms": 1412
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "English Channel",
+     "valid": true,
+     "tokensIn": 926,
+     "tokensOut": 19,
+     "ms": 1626
+    }
+   ],
+   "chosen": "English Channel",
+   "revisit": false
+  },
+  {
+   "page": "English Channel",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Portsmouth",
+     "valid": true,
+     "tokensIn": 326,
+     "tokensOut": 19,
+     "ms": 1448
+    }
+   ],
+   "chosen": "Portsmouth",
+   "revisit": false
+  },
+  {
+   "page": "Portsmouth",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hovercraft",
+     "valid": true,
+     "tokensIn": 385,
+     "tokensOut": 19,
+     "ms": 1570
+    }
+   ],
+   "chosen": "Hovercraft",
+   "revisit": false
+  }
+ ]
+}

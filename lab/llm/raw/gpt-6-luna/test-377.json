@@ -1,0 +1,126 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Climate",
+  "History",
+  "Human",
+  "Psychology",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 1937,
+ "tokensOut": 115,
+ "costUsd": 0.000251,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Climate",
+     "valid": true,
+     "tokensIn": 226,
+     "tokensOut": 18,
+     "ms": 956
+    }
+   ],
+   "chosen": "Climate",
+   "revisit": false
+  },
+  {
+   "page": "Climate",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "History",
+     "valid": true,
+     "tokensIn": 203,
+     "tokensOut": 18,
+     "ms": 811
+    }
+   ],
+   "chosen": "History",
+   "revisit": false
+  },
+  {
+   "page": "History",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 247,
+     "tokensOut": 18,
+     "ms": 1187
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Psychology",
+     "valid": true,
+     "tokensIn": 667,
+     "tokensOut": 19,
+     "ms": 1078
+    }
+   ],
+   "chosen": "Psychology",
+   "revisit": false
+  },
+  {
+   "page": "Psychology",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 293,
+     "tokensOut": 19,
+     "ms": 813
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 301,
+     "tokensOut": 23,
+     "ms": 1046
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

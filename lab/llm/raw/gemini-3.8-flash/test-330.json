@@ -1,0 +1,115 @@
+{
+ "pair": "test-330",
+ "start": "African dwarf frog",
+ "target": "Jaws (film)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "African dwarf frog",
+  "Animal",
+  "Fish",
+  "Whale shark",
+  "Shark",
+  "Jaws (film)"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1325,
+ "tokensOut": 471,
+ "costUsd": 0.00276,
+ "steps": [
+  {
+   "page": "African dwarf frog",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 199,
+     "tokensOut": 176,
+     "ms": 3701
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Fish",
+     "valid": true,
+     "tokensIn": 285,
+     "tokensOut": 54,
+     "ms": 2557
+    }
+   ],
+   "chosen": "Fish",
+   "revisit": false
+  },
+  {
+   "page": "Fish",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Whale shark",
+     "valid": true,
+     "tokensIn": 230,
+     "tokensOut": 205,
+     "ms": 3324
+    }
+   ],
+   "chosen": "Whale shark",
+   "revisit": false
+  },
+  {
+   "page": "Whale shark",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Shark",
+     "valid": true,
+     "tokensIn": 282,
+     "tokensOut": 16,
+     "ms": 1756
+    }
+   ],
+   "chosen": "Shark",
+   "revisit": false
+  },
+  {
+   "page": "Shark",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Jaws (film)",
+     "valid": true,
+     "tokensIn": 329,
+     "tokensOut": 20,
+     "ms": 1544
+    }
+   ],
+   "chosen": "Jaws (film)",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "pair": "test-366",
+ "start": "Urial",
+ "target": "3 Juno",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Urial",
+  "Human",
+  "Earth",
+  "Asteroid",
+  "3 Juno"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1780,
+ "tokensOut": 75,
+ "costUsd": 0.01724,
+ "steps": [
+  {
+   "page": "Urial",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 214,
+     "tokensOut": 18,
+     "ms": 1341
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 670,
+     "tokensOut": 18,
+     "ms": 1283
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Asteroid",
+     "valid": true,
+     "tokensIn": 628,
+     "tokensOut": 19,
+     "ms": 1635
+    }
+   ],
+   "chosen": "Asteroid",
+   "revisit": false
+  },
+  {
+   "page": "Asteroid",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "3 Juno",
+     "valid": true,
+     "tokensIn": 268,
+     "tokensOut": 20,
+     "ms": 1581
+    }
+   ],
+   "chosen": "3 Juno",
+   "revisit": false
+  }
+ ]
+}

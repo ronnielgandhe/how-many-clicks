@@ -1,0 +1,115 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "France",
+  "Middle Ages",
+  "Industrial Revolution",
+  "Agriculture",
+  "Pea"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2043,
+ "tokensOut": 94,
+ "costUsd": 0.020104,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 18,
+     "ms": 1170
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 508,
+     "tokensOut": 19,
+     "ms": 1461
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 479,
+     "tokensOut": 19,
+     "ms": 1588
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 413,
+     "tokensOut": 19,
+     "ms": 1602
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  },
+  {
+   "page": "Agriculture",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 400,
+     "tokensOut": 19,
+     "ms": 1708
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

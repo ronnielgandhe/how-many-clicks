@@ -1,0 +1,174 @@
+{
+ "pair": "test-274",
+ "start": "Hippopotamus",
+ "target": "Retinol",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Hippopotamus",
+  "Pigment",
+  "Eye",
+  "Retina",
+  "Color blindness",
+  "Human",
+  "Agriculture",
+  "Nutrition",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 3358,
+ "tokensOut": 456,
+ "costUsd": 0.011276,
+ "steps": [
+  {
+   "page": "Hippopotamus",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Pigment",
+     "valid": true,
+     "tokensIn": 371,
+     "tokensOut": 23,
+     "ms": 5429
+    }
+   ],
+   "chosen": "Pigment",
+   "revisit": false
+  },
+  {
+   "page": "Pigment",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 311,
+     "tokensOut": 94,
+     "ms": 4689
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 327,
+     "tokensOut": 40,
+     "ms": 3556
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Color blindness",
+     "valid": true,
+     "tokensIn": 254,
+     "tokensOut": 23,
+     "ms": 4228
+    }
+   ],
+   "chosen": "Color blindness",
+   "revisit": false
+  },
+  {
+   "page": "Color blindness",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 268,
+     "tokensOut": 47,
+     "ms": 4362
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 680,
+     "tokensOut": 162,
+     "ms": 5797
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  },
+  {
+   "page": "Agriculture",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Nutrition",
+     "valid": true,
+     "tokensIn": 412,
+     "tokensOut": 22,
+     "ms": 3745
+    }
+   ],
+   "chosen": "Nutrition",
+   "revisit": false
+  },
+  {
+   "page": "Nutrition",
+   "offered": 51,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 403,
+     "tokensOut": 22,
+     "ms": 1791
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 23,
+     "ms": 11360
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

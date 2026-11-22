@@ -1,0 +1,67 @@
+{
+ "pair": "test-51",
+ "start": "Atheism",
+ "target": "Sri Lanka",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Atheism",
+  "India",
+  "Sri Lanka"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 871,
+ "tokensOut": 37,
+ "costUsd": 0.002112,
+ "steps": [
+  {
+   "page": "Atheism",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 362,
+     "tokensOut": 18,
+     "ms": 941
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Sri Lanka",
+     "valid": true,
+     "tokensIn": 509,
+     "tokensOut": 19,
+     "ms": 886
+    }
+   ],
+   "chosen": "Sri Lanka",
+   "revisit": false
+  }
+ ]
+}

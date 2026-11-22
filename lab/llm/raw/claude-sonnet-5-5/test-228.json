@@ -1,0 +1,78 @@
+{
+ "pair": "test-228",
+ "start": "Taoism",
+ "target": "Grand Slam (tennis)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Taoism",
+  "Beijing",
+  "Australia",
+  "Grand Slam (tennis)"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 3088,
+ "tokensOut": 456,
+ "costUsd": 0.010736,
+ "steps": [
+  {
+   "page": "Taoism",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Beijing",
+     "valid": true,
+     "tokensIn": 703,
+     "tokensOut": 147,
+     "ms": 2069
+    }
+   ],
+   "chosen": "Beijing",
+   "revisit": false
+  },
+  {
+   "page": "Beijing",
+   "offered": 101,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 1198,
+     "tokensOut": 252,
+     "ms": 2995
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Grand Slam (tennis)",
+     "valid": true,
+     "tokensIn": 1187,
+     "tokensOut": 57,
+     "ms": 1371
+    }
+   ],
+   "chosen": "Grand Slam (tennis)",
+   "revisit": false
+  }
+ ]
+}

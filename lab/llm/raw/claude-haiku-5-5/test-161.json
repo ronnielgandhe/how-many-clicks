@@ -1,0 +1,83 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "Republic of Ireland",
+  "Agriculture",
+  "Pea"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2435,
+ "tokensOut": 719,
+ "costUsd": 0.000603,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Republic of Ireland",
+     "valid": true,
+     "tokensIn": 632,
+     "tokensOut": 484,
+     "ms": 3046
+    }
+   ],
+   "chosen": "Republic of Ireland",
+   "revisit": false
+  },
+  {
+   "page": "Republic of Ireland",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 904,
+     "tokensOut": 165,
+     "ms": 1121
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  },
+  {
+   "page": "Agriculture",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 899,
+     "tokensOut": 70,
+     "ms": 686
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

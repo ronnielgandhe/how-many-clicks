@@ -1,0 +1,174 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Zara Yaqob",
+  "Europe",
+  "World War II",
+  "United States",
+  "Amtrak",
+  "Train",
+  "Rail transport",
+  "Train",
+  "Refrigerator car",
+  "Troop sleeper"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 4823,
+ "tokensOut": 1089,
+ "costUsd": 0.007701,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 193,
+     "tokensOut": 16,
+     "ms": 1312
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 726,
+     "tokensOut": 69,
+     "ms": 2102
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 643,
+     "tokensOut": 109,
+     "ms": 2617
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 1419,
+     "tokensOut": 17,
+     "ms": 1809
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": false
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 415,
+     "tokensOut": 288,
+     "ms": 4448
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 362,
+     "tokensOut": 197,
+     "ms": 2826
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 355,
+     "tokensOut": 207,
+     "ms": 4312
+    }
+   ],
+   "chosen": "Train",
+   "revisit": true
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Refrigerator car",
+     "valid": true,
+     "tokensIn": 367,
+     "tokensOut": 138,
+     "ms": 3010
+    }
+   ],
+   "chosen": "Refrigerator car",
+   "revisit": false
+  },
+  {
+   "page": "Refrigerator car",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Troop sleeper",
+     "valid": true,
+     "tokensIn": 343,
+     "tokensOut": 48,
+     "ms": 1762
+    }
+   ],
+   "chosen": "Troop sleeper",
+   "revisit": false
+  }
+ ]
+}

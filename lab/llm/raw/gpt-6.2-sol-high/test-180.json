@@ -1,0 +1,83 @@
+{
+ "pair": "test-180",
+ "start": "Working poor",
+ "target": "Fresh water",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 3.5,
+  "median_pages": 4.5
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Working poor",
+  "Poverty",
+  "Water",
+  "Fresh water"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1226,
+ "tokensOut": 115,
+ "costUsd": 0.003602,
+ "steps": [
+  {
+   "page": "Working poor",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Poverty",
+     "valid": true,
+     "tokensIn": 189,
+     "tokensOut": 56,
+     "ms": 1525
+    }
+   ],
+   "chosen": "Poverty",
+   "revisit": false
+  },
+  {
+   "page": "Poverty",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Water",
+     "valid": true,
+     "tokensIn": 383,
+     "tokensOut": 40,
+     "ms": 1178
+    }
+   ],
+   "chosen": "Water",
+   "revisit": false
+  },
+  {
+   "page": "Water",
+   "offered": 131,
+   "attempts": [
+    {
+     "raw": "Fresh water",
+     "valid": true,
+     "tokensIn": 654,
+     "tokensOut": 19,
+     "ms": 932
+    }
+   ],
+   "chosen": "Fresh water",
+   "revisit": false
+  }
+ ]
+}

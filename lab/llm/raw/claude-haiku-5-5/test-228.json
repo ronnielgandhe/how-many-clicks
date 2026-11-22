@@ -1,0 +1,110 @@
+{
+ "pair": "test-228",
+ "start": "Taoism",
+ "target": "Grand Slam (tennis)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Taoism",
+  "Philosophy",
+  "Psychology",
+  "United States",
+  "Tennis",
+  "Grand Slam (tennis)"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 6307,
+ "tokensOut": 1237,
+ "costUsd": 0.001249,
+ "steps": [
+  {
+   "page": "Taoism",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 703,
+     "tokensOut": 241,
+     "ms": 1517
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Psychology",
+     "valid": true,
+     "tokensIn": 1215,
+     "tokensOut": 607,
+     "ms": 3202
+    }
+   ],
+   "chosen": "Psychology",
+   "revisit": false
+  },
+  {
+   "page": "Psychology",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 739,
+     "tokensOut": 226,
+     "ms": 1628
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Tennis",
+     "valid": true,
+     "tokensIn": 2795,
+     "tokensOut": 106,
+     "ms": 731
+    }
+   ],
+   "chosen": "Tennis",
+   "revisit": false
+  },
+  {
+   "page": "Tennis",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Grand Slam (tennis)",
+     "valid": true,
+     "tokensIn": 855,
+     "tokensOut": 57,
+     "ms": 609
+    }
+   ],
+   "chosen": "Grand Slam (tennis)",
+   "revisit": false
+  }
+ ]
+}

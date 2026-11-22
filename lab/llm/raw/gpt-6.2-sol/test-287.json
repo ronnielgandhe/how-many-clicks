@@ -1,0 +1,78 @@
+{
+ "pair": "test-287",
+ "start": "Tropical Storm Bonnie (2004)",
+ "target": "Sun Yat-sen",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tropical Storm Bonnie (2004)",
+  "United States",
+  "Republic of China",
+  "Sun Yat-sen"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2187,
+ "tokensOut": 61,
+ "costUsd": 0.004984,
+ "steps": [
+  {
+   "page": "Tropical Storm Bonnie (2004)",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 306,
+     "tokensOut": 19,
+     "ms": 1026
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Republic of China",
+     "valid": true,
+     "tokensIn": 1451,
+     "tokensOut": 20,
+     "ms": 1242
+    }
+   ],
+   "chosen": "Republic of China",
+   "revisit": false
+  },
+  {
+   "page": "Republic of China",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Sun Yat-sen",
+     "valid": true,
+     "tokensIn": 430,
+     "tokensOut": 22,
+     "ms": 858
+    }
+   ],
+   "chosen": "Sun Yat-sen",
+   "revisit": false
+  }
+ ]
+}

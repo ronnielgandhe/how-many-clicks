@@ -1,0 +1,142 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Europe",
+  "Switzerland",
+  "United States",
+  "Education",
+  "Psychology",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 3637,
+ "tokensOut": 400,
+ "costUsd": 0.004228,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 227,
+     "tokensOut": 16,
+     "ms": 4768
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Switzerland",
+     "valid": true,
+     "tokensIn": 729,
+     "tokensOut": 86,
+     "ms": 1839
+    }
+   ],
+   "chosen": "Switzerland",
+   "revisit": false
+  },
+  {
+   "page": "Switzerland",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 347,
+     "tokensOut": 154,
+     "ms": 3028
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Education",
+     "valid": true,
+     "tokensIn": 1420,
+     "tokensOut": 16,
+     "ms": 1599
+    }
+   ],
+   "chosen": "Education",
+   "revisit": false
+  },
+  {
+   "page": "Education",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Psychology",
+     "valid": true,
+     "tokensIn": 312,
+     "tokensOut": 42,
+     "ms": 2291
+    }
+   ],
+   "chosen": "Psychology",
+   "revisit": false
+  },
+  {
+   "page": "Psychology",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 298,
+     "tokensOut": 44,
+     "ms": 2141
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 304,
+     "tokensOut": 42,
+     "ms": 1848
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

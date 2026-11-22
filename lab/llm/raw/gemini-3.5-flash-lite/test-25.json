@@ -1,0 +1,83 @@
+{
+ "pair": "test-25",
+ "start": "Citizenship",
+ "target": "Turkmenistan",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.5,
+  "median_pages": 7.5
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Citizenship",
+  "Nationality",
+  "Soviet Union",
+  "Turkmenistan"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 910,
+ "tokensOut": 52,
+ "costUsd": 0.000403,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Nationality",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 16,
+     "ms": 693
+    }
+   ],
+   "chosen": "Nationality",
+   "revisit": false
+  },
+  {
+   "page": "Nationality",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Soviet Union",
+     "valid": true,
+     "tokensIn": 225,
+     "tokensOut": 17,
+     "ms": 717
+    }
+   ],
+   "chosen": "Soviet Union",
+   "revisit": false
+  },
+  {
+   "page": "Soviet Union",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Turkmenistan",
+     "valid": true,
+     "tokensIn": 427,
+     "tokensOut": 19,
+     "ms": 788
+    }
+   ],
+   "chosen": "Turkmenistan",
+   "revisit": false
+  }
+ ]
+}

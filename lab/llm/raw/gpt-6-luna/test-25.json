@@ -1,0 +1,115 @@
+{
+ "pair": "test-25",
+ "start": "Citizenship",
+ "target": "Turkmenistan",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.5,
+  "median_pages": 7.5
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Citizenship",
+  "Country",
+  "United Nations",
+  "Kyrgyzstan",
+  "Uzbekistan",
+  "Turkmenistan"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1764,
+ "tokensOut": 98,
+ "costUsd": 0.000225,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Country",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 18,
+     "ms": 861
+    }
+   ],
+   "chosen": "Country",
+   "revisit": false
+  },
+  {
+   "page": "Country",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "United Nations",
+     "valid": true,
+     "tokensIn": 233,
+     "tokensOut": 19,
+     "ms": 806
+    }
+   ],
+   "chosen": "United Nations",
+   "revisit": false
+  },
+  {
+   "page": "United Nations",
+   "offered": 113,
+   "attempts": [
+    {
+     "raw": "Kyrgyzstan",
+     "valid": true,
+     "tokensIn": 600,
+     "tokensOut": 21,
+     "ms": 995
+    }
+   ],
+   "chosen": "Kyrgyzstan",
+   "revisit": false
+  },
+  {
+   "page": "Kyrgyzstan",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Uzbekistan",
+     "valid": true,
+     "tokensIn": 331,
+     "tokensOut": 20,
+     "ms": 1082
+    }
+   ],
+   "chosen": "Uzbekistan",
+   "revisit": false
+  },
+  {
+   "page": "Uzbekistan",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Turkmenistan",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 20,
+     "ms": 959
+    }
+   ],
+   "chosen": "Turkmenistan",
+   "revisit": false
+  }
+ ]
+}

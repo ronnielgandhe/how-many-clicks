@@ -1,0 +1,126 @@
+{
+ "pair": "test-418",
+ "start": "The Lorax",
+ "target": "Hovercraft",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Lorax",
+  "Theodore Roosevelt",
+  "Battle of Normandy",
+  "English Channel",
+  "Dover",
+  "Boat",
+  "Hovercraft"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 1782,
+ "tokensOut": 751,
+ "costUsd": 0.004153,
+ "steps": [
+  {
+   "page": "The Lorax",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Theodore Roosevelt",
+     "valid": true,
+     "tokensIn": 202,
+     "tokensOut": 189,
+     "ms": 3208
+    }
+   ],
+   "chosen": "Theodore Roosevelt",
+   "revisit": false
+  },
+  {
+   "page": "Theodore Roosevelt",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Battle of Normandy",
+     "valid": true,
+     "tokensIn": 417,
+     "tokensOut": 144,
+     "ms": 3644
+    }
+   ],
+   "chosen": "Battle of Normandy",
+   "revisit": false
+  },
+  {
+   "page": "Battle of Normandy",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "English Channel",
+     "valid": true,
+     "tokensIn": 348,
+     "tokensOut": 48,
+     "ms": 2377
+    }
+   ],
+   "chosen": "English Channel",
+   "revisit": false
+  },
+  {
+   "page": "English Channel",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Dover",
+     "valid": true,
+     "tokensIn": 315,
+     "tokensOut": 128,
+     "ms": 3510
+    }
+   ],
+   "chosen": "Dover",
+   "revisit": false
+  },
+  {
+   "page": "Dover",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Boat",
+     "valid": true,
+     "tokensIn": 290,
+     "tokensOut": 202,
+     "ms": 3535
+    }
+   ],
+   "chosen": "Boat",
+   "revisit": false
+  },
+  {
+   "page": "Boat",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Hovercraft",
+     "valid": true,
+     "tokensIn": 210,
+     "tokensOut": 40,
+     "ms": 1808
+    }
+   ],
+   "chosen": "Hovercraft",
+   "revisit": false
+  }
+ ]
+}

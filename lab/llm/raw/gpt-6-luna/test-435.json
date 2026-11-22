@@ -1,0 +1,110 @@
+{
+ "pair": "test-435",
+ "start": "Inner Hebrides",
+ "target": "Dam",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Inner Hebrides",
+  "Scotland",
+  "Technology",
+  "Engineering",
+  "Three Gorges Dam",
+  "Dam"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1620,
+ "tokensOut": 94,
+ "costUsd": 0.000209,
+ "steps": [
+  {
+   "page": "Inner Hebrides",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 198,
+     "tokensOut": 19,
+     "ms": 1069
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Technology",
+     "valid": true,
+     "tokensIn": 630,
+     "tokensOut": 18,
+     "ms": 1088
+    }
+   ],
+   "chosen": "Technology",
+   "revisit": false
+  },
+  {
+   "page": "Technology",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Engineering",
+     "valid": true,
+     "tokensIn": 297,
+     "tokensOut": 18,
+     "ms": 1022
+    }
+   ],
+   "chosen": "Engineering",
+   "revisit": false
+  },
+  {
+   "page": "Engineering",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Three Gorges Dam",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 21,
+     "ms": 997
+    }
+   ],
+   "chosen": "Three Gorges Dam",
+   "revisit": false
+  },
+  {
+   "page": "Three Gorges Dam",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Dam",
+     "valid": true,
+     "tokensIn": 252,
+     "tokensOut": 18,
+     "ms": 894
+    }
+   ],
+   "chosen": "Dam",
+   "revisit": false
+  }
+ ]
+}

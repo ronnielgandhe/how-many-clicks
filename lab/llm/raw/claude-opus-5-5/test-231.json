@@ -1,0 +1,142 @@
+{
+ "pair": "test-231",
+ "start": "Jacques Cartier",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jacques Cartier",
+  "Great Lakes",
+  "Coal",
+  "Fossil fuel",
+  "Carbon",
+  "Life",
+  "Evolution",
+  "Fossil"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 5624,
+ "tokensOut": 733,
+ "costUsd": 0.037156,
+ "steps": [
+  {
+   "page": "Jacques Cartier",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Great Lakes",
+     "valid": true,
+     "tokensIn": 589,
+     "tokensOut": 81,
+     "ms": 1793
+    }
+   ],
+   "chosen": "Great Lakes",
+   "revisit": false
+  },
+  {
+   "page": "Great Lakes",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Coal",
+     "valid": true,
+     "tokensIn": 715,
+     "tokensOut": 49,
+     "ms": 943
+    }
+   ],
+   "chosen": "Coal",
+   "revisit": false
+  },
+  {
+   "page": "Coal",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Fossil fuel",
+     "valid": true,
+     "tokensIn": 950,
+     "tokensOut": 53,
+     "ms": 1344
+    }
+   ],
+   "chosen": "Fossil fuel",
+   "revisit": false
+  },
+  {
+   "page": "Fossil fuel",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Carbon",
+     "valid": true,
+     "tokensIn": 625,
+     "tokensOut": 281,
+     "ms": 3199
+    }
+   ],
+   "chosen": "Carbon",
+   "revisit": false
+  },
+  {
+   "page": "Carbon",
+   "offered": 72,
+   "attempts": [
+    {
+     "raw": "Life",
+     "valid": true,
+     "tokensIn": 1012,
+     "tokensOut": 138,
+     "ms": 1612
+    }
+   ],
+   "chosen": "Life",
+   "revisit": false
+  },
+  {
+   "page": "Life",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Evolution",
+     "valid": true,
+     "tokensIn": 650,
+     "tokensOut": 81,
+     "ms": 2480
+    }
+   ],
+   "chosen": "Evolution",
+   "revisit": false
+  },
+  {
+   "page": "Evolution",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 1083,
+     "tokensOut": 50,
+     "ms": 1891
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

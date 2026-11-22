@@ -1,0 +1,197 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Climate",
+  "Climate change",
+  "United Nations",
+  "Franklin D. Roosevelt",
+  "United States",
+  "Education",
+  "Educational psychology",
+  "Psychology",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 0,
+ "invalidAttempts": 1,
+ "calls": 11,
+ "tokensIn": 5915,
+ "tokensOut": 191,
+ "costUsd": 0.002252,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Climate",
+     "valid": true,
+     "tokensIn": 227,
+     "tokensOut": 16,
+     "ms": 788
+    }
+   ],
+   "chosen": "Climate",
+   "revisit": false
+  },
+  {
+   "page": "Climate",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Climate change",
+     "valid": true,
+     "tokensIn": 204,
+     "tokensOut": 17,
+     "ms": 695
+    }
+   ],
+   "chosen": "Climate change",
+   "revisit": false
+  },
+  {
+   "page": "Climate change",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "United Nations",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 17,
+     "ms": 787
+    }
+   ],
+   "chosen": "United Nations",
+   "revisit": false
+  },
+  {
+   "page": "United Nations",
+   "offered": 113,
+   "attempts": [
+    {
+     "raw": "Franklin D. Roosevelt",
+     "valid": true,
+     "tokensIn": 604,
+     "tokensOut": 19,
+     "ms": 755
+    }
+   ],
+   "chosen": "Franklin D. Roosevelt",
+   "revisit": false
+  },
+  {
+   "page": "Franklin D. Roosevelt",
+   "offered": 72,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 488,
+     "tokensOut": 17,
+     "ms": 773
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Psychology",
+     "valid": false,
+     "tokensIn": 1429,
+     "tokensOut": 17,
+     "ms": 715
+    },
+    {
+     "raw": "Education",
+     "valid": true,
+     "tokensIn": 1453,
+     "tokensOut": 16,
+     "ms": 687
+    }
+   ],
+   "chosen": "Education",
+   "revisit": false
+  },
+  {
+   "page": "Education",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Educational psychology",
+     "valid": true,
+     "tokensIn": 321,
+     "tokensOut": 17,
+     "ms": 625
+    }
+   ],
+   "chosen": "Educational psychology",
+   "revisit": false
+  },
+  {
+   "page": "Educational psychology",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Psychology",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 17,
+     "ms": 742
+    }
+   ],
+   "chosen": "Psychology",
+   "revisit": false
+  },
+  {
+   "page": "Psychology",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 310,
+     "tokensOut": 17,
+     "ms": 684
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 316,
+     "tokensOut": 21,
+     "ms": 754
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

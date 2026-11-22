@@ -1,0 +1,163 @@
+{
+ "pair": "test-312",
+ "start": "Number",
+ "target": "Retinol",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 9
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Number",
+  "Aristotle",
+  "Biology",
+  "Medicine",
+  "Alcohol",
+  "Ethanol",
+  "Lipid",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 2481,
+ "tokensOut": 151,
+ "costUsd": 0.000324,
+ "steps": [
+  {
+   "page": "Number",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 20,
+     "ms": 790
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 295,
+     "tokensOut": 19,
+     "ms": 1005
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  },
+  {
+   "page": "Biology",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 372,
+     "tokensOut": 18,
+     "ms": 883
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Alcohol",
+     "valid": true,
+     "tokensIn": 326,
+     "tokensOut": 18,
+     "ms": 856
+    }
+   ],
+   "chosen": "Alcohol",
+   "revisit": false
+  },
+  {
+   "page": "Alcohol",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Ethanol",
+     "valid": true,
+     "tokensIn": 303,
+     "tokensOut": 20,
+     "ms": 974
+    }
+   ],
+   "chosen": "Ethanol",
+   "revisit": false
+  },
+  {
+   "page": "Ethanol",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Lipid",
+     "valid": true,
+     "tokensIn": 355,
+     "tokensOut": 19,
+     "ms": 1144
+    }
+   ],
+   "chosen": "Lipid",
+   "revisit": false
+  },
+  {
+   "page": "Lipid",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 198,
+     "tokensOut": 18,
+     "ms": 862
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 19,
+     "ms": 676
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

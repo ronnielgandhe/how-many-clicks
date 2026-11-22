@@ -1,0 +1,158 @@
+{
+ "pair": "test-231",
+ "start": "Jacques Cartier",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jacques Cartier",
+  "Great Lakes",
+  "Coal",
+  "Fossil fuel",
+  "Wood",
+  "Tree",
+  "Carboniferous",
+  "Geology",
+  "Fossil"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 5817,
+ "tokensOut": 1975,
+ "costUsd": 0.031384,
+ "steps": [
+  {
+   "page": "Jacques Cartier",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Great Lakes",
+     "valid": true,
+     "tokensIn": 589,
+     "tokensOut": 388,
+     "ms": 5185
+    }
+   ],
+   "chosen": "Great Lakes",
+   "revisit": false
+  },
+  {
+   "page": "Great Lakes",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Coal",
+     "valid": true,
+     "tokensIn": 715,
+     "tokensOut": 151,
+     "ms": 2202
+    }
+   ],
+   "chosen": "Coal",
+   "revisit": false
+  },
+  {
+   "page": "Coal",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Fossil fuel",
+     "valid": true,
+     "tokensIn": 950,
+     "tokensOut": 120,
+     "ms": 1736
+    }
+   ],
+   "chosen": "Fossil fuel",
+   "revisit": false
+  },
+  {
+   "page": "Fossil fuel",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Wood",
+     "valid": true,
+     "tokensIn": 625,
+     "tokensOut": 748,
+     "ms": 5905
+    }
+   ],
+   "chosen": "Wood",
+   "revisit": false
+  },
+  {
+   "page": "Wood",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Tree",
+     "valid": true,
+     "tokensIn": 618,
+     "tokensOut": 216,
+     "ms": 1807
+    }
+   ],
+   "chosen": "Tree",
+   "revisit": false
+  },
+  {
+   "page": "Tree",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Carboniferous",
+     "valid": true,
+     "tokensIn": 820,
+     "tokensOut": 160,
+     "ms": 1443
+    }
+   ],
+   "chosen": "Carboniferous",
+   "revisit": false
+  },
+  {
+   "page": "Carboniferous",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Geology",
+     "valid": true,
+     "tokensIn": 716,
+     "tokensOut": 142,
+     "ms": 1871
+    }
+   ],
+   "chosen": "Geology",
+   "revisit": false
+  },
+  {
+   "page": "Geology",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 784,
+     "tokensOut": 50,
+     "ms": 1306
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

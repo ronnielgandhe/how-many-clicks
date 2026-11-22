@@ -1,0 +1,78 @@
+{
+ "pair": "test-287",
+ "start": "Tropical Storm Bonnie (2004)",
+ "target": "Sun Yat-sen",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tropical Storm Bonnie (2004)",
+  "Africa",
+  "China",
+  "Sun Yat-sen"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1855,
+ "tokensOut": 58,
+ "costUsd": 0.000215,
+ "steps": [
+  {
+   "page": "Tropical Storm Bonnie (2004)",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 296,
+     "tokensOut": 18,
+     "ms": 762
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 1029,
+     "tokensOut": 18,
+     "ms": 1187
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Sun Yat-sen",
+     "valid": true,
+     "tokensIn": 530,
+     "tokensOut": 22,
+     "ms": 1090
+    }
+   ],
+   "chosen": "Sun Yat-sen",
+   "revisit": false
+  }
+ ]
+}

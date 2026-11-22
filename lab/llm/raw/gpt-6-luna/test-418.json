@@ -1,0 +1,126 @@
+{
+ "pair": "test-418",
+ "start": "The Lorax",
+ "target": "Hovercraft",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Lorax",
+  "Smog",
+  "Automobile",
+  "Steam engine",
+  "Jet engine",
+  "Aircraft",
+  "Hovercraft"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 1467,
+ "tokensOut": 113,
+ "costUsd": 0.000203,
+ "steps": [
+  {
+   "page": "The Lorax",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Smog",
+     "valid": true,
+     "tokensIn": 200,
+     "tokensOut": 19,
+     "ms": 1161
+    }
+   ],
+   "chosen": "Smog",
+   "revisit": false
+  },
+  {
+   "page": "Smog",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Automobile",
+     "valid": true,
+     "tokensIn": 251,
+     "tokensOut": 19,
+     "ms": 1070
+    }
+   ],
+   "chosen": "Automobile",
+   "revisit": false
+  },
+  {
+   "page": "Automobile",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Steam engine",
+     "valid": true,
+     "tokensIn": 281,
+     "tokensOut": 19,
+     "ms": 962
+    }
+   ],
+   "chosen": "Steam engine",
+   "revisit": false
+  },
+  {
+   "page": "Steam engine",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Jet engine",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 19,
+     "ms": 1804
+    }
+   ],
+   "chosen": "Jet engine",
+   "revisit": false
+  },
+  {
+   "page": "Jet engine",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Aircraft",
+     "valid": true,
+     "tokensIn": 220,
+     "tokensOut": 18,
+     "ms": 947
+    }
+   ],
+   "chosen": "Aircraft",
+   "revisit": false
+  },
+  {
+   "page": "Aircraft",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Hovercraft",
+     "valid": true,
+     "tokensIn": 255,
+     "tokensOut": 19,
+     "ms": 1121
+    }
+   ],
+   "chosen": "Hovercraft",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Zara Yaqob",
+  "Europe",
+  "World War II",
+  "Canada",
+  "Canadian Pacific Railway",
+  "Rail transport",
+  "Train",
+  "Super Chief",
+  "Amtrak",
+  "Super Chief",
+  "Train",
+  "The Canadian",
+  "World War II",
+  "Canada",
+  "Canadian Pacific Railway",
+  "The Canadian"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 6,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6431,
+ "tokensOut": 1547,
+ "costUsd": 0.028332,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 202,
+     "tokensOut": 36,
+     "ms": 1180
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 750,
+     "tokensOut": 20,
+     "ms": 870
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 668,
+     "tokensOut": 163,
+     "ms": 3027
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Canadian Pacific Railway",
+     "valid": true,
+     "tokensIn": 453,
+     "tokensOut": 64,
+     "ms": 1498
+    }
+   ],
+   "chosen": "Canadian Pacific Railway",
+   "revisit": false
+  },
+  {
+   "page": "Canadian Pacific Railway",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 387,
+     "tokensOut": 76,
+     "ms": 1675
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 361,
+     "tokensOut": 18,
+     "ms": 1093
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Super Chief",
+     "valid": true,
+     "tokensIn": 370,
+     "tokensOut": 57,
+     "ms": 1724
+    }
+   ],
+   "chosen": "Super Chief",
+   "revisit": false
+  },
+  {
+   "page": "Super Chief",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 138,
+     "ms": 2947
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": false
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Super Chief",
+     "valid": true,
+     "tokensIn": 429,
+     "tokensOut": 364,
+     "ms": 5943
+    }
+   ],
+   "chosen": "Super Chief",
+   "revisit": true
+  },
+  {
+   "page": "Super Chief",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 297,
+     "tokensOut": 130,
+     "ms": 2619
+    }
+   ],
+   "chosen": "Train",
+   "revisit": true
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "The Canadian",
+     "valid": true,
+     "tokensIn": 381,
+     "tokensOut": 78,
+     "ms": 2312
+    }
+   ],
+   "chosen": "The Canadian",
+   "revisit": false
+  },
+  {
+   "page": "The Canadian",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 247,
+     "tokensOut": 64,
+     "ms": 1350
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 697,
+     "tokensOut": 179,
+     "ms": 4744
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": true
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Canadian Pacific Railway",
+     "valid": true,
+     "tokensIn": 482,
+     "tokensOut": 55,
+     "ms": 1537
+    }
+   ],
+   "chosen": "Canadian Pacific Railway",
+   "revisit": true
+  },
+  {
+   "page": "Canadian Pacific Railway",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "The Canadian",
+     "valid": true,
+     "tokensIn": 416,
+     "tokensOut": 105,
+     "ms": 2452
+    }
+   ],
+   "chosen": "The Canadian",
+   "revisit": true
+  }
+ ]
+}

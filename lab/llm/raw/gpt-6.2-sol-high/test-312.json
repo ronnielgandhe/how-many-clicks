@@ -1,0 +1,275 @@
+{
+ "pair": "test-312",
+ "start": "Number",
+ "target": "Retinol",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 9
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Number",
+  "Aristotle",
+  "Biology",
+  "Medicine",
+  "Eye",
+  "Retina",
+  "Color blindness",
+  "Retina",
+  "Eye",
+  "Cornea",
+  "Eye",
+  "Retina",
+  "Cancer",
+  "Anemia",
+  "Vitamin C",
+  "Vitamin"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 4426,
+ "tokensOut": 1340,
+ "costUsd": 0.022252,
+ "steps": [
+  {
+   "page": "Number",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 350,
+     "tokensOut": 72,
+     "ms": 1913
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 96,
+     "ms": 2338
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  },
+  {
+   "page": "Biology",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 382,
+     "tokensOut": 64,
+     "ms": 1473
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 336,
+     "tokensOut": 18,
+     "ms": 932
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 312,
+     "tokensOut": 33,
+     "ms": 1176
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Color blindness",
+     "valid": true,
+     "tokensIn": 226,
+     "tokensOut": 94,
+     "ms": 2094
+    }
+   ],
+   "chosen": "Color blindness",
+   "revisit": false
+  },
+  {
+   "page": "Color blindness",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 240,
+     "tokensOut": 60,
+     "ms": 1456
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 92,
+     "ms": 2337
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": true
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Cornea",
+     "valid": true,
+     "tokensIn": 321,
+     "tokensOut": 168,
+     "ms": 3018
+    }
+   ],
+   "chosen": "Cornea",
+   "revisit": false
+  },
+  {
+   "page": "Cornea",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 227,
+     "tokensOut": 96,
+     "ms": 1925
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": true
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 326,
+     "tokensOut": 19,
+     "ms": 1295
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Cancer",
+     "valid": true,
+     "tokensIn": 240,
+     "tokensOut": 220,
+     "ms": 4441
+    }
+   ],
+   "chosen": "Cancer",
+   "revisit": false
+  },
+  {
+   "page": "Cancer",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Anemia",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 142,
+     "ms": 3034
+    }
+   ],
+   "chosen": "Anemia",
+   "revisit": false
+  },
+  {
+   "page": "Anemia",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Vitamin C",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 148,
+     "ms": 2823
+    }
+   ],
+   "chosen": "Vitamin C",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin C",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 328,
+     "tokensOut": 18,
+     "ms": 957
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  }
+ ]
+}

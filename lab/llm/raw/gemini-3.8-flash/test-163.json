@@ -1,0 +1,99 @@
+{
+ "pair": "test-163",
+ "start": "EMD F7",
+ "target": "Michigan State University",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "EMD F7",
+  "Canada",
+  "United States",
+  "Detroit, Michigan",
+  "Michigan State University"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2481,
+ "tokensOut": 178,
+ "costUsd": 0.002528,
+ "steps": [
+  {
+   "page": "EMD F7",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 189,
+     "tokensOut": 16,
+     "ms": 1546
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 439,
+     "tokensOut": 92,
+     "ms": 1834
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Detroit, Michigan",
+     "valid": true,
+     "tokensIn": 1416,
+     "tokensOut": 18,
+     "ms": 3678
+    }
+   ],
+   "chosen": "Detroit, Michigan",
+   "revisit": false
+  },
+  {
+   "page": "Detroit, Michigan",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Michigan State University",
+     "valid": true,
+     "tokensIn": 437,
+     "tokensOut": 52,
+     "ms": 3566
+    }
+   ],
+   "chosen": "Michigan State University",
+   "revisit": false
+  }
+ ]
+}

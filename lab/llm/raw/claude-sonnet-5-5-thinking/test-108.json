@@ -1,0 +1,78 @@
+{
+ "pair": "test-108",
+ "start": "Ice hockey",
+ "target": "Continent",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Ice hockey",
+  "Egypt",
+  "Africa",
+  "Continent"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 3974,
+ "tokensOut": 574,
+ "costUsd": 0.013688,
+ "steps": [
+  {
+   "page": "Ice hockey",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Egypt",
+     "valid": true,
+     "tokensIn": 915,
+     "tokensOut": 432,
+     "ms": 3706
+    }
+   ],
+   "chosen": "Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Egypt",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 1041,
+     "tokensOut": 93,
+     "ms": 2026
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Continent",
+     "valid": true,
+     "tokensIn": 2018,
+     "tokensOut": 49,
+     "ms": 1676
+    }
+   ],
+   "chosen": "Continent",
+   "revisit": false
+  }
+ ]
+}

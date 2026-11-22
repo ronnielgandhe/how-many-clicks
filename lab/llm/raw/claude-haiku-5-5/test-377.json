@@ -1,0 +1,110 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Europe",
+  "Culture",
+  "Anthropology",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4811,
+ "tokensOut": 1077,
+ "costUsd": 0.00102,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 652,
+     "tokensOut": 232,
+     "ms": 1377
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 1619,
+     "tokensOut": 289,
+     "ms": 1640
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": false
+  },
+  {
+   "page": "Culture",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Anthropology",
+     "valid": true,
+     "tokensIn": 918,
+     "tokensOut": 381,
+     "ms": 1960
+    }
+   ],
+   "chosen": "Anthropology",
+   "revisit": false
+  },
+  {
+   "page": "Anthropology",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 837,
+     "tokensOut": 115,
+     "ms": 729
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 785,
+     "tokensOut": 60,
+     "ms": 614
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

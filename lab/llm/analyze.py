@@ -10,6 +10,17 @@ from game import DIFFS, HERE, MAX_STEPS, MODELS, PER_DIFF, EXT_PER_DIFF, PRICE_S
 SITE_OUT = os.path.expanduser('~/Desktop/rg-portfolio/src/data/clicks/llm.json')
 BENCH = os.path.expanduser('~/Desktop/rg-portfolio/src/data/clicks/benchmark.json')
 ORDER = list(MODELS)
+REPLAYS = [
+    ('gemini-4-carbon', 'test-346', 'clean win: optimal 4 clicks through Monarchy > Australia > Melbourne'),
+    ('gemini-3.5-flash-lite', 'test-346', 'invalid move: same pair, asked for Australia from United Kingdom twice (not a link there), game lost'),
+    ('claude-opus-5-5', 'test-417', 'loop: England > National parks of England and Wales visited three times, never finds the railway'),
+    ('gpt-6.2-astra', 'test-236', 'semantic trap: circles Somalia four times; the target has one inbound link in the whole graph (from NATO)'),
+    ('claude-haiku-5-5', 'test-382', 'cheap beats expensive: Haiku solves Toluene to Saffron in 12 for under a third of a cent'),
+    ('claude-sonnet-5-5', 'test-382', 'same pair, Sonnet loops through India and Flag of India twice and runs out of clicks at 7 cents'),
+    ('claude-sonnet-5-5', 'test-132', 'wander: an easy 2-click pair solved on the 15th and last click'),
+    ('gemini-3.8-flash', 'test-447', 'mid tier beats flagships: one of only two models to reach Lost (TV series), on click 14'),
+    ('claude-opus-5-5', 'test-447', 'same pair, the most expensive model ends in Los Angeles'),
+]
 
 
 def r(x, n=4):
@@ -42,6 +53,7 @@ def stats(rows):
         'clicksMean': r(mean([g['clicks'] for g in solved]), 3),
         'clicksOverOptimal': r(mean(over), 3),
         'clicksOverOptimalCI': boot(over, mean),
+        'optimalRate': r(sum(1 for g in solved if g['clicks'] == g['optimal']) / len(rows), 3),
         'stepsMean': r(mean([g['stepsTaken'] for g in rows]), 3),
         'invalidMoveRate': r(sum(1 for a in calls if not a['valid']) / len(calls), 4),
         'tokensInMean': r(mean([g['tokensIn'] for g in rows]), 1),
@@ -65,8 +77,8 @@ def load_games(ids):
     return out
 
 
-def replay(g):
-    return {
+def replay(g, note=None):
+    return {'note': note,
         'model': g['model'], 'start': g['start'], 'target': g['target'], 'optimal': g['optimal'], 'difficulty': g['difficulty'],
         'outcome': g['outcome'], 'failReason': g['failReason'], 'path': g['path'], 'costUsd': g['costUsd'],
         'steps': [{'page': s['page'], 'offered': s['offered'], 'chosen': s.get('chosen'),
@@ -90,6 +102,31 @@ def references(sample):
                         'byDifficulty': {d: pick(v) for d, v in s['byDifficulty'].items()}} for s in b['strategies']],
         'humans': b.get('humans'),
         'trainedModel': {k: b['model'].get(k) for k in ('params', 'sizeBytes', 'trainSeconds', 'testMetric')} if b.get('model') else None,
+    }
+
+
+def failure_analysis(games):
+    titles, adj, idx, _ = load_env()
+    indeg = {}
+    for a in adj:
+        for j in a:
+            indeg[j] = indeg.get(j, 0) + 1
+    by_pair = {}
+    for rows in games.values():
+        for g in rows:
+            by_pair.setdefault(g['pair'], []).append(g)
+    allg = [g for rows in games.values() for g in rows]
+    fails = [g for g in allg if g['outcome'] != 'solved']
+    hard_pairs = {pid for pid, gs in by_pair.items() if sum(g['outcome'] != 'solved' for g in gs) >= len(gs) - 2}
+    return {
+        'games': len(allg), 'failed': len(fails),
+        'pairsSolvedByEveryModel': sum(1 for gs in by_pair.values() if all(g['outcome'] == 'solved' for g in gs)),
+        'pairsFailedByAllButAtMostTwo': sorted([{'start': by_pair[p][0]['start'], 'target': by_pair[p][0]['target'], 'difficulty': by_pair[p][0]['difficulty'],
+                                                 'modelsFailed': sum(g['outcome'] != 'solved' for g in by_pair[p]), 'targetInboundLinks': indeg.get(idx[by_pair[p][0]['target']], 0)} for p in hard_pairs], key=lambda x: -x['modelsFailed']),
+        'shareOfFailuresOnThosePairs': r(sum(1 for g in fails if g['pair'] in hard_pairs) / len(fails), 3) if fails else None,
+        'medianTargetInboundLinksAllPairs': statistics.median([indeg.get(idx[gs[0]['target']], 0) for gs in by_pair.values()]),
+        'failuresWithARevisit': r(sum(1 for g in fails if g['revisits']) / len(fails), 3) if fails else None,
+        'failuresByReason': {k: sum(1 for g in fails if g['failReason'] == k) for k in ('step_limit', 'invalid_move', 'dead_end')},
     }
 
 
@@ -125,11 +162,7 @@ def main():
             'settings': settings, 'pairsPlayed': len(rows),
             'overall': stats(rows), 'byDifficulty': {d: stats([g for g in rows if g['difficulty'] == d]) for d in DIFFS},
         })
-    chosen = []
-    if a.replays:
-        for spec in a.replays.split(','):
-            k, pid = spec.split(':')
-            chosen += [g for g in games.get(k, []) if g['pair'] == pid]
+    chosen = [(g, note) for k, pid, note in REPLAYS for g in games.get(k, []) if g['pair'] == pid]
     out = {
         'preliminary': not a.final,
         'date': PRICED_ON,
@@ -153,7 +186,8 @@ def main():
         'models': models,
         'humansOnSubset': human_on_subset(sample),
         'references': references(sample),
-        'replays': [replay(g) for g in chosen],
+        'failureAnalysis': failure_analysis(games),
+        'replays': [replay(g, n) for g, n in chosen],
         'spendUsd': ledger['totalUsd'],
     }
     os.makedirs(os.path.dirname(SITE_OUT), exist_ok=True)

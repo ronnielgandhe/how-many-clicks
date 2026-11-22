@@ -1,0 +1,83 @@
+{
+ "pair": "test-180",
+ "start": "Working poor",
+ "target": "Fresh water",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 3.5,
+  "median_pages": 4.5
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Working poor",
+  "United States",
+  "Great Lakes",
+  "Fresh water"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1908,
+ "tokensOut": 57,
+ "costUsd": 0.017544,
+ "steps": [
+  {
+   "page": "Working poor",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 189,
+     "tokensOut": 19,
+     "ms": 1472
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Great Lakes",
+     "valid": true,
+     "tokensIn": 1443,
+     "tokensOut": 19,
+     "ms": 1269
+    }
+   ],
+   "chosen": "Great Lakes",
+   "revisit": false
+  },
+  {
+   "page": "Great Lakes",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Fresh water",
+     "valid": true,
+     "tokensIn": 276,
+     "tokensOut": 19,
+     "ms": 1305
+    }
+   ],
+   "chosen": "Fresh water",
+   "revisit": false
+  }
+ ]
+}

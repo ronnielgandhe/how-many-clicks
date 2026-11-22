@@ -1,0 +1,131 @@
+{
+ "pair": "test-356",
+ "start": "Pinworm",
+ "target": "Amsterdam",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 9
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Pinworm",
+  "Animal",
+  "Aristotle",
+  "Ancient Greece",
+  "Greece",
+  "Netherlands",
+  "Amsterdam"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2402,
+ "tokensOut": 98,
+ "costUsd": 0.000966,
+ "steps": [
+  {
+   "page": "Pinworm",
+   "offered": 2,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 177,
+     "tokensOut": 16,
+     "ms": 759
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 280,
+     "tokensOut": 17,
+     "ms": 795
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Ancient Greece",
+     "valid": true,
+     "tokensIn": 295,
+     "tokensOut": 17,
+     "ms": 777
+    }
+   ],
+   "chosen": "Ancient Greece",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Greece",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Greece",
+     "valid": true,
+     "tokensIn": 429,
+     "tokensOut": 16,
+     "ms": 686
+    }
+   ],
+   "chosen": "Greece",
+   "revisit": false
+  },
+  {
+   "page": "Greece",
+   "offered": 114,
+   "attempts": [
+    {
+     "raw": "Netherlands",
+     "valid": true,
+     "tokensIn": 585,
+     "tokensOut": 16,
+     "ms": 862
+    }
+   ],
+   "chosen": "Netherlands",
+   "revisit": false
+  },
+  {
+   "page": "Netherlands",
+   "offered": 116,
+   "attempts": [
+    {
+     "raw": "Amsterdam",
+     "valid": true,
+     "tokensIn": 636,
+     "tokensOut": 16,
+     "ms": 690
+    }
+   ],
+   "chosen": "Amsterdam",
+   "revisit": false
+  }
+ ]
+}

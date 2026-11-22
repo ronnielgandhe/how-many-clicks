@@ -1,0 +1,126 @@
+{
+ "pair": "test-418",
+ "start": "The Lorax",
+ "target": "Hovercraft",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Lorax",
+  "Dr. Seuss",
+  "United States",
+  "United Kingdom",
+  "Jet engine",
+  "Aircraft",
+  "Hovercraft"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 3289,
+ "tokensOut": 103,
+ "costUsd": 0.001244,
+ "steps": [
+  {
+   "page": "The Lorax",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Dr. Seuss",
+     "valid": true,
+     "tokensIn": 202,
+     "tokensOut": 19,
+     "ms": 846
+    }
+   ],
+   "chosen": "Dr. Seuss",
+   "revisit": false
+  },
+  {
+   "page": "Dr. Seuss",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 253,
+     "tokensOut": 17,
+     "ms": 743
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 1417,
+     "tokensOut": 17,
+     "ms": 674
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Jet engine",
+     "valid": true,
+     "tokensIn": 925,
+     "tokensOut": 17,
+     "ms": 657
+    }
+   ],
+   "chosen": "Jet engine",
+   "revisit": false
+  },
+  {
+   "page": "Jet engine",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Aircraft",
+     "valid": true,
+     "tokensIn": 226,
+     "tokensOut": 16,
+     "ms": 782
+    }
+   ],
+   "chosen": "Aircraft",
+   "revisit": false
+  },
+  {
+   "page": "Aircraft",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Hovercraft",
+     "valid": true,
+     "tokensIn": 266,
+     "tokensOut": 17,
+     "ms": 726
+    }
+   ],
+   "chosen": "Hovercraft",
+   "revisit": false
+  }
+ ]
+}

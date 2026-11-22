@@ -1,0 +1,142 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Europe",
+  "Switzerland",
+  "Z\u00fcrich",
+  "Basel",
+  "Friedrich Nietzsche",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2775,
+ "tokensOut": 233,
+ "costUsd": 0.00788,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 264,
+     "tokensOut": 22,
+     "ms": 12899
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Switzerland",
+     "valid": true,
+     "tokensIn": 765,
+     "tokensOut": 22,
+     "ms": 4241
+    }
+   ],
+   "chosen": "Switzerland",
+   "revisit": false
+  },
+  {
+   "page": "Switzerland",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Z\u00fcrich",
+     "valid": true,
+     "tokensIn": 385,
+     "tokensOut": 36,
+     "ms": 3104
+    }
+   ],
+   "chosen": "Z\u00fcrich",
+   "revisit": false
+  },
+  {
+   "page": "Z\u00fcrich",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Basel",
+     "valid": true,
+     "tokensIn": 296,
+     "tokensOut": 80,
+     "ms": 7579
+    }
+   ],
+   "chosen": "Basel",
+   "revisit": false
+  },
+  {
+   "page": "Basel",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Friedrich Nietzsche",
+     "valid": true,
+     "tokensIn": 306,
+     "tokensOut": 23,
+     "ms": 3483
+    }
+   ],
+   "chosen": "Friedrich Nietzsche",
+   "revisit": false
+  },
+  {
+   "page": "Friedrich Nietzsche",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 419,
+     "tokensOut": 23,
+     "ms": 3634
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 27,
+     "ms": 3589
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

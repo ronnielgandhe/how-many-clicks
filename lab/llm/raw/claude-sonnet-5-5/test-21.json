@@ -1,0 +1,83 @@
+{
+ "pair": "test-21",
+ "start": "Montreal",
+ "target": "Houston, Texas",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Montreal",
+  "Petroleum",
+  "United States",
+  "Houston, Texas"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 4836,
+ "tokensOut": 152,
+ "costUsd": 0.011192,
+ "steps": [
+  {
+   "page": "Montreal",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 1022,
+     "tokensOut": 51,
+     "ms": 814
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": false
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1028,
+     "tokensOut": 48,
+     "ms": 7905
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Houston, Texas",
+     "valid": true,
+     "tokensIn": 2786,
+     "tokensOut": 53,
+     "ms": 1690
+    }
+   ],
+   "chosen": "Houston, Texas",
+   "revisit": false
+  }
+ ]
+}

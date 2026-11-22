@@ -1,0 +1,62 @@
+{
+ "pair": "test-146",
+ "start": "Ganges River",
+ "target": "Suez Canal",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Ganges River",
+  "Canal",
+  "Suez Canal"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 566,
+ "tokensOut": 53,
+ "costUsd": 0.001662,
+ "steps": [
+  {
+   "page": "Ganges River",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Canal",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 29,
+     "ms": 3984
+    }
+   ],
+   "chosen": "Canal",
+   "revisit": false
+  },
+  {
+   "page": "Canal",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Suez Canal",
+     "valid": true,
+     "tokensIn": 296,
+     "tokensOut": 24,
+     "ms": 4942
+    }
+   ],
+   "chosen": "Suez Canal",
+   "revisit": false
+  }
+ ]
+}

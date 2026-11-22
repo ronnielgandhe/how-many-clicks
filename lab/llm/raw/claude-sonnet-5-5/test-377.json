@@ -1,0 +1,110 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Climate",
+  "History",
+  "Anthropology",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 3535,
+ "tokensOut": 403,
+ "costUsd": 0.0111,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Climate",
+     "valid": true,
+     "tokensIn": 652,
+     "tokensOut": 49,
+     "ms": 1383
+    }
+   ],
+   "chosen": "Climate",
+   "revisit": false
+  },
+  {
+   "page": "Climate",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "History",
+     "valid": true,
+     "tokensIn": 602,
+     "tokensOut": 112,
+     "ms": 1836
+    }
+   ],
+   "chosen": "History",
+   "revisit": false
+  },
+  {
+   "page": "History",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Anthropology",
+     "valid": true,
+     "tokensIn": 663,
+     "tokensOut": 130,
+     "ms": 1907
+    }
+   ],
+   "chosen": "Anthropology",
+   "revisit": false
+  },
+  {
+   "page": "Anthropology",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 835,
+     "tokensOut": 52,
+     "ms": 1331
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 783,
+     "tokensOut": 60,
+     "ms": 1414
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

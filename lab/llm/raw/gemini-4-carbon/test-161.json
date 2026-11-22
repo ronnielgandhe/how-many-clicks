@@ -1,0 +1,147 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "France",
+  "Mediterranean Sea",
+  "Mesopotamia",
+  "Barley",
+  "Plant",
+  "Gregor Mendel",
+  "Pea"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2668,
+ "tokensOut": 500,
+ "costUsd": 0.010336,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 268,
+     "tokensOut": 58,
+     "ms": 4357
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Mediterranean Sea",
+     "valid": true,
+     "tokensIn": 527,
+     "tokensOut": 199,
+     "ms": 7455
+    }
+   ],
+   "chosen": "Mediterranean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Mediterranean Sea",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Mesopotamia",
+     "valid": true,
+     "tokensIn": 430,
+     "tokensOut": 65,
+     "ms": 5243
+    }
+   ],
+   "chosen": "Mesopotamia",
+   "revisit": false
+  },
+  {
+   "page": "Mesopotamia",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Barley",
+     "valid": true,
+     "tokensIn": 422,
+     "tokensOut": 44,
+     "ms": 4422
+    }
+   ],
+   "chosen": "Barley",
+   "revisit": false
+  },
+  {
+   "page": "Barley",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Plant",
+     "valid": true,
+     "tokensIn": 302,
+     "tokensOut": 69,
+     "ms": 5792
+    }
+   ],
+   "chosen": "Plant",
+   "revisit": false
+  },
+  {
+   "page": "Plant",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Gregor Mendel",
+     "valid": true,
+     "tokensIn": 449,
+     "tokensOut": 42,
+     "ms": 4155
+    }
+   ],
+   "chosen": "Gregor Mendel",
+   "revisit": false
+  },
+  {
+   "page": "Gregor Mendel",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 23,
+     "ms": 4721
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

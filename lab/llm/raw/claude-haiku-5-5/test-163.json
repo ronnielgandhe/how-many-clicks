@@ -1,0 +1,275 @@
+{
+ "pair": "test-163",
+ "start": "EMD F7",
+ "target": "Michigan State University",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "EMD F7",
+  "North America",
+  "United States",
+  "Education in the United States",
+  "University",
+  "England",
+  "Linguistics",
+  "Language",
+  "English language",
+  "United States",
+  "Education in the United States",
+  "Cornell University",
+  "United States",
+  "Education in the United States",
+  "University of Chicago",
+  "United States"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 20692,
+ "tokensOut": 4957,
+ "costUsd": 0.004548,
+ "steps": [
+  {
+   "page": "EMD F7",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 559,
+     "tokensOut": 217,
+     "ms": 1296
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1109,
+     "tokensOut": 148,
+     "ms": 1224
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Education in the United States",
+     "valid": true,
+     "tokensIn": 2784,
+     "tokensOut": 302,
+     "ms": 1608
+    }
+   ],
+   "chosen": "Education in the United States",
+   "revisit": false
+  },
+  {
+   "page": "Education in the United States",
+   "offered": 80,
+   "attempts": [
+    {
+     "raw": "University",
+     "valid": true,
+     "tokensIn": 1095,
+     "tokensOut": 168,
+     "ms": 1257
+    }
+   ],
+   "chosen": "University",
+   "revisit": false
+  },
+  {
+   "page": "University",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 760,
+     "tokensOut": 484,
+     "ms": 2901
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Linguistics",
+     "valid": true,
+     "tokensIn": 1831,
+     "tokensOut": 732,
+     "ms": 4184
+    }
+   ],
+   "chosen": "Linguistics",
+   "revisit": false
+  },
+  {
+   "page": "Linguistics",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Language",
+     "valid": true,
+     "tokensIn": 637,
+     "tokensOut": 259,
+     "ms": 2055
+    }
+   ],
+   "chosen": "Language",
+   "revisit": false
+  },
+  {
+   "page": "Language",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "English language",
+     "valid": true,
+     "tokensIn": 714,
+     "tokensOut": 249,
+     "ms": 1394
+    }
+   ],
+   "chosen": "English language",
+   "revisit": false
+  },
+  {
+   "page": "English language",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1414,
+     "tokensOut": 255,
+     "ms": 1427
+    }
+   ],
+   "chosen": "United States",
+   "revisit": true
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Education in the United States",
+     "valid": true,
+     "tokensIn": 2810,
+     "tokensOut": 214,
+     "ms": 1196
+    }
+   ],
+   "chosen": "Education in the United States",
+   "revisit": true
+  },
+  {
+   "page": "Education in the United States",
+   "offered": 80,
+   "attempts": [
+    {
+     "raw": "Cornell University",
+     "valid": true,
+     "tokensIn": 1121,
+     "tokensOut": 400,
+     "ms": 2370
+    }
+   ],
+   "chosen": "Cornell University",
+   "revisit": false
+  },
+  {
+   "page": "Cornell University",
+   "offered": 68,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1058,
+     "tokensOut": 319,
+     "ms": 1948
+    }
+   ],
+   "chosen": "United States",
+   "revisit": true
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Education in the United States",
+     "valid": true,
+     "tokensIn": 2826,
+     "tokensOut": 514,
+     "ms": 2768
+    }
+   ],
+   "chosen": "Education in the United States",
+   "revisit": true
+  },
+  {
+   "page": "Education in the United States",
+   "offered": 80,
+   "attempts": [
+    {
+     "raw": "University of Chicago",
+     "valid": true,
+     "tokensIn": 1137,
+     "tokensOut": 386,
+     "ms": 2474
+    }
+   ],
+   "chosen": "University of Chicago",
+   "revisit": false
+  },
+  {
+   "page": "University of Chicago",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 837,
+     "tokensOut": 310,
+     "ms": 1731
+    }
+   ],
+   "chosen": "United States",
+   "revisit": true
+  }
+ ]
+}

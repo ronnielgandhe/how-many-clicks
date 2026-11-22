@@ -1,0 +1,131 @@
+{
+ "pair": "test-330",
+ "start": "African dwarf frog",
+ "target": "Jaws (film)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "African dwarf frog",
+  "Animal",
+  "Fish",
+  "Dolphin",
+  "United States",
+  "Cinema of the United States",
+  "Jaws (film)"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2797,
+ "tokensOut": 119,
+ "costUsd": 0.000339,
+ "steps": [
+  {
+   "page": "African dwarf frog",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 197,
+     "tokensOut": 18,
+     "ms": 1044
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Fish",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 18,
+     "ms": 744
+    }
+   ],
+   "chosen": "Fish",
+   "revisit": false
+  },
+  {
+   "page": "Fish",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Dolphin",
+     "valid": true,
+     "tokensIn": 228,
+     "tokensOut": 20,
+     "ms": 1126
+    }
+   ],
+   "chosen": "Dolphin",
+   "revisit": false
+  },
+  {
+   "page": "Dolphin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 294,
+     "tokensOut": 19,
+     "ms": 2091
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Cinema of the United States",
+     "valid": true,
+     "tokensIn": 1442,
+     "tokensOut": 22,
+     "ms": 876
+    }
+   ],
+   "chosen": "Cinema of the United States",
+   "revisit": false
+  },
+  {
+   "page": "Cinema of the United States",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Jaws (film)",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 22,
+     "ms": 1031
+    }
+   ],
+   "chosen": "Jaws (film)",
+   "revisit": false
+  }
+ ]
+}

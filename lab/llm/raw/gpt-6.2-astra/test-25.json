@@ -1,0 +1,83 @@
+{
+ "pair": "test-25",
+ "start": "Citizenship",
+ "target": "Turkmenistan",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.5,
+  "median_pages": 7.5
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Citizenship",
+  "Cambodia",
+  "List of countries by system of government",
+  "Turkmenistan"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1547,
+ "tokensOut": 63,
+ "costUsd": 0.014896,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Cambodia",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 19,
+     "ms": 1773
+    }
+   ],
+   "chosen": "Cambodia",
+   "revisit": false
+  },
+  {
+   "page": "Cambodia",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "List of countries by system of government",
+     "valid": true,
+     "tokensIn": 328,
+     "tokensOut": 24,
+     "ms": 1617
+    }
+   ],
+   "chosen": "List of countries by system of government",
+   "revisit": false
+  },
+  {
+   "page": "List of countries by system of government",
+   "offered": 207,
+   "attempts": [
+    {
+     "raw": "Turkmenistan",
+     "valid": true,
+     "tokensIn": 949,
+     "tokensOut": 20,
+     "ms": 1699
+    }
+   ],
+   "chosen": "Turkmenistan",
+   "revisit": false
+  }
+ ]
+}

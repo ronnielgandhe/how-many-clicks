@@ -1,0 +1,94 @@
+{
+ "pair": "test-228",
+ "start": "Taoism",
+ "target": "Grand Slam (tennis)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Taoism",
+  "China",
+  "Badminton",
+  "Tennis",
+  "Grand Slam (tennis)"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1525,
+ "tokensOut": 111,
+ "costUsd": 0.00416,
+ "steps": [
+  {
+   "page": "Taoism",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 306,
+     "tokensOut": 40,
+     "ms": 6559
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Badminton",
+     "valid": true,
+     "tokensIn": 550,
+     "tokensOut": 23,
+     "ms": 3610
+    }
+   ],
+   "chosen": "Badminton",
+   "revisit": false
+  },
+  {
+   "page": "Badminton",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Tennis",
+     "valid": true,
+     "tokensIn": 282,
+     "tokensOut": 22,
+     "ms": 3719
+    }
+   ],
+   "chosen": "Tennis",
+   "revisit": false
+  },
+  {
+   "page": "Tennis",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Grand Slam (tennis)",
+     "valid": true,
+     "tokensIn": 387,
+     "tokensOut": 26,
+     "ms": 3936
+    }
+   ],
+   "chosen": "Grand Slam (tennis)",
+   "revisit": false
+  }
+ ]
+}

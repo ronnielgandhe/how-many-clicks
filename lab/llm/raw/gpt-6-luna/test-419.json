@@ -1,0 +1,126 @@
+{
+ "pair": "test-419",
+ "start": "Lake Victoria",
+ "target": "Fedora Core",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Lake Victoria",
+  "United Kingdom",
+  "Computer",
+  "Linux",
+  "GNU Project",
+  "Unix",
+  "Fedora Core"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2132,
+ "tokensOut": 112,
+ "costUsd": 0.000269,
+ "steps": [
+  {
+   "page": "Lake Victoria",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 249,
+     "tokensOut": 19,
+     "ms": 774
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Computer",
+     "valid": true,
+     "tokensIn": 910,
+     "tokensOut": 18,
+     "ms": 1058
+    }
+   ],
+   "chosen": "Computer",
+   "revisit": false
+  },
+  {
+   "page": "Computer",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Linux",
+     "valid": true,
+     "tokensIn": 321,
+     "tokensOut": 18,
+     "ms": 1075
+    }
+   ],
+   "chosen": "Linux",
+   "revisit": false
+  },
+  {
+   "page": "Linux",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "GNU Project",
+     "valid": true,
+     "tokensIn": 225,
+     "tokensOut": 19,
+     "ms": 1122
+    }
+   ],
+   "chosen": "GNU Project",
+   "revisit": false
+  },
+  {
+   "page": "GNU Project",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Unix",
+     "valid": true,
+     "tokensIn": 190,
+     "tokensOut": 18,
+     "ms": 1292
+    }
+   ],
+   "chosen": "Unix",
+   "revisit": false
+  },
+  {
+   "page": "Unix",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Fedora Core",
+     "valid": true,
+     "tokensIn": 237,
+     "tokensOut": 20,
+     "ms": 846
+    }
+   ],
+   "chosen": "Fedora Core",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "pair": "test-28",
+ "start": "Nigeria",
+ "target": "Scotland",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Nigeria",
+  "United Kingdom",
+  "Scotland"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1348,
+ "tokensOut": 38,
+ "costUsd": 0.012304,
+ "steps": [
+  {
+   "page": "Nigeria",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 430,
+     "tokensOut": 19,
+     "ms": 1601
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 918,
+     "tokensOut": 19,
+     "ms": 1211
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  }
+ ]
+}

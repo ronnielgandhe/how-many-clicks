@@ -1,0 +1,94 @@
+{
+ "pair": "test-228",
+ "start": "Taoism",
+ "target": "Grand Slam (tennis)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Taoism",
+  "Beijing",
+  "London",
+  "The Championships, Wimbledon",
+  "Grand Slam (tennis)"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3922,
+ "tokensOut": 769,
+ "costUsd": 0.015534,
+ "steps": [
+  {
+   "page": "Taoism",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Beijing",
+     "valid": true,
+     "tokensIn": 703,
+     "tokensOut": 198,
+     "ms": 2447
+    }
+   ],
+   "chosen": "Beijing",
+   "revisit": false
+  },
+  {
+   "page": "Beijing",
+   "offered": 101,
+   "attempts": [
+    {
+     "raw": "London",
+     "valid": true,
+     "tokensIn": 1198,
+     "tokensOut": 457,
+     "ms": 3940
+    }
+   ],
+   "chosen": "London",
+   "revisit": false
+  },
+  {
+   "page": "London",
+   "offered": 102,
+   "attempts": [
+    {
+     "raw": "The Championships, Wimbledon",
+     "valid": true,
+     "tokensIn": 1311,
+     "tokensOut": 57,
+     "ms": 1478
+    }
+   ],
+   "chosen": "The Championships, Wimbledon",
+   "revisit": false
+  },
+  {
+   "page": "The Championships, Wimbledon",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Grand Slam (tennis)",
+     "valid": true,
+     "tokensIn": 710,
+     "tokensOut": 57,
+     "ms": 1311
+    }
+   ],
+   "chosen": "Grand Slam (tennis)",
+   "revisit": false
+  }
+ ]
+}

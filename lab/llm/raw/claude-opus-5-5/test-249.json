@@ -1,0 +1,94 @@
+{
+ "pair": "test-249",
+ "start": "List of Canadian provinces and territories by area",
+ "target": "Hinduism",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "List of Canadian provinces and territories by area",
+  "Canada",
+  "Christianity",
+  "Religion",
+  "Hinduism"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3434,
+ "tokensOut": 218,
+ "costUsd": 0.018096,
+ "steps": [
+  {
+   "page": "List of Canadian provinces and territories by area",
+   "offered": 4,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 592,
+     "tokensOut": 49,
+     "ms": 916
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Christianity",
+     "valid": true,
+     "tokensIn": 1047,
+     "tokensOut": 69,
+     "ms": 1082
+    }
+   ],
+   "chosen": "Christianity",
+   "revisit": false
+  },
+  {
+   "page": "Christianity",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Religion",
+     "valid": true,
+     "tokensIn": 915,
+     "tokensOut": 49,
+     "ms": 1631
+    }
+   ],
+   "chosen": "Religion",
+   "revisit": false
+  },
+  {
+   "page": "Religion",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Hinduism",
+     "valid": true,
+     "tokensIn": 880,
+     "tokensOut": 51,
+     "ms": 1509
+    }
+   ],
+   "chosen": "Hinduism",
+   "revisit": false
+  }
+ ]
+}

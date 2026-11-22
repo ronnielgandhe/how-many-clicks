@@ -1,0 +1,94 @@
+{
+ "pair": "test-108",
+ "start": "Ice hockey",
+ "target": "Continent",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Ice hockey",
+  "Sport",
+  "Olympic Games",
+  "Australia",
+  "Continent"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 4062,
+ "tokensOut": 968,
+ "costUsd": 0.00089,
+ "steps": [
+  {
+   "page": "Ice hockey",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Sport",
+     "valid": true,
+     "tokensIn": 915,
+     "tokensOut": 433,
+     "ms": 2530
+    }
+   ],
+   "chosen": "Sport",
+   "revisit": false
+  },
+  {
+   "page": "Sport",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Olympic Games",
+     "valid": true,
+     "tokensIn": 632,
+     "tokensOut": 228,
+     "ms": 1413
+    }
+   ],
+   "chosen": "Olympic Games",
+   "revisit": false
+  },
+  {
+   "page": "Olympic Games",
+   "offered": 116,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 1328,
+     "tokensOut": 258,
+     "ms": 1702
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Continent",
+     "valid": true,
+     "tokensIn": 1187,
+     "tokensOut": 49,
+     "ms": 585
+    }
+   ],
+   "chosen": "Continent",
+   "revisit": false
+  }
+ ]
+}

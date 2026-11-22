@@ -1,0 +1,94 @@
+{
+ "pair": "test-249",
+ "start": "List of Canadian provinces and territories by area",
+ "target": "Hinduism",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "List of Canadian provinces and territories by area",
+  "Canada",
+  "Islam",
+  "India",
+  "Hinduism"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1654,
+ "tokensOut": 65,
+ "costUsd": 0.000659,
+ "steps": [
+  {
+   "page": "List of Canadian provinces and territories by area",
+   "offered": 4,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 197,
+     "tokensOut": 16,
+     "ms": 746
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Islam",
+     "valid": true,
+     "tokensIn": 441,
+     "tokensOut": 16,
+     "ms": 730
+    }
+   ],
+   "chosen": "Islam",
+   "revisit": false
+  },
+  {
+   "page": "Islam",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 520,
+     "tokensOut": 16,
+     "ms": 701
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Hinduism",
+     "valid": true,
+     "tokensIn": 496,
+     "tokensOut": 17,
+     "ms": 854
+    }
+   ],
+   "chosen": "Hinduism",
+   "revisit": false
+  }
+ ]
+}

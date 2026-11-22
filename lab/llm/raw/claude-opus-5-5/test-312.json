@@ -1,0 +1,147 @@
+{
+ "pair": "test-312",
+ "start": "Number",
+ "target": "Retinol",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 9
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Number",
+  "India",
+  "Rice",
+  "Butter",
+  "Milk",
+  "Thiamine",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 6234,
+ "tokensOut": 694,
+ "costUsd": 0.038816,
+ "steps": [
+  {
+   "page": "Number",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 812,
+     "tokensOut": 151,
+     "ms": 1964
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Rice",
+     "valid": true,
+     "tokensIn": 1104,
+     "tokensOut": 83,
+     "ms": 1280
+    }
+   ],
+   "chosen": "Rice",
+   "revisit": false
+  },
+  {
+   "page": "Rice",
+   "offered": 99,
+   "attempts": [
+    {
+     "raw": "Butter",
+     "valid": true,
+     "tokensIn": 1156,
+     "tokensOut": 112,
+     "ms": 2421
+    }
+   ],
+   "chosen": "Butter",
+   "revisit": false
+  },
+  {
+   "page": "Butter",
+   "offered": 51,
+   "attempts": [
+    {
+     "raw": "Milk",
+     "valid": true,
+     "tokensIn": 867,
+     "tokensOut": 151,
+     "ms": 2161
+    }
+   ],
+   "chosen": "Milk",
+   "revisit": false
+  },
+  {
+   "page": "Milk",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Thiamine",
+     "valid": true,
+     "tokensIn": 883,
+     "tokensOut": 96,
+     "ms": 1292
+    }
+   ],
+   "chosen": "Thiamine",
+   "revisit": false
+  },
+  {
+   "page": "Thiamine",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 676,
+     "tokensOut": 51,
+     "ms": 919
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 736,
+     "tokensOut": 50,
+     "ms": 1101
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

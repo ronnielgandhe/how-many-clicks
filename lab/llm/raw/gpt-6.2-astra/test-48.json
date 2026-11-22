@@ -1,0 +1,67 @@
+{
+ "pair": "test-48",
+ "start": "Eagle",
+ "target": "Sweden",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 4.0,
+  "median_pages": 5.5
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Eagle",
+  "Germany",
+  "Sweden"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1157,
+ "tokensOut": 37,
+ "costUsd": 0.010736,
+ "steps": [
+  {
+   "page": "Eagle",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 314,
+     "tokensOut": 18,
+     "ms": 1863
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Sweden",
+     "valid": true,
+     "tokensIn": 843,
+     "tokensOut": 19,
+     "ms": 1726
+    }
+   ],
+   "chosen": "Sweden",
+   "revisit": false
+  }
+ ]
+}

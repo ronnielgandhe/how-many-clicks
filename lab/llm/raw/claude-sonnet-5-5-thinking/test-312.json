@@ -1,0 +1,259 @@
+{
+ "pair": "test-312",
+ "start": "Number",
+ "target": "Retinol",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 9
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Number",
+  "Measurement",
+  "Science",
+  "Biology",
+  "Medicine",
+  "Eye",
+  "Retina",
+  "Color blindness",
+  "Retina",
+  "Eye",
+  "Retina",
+  "Diabetes mellitus",
+  "Lipid",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 14,
+ "stepsTaken": 14,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 14,
+ "tokensIn": 10138,
+ "tokensOut": 4059,
+ "costUsd": 0.060866,
+ "steps": [
+  {
+   "page": "Number",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Measurement",
+     "valid": true,
+     "tokensIn": 812,
+     "tokensOut": 472,
+     "ms": 5171
+    }
+   ],
+   "chosen": "Measurement",
+   "revisit": false
+  },
+  {
+   "page": "Measurement",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Science",
+     "valid": true,
+     "tokensIn": 604,
+     "tokensOut": 194,
+     "ms": 1469
+    }
+   ],
+   "chosen": "Science",
+   "revisit": false
+  },
+  {
+   "page": "Science",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 807,
+     "tokensOut": 131,
+     "ms": 1747
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  },
+  {
+   "page": "Biology",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 885,
+     "tokensOut": 289,
+     "ms": 2537
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 810,
+     "tokensOut": 203,
+     "ms": 4170
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 761,
+     "tokensOut": 124,
+     "ms": 2433
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Color blindness",
+     "valid": true,
+     "tokensIn": 629,
+     "tokensOut": 421,
+     "ms": 5121
+    }
+   ],
+   "chosen": "Color blindness",
+   "revisit": false
+  },
+  {
+   "page": "Color blindness",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 639,
+     "tokensOut": 412,
+     "ms": 3542
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 639,
+     "tokensOut": 298,
+     "ms": 2574
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": true
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 779,
+     "tokensOut": 383,
+     "ms": 3553
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Diabetes mellitus",
+     "valid": true,
+     "tokensIn": 647,
+     "tokensOut": 590,
+     "ms": 4974
+    }
+   ],
+   "chosen": "Diabetes mellitus",
+   "revisit": false
+  },
+  {
+   "page": "Diabetes mellitus",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Lipid",
+     "valid": true,
+     "tokensIn": 731,
+     "tokensOut": 441,
+     "ms": 4469
+    }
+   ],
+   "chosen": "Lipid",
+   "revisit": false
+  },
+  {
+   "page": "Lipid",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 621,
+     "tokensOut": 51,
+     "ms": 773
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 774,
+     "tokensOut": 50,
+     "ms": 1680
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

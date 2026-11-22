@@ -1,0 +1,67 @@
+{
+ "pair": "test-21",
+ "start": "Montreal",
+ "target": "Houston, Texas",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Montreal",
+  "United States",
+  "Houston, Texas"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1868,
+ "tokensOut": 70,
+ "costUsd": 0.001664,
+ "steps": [
+  {
+   "page": "Montreal",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 457,
+     "tokensOut": 52,
+     "ms": 2024
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Houston, Texas",
+     "valid": true,
+     "tokensIn": 1411,
+     "tokensOut": 18,
+     "ms": 1834
+    }
+   ],
+   "chosen": "Houston, Texas",
+   "revisit": false
+  }
+ ]
+}

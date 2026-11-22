@@ -1,0 +1,99 @@
+{
+ "pair": "test-8",
+ "start": "Tehran",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 3
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tehran",
+  "Iran",
+  "Italy",
+  "Mediterranean Sea",
+  "Malta"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1786,
+ "tokensOut": 66,
+ "costUsd": 0.000701,
+ "steps": [
+  {
+   "page": "Tehran",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 16,
+     "ms": 828
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Italy",
+     "valid": true,
+     "tokensIn": 575,
+     "tokensOut": 16,
+     "ms": 816
+    }
+   ],
+   "chosen": "Italy",
+   "revisit": false
+  },
+  {
+   "page": "Italy",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Mediterranean Sea",
+     "valid": true,
+     "tokensIn": 489,
+     "tokensOut": 17,
+     "ms": 777
+    }
+   ],
+   "chosen": "Mediterranean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Mediterranean Sea",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 397,
+     "tokensOut": 17,
+     "ms": 722
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

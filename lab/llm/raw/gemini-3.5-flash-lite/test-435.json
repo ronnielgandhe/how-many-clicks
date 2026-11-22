@@ -1,0 +1,142 @@
+{
+ "pair": "test-435",
+ "start": "Inner Hebrides",
+ "target": "Dam",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Inner Hebrides",
+  "Scotland",
+  "Industrial Revolution",
+  "Canal",
+  "Irrigation",
+  "Mesopotamia",
+  "Tigris",
+  "Dam"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2367,
+ "tokensOut": 119,
+ "costUsd": 0.001008,
+ "steps": [
+  {
+   "page": "Inner Hebrides",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 199,
+     "tokensOut": 16,
+     "ms": 677
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 629,
+     "tokensOut": 17,
+     "ms": 668
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Canal",
+     "valid": true,
+     "tokensIn": 397,
+     "tokensOut": 17,
+     "ms": 830
+    }
+   ],
+   "chosen": "Canal",
+   "revisit": false
+  },
+  {
+   "page": "Canal",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Irrigation",
+     "valid": true,
+     "tokensIn": 263,
+     "tokensOut": 17,
+     "ms": 615
+    }
+   ],
+   "chosen": "Irrigation",
+   "revisit": false
+  },
+  {
+   "page": "Irrigation",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Mesopotamia",
+     "valid": true,
+     "tokensIn": 251,
+     "tokensOut": 18,
+     "ms": 748
+    }
+   ],
+   "chosen": "Mesopotamia",
+   "revisit": false
+  },
+  {
+   "page": "Mesopotamia",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Tigris",
+     "valid": true,
+     "tokensIn": 390,
+     "tokensOut": 18,
+     "ms": 708
+    }
+   ],
+   "chosen": "Tigris",
+   "revisit": false
+  },
+  {
+   "page": "Tigris",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Dam",
+     "valid": true,
+     "tokensIn": 238,
+     "tokensOut": 16,
+     "ms": 750
+    }
+   ],
+   "chosen": "Dam",
+   "revisit": false
+  }
+ ]
+}

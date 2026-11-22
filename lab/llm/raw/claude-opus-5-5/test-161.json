@@ -1,0 +1,131 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "France",
+  "China",
+  "Biology",
+  "Genetics",
+  "Gregor Mendel",
+  "Pea"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 5147,
+ "tokensOut": 564,
+ "costUsd": 0.031868,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 632,
+     "tokensOut": 92,
+     "ms": 1554
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 1104,
+     "tokensOut": 183,
+     "ms": 2958
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 1154,
+     "tokensOut": 72,
+     "ms": 1757
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  },
+  {
+   "page": "Biology",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Genetics",
+     "valid": true,
+     "tokensIn": 882,
+     "tokensOut": 114,
+     "ms": 1474
+    }
+   ],
+   "chosen": "Genetics",
+   "revisit": false
+  },
+  {
+   "page": "Genetics",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Gregor Mendel",
+     "valid": true,
+     "tokensIn": 737,
+     "tokensOut": 54,
+     "ms": 900
+    }
+   ],
+   "chosen": "Gregor Mendel",
+   "revisit": false
+  },
+  {
+   "page": "Gregor Mendel",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 638,
+     "tokensOut": 49,
+     "ms": 1016
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

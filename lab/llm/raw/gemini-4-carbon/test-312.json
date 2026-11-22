@@ -1,0 +1,227 @@
+{
+ "pair": "test-312",
+ "start": "Number",
+ "target": "Retinol",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 9
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Number",
+  "Measurement",
+  "Science",
+  "Biology",
+  "Medicine",
+  "Eye",
+  "Retina",
+  "Color blindness",
+  "Human",
+  "Pigment",
+  "Food",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 12,
+ "stepsTaken": 12,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 12,
+ "tokensIn": 4312,
+ "tokensOut": 496,
+ "costUsd": 0.013584,
+ "steps": [
+  {
+   "page": "Number",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Measurement",
+     "valid": true,
+     "tokensIn": 371,
+     "tokensOut": 22,
+     "ms": 4172
+    }
+   ],
+   "chosen": "Measurement",
+   "revisit": false
+  },
+  {
+   "page": "Measurement",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Science",
+     "valid": true,
+     "tokensIn": 253,
+     "tokensOut": 44,
+     "ms": 4188
+    }
+   ],
+   "chosen": "Science",
+   "revisit": false
+  },
+  {
+   "page": "Science",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 352,
+     "tokensOut": 66,
+     "ms": 4255
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  },
+  {
+   "page": "Biology",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 395,
+     "tokensOut": 22,
+     "ms": 3374
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 366,
+     "tokensOut": 64,
+     "ms": 4241
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 331,
+     "tokensOut": 23,
+     "ms": 3387
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Color blindness",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 23,
+     "ms": 4067
+    }
+   ],
+   "chosen": "Color blindness",
+   "revisit": false
+  },
+  {
+   "page": "Color blindness",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 272,
+     "tokensOut": 50,
+     "ms": 3584
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Pigment",
+     "valid": true,
+     "tokensIn": 684,
+     "tokensOut": 102,
+     "ms": 5832
+    }
+   ],
+   "chosen": "Pigment",
+   "revisit": false
+  },
+  {
+   "page": "Pigment",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Food",
+     "valid": true,
+     "tokensIn": 326,
+     "tokensOut": 22,
+     "ms": 10849
+    }
+   ],
+   "chosen": "Food",
+   "revisit": false
+  },
+  {
+   "page": "Food",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 368,
+     "tokensOut": 35,
+     "ms": 2819
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 336,
+     "tokensOut": 23,
+     "ms": 3480
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

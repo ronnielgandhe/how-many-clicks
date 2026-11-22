@@ -1,0 +1,67 @@
+{
+ "pair": "test-8",
+ "start": "Tehran",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 3
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tehran",
+  "World War II",
+  "Malta"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2226,
+ "tokensOut": 230,
+ "costUsd": 0.000338,
+ "steps": [
+  {
+   "page": "Tehran",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 804,
+     "tokensOut": 160,
+     "ms": 1315
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 1422,
+     "tokensOut": 70,
+     "ms": 626
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

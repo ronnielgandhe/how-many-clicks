@@ -1,0 +1,78 @@
+{
+ "pair": "test-287",
+ "start": "Tropical Storm Bonnie (2004)",
+ "target": "Sun Yat-sen",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tropical Storm Bonnie (2004)",
+  "United States",
+  "Republic of China",
+  "Sun Yat-sen"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 4538,
+ "tokensOut": 270,
+ "costUsd": 0.011776,
+ "steps": [
+  {
+   "page": "Tropical Storm Bonnie (2004)",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 780,
+     "tokensOut": 164,
+     "ms": 2254
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Republic of China",
+     "valid": true,
+     "tokensIn": 2794,
+     "tokensOut": 51,
+     "ms": 1230
+    }
+   ],
+   "chosen": "Republic of China",
+   "revisit": false
+  },
+  {
+   "page": "Republic of China",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Sun Yat-sen",
+     "valid": true,
+     "tokensIn": 964,
+     "tokensOut": 55,
+     "ms": 1488
+    }
+   ],
+   "chosen": "Sun Yat-sen",
+   "revisit": false
+  }
+ ]
+}

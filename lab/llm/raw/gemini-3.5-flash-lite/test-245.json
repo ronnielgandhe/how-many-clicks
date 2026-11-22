@@ -1,0 +1,110 @@
+{
+ "pair": "test-245",
+ "start": "Northern Pacific Railway",
+ "target": "Barnacle",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Northern Pacific Railway",
+  "Ship",
+  "Sea",
+  "Ocean",
+  "Crustacean",
+  "Barnacle"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1403,
+ "tokensOut": 84,
+ "costUsd": 0.000631,
+ "steps": [
+  {
+   "page": "Northern Pacific Railway",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Ship",
+     "valid": true,
+     "tokensIn": 284,
+     "tokensOut": 16,
+     "ms": 731
+    }
+   ],
+   "chosen": "Ship",
+   "revisit": false
+  },
+  {
+   "page": "Ship",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Sea",
+     "valid": true,
+     "tokensIn": 252,
+     "tokensOut": 16,
+     "ms": 804
+    }
+   ],
+   "chosen": "Sea",
+   "revisit": false
+  },
+  {
+   "page": "Sea",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Ocean",
+     "valid": true,
+     "tokensIn": 274,
+     "tokensOut": 16,
+     "ms": 844
+    }
+   ],
+   "chosen": "Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Ocean",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Crustacean",
+     "valid": true,
+     "tokensIn": 357,
+     "tokensOut": 19,
+     "ms": 623
+    }
+   ],
+   "chosen": "Crustacean",
+   "revisit": false
+  },
+  {
+   "page": "Crustacean",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Barnacle",
+     "valid": true,
+     "tokensIn": 236,
+     "tokensOut": 17,
+     "ms": 694
+    }
+   ],
+   "chosen": "Barnacle",
+   "revisit": false
+  }
+ ]
+}

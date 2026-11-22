@@ -1,0 +1,270 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Zara Yaqob",
+  "Europe",
+  "World War II",
+  "Tank",
+  "T-34",
+  "Tank",
+  "Israel",
+  "Yom Kippur War",
+  "Soviet Union",
+  "World War II",
+  "Tank",
+  "Israel",
+  "Engineering",
+  "Technology",
+  "Industry",
+  "Automobile"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 15852,
+ "tokensOut": 5581,
+ "costUsd": 0.004376,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 578,
+     "tokensOut": 323,
+     "ms": 1862
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 1610,
+     "tokensOut": 363,
+     "ms": 1656
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Tank",
+     "valid": true,
+     "tokensIn": 1434,
+     "tokensOut": 242,
+     "ms": 1384
+    }
+   ],
+   "chosen": "Tank",
+   "revisit": false
+  },
+  {
+   "page": "Tank",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "T-34",
+     "valid": true,
+     "tokensIn": 689,
+     "tokensOut": 373,
+     "ms": 2089
+    }
+   ],
+   "chosen": "T-34",
+   "revisit": false
+  },
+  {
+   "page": "T-34",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Tank",
+     "valid": true,
+     "tokensIn": 930,
+     "tokensOut": 277,
+     "ms": 1627
+    }
+   ],
+   "chosen": "Tank",
+   "revisit": true
+  },
+  {
+   "page": "Tank",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Israel",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 333,
+     "ms": 2010
+    }
+   ],
+   "chosen": "Israel",
+   "revisit": false
+  },
+  {
+   "page": "Israel",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Yom Kippur War",
+     "valid": true,
+     "tokensIn": 1726,
+     "tokensOut": 378,
+     "ms": 2038
+    }
+   ],
+   "chosen": "Yom Kippur War",
+   "revisit": false
+  },
+  {
+   "page": "Yom Kippur War",
+   "offered": 50,
+   "attempts": [
+    {
+     "raw": "Soviet Union",
+     "valid": true,
+     "tokensIn": 938,
+     "tokensOut": 440,
+     "ms": 2428
+    }
+   ],
+   "chosen": "Soviet Union",
+   "revisit": false
+  },
+  {
+   "page": "Soviet Union",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 1033,
+     "tokensOut": 544,
+     "ms": 2873
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Tank",
+     "valid": true,
+     "tokensIn": 1471,
+     "tokensOut": 241,
+     "ms": 1339
+    }
+   ],
+   "chosen": "Tank",
+   "revisit": true
+  },
+  {
+   "page": "Tank",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Israel",
+     "valid": true,
+     "tokensIn": 726,
+     "tokensOut": 590,
+     "ms": 3120
+    }
+   ],
+   "chosen": "Israel",
+   "revisit": true
+  },
+  {
+   "page": "Israel",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Engineering",
+     "valid": true,
+     "tokensIn": 1754,
+     "tokensOut": 529,
+     "ms": 2821
+    }
+   ],
+   "chosen": "Engineering",
+   "revisit": false
+  },
+  {
+   "page": "Engineering",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Technology",
+     "valid": true,
+     "tokensIn": 727,
+     "tokensOut": 264,
+     "ms": 1513
+    }
+   ],
+   "chosen": "Technology",
+   "revisit": false
+  },
+  {
+   "page": "Technology",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Industry",
+     "valid": true,
+     "tokensIn": 824,
+     "tokensOut": 507,
+     "ms": 2849
+    }
+   ],
+   "chosen": "Industry",
+   "revisit": false
+  },
+  {
+   "page": "Industry",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Automobile",
+     "valid": true,
+     "tokensIn": 714,
+     "tokensOut": 177,
+     "ms": 1179
+    }
+   ],
+   "chosen": "Automobile",
+   "revisit": false
+  }
+ ]
+}

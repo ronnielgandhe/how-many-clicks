@@ -1,0 +1,115 @@
+{
+ "pair": "test-366",
+ "start": "Urial",
+ "target": "3 Juno",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Urial",
+  "Human",
+  "Space exploration",
+  "Solar System",
+  "Asteroid",
+  "3 Juno"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4462,
+ "tokensOut": 404,
+ "costUsd": 0.025928,
+ "steps": [
+  {
+   "page": "Urial",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 589,
+     "tokensOut": 145,
+     "ms": 2099
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Space exploration",
+     "valid": true,
+     "tokensIn": 1371,
+     "tokensOut": 51,
+     "ms": 1906
+    }
+   ],
+   "chosen": "Space exploration",
+   "revisit": false
+  },
+  {
+   "page": "Space exploration",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Solar System",
+     "valid": true,
+     "tokensIn": 817,
+     "tokensOut": 50,
+     "ms": 939
+    }
+   ],
+   "chosen": "Solar System",
+   "revisit": false
+  },
+  {
+   "page": "Solar System",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Asteroid",
+     "valid": true,
+     "tokensIn": 992,
+     "tokensOut": 107,
+     "ms": 1855
+    }
+   ],
+   "chosen": "Asteroid",
+   "revisit": false
+  },
+  {
+   "page": "Asteroid",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "3 Juno",
+     "valid": true,
+     "tokensIn": 693,
+     "tokensOut": 51,
+     "ms": 1261
+    }
+   ],
+   "chosen": "3 Juno",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "pair": "test-231",
+ "start": "Jacques Cartier",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jacques Cartier",
+  "Canada",
+  "Petroleum",
+  "Geology",
+  "Fossil"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3422,
+ "tokensOut": 635,
+ "costUsd": 0.013194,
+ "steps": [
+  {
+   "page": "Jacques Cartier",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 589,
+     "tokensOut": 259,
+     "ms": 2684
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 1040,
+     "tokensOut": 176,
+     "ms": 2112
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": false
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "Geology",
+     "valid": true,
+     "tokensIn": 1033,
+     "tokensOut": 150,
+     "ms": 5643
+    }
+   ],
+   "chosen": "Geology",
+   "revisit": false
+  },
+  {
+   "page": "Geology",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 760,
+     "tokensOut": 50,
+     "ms": 1387
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

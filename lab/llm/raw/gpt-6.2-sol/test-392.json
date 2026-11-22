@@ -1,0 +1,110 @@
+{
+ "pair": "test-392",
+ "start": "Pinworm",
+ "target": "Map projection",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Pinworm",
+  "Animal",
+  "Aristotle",
+  "Geography",
+  "Ptolemy",
+  "Map projection"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1448,
+ "tokensOut": 97,
+ "costUsd": 0.003866,
+ "steps": [
+  {
+   "page": "Pinworm",
+   "offered": 2,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 186,
+     "tokensOut": 18,
+     "ms": 1174
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 299,
+     "tokensOut": 20,
+     "ms": 1093
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 19,
+     "ms": 981
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": false
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Ptolemy",
+     "valid": true,
+     "tokensIn": 370,
+     "tokensOut": 21,
+     "ms": 1230
+    }
+   ],
+   "chosen": "Ptolemy",
+   "revisit": false
+  },
+  {
+   "page": "Ptolemy",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Map projection",
+     "valid": true,
+     "tokensIn": 285,
+     "tokensOut": 19,
+     "ms": 1099
+    }
+   ],
+   "chosen": "Map projection",
+   "revisit": false
+  }
+ ]
+}

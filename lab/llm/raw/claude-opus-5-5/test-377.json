@@ -1,0 +1,158 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Europe",
+  "Switzerland",
+  "Z\u00fcrich",
+  "Albert Einstein",
+  "Intelligence",
+  "Psychology",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 7226,
+ "tokensOut": 901,
+ "costUsd": 0.046924,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 652,
+     "tokensOut": 110,
+     "ms": 2129
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Switzerland",
+     "valid": true,
+     "tokensIn": 1619,
+     "tokensOut": 125,
+     "ms": 2125
+    }
+   ],
+   "chosen": "Switzerland",
+   "revisit": false
+  },
+  {
+   "page": "Switzerland",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Z\u00fcrich",
+     "valid": true,
+     "tokensIn": 844,
+     "tokensOut": 121,
+     "ms": 1562
+    }
+   ],
+   "chosen": "Z\u00fcrich",
+   "revisit": false
+  },
+  {
+   "page": "Z\u00fcrich",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Albert Einstein",
+     "valid": true,
+     "tokensIn": 707,
+     "tokensOut": 184,
+     "ms": 2573
+    }
+   ],
+   "chosen": "Albert Einstein",
+   "revisit": false
+  },
+  {
+   "page": "Albert Einstein",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Intelligence",
+     "valid": true,
+     "tokensIn": 1202,
+     "tokensOut": 160,
+     "ms": 1609
+    }
+   ],
+   "chosen": "Intelligence",
+   "revisit": false
+  },
+  {
+   "page": "Intelligence",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Psychology",
+     "valid": true,
+     "tokensIn": 626,
+     "tokensOut": 50,
+     "ms": 1231
+    }
+   ],
+   "chosen": "Psychology",
+   "revisit": false
+  },
+  {
+   "page": "Psychology",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 771,
+     "tokensOut": 91,
+     "ms": 1863
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 805,
+     "tokensOut": 60,
+     "ms": 1483
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

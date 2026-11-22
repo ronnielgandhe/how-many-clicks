@@ -1,0 +1,83 @@
+{
+ "pair": "test-180",
+ "start": "Working poor",
+ "target": "Fresh water",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 3.5,
+  "median_pages": 4.5
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Working poor",
+  "Poverty",
+  "Drinking water",
+  "Fresh water"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2282,
+ "tokensOut": 152,
+ "costUsd": 0.006084,
+ "steps": [
+  {
+   "page": "Working poor",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Poverty",
+     "valid": true,
+     "tokensIn": 550,
+     "tokensOut": 50,
+     "ms": 1281
+    }
+   ],
+   "chosen": "Poverty",
+   "revisit": false
+  },
+  {
+   "page": "Poverty",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Drinking water",
+     "valid": true,
+     "tokensIn": 877,
+     "tokensOut": 51,
+     "ms": 1530
+    }
+   ],
+   "chosen": "Drinking water",
+   "revisit": false
+  },
+  {
+   "page": "Drinking water",
+   "offered": 51,
+   "attempts": [
+    {
+     "raw": "Fresh water",
+     "valid": true,
+     "tokensIn": 855,
+     "tokensOut": 51,
+     "ms": 8431
+    }
+   ],
+   "chosen": "Fresh water",
+   "revisit": false
+  }
+ ]
+}

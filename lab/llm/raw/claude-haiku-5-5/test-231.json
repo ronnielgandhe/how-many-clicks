@@ -1,0 +1,190 @@
+{
+ "pair": "test-231",
+ "start": "Jacques Cartier",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jacques Cartier",
+  "Canada",
+  "Petroleum",
+  "Coal",
+  "Fossil fuel",
+  "Coal",
+  "Fossil fuel",
+  "Coal",
+  "Carboniferous",
+  "Geology",
+  "Fossil"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 10,
+ "tokensIn": 8347,
+ "tokensOut": 2519,
+ "costUsd": 0.002094,
+ "steps": [
+  {
+   "page": "Jacques Cartier",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 589,
+     "tokensOut": 224,
+     "ms": 1399
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 1040,
+     "tokensOut": 159,
+     "ms": 932
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": false
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "Coal",
+     "valid": true,
+     "tokensIn": 1033,
+     "tokensOut": 278,
+     "ms": 1879
+    }
+   ],
+   "chosen": "Coal",
+   "revisit": false
+  },
+  {
+   "page": "Coal",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Fossil fuel",
+     "valid": true,
+     "tokensIn": 953,
+     "tokensOut": 187,
+     "ms": 1040
+    }
+   ],
+   "chosen": "Fossil fuel",
+   "revisit": false
+  },
+  {
+   "page": "Fossil fuel",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Coal",
+     "valid": true,
+     "tokensIn": 628,
+     "tokensOut": 373,
+     "ms": 2436
+    }
+   ],
+   "chosen": "Coal",
+   "revisit": true
+  },
+  {
+   "page": "Coal",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Fossil fuel",
+     "valid": true,
+     "tokensIn": 965,
+     "tokensOut": 173,
+     "ms": 1008
+    }
+   ],
+   "chosen": "Fossil fuel",
+   "revisit": true
+  },
+  {
+   "page": "Fossil fuel",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Coal",
+     "valid": true,
+     "tokensIn": 640,
+     "tokensOut": 342,
+     "ms": 2083
+    }
+   ],
+   "chosen": "Coal",
+   "revisit": true
+  },
+  {
+   "page": "Coal",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Carboniferous",
+     "valid": true,
+     "tokensIn": 977,
+     "tokensOut": 408,
+     "ms": 2266
+    }
+   ],
+   "chosen": "Carboniferous",
+   "revisit": false
+  },
+  {
+   "page": "Carboniferous",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Geology",
+     "valid": true,
+     "tokensIn": 727,
+     "tokensOut": 295,
+     "ms": 1738
+    }
+   ],
+   "chosen": "Geology",
+   "revisit": false
+  },
+  {
+   "page": "Geology",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 795,
+     "tokensOut": 80,
+     "ms": 619
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

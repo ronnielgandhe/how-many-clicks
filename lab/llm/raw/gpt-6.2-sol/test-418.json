@@ -1,0 +1,158 @@
+{
+ "pair": "test-418",
+ "start": "The Lorax",
+ "target": "Hovercraft",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Lorax",
+  "Smog",
+  "Automobile",
+  "United Kingdom",
+  "English Channel",
+  "Ramsgate",
+  "Dover",
+  "Boat",
+  "Hovercraft"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 2856,
+ "tokensOut": 152,
+ "costUsd": 0.007232,
+ "steps": [
+  {
+   "page": "The Lorax",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Smog",
+     "valid": true,
+     "tokensIn": 210,
+     "tokensOut": 19,
+     "ms": 954
+    }
+   ],
+   "chosen": "Smog",
+   "revisit": false
+  },
+  {
+   "page": "Smog",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Automobile",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 19,
+     "ms": 1001
+    }
+   ],
+   "chosen": "Automobile",
+   "revisit": false
+  },
+  {
+   "page": "Automobile",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 19,
+     "ms": 939
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "English Channel",
+     "valid": true,
+     "tokensIn": 926,
+     "tokensOut": 19,
+     "ms": 1148
+    }
+   ],
+   "chosen": "English Channel",
+   "revisit": false
+  },
+  {
+   "page": "English Channel",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Ramsgate",
+     "valid": true,
+     "tokensIn": 326,
+     "tokensOut": 20,
+     "ms": 1104
+    }
+   ],
+   "chosen": "Ramsgate",
+   "revisit": false
+  },
+  {
+   "page": "Ramsgate",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Dover",
+     "valid": true,
+     "tokensIn": 320,
+     "tokensOut": 19,
+     "ms": 1175
+    }
+   ],
+   "chosen": "Dover",
+   "revisit": false
+  },
+  {
+   "page": "Dover",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Boat",
+     "valid": true,
+     "tokensIn": 300,
+     "tokensOut": 18,
+     "ms": 1298
+    }
+   ],
+   "chosen": "Boat",
+   "revisit": false
+  },
+  {
+   "page": "Boat",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Hovercraft",
+     "valid": true,
+     "tokensIn": 222,
+     "tokensOut": 19,
+     "ms": 1055
+    }
+   ],
+   "chosen": "Hovercraft",
+   "revisit": false
+  }
+ ]
+}

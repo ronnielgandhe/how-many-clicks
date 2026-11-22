@@ -1,0 +1,78 @@
+{
+ "pair": "test-108",
+ "start": "Ice hockey",
+ "target": "Continent",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Ice hockey",
+  "Arctic",
+  "Antarctica",
+  "Continent"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1102,
+ "tokensOut": 167,
+ "costUsd": 0.003874,
+ "steps": [
+  {
+   "page": "Ice hockey",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 386,
+     "tokensOut": 128,
+     "ms": 2404
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Antarctica",
+     "valid": true,
+     "tokensIn": 287,
+     "tokensOut": 20,
+     "ms": 1121
+    }
+   ],
+   "chosen": "Antarctica",
+   "revisit": false
+  },
+  {
+   "page": "Antarctica",
+   "offered": 64,
+   "attempts": [
+    {
+     "raw": "Continent",
+     "valid": true,
+     "tokensIn": 429,
+     "tokensOut": 19,
+     "ms": 943
+    }
+   ],
+   "chosen": "Continent",
+   "revisit": false
+  }
+ ]
+}

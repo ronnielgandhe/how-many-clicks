@@ -1,0 +1,277 @@
+{
+ "pair": "test-392",
+ "start": "Pinworm",
+ "target": "Map projection",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Pinworm",
+  "Animal",
+  "Aristotle",
+  "Geography",
+  "Mathematics",
+  "Geometry",
+  "Mathematics",
+  "Geometry",
+  "Mathematics",
+  "Geometry",
+  "Mathematics",
+  "Astronomy",
+  "Earth",
+  "Geography",
+  "Mathematics",
+  "Geometry"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 8,
+ "invalidAttempts": 1,
+ "calls": 16,
+ "tokensIn": 5930,
+ "tokensOut": 304,
+ "costUsd": 0.000745,
+ "steps": [
+  {
+   "page": "Pinworm",
+   "offered": 2,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 176,
+     "tokensOut": 18,
+     "ms": 825
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 20,
+     "ms": 680
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 298,
+     "tokensOut": 19,
+     "ms": 791
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": false
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 360,
+     "tokensOut": 20,
+     "ms": 689
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": false
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": false,
+     "tokensIn": 419,
+     "tokensOut": 19,
+     "ms": 697
+    },
+    {
+     "raw": "Geometry",
+     "valid": true,
+     "tokensIn": 443,
+     "tokensOut": 18,
+     "ms": 925
+    }
+   ],
+   "chosen": "Geometry",
+   "revisit": false
+  },
+  {
+   "page": "Geometry",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 20,
+     "ms": 833
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": true
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Geometry",
+     "valid": true,
+     "tokensIn": 423,
+     "tokensOut": 18,
+     "ms": 857
+    }
+   ],
+   "chosen": "Geometry",
+   "revisit": true
+  },
+  {
+   "page": "Geometry",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 20,
+     "ms": 691
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": true
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Geometry",
+     "valid": true,
+     "tokensIn": 427,
+     "tokensOut": 18,
+     "ms": 687
+    }
+   ],
+   "chosen": "Geometry",
+   "revisit": true
+  },
+  {
+   "page": "Geometry",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 239,
+     "tokensOut": 20,
+     "ms": 1081
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": true
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Astronomy",
+     "valid": true,
+     "tokensIn": 431,
+     "tokensOut": 19,
+     "ms": 943
+    }
+   ],
+   "chosen": "Astronomy",
+   "revisit": false
+  },
+  {
+   "page": "Astronomy",
+   "offered": 75,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 504,
+     "tokensOut": 18,
+     "ms": 744
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 636,
+     "tokensOut": 19,
+     "ms": 762
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": true
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 380,
+     "tokensOut": 20,
+     "ms": 877
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": true
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Geometry",
+     "valid": true,
+     "tokensIn": 439,
+     "tokensOut": 18,
+     "ms": 769
+    }
+   ],
+   "chosen": "Geometry",
+   "revisit": true
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "pair": "test-274",
+ "start": "Hippopotamus",
+ "target": "Retinol",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Hippopotamus",
+  "Pigment",
+  "Eye",
+  "Retina",
+  "Color blindness",
+  "Retina",
+  "Eye",
+  "Retina",
+  "Cancer",
+  "Hepatocellular carcinoma",
+  "Protein",
+  "Lipid",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 13,
+ "stepsTaken": 13,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 13,
+ "tokensIn": 3464,
+ "tokensOut": 1760,
+ "costUsd": 0.009198,
+ "steps": [
+  {
+   "page": "Hippopotamus",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Pigment",
+     "valid": true,
+     "tokensIn": 338,
+     "tokensOut": 183,
+     "ms": 3889
+    }
+   ],
+   "chosen": "Pigment",
+   "revisit": false
+  },
+  {
+   "page": "Pigment",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 276,
+     "tokensOut": 106,
+     "ms": 2561
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 296,
+     "tokensOut": 50,
+     "ms": 1768
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Color blindness",
+     "valid": true,
+     "tokensIn": 218,
+     "tokensOut": 187,
+     "ms": 3601
+    }
+   ],
+   "chosen": "Color blindness",
+   "revisit": false
+  },
+  {
+   "page": "Color blindness",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 105,
+     "ms": 2291
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 223,
+     "tokensOut": 193,
+     "ms": 3686
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": true
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 17,
+     "ms": 1908
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Cancer",
+     "valid": true,
+     "tokensIn": 227,
+     "tokensOut": 380,
+     "ms": 5962
+    }
+   ],
+   "chosen": "Cancer",
+   "revisit": false
+  },
+  {
+   "page": "Cancer",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Hepatocellular carcinoma",
+     "valid": true,
+     "tokensIn": 309,
+     "tokensOut": 277,
+     "ms": 5202
+    }
+   ],
+   "chosen": "Hepatocellular carcinoma",
+   "revisit": false
+  },
+  {
+   "page": "Hepatocellular carcinoma",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Protein",
+     "valid": true,
+     "tokensIn": 216,
+     "tokensOut": 16,
+     "ms": 2210
+    }
+   ],
+   "chosen": "Protein",
+   "revisit": false
+  },
+  {
+   "page": "Protein",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Lipid",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 158,
+     "ms": 4315
+    }
+   ],
+   "chosen": "Lipid",
+   "revisit": false
+  },
+  {
+   "page": "Lipid",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 212,
+     "tokensOut": 54,
+     "ms": 2023
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 307,
+     "tokensOut": 34,
+     "ms": 4484
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

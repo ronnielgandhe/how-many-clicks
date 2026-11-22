@@ -1,0 +1,270 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Zara Yaqob",
+  "Europe",
+  "Industrial Revolution",
+  "Rail transport",
+  "World War II",
+  "Aircraft",
+  "World War II",
+  "Aircraft",
+  "World War II",
+  "Aircraft",
+  "World War I",
+  "Technology",
+  "Engineering",
+  "Steam engine",
+  "World War II",
+  "Aircraft"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 6,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6604,
+ "tokensOut": 283,
+ "costUsd": 0.000802,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 192,
+     "tokensOut": 18,
+     "ms": 760
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 740,
+     "tokensOut": 19,
+     "ms": 987
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 402,
+     "tokensOut": 19,
+     "ms": 810
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 20,
+     "ms": 1212
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Aircraft",
+     "valid": true,
+     "tokensIn": 664,
+     "tokensOut": 18,
+     "ms": 761
+    }
+   ],
+   "chosen": "Aircraft",
+   "revisit": false
+  },
+  {
+   "page": "Aircraft",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 20,
+     "ms": 608
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Aircraft",
+     "valid": true,
+     "tokensIn": 670,
+     "tokensOut": 18,
+     "ms": 673
+    }
+   ],
+   "chosen": "Aircraft",
+   "revisit": true
+  },
+  {
+   "page": "Aircraft",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 264,
+     "tokensOut": 20,
+     "ms": 826
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Aircraft",
+     "valid": true,
+     "tokensIn": 676,
+     "tokensOut": 18,
+     "ms": 617
+    }
+   ],
+   "chosen": "Aircraft",
+   "revisit": true
+  },
+  {
+   "page": "Aircraft",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "World War I",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 20,
+     "ms": 2918
+    }
+   ],
+   "chosen": "World War I",
+   "revisit": false
+  },
+  {
+   "page": "World War I",
+   "offered": 82,
+   "attempts": [
+    {
+     "raw": "Technology",
+     "valid": true,
+     "tokensIn": 538,
+     "tokensOut": 18,
+     "ms": 1541
+    }
+   ],
+   "chosen": "Technology",
+   "revisit": false
+  },
+  {
+   "page": "Technology",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Engineering",
+     "valid": true,
+     "tokensIn": 328,
+     "tokensOut": 18,
+     "ms": 836
+    }
+   ],
+   "chosen": "Engineering",
+   "revisit": false
+  },
+  {
+   "page": "Engineering",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Steam engine",
+     "valid": true,
+     "tokensIn": 274,
+     "tokensOut": 19,
+     "ms": 805
+    }
+   ],
+   "chosen": "Steam engine",
+   "revisit": false
+  },
+  {
+   "page": "Steam engine",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 20,
+     "ms": 943
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Aircraft",
+     "valid": true,
+     "tokensIn": 693,
+     "tokensOut": 18,
+     "ms": 662
+    }
+   ],
+   "chosen": "Aircraft",
+   "revisit": true
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "pair": "test-366",
+ "start": "Urial",
+ "target": "3 Juno",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Urial",
+  "Asia",
+  "Earth",
+  "Asteroid",
+  "3 Juno"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1724,
+ "tokensOut": 66,
+ "costUsd": 0.000682,
+ "steps": [
+  {
+   "page": "Urial",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Asia",
+     "valid": true,
+     "tokensIn": 203,
+     "tokensOut": 16,
+     "ms": 678
+    }
+   ],
+   "chosen": "Asia",
+   "revisit": false
+  },
+  {
+   "page": "Asia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 657,
+     "tokensOut": 16,
+     "ms": 681
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Asteroid",
+     "valid": true,
+     "tokensIn": 608,
+     "tokensOut": 17,
+     "ms": 660
+    }
+   ],
+   "chosen": "Asteroid",
+   "revisit": false
+  },
+  {
+   "page": "Asteroid",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "3 Juno",
+     "valid": true,
+     "tokensIn": 256,
+     "tokensOut": 17,
+     "ms": 823
+    }
+   ],
+   "chosen": "3 Juno",
+   "revisit": false
+  }
+ ]
+}

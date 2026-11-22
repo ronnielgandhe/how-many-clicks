@@ -1,0 +1,83 @@
+{
+ "pair": "test-8",
+ "start": "Tehran",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 3
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tehran",
+  "United Kingdom",
+  "European Union",
+  "Malta"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1883,
+ "tokensOut": 227,
+ "costUsd": 0.002263,
+ "steps": [
+  {
+   "page": "Tehran",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 88,
+     "ms": 2147
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "European Union",
+     "valid": true,
+     "tokensIn": 914,
+     "tokensOut": 104,
+     "ms": 2374
+    }
+   ],
+   "chosen": "European Union",
+   "revisit": false
+  },
+  {
+   "page": "European Union",
+   "offered": 133,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 644,
+     "tokensOut": 35,
+     "ms": 1624
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "pair": "test-28",
+ "start": "Nigeria",
+ "target": "Scotland",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Nigeria",
+  "United Kingdom",
+  "Scotland"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1330,
+ "tokensOut": 33,
+ "costUsd": 0.000481,
+ "steps": [
+  {
+   "page": "Nigeria",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 416,
+     "tokensOut": 17,
+     "ms": 777
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 914,
+     "tokensOut": 16,
+     "ms": 805
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  }
+ ]
+}

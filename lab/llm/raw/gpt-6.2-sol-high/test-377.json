@@ -1,0 +1,126 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Europe",
+  "Vienna",
+  "Austria",
+  "Sigmund Freud",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2412,
+ "tokensOut": 258,
+ "costUsd": 0.007404,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 236,
+     "tokensOut": 65,
+     "ms": 1603
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Vienna",
+     "valid": true,
+     "tokensIn": 752,
+     "tokensOut": 75,
+     "ms": 2604
+    }
+   ],
+   "chosen": "Vienna",
+   "revisit": false
+  },
+  {
+   "page": "Vienna",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Austria",
+     "valid": true,
+     "tokensIn": 392,
+     "tokensOut": 56,
+     "ms": 1505
+    }
+   ],
+   "chosen": "Austria",
+   "revisit": false
+  },
+  {
+   "page": "Austria",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "Sigmund Freud",
+     "valid": true,
+     "tokensIn": 381,
+     "tokensOut": 20,
+     "ms": 1157
+    }
+   ],
+   "chosen": "Sigmund Freud",
+   "revisit": false
+  },
+  {
+   "page": "Sigmund Freud",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 338,
+     "tokensOut": 19,
+     "ms": 995
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 313,
+     "tokensOut": 23,
+     "ms": 1020
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "pair": "test-166",
+ "start": "Rutherford B. Hayes",
+ "target": "Tank",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Rutherford B. Hayes",
+  "American Civil War",
+  "Trench warfare",
+  "Tank"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 960,
+ "tokensOut": 212,
+ "costUsd": 0.001515,
+ "steps": [
+  {
+   "page": "Rutherford B. Hayes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "American Civil War",
+     "valid": true,
+     "tokensIn": 238,
+     "tokensOut": 106,
+     "ms": 2490
+    }
+   ],
+   "chosen": "American Civil War",
+   "revisit": false
+  },
+  {
+   "page": "American Civil War",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Trench warfare",
+     "valid": true,
+     "tokensIn": 331,
+     "tokensOut": 70,
+     "ms": 2076
+    }
+   ],
+   "chosen": "Trench warfare",
+   "revisit": false
+  },
+  {
+   "page": "Trench warfare",
+   "offered": 50,
+   "attempts": [
+    {
+     "raw": "Tank",
+     "valid": true,
+     "tokensIn": 391,
+     "tokensOut": 36,
+     "ms": 1911
+    }
+   ],
+   "chosen": "Tank",
+   "revisit": false
+  }
+ ]
+}
