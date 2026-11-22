@@ -1,0 +1,110 @@
+{
+ "pair": "test-282",
+ "start": "Sri Lanka",
+ "target": "Number",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sri Lanka",
+  "Currency",
+  "Archimedes",
+  "Pi",
+  "Mathematics",
+  "Number"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4043,
+ "tokensOut": 805,
+ "costUsd": 0.016136,
+ "steps": [
+  {
+   "page": "Sri Lanka",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Currency",
+     "valid": true,
+     "tokensIn": 947,
+     "tokensOut": 182,
+     "ms": 2029
+    }
+   ],
+   "chosen": "Currency",
+   "revisit": false
+  },
+  {
+   "page": "Currency",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Archimedes",
+     "valid": true,
+     "tokensIn": 683,
+     "tokensOut": 328,
+     "ms": 3050
+    }
+   ],
+   "chosen": "Archimedes",
+   "revisit": false
+  },
+  {
+   "page": "Archimedes",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Pi",
+     "valid": true,
+     "tokensIn": 699,
+     "tokensOut": 130,
+     "ms": 1922
+    }
+   ],
+   "chosen": "Pi",
+   "revisit": false
+  },
+  {
+   "page": "Pi",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 746,
+     "tokensOut": 117,
+     "ms": 1770
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": false
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Number",
+     "valid": true,
+     "tokensIn": 968,
+     "tokensOut": 48,
+     "ms": 1741
+    }
+   ],
+   "chosen": "Number",
+   "revisit": false
+  }
+ ]
+}

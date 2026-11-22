@@ -1,0 +1,94 @@
+{
+ "pair": "test-299",
+ "start": "Egg (food)",
+ "target": "Antwerp",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Egg (food)",
+  "United Kingdom",
+  "Germany",
+  "Belgium",
+  "Antwerp"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 5324,
+ "tokensOut": 331,
+ "costUsd": 0.013958,
+ "steps": [
+  {
+   "page": "Egg (food)",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 680,
+     "tokensOut": 181,
+     "ms": 2322
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 1873,
+     "tokensOut": 49,
+     "ms": 1721
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Belgium",
+     "valid": true,
+     "tokensIn": 1789,
+     "tokensOut": 50,
+     "ms": 1336
+    }
+   ],
+   "chosen": "Belgium",
+   "revisit": false
+  },
+  {
+   "page": "Belgium",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Antwerp",
+     "valid": true,
+     "tokensIn": 982,
+     "tokensOut": 51,
+     "ms": 1388
+    }
+   ],
+   "chosen": "Antwerp",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "pair": "test-382",
+ "start": "Toluene",
+ "target": "Saffron",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Toluene",
+  "Benzene",
+  "Petroleum",
+  "Iran",
+  "Agriculture",
+  "Flower",
+  "Saffron"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2133,
+ "tokensOut": 99,
+ "costUsd": 0.000887,
+ "steps": [
+  {
+   "page": "Toluene",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Benzene",
+     "valid": true,
+     "tokensIn": 208,
+     "tokensOut": 17,
+     "ms": 856
+    }
+   ],
+   "chosen": "Benzene",
+   "revisit": false
+  },
+  {
+   "page": "Benzene",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Petroleum",
+     "valid": true,
+     "tokensIn": 262,
+     "tokensOut": 17,
+     "ms": 689
+    }
+   ],
+   "chosen": "Petroleum",
+   "revisit": false
+  },
+  {
+   "page": "Petroleum",
+   "offered": 76,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 441,
+     "tokensOut": 16,
+     "ms": 479
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 582,
+     "tokensOut": 16,
+     "ms": 728
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  },
+  {
+   "page": "Agriculture",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Flower",
+     "valid": true,
+     "tokensIn": 371,
+     "tokensOut": 16,
+     "ms": 860
+    }
+   ],
+   "chosen": "Flower",
+   "revisit": false
+  },
+  {
+   "page": "Flower",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Saffron",
+     "valid": true,
+     "tokensIn": 269,
+     "tokensOut": 17,
+     "ms": 732
+    }
+   ],
+   "chosen": "Saffron",
+   "revisit": false
+  }
+ ]
+}

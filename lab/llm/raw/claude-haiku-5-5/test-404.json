@@ -1,0 +1,270 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Citizenship",
+  "City",
+  "Civilization",
+  "Sculpture",
+  "Art",
+  "Architecture",
+  "Frank Lloyd Wright",
+  "20th century",
+  "Expressionism",
+  "Art",
+  "Architecture",
+  "Philosophy",
+  "Art",
+  "Architecture",
+  "Frank Lloyd Wright",
+  "20th century"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 6,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 13817,
+ "tokensOut": 4459,
+ "costUsd": 0.003611,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "City",
+     "valid": true,
+     "tokensIn": 702,
+     "tokensOut": 169,
+     "ms": 1020
+    }
+   ],
+   "chosen": "City",
+   "revisit": false
+  },
+  {
+   "page": "City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Civilization",
+     "valid": true,
+     "tokensIn": 972,
+     "tokensOut": 477,
+     "ms": 2602
+    }
+   ],
+   "chosen": "Civilization",
+   "revisit": false
+  },
+  {
+   "page": "Civilization",
+   "offered": 121,
+   "attempts": [
+    {
+     "raw": "Sculpture",
+     "valid": true,
+     "tokensIn": 1322,
+     "tokensOut": 305,
+     "ms": 1724
+    }
+   ],
+   "chosen": "Sculpture",
+   "revisit": false
+  },
+  {
+   "page": "Sculpture",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 758,
+     "tokensOut": 189,
+     "ms": 1191
+    }
+   ],
+   "chosen": "Art",
+   "revisit": false
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 994,
+     "tokensOut": 113,
+     "ms": 725
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": false
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 823,
+     "tokensOut": 237,
+     "ms": 1321
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": false
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "20th century",
+     "valid": true,
+     "tokensIn": 669,
+     "tokensOut": 214,
+     "ms": 1272
+    }
+   ],
+   "chosen": "20th century",
+   "revisit": false
+  },
+  {
+   "page": "20th century",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Expressionism",
+     "valid": true,
+     "tokensIn": 1153,
+     "tokensOut": 738,
+     "ms": 3491
+    }
+   ],
+   "chosen": "Expressionism",
+   "revisit": false
+  },
+  {
+   "page": "Expressionism",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 660,
+     "tokensOut": 255,
+     "ms": 1354
+    }
+   ],
+   "chosen": "Art",
+   "revisit": true
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 1025,
+     "tokensOut": 224,
+     "ms": 1288
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 854,
+     "tokensOut": 321,
+     "ms": 1625
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 1264,
+     "tokensOut": 240,
+     "ms": 1389
+    }
+   ],
+   "chosen": "Art",
+   "revisit": true
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 1039,
+     "tokensOut": 200,
+     "ms": 1248
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 868,
+     "tokensOut": 513,
+     "ms": 2669
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": true
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "20th century",
+     "valid": true,
+     "tokensIn": 714,
+     "tokensOut": 264,
+     "ms": 1592
+    }
+   ],
+   "chosen": "20th century",
+   "revisit": true
+  }
+ ]
+}

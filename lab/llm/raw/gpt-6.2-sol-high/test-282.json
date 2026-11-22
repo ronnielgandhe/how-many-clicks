@@ -1,0 +1,78 @@
+{
+ "pair": "test-282",
+ "start": "Sri Lanka",
+ "target": "Number",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sri Lanka",
+  "Finance",
+  "Mathematics",
+  "Number"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1036,
+ "tokensOut": 191,
+ "costUsd": 0.003982,
+ "steps": [
+  {
+   "page": "Sri Lanka",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Finance",
+     "valid": true,
+     "tokensIn": 407,
+     "tokensOut": 153,
+     "ms": 3593
+    }
+   ],
+   "chosen": "Finance",
+   "revisit": false
+  },
+  {
+   "page": "Finance",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 205,
+     "tokensOut": 20,
+     "ms": 1067
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": false
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Number",
+     "valid": true,
+     "tokensIn": 424,
+     "tokensOut": 18,
+     "ms": 1159
+    }
+   ],
+   "chosen": "Number",
+   "revisit": false
+  }
+ ]
+}

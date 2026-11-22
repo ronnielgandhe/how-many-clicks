@@ -1,0 +1,270 @@
+{
+ "pair": "test-417",
+ "start": "Amsterdam",
+ "target": "Lynton and Barnstaple Railway",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Amsterdam",
+  "United Kingdom",
+  "England",
+  "Bristol",
+  "United Kingdom",
+  "England",
+  "Bristol",
+  "Isambard Kingdom Brunel",
+  "Plymouth",
+  "Dartmoor",
+  "England",
+  "Bristol",
+  "Isambard Kingdom Brunel",
+  "Plymouth",
+  "Dartmoor",
+  "England"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 9,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 8048,
+ "tokensOut": 296,
+ "costUsd": 0.000953,
+ "steps": [
+  {
+   "page": "Amsterdam",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 322,
+     "tokensOut": 19,
+     "ms": 1422
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 916,
+     "tokensOut": 18,
+     "ms": 682
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Bristol",
+     "valid": true,
+     "tokensIn": 915,
+     "tokensOut": 20,
+     "ms": 1010
+    }
+   ],
+   "chosen": "Bristol",
+   "revisit": false
+  },
+  {
+   "page": "Bristol",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 444,
+     "tokensOut": 19,
+     "ms": 828
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 923,
+     "tokensOut": 18,
+     "ms": 933
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Bristol",
+     "valid": true,
+     "tokensIn": 922,
+     "tokensOut": 20,
+     "ms": 714
+    }
+   ],
+   "chosen": "Bristol",
+   "revisit": true
+  },
+  {
+   "page": "Bristol",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 451,
+     "tokensOut": 23,
+     "ms": 1068
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Plymouth",
+     "valid": true,
+     "tokensIn": 293,
+     "tokensOut": 20,
+     "ms": 917
+    }
+   ],
+   "chosen": "Plymouth",
+   "revisit": false
+  },
+  {
+   "page": "Plymouth",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 329,
+     "tokensOut": 20,
+     "ms": 653
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": false
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 229,
+     "tokensOut": 18,
+     "ms": 669
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Bristol",
+     "valid": true,
+     "tokensIn": 938,
+     "tokensOut": 20,
+     "ms": 756
+    }
+   ],
+   "chosen": "Bristol",
+   "revisit": true
+  },
+  {
+   "page": "Bristol",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 467,
+     "tokensOut": 23,
+     "ms": 869
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": true
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Plymouth",
+     "valid": true,
+     "tokensIn": 309,
+     "tokensOut": 20,
+     "ms": 664
+    }
+   ],
+   "chosen": "Plymouth",
+   "revisit": true
+  },
+  {
+   "page": "Plymouth",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 345,
+     "tokensOut": 20,
+     "ms": 783
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": true
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 245,
+     "tokensOut": 18,
+     "ms": 1195
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  }
+ ]
+}

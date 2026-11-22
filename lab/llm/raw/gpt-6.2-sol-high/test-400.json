@@ -1,0 +1,158 @@
+{
+ "pair": "test-400",
+ "start": "Expressionism",
+ "target": "Blackpool",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Expressionism",
+  "Germany",
+  "England",
+  "Irish Sea",
+  "Liverpool",
+  "England",
+  "Manchester",
+  "M6 motorway",
+  "Blackpool"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 4342,
+ "tokensOut": 512,
+ "costUsd": 0.013804,
+ "steps": [
+  {
+   "page": "Expressionism",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 219,
+     "tokensOut": 73,
+     "ms": 1785
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 845,
+     "tokensOut": 18,
+     "ms": 949
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Irish Sea",
+     "valid": true,
+     "tokensIn": 918,
+     "tokensOut": 55,
+     "ms": 1558
+    }
+   ],
+   "chosen": "Irish Sea",
+   "revisit": false
+  },
+  {
+   "page": "Irish Sea",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Liverpool",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 114,
+     "ms": 2394
+    }
+   ],
+   "chosen": "Liverpool",
+   "revisit": false
+  },
+  {
+   "page": "Liverpool",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 337,
+     "tokensOut": 75,
+     "ms": 1903
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 925,
+     "tokensOut": 96,
+     "ms": 2099
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": false
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "M6 motorway",
+     "valid": true,
+     "tokensIn": 538,
+     "tokensOut": 62,
+     "ms": 1522
+    }
+   ],
+   "chosen": "M6 motorway",
+   "revisit": false
+  },
+  {
+   "page": "M6 motorway",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Blackpool",
+     "valid": true,
+     "tokensIn": 269,
+     "tokensOut": 19,
+     "ms": 1047
+    }
+   ],
+   "chosen": "Blackpool",
+   "revisit": false
+  }
+ ]
+}

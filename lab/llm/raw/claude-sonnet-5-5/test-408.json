@@ -1,0 +1,110 @@
+{
+ "pair": "test-408",
+ "start": "Kakariki",
+ "target": "Quantum chemistry",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Kakariki",
+  "Scientific classification",
+  "Organism",
+  "Chemical element",
+  "Chemistry",
+  "Quantum chemistry"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 3803,
+ "tokensOut": 631,
+ "costUsd": 0.013916,
+ "steps": [
+  {
+   "page": "Kakariki",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Scientific classification",
+     "valid": true,
+     "tokensIn": 612,
+     "tokensOut": 218,
+     "ms": 1960
+    }
+   ],
+   "chosen": "Scientific classification",
+   "revisit": false
+  },
+  {
+   "page": "Scientific classification",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Organism",
+     "valid": true,
+     "tokensIn": 719,
+     "tokensOut": 190,
+     "ms": 2260
+    }
+   ],
+   "chosen": "Organism",
+   "revisit": false
+  },
+  {
+   "page": "Organism",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Chemical element",
+     "valid": true,
+     "tokensIn": 829,
+     "tokensOut": 118,
+     "ms": 2145
+    }
+   ],
+   "chosen": "Chemical element",
+   "revisit": false
+  },
+  {
+   "page": "Chemical element",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Chemistry",
+     "valid": true,
+     "tokensIn": 773,
+     "tokensOut": 51,
+     "ms": 1514
+    }
+   ],
+   "chosen": "Chemistry",
+   "revisit": false
+  },
+  {
+   "page": "Chemistry",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Quantum chemistry",
+     "valid": true,
+     "tokensIn": 870,
+     "tokensOut": 54,
+     "ms": 1494
+    }
+   ],
+   "chosen": "Quantum chemistry",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "pair": "test-48",
+ "start": "Eagle",
+ "target": "Sweden",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 4.0,
+  "median_pages": 5.5
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Eagle",
+  "White-tailed Eagle",
+  "Norway",
+  "Sweden"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2418,
+ "tokensOut": 543,
+ "costUsd": 0.010266,
+ "steps": [
+  {
+   "page": "Eagle",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "White-tailed Eagle",
+     "valid": true,
+     "tokensIn": 771,
+     "tokensOut": 335,
+     "ms": 3025
+    }
+   ],
+   "chosen": "White-tailed Eagle",
+   "revisit": false
+  },
+  {
+   "page": "White-tailed Eagle",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Norway",
+     "valid": true,
+     "tokensIn": 683,
+     "tokensOut": 158,
+     "ms": 1985
+    }
+   ],
+   "chosen": "Norway",
+   "revisit": false
+  },
+  {
+   "page": "Norway",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Sweden",
+     "valid": true,
+     "tokensIn": 964,
+     "tokensOut": 50,
+     "ms": 1577
+    }
+   ],
+   "chosen": "Sweden",
+   "revisit": false
+  }
+ ]
+}

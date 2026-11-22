@@ -1,0 +1,142 @@
+{
+ "pair": "test-274",
+ "start": "Hippopotamus",
+ "target": "Retinol",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Hippopotamus",
+  "Pigment",
+  "Eye",
+  "Retina",
+  "Light",
+  "Vitamin D",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 5266,
+ "tokensOut": 1574,
+ "costUsd": 0.001314,
+ "steps": [
+  {
+   "page": "Hippopotamus",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Pigment",
+     "valid": true,
+     "tokensIn": 852,
+     "tokensOut": 340,
+     "ms": 1912
+    }
+   ],
+   "chosen": "Pigment",
+   "revisit": false
+  },
+  {
+   "page": "Pigment",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 717,
+     "tokensOut": 116,
+     "ms": 884
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 754,
+     "tokensOut": 156,
+     "ms": 993
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Light",
+     "valid": true,
+     "tokensIn": 622,
+     "tokensOut": 401,
+     "ms": 2476
+    }
+   ],
+   "chosen": "Light",
+   "revisit": false
+  },
+  {
+   "page": "Light",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Vitamin D",
+     "valid": true,
+     "tokensIn": 924,
+     "tokensOut": 397,
+     "ms": 2189
+    }
+   ],
+   "chosen": "Vitamin D",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin D",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 653,
+     "tokensOut": 114,
+     "ms": 832
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 744,
+     "tokensOut": 50,
+     "ms": 600
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

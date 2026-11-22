@@ -1,0 +1,99 @@
+{
+ "pair": "test-207",
+ "start": "HIV",
+ "target": "Permian",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 1,
+  "median_clicks": 4.5,
+  "median_pages": 5.5
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "HIV",
+  "Africa",
+  "Earth",
+  "Devonian",
+  "Permian"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2208,
+ "tokensOut": 74,
+ "costUsd": 0.005156,
+ "steps": [
+  {
+   "page": "HIV",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 242,
+     "tokensOut": 18,
+     "ms": 963
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 1030,
+     "tokensOut": 18,
+     "ms": 926
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Devonian",
+     "valid": true,
+     "tokensIn": 625,
+     "tokensOut": 19,
+     "ms": 1094
+    }
+   ],
+   "chosen": "Devonian",
+   "revisit": false
+  },
+  {
+   "page": "Devonian",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Permian",
+     "valid": true,
+     "tokensIn": 311,
+     "tokensOut": 19,
+     "ms": 990
+    }
+   ],
+   "chosen": "Permian",
+   "revisit": false
+  }
+ ]
+}

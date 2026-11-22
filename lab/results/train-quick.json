@@ -1,0 +1,319 @@
+{
+ "date": "2026-11-22",
+ "seed": 7,
+ "quick": true,
+ "machine": "laptop cpu, numpy 2.5.1, 2 blas threads, single process",
+ "data": {
+  "articles": 4604,
+  "links": 119882,
+  "split_articles": {
+   "train": 3222,
+   "val": 691,
+   "test": 691
+  },
+  "pairs": {
+   "train": 200000,
+   "val": 30000,
+   "test": 30000
+  },
+  "human_clicks": {
+   "train": 157519,
+   "val": 30977,
+   "test": 34923
+  },
+  "hop_cases": {
+   "val": 1500,
+   "test": 1500
+  },
+  "prep_secs": 4.6
+ },
+ "architecture": {
+  "tokens": "whole words + char trigrams, fnv1a hashed",
+  "sizes": {
+   "tiny": {
+    "buckets": 4096,
+    "dim": 16,
+    "hid": 16,
+    "mlp": 32
+   },
+   "base": {
+    "buckets": 16384,
+    "dim": 32,
+    "hid": 32,
+    "mlp": 64
+   }
+  },
+  "tower": "tanh",
+  "head": "[link, target, link*target, 6 hand features] -> relu -> clicks",
+  "hand_features": [
+   "word jaccard",
+   "trigram jaccard",
+   "link word count",
+   "target inside link",
+   "link has a number",
+   "exact match"
+  ],
+  "loss": {
+   "distance": "huber on clicks",
+   "imitation": "pairwise logistic: clicked link closer than a random other link on the page"
+  },
+  "optimizer": "adam, cosine lr",
+  "batch": 1024,
+  "rank_batch": 512,
+  "steps": 600,
+  "fine_tune_steps": 300,
+  "dropout": 0.3,
+  "weight_decay": 0.05
+ },
+ "family": [
+  {
+   "id": "tiny",
+   "name": "tiny",
+   "size": "tiny",
+   "params": 67873,
+   "sizeBytes": 91268,
+   "trainSeconds": 9.7,
+   "trainedOn": "1.2M (link, target) shortest-path pairs",
+   "note": "distance predictor, 4,096 buckets x 16 dims",
+   "curve": [
+    {
+     "step": 250,
+     "train_loss": 0.1914,
+     "val_mae": 0.6992,
+     "val_hop": 0.505,
+     "secs": 3.8
+    },
+    {
+     "step": 500,
+     "train_loss": 0.1482,
+     "val_mae": 0.736,
+     "val_hop": 0.5175,
+     "secs": 8.6
+    },
+    {
+     "step": 600,
+     "train_loss": 0.1451,
+     "val_mae": 0.7393,
+     "val_hop": 0.5175,
+     "secs": 9.7
+    }
+   ],
+   "val": {
+    "mae": 0.7407,
+    "mae_predict_3": 0.5479,
+    "pearson": 0.2064,
+    "hop_acc": 0.5367,
+    "hop_random": 0.2648,
+    "human_agree": 0.1053,
+    "human_agree_random": 0.0362
+   },
+   "test": {
+    "mae": 0.7629,
+    "mae_predict_3": 0.5573,
+    "pearson": 0.1786,
+    "hop_acc": 0.5667,
+    "hop_random": 0.2875,
+    "human_agree": 0.1147,
+    "human_agree_random": 0.0357
+   }
+  },
+  {
+   "id": "base",
+   "name": "base",
+   "size": "base",
+   "params": 533057,
+   "sizeBytes": 624900,
+   "trainSeconds": 44.9,
+   "trainedOn": "1.2M (link, target) shortest-path pairs",
+   "note": "distance predictor, 16,384 buckets x 32 dims",
+   "curve": [
+    {
+     "step": 250,
+     "train_loss": 0.1575,
+     "val_mae": 0.6969,
+     "val_hop": 0.515,
+     "secs": 6.1
+    },
+    {
+     "step": 500,
+     "train_loss": 0.1282,
+     "val_mae": 0.7141,
+     "val_hop": 0.525,
+     "secs": 27.8
+    },
+    {
+     "step": 600,
+     "train_loss": 0.1264,
+     "val_mae": 0.7164,
+     "val_hop": 0.53,
+     "secs": 44.9
+    }
+   ],
+   "val": {
+    "mae": 0.7178,
+    "mae_predict_3": 0.5479,
+    "pearson": 0.2525,
+    "hop_acc": 0.5433,
+    "hop_random": 0.2648,
+    "human_agree": 0.1053,
+    "human_agree_random": 0.0362
+   },
+   "test": {
+    "mae": 0.7495,
+    "mae_predict_3": 0.5573,
+    "pearson": 0.1766,
+    "hop_acc": 0.5713,
+    "hop_random": 0.2875,
+    "human_agree": 0.1167,
+    "human_agree_random": 0.0357
+   }
+  },
+  {
+   "id": "imitate",
+   "name": "imitation",
+   "size": "base",
+   "params": 533057,
+   "sizeBytes": 624900,
+   "trainSeconds": 110.7,
+   "trainedOn": "157,519 real player clicks",
+   "note": "base size, trained only to copy the link real players clicked",
+   "curve": [
+    {
+     "step": 250,
+     "train_loss": 0.5456,
+     "val_mae": 1.0306,
+     "val_hop": 0.4,
+     "secs": 58.7
+    },
+    {
+     "step": 500,
+     "train_loss": 0.5141,
+     "val_mae": 1.1528,
+     "val_hop": 0.4225,
+     "secs": 91.1
+    },
+    {
+     "step": 600,
+     "train_loss": 0.5095,
+     "val_mae": 1.1502,
+     "val_hop": 0.42,
+     "secs": 110.7
+    }
+   ],
+   "val": {
+    "mae": 1.1506,
+    "mae_predict_3": 0.5479,
+    "pearson": 0.0912,
+    "hop_acc": 0.462,
+    "hop_random": 0.2648,
+    "human_agree": 0.15,
+    "human_agree_random": 0.0362
+   },
+   "test": {
+    "mae": 1.2298,
+    "mae_predict_3": 0.5573,
+    "pearson": 0.0443,
+    "hop_acc": 0.5007,
+    "hop_random": 0.2875,
+    "human_agree": 0.1447,
+    "human_agree_random": 0.0357
+   }
+  },
+  {
+   "id": "human",
+   "name": "base + human clicks",
+   "size": "base",
+   "params": 533057,
+   "sizeBytes": 624900,
+   "trainSeconds": 83.0,
+   "trainedOn": "1.2M shortest-path pairs, then 157,519 player clicks",
+   "note": "base, then fine-tuned on distances and real player clicks together",
+   "curve": [
+    {
+     "step": 250,
+     "train_loss": 0.7428,
+     "val_mae": 0.7133,
+     "val_hop": 0.4925,
+     "secs": 34.6
+    },
+    {
+     "step": 300,
+     "train_loss": 0.7396,
+     "val_mae": 0.7135,
+     "val_hop": 0.49,
+     "secs": 38.1
+    }
+   ],
+   "val": {
+    "mae": 0.7159,
+    "mae_predict_3": 0.5479,
+    "pearson": 0.2689,
+    "hop_acc": 0.4973,
+    "hop_random": 0.2648,
+    "human_agree": 0.12,
+    "human_agree_random": 0.0362
+   },
+   "test": {
+    "mae": 0.7609,
+    "mae_predict_3": 0.5573,
+    "pearson": 0.175,
+    "hop_acc": 0.5233,
+    "hop_random": 0.2875,
+    "human_agree": 0.126,
+    "human_agree_random": 0.0357
+   }
+  }
+ ],
+ "ablations": [
+  {
+   "variant": "full model",
+   "steps": 300,
+   "secs": 8.9,
+   "val_hop_acc": 0.534,
+   "val_mae": 0.6819
+  },
+  {
+   "variant": "no char trigrams (whole words only)",
+   "steps": 300,
+   "secs": 5.8,
+   "val_hop_acc": 0.5313,
+   "val_mae": 0.6722
+  },
+  {
+   "variant": "no whole words (trigrams only)",
+   "steps": 300,
+   "secs": 6.2,
+   "val_hop_acc": 0.5307,
+   "val_mae": 0.6774
+  },
+  {
+   "variant": "no hand features (embeddings only)",
+   "steps": 300,
+   "secs": 8.0,
+   "val_hop_acc": 0.5247,
+   "val_mae": 0.6858
+  },
+  {
+   "variant": "hand features only (no embeddings)",
+   "steps": 300,
+   "secs": 0.2,
+   "val_hop_acc": 0.2991,
+   "val_mae": 0.5816
+  }
+ ],
+ "baselines_val_hop_acc": {
+  "random link": 0.2648,
+  "word overlap": 0.277,
+  "semantic embedding": 0.3407
+ },
+ "semantic": {
+  "buckets": 8192,
+  "dim": 24,
+  "bias": -0.15778374671936035,
+  "sizeBytes": 229376,
+  "train_secs": 3.8,
+  "val_hop_acc": 0.3407,
+  "test_hop_acc": 0.3787
+ },
+ "total_secs": 267.9
+}

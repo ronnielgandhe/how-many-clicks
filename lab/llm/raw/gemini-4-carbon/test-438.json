@@ -1,0 +1,270 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Zara Yaqob",
+  "Europe",
+  "World War II",
+  "United States",
+  "Amtrak",
+  "Autorack",
+  "Pennsylvania Railroad",
+  "Atlantic Coast Line Railroad",
+  "United States",
+  "Amtrak",
+  "Railway post office",
+  "Chicago",
+  "Amtrak",
+  "Train",
+  "Refrigerator car",
+  "Troop sleeper"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 8304,
+ "tokensOut": 537,
+ "costUsd": 0.021978,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 22,
+     "ms": 4448
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 762,
+     "tokensOut": 79,
+     "ms": 4480
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 683,
+     "tokensOut": 23,
+     "ms": 3570
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 1453,
+     "tokensOut": 64,
+     "ms": 4680
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": false
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Autorack",
+     "valid": true,
+     "tokensIn": 452,
+     "tokensOut": 23,
+     "ms": 5334
+    }
+   ],
+   "chosen": "Autorack",
+   "revisit": false
+  },
+  {
+   "page": "Autorack",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Pennsylvania Railroad",
+     "valid": true,
+     "tokensIn": 278,
+     "tokensOut": 23,
+     "ms": 3331
+    }
+   ],
+   "chosen": "Pennsylvania Railroad",
+   "revisit": false
+  },
+  {
+   "page": "Pennsylvania Railroad",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Atlantic Coast Line Railroad",
+     "valid": true,
+     "tokensIn": 297,
+     "tokensOut": 118,
+     "ms": 5612
+    }
+   ],
+   "chosen": "Atlantic Coast Line Railroad",
+   "revisit": false
+  },
+  {
+   "page": "Atlantic Coast Line Railroad",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 23,
+     "ms": 19213
+    }
+   ],
+   "chosen": "United States",
+   "revisit": true
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 1469,
+     "tokensOut": 23,
+     "ms": 3613
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": true
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Railway post office",
+     "valid": true,
+     "tokensIn": 468,
+     "tokensOut": 24,
+     "ms": 4972
+    }
+   ],
+   "chosen": "Railway post office",
+   "revisit": false
+  },
+  {
+   "page": "Railway post office",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 272,
+     "tokensOut": 22,
+     "ms": 3340
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  },
+  {
+   "page": "Chicago",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 376,
+     "tokensOut": 23,
+     "ms": 7084
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": true
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 476,
+     "tokensOut": 22,
+     "ms": 4507
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Refrigerator car",
+     "valid": true,
+     "tokensIn": 423,
+     "tokensOut": 24,
+     "ms": 4387
+    }
+   ],
+   "chosen": "Refrigerator car",
+   "revisit": false
+  },
+  {
+   "page": "Refrigerator car",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Troop sleeper",
+     "valid": true,
+     "tokensIn": 399,
+     "tokensOut": 24,
+     "ms": 3311
+    }
+   ],
+   "chosen": "Troop sleeper",
+   "revisit": false
+  }
+ ]
+}

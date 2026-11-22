@@ -1,0 +1,270 @@
+{
+ "pair": "test-236",
+ "start": "Rabat",
+ "target": "War in Somalia (2006\u2013present)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Rabat",
+  "Morocco",
+  "Africa",
+  "Somalia",
+  "Ethiopia",
+  "Somalia",
+  "Ethiopia",
+  "Somalia",
+  "Ethiopia",
+  "Somalia",
+  "Ethiopia",
+  "Somalia",
+  "Ethiopia",
+  "Somalia",
+  "Ethiopia",
+  "Somalia"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 11,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 10133,
+ "tokensOut": 290,
+ "costUsd": 0.001158,
+ "steps": [
+  {
+   "page": "Rabat",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Morocco",
+     "valid": true,
+     "tokensIn": 202,
+     "tokensOut": 19,
+     "ms": 1117
+    }
+   ],
+   "chosen": "Morocco",
+   "revisit": false
+  },
+  {
+   "page": "Morocco",
+   "offered": 68,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 436,
+     "tokensOut": 18,
+     "ms": 720
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 1029,
+     "tokensOut": 19,
+     "ms": 1032
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": false
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 708,
+     "tokensOut": 20,
+     "ms": 1149
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": false
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 683,
+     "tokensOut": 19,
+     "ms": 840
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 712,
+     "tokensOut": 20,
+     "ms": 933
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": true
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 687,
+     "tokensOut": 19,
+     "ms": 972
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 716,
+     "tokensOut": 20,
+     "ms": 651
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": true
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 691,
+     "tokensOut": 19,
+     "ms": 996
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 720,
+     "tokensOut": 20,
+     "ms": 680
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": true
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 695,
+     "tokensOut": 19,
+     "ms": 1350
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 724,
+     "tokensOut": 20,
+     "ms": 659
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": true
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 699,
+     "tokensOut": 19,
+     "ms": 659
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 728,
+     "tokensOut": 20,
+     "ms": 663
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": true
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 703,
+     "tokensOut": 19,
+     "ms": 781
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "pair": "test-400",
+ "start": "Expressionism",
+ "target": "Blackpool",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Expressionism",
+  "Germany",
+  "England",
+  "Irish Sea",
+  "Manchester",
+  "M6 motorway",
+  "Blackpool"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 3072,
+ "tokensOut": 112,
+ "costUsd": 0.029056,
+ "steps": [
+  {
+   "page": "Expressionism",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 219,
+     "tokensOut": 18,
+     "ms": 1922
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 845,
+     "tokensOut": 18,
+     "ms": 1424
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Irish Sea",
+     "valid": true,
+     "tokensIn": 918,
+     "tokensOut": 19,
+     "ms": 1883
+    }
+   ],
+   "chosen": "Irish Sea",
+   "revisit": false
+  },
+  {
+   "page": "Irish Sea",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 18,
+     "ms": 1189
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": false
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "M6 motorway",
+     "valid": true,
+     "tokensIn": 534,
+     "tokensOut": 20,
+     "ms": 1410
+    }
+   ],
+   "chosen": "M6 motorway",
+   "revisit": false
+  },
+  {
+   "page": "M6 motorway",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Blackpool",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 19,
+     "ms": 1200
+    }
+   ],
+   "chosen": "Blackpool",
+   "revisit": false
+  }
+ ]
+}

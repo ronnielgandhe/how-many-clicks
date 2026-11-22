@@ -1,0 +1,270 @@
+{
+ "pair": "test-417",
+ "start": "Amsterdam",
+ "target": "Lynton and Barnstaple Railway",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Amsterdam",
+  "United Kingdom",
+  "England",
+  "Great Britain",
+  "England",
+  "Isambard Kingdom Brunel",
+  "England",
+  "Industrial Revolution",
+  "Rail transport",
+  "United Kingdom",
+  "England",
+  "Industrial Revolution",
+  "Liverpool and Manchester Railway",
+  "Robert Stephenson",
+  "Rail transport",
+  "United Kingdom"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 7,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 8569,
+ "tokensOut": 257,
+ "costUsd": 0.003213,
+ "steps": [
+  {
+   "page": "Amsterdam",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 17,
+     "ms": 734
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 920,
+     "tokensOut": 16,
+     "ms": 698
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Great Britain",
+     "valid": true,
+     "tokensIn": 899,
+     "tokensOut": 17,
+     "ms": 736
+    }
+   ],
+   "chosen": "Great Britain",
+   "revisit": false
+  },
+  {
+   "page": "Great Britain",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 323,
+     "tokensOut": 16,
+     "ms": 759
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 904,
+     "tokensOut": 21,
+     "ms": 789
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 16,
+     "ms": 746
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 913,
+     "tokensOut": 17,
+     "ms": 758
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 418,
+     "tokensOut": 17,
+     "ms": 664
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 366,
+     "tokensOut": 17,
+     "ms": 642
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 945,
+     "tokensOut": 16,
+     "ms": 712
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 924,
+     "tokensOut": 17,
+     "ms": 658
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": true
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Liverpool and Manchester Railway",
+     "valid": true,
+     "tokensIn": 429,
+     "tokensOut": 19,
+     "ms": 739
+    }
+   ],
+   "chosen": "Liverpool and Manchester Railway",
+   "revisit": false
+  },
+  {
+   "page": "Liverpool and Manchester Railway",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Robert Stephenson",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 17,
+     "ms": 721
+    }
+   ],
+   "chosen": "Robert Stephenson",
+   "revisit": false
+  },
+  {
+   "page": "Robert Stephenson",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 17,
+     "ms": 702
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": true
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 385,
+     "tokensOut": 17,
+     "ms": 708
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  }
+ ]
+}

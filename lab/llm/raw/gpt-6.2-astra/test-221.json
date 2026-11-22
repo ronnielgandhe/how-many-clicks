@@ -1,0 +1,83 @@
+{
+ "pair": "test-221",
+ "start": "Bob Dylan",
+ "target": "Viking",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Bob Dylan",
+  "England",
+  "Alfred the Great",
+  "Viking"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1571,
+ "tokensOut": 58,
+ "costUsd": 0.014888,
+ "steps": [
+  {
+   "page": "Bob Dylan",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 346,
+     "tokensOut": 18,
+     "ms": 3530
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Alfred the Great",
+     "valid": true,
+     "tokensIn": 915,
+     "tokensOut": 21,
+     "ms": 1653
+    }
+   ],
+   "chosen": "Alfred the Great",
+   "revisit": false
+  },
+  {
+   "page": "Alfred the Great",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Viking",
+     "valid": true,
+     "tokensIn": 310,
+     "tokensOut": 19,
+     "ms": 1288
+    }
+   ],
+   "chosen": "Viking",
+   "revisit": false
+  }
+ ]
+}

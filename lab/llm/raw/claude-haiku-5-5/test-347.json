@@ -1,0 +1,99 @@
+{
+ "pair": "test-347",
+ "start": "Fiberglass",
+ "target": "2004 Indian Ocean earthquake",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fiberglass",
+  "Quartz",
+  "Earth",
+  "Tsunami",
+  "2004 Indian Ocean earthquake"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3535,
+ "tokensOut": 707,
+ "costUsd": 0.000707,
+ "steps": [
+  {
+   "page": "Fiberglass",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Quartz",
+     "valid": true,
+     "tokensIn": 598,
+     "tokensOut": 263,
+     "ms": 1496
+    }
+   ],
+   "chosen": "Quartz",
+   "revisit": false
+  },
+  {
+   "page": "Quartz",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 643,
+     "tokensOut": 233,
+     "ms": 1234
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Tsunami",
+     "valid": true,
+     "tokensIn": 1335,
+     "tokensOut": 151,
+     "ms": 988
+    }
+   ],
+   "chosen": "Tsunami",
+   "revisit": false
+  },
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "2004 Indian Ocean earthquake",
+     "valid": true,
+     "tokensIn": 959,
+     "tokensOut": 60,
+     "ms": 544
+    }
+   ],
+   "chosen": "2004 Indian Ocean earthquake",
+   "revisit": false
+  }
+ ]
+}

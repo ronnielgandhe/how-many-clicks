@@ -1,0 +1,110 @@
+{
+ "pair": "test-245",
+ "start": "Northern Pacific Railway",
+ "target": "Barnacle",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Northern Pacific Railway",
+  "Ship",
+  "Sea",
+  "Ocean",
+  "Crustacean",
+  "Barnacle"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 3671,
+ "tokensOut": 308,
+ "costUsd": 0.020844,
+ "steps": [
+  {
+   "page": "Northern Pacific Railway",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Ship",
+     "valid": true,
+     "tokensIn": 734,
+     "tokensOut": 77,
+     "ms": 1188
+    }
+   ],
+   "chosen": "Ship",
+   "revisit": false
+  },
+  {
+   "page": "Ship",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Sea",
+     "valid": true,
+     "tokensIn": 656,
+     "tokensOut": 79,
+     "ms": 1180
+    }
+   ],
+   "chosen": "Sea",
+   "revisit": false
+  },
+  {
+   "page": "Sea",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Ocean",
+     "valid": true,
+     "tokensIn": 741,
+     "tokensOut": 50,
+     "ms": 1345
+    }
+   ],
+   "chosen": "Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Ocean",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Crustacean",
+     "valid": true,
+     "tokensIn": 888,
+     "tokensOut": 51,
+     "ms": 876
+    }
+   ],
+   "chosen": "Crustacean",
+   "revisit": false
+  },
+  {
+   "page": "Crustacean",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Barnacle",
+     "valid": true,
+     "tokensIn": 652,
+     "tokensOut": 51,
+     "ms": 852
+    }
+   ],
+   "chosen": "Barnacle",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-132",
+ "start": "Spanish Inquisition",
+ "target": "Beeching Axe",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Spanish Inquisition",
+  "England",
+  "Isambard Kingdom Brunel",
+  "London Underground",
+  "Derby",
+  "London",
+  "M25 motorway",
+  "M1 motorway",
+  "Leicester",
+  "Nottingham",
+  "Train",
+  "Rail transport",
+  "Great Britain",
+  "United Kingdom",
+  "Peak District",
+  "Beeching Axe"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 14778,
+ "tokensOut": 3384,
+ "costUsd": 0.063396,
+ "steps": [
+  {
+   "page": "Spanish Inquisition",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 808,
+     "tokensOut": 86,
+     "ms": 1941
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 1820,
+     "tokensOut": 246,
+     "ms": 2387
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "London Underground",
+     "valid": true,
+     "tokensIn": 737,
+     "tokensOut": 218,
+     "ms": 2229
+    }
+   ],
+   "chosen": "London Underground",
+   "revisit": false
+  },
+  {
+   "page": "London Underground",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Derby",
+     "valid": true,
+     "tokensIn": 639,
+     "tokensOut": 224,
+     "ms": 2359
+    }
+   ],
+   "chosen": "Derby",
+   "revisit": false
+  },
+  {
+   "page": "Derby",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "London",
+     "valid": true,
+     "tokensIn": 781,
+     "tokensOut": 319,
+     "ms": 3774
+    }
+   ],
+   "chosen": "London",
+   "revisit": false
+  },
+  {
+   "page": "London",
+   "offered": 102,
+   "attempts": [
+    {
+     "raw": "M25 motorway",
+     "valid": true,
+     "tokensIn": 1332,
+     "tokensOut": 283,
+     "ms": 2818
+    }
+   ],
+   "chosen": "M25 motorway",
+   "revisit": false
+  },
+  {
+   "page": "M25 motorway",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "M1 motorway",
+     "valid": true,
+     "tokensIn": 682,
+     "tokensOut": 257,
+     "ms": 3090
+    }
+   ],
+   "chosen": "M1 motorway",
+   "revisit": false
+  },
+  {
+   "page": "M1 motorway",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Leicester",
+     "valid": true,
+     "tokensIn": 681,
+     "tokensOut": 385,
+     "ms": 4580
+    }
+   ],
+   "chosen": "Leicester",
+   "revisit": false
+  },
+  {
+   "page": "Leicester",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Nottingham",
+     "valid": true,
+     "tokensIn": 888,
+     "tokensOut": 377,
+     "ms": 3608
+    }
+   ],
+   "chosen": "Nottingham",
+   "revisit": false
+  },
+  {
+   "page": "Nottingham",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 1017,
+     "tokensOut": 48,
+     "ms": 1513
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 887,
+     "tokensOut": 51,
+     "ms": 1286
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Great Britain",
+     "valid": true,
+     "tokensIn": 887,
+     "tokensOut": 232,
+     "ms": 1933
+    }
+   ],
+   "chosen": "Great Britain",
+   "revisit": false
+  },
+  {
+   "page": "Great Britain",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 852,
+     "tokensOut": 180,
+     "ms": 2455
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Peak District",
+     "valid": true,
+     "tokensIn": 1945,
+     "tokensOut": 425,
+     "ms": 4064
+    }
+   ],
+   "chosen": "Peak District",
+   "revisit": false
+  },
+  {
+   "page": "Peak District",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Beeching Axe",
+     "valid": true,
+     "tokensIn": 822,
+     "tokensOut": 53,
+     "ms": 1404
+    }
+   ],
+   "chosen": "Beeching Axe",
+   "revisit": false
+  }
+ ]
+}

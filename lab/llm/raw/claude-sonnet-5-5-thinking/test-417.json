@@ -1,0 +1,270 @@
+{
+ "pair": "test-417",
+ "start": "Amsterdam",
+ "target": "Lynton and Barnstaple Railway",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Amsterdam",
+  "Train",
+  "England",
+  "National parks of England and Wales",
+  "Dartmoor",
+  "England",
+  "National parks of England and Wales",
+  "Samuel Taylor Coleridge",
+  "Kubla Khan",
+  "Samuel Taylor Coleridge",
+  "Bristol",
+  "Beeching Axe",
+  "England",
+  "National parks of England and Wales",
+  "Dartmoor",
+  "Carboniferous"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 6,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 14847,
+ "tokensOut": 5405,
+ "costUsd": 0.083744,
+ "steps": [
+  {
+   "page": "Amsterdam",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 785,
+     "tokensOut": 177,
+     "ms": 2338
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 839,
+     "tokensOut": 170,
+     "ms": 1923
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 1827,
+     "tokensOut": 185,
+     "ms": 2150
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": false
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 740,
+     "tokensOut": 229,
+     "ms": 2193
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": false
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 613,
+     "tokensOut": 325,
+     "ms": 3107
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 1846,
+     "tokensOut": 277,
+     "ms": 2698
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": true
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Samuel Taylor Coleridge",
+     "valid": true,
+     "tokensIn": 759,
+     "tokensOut": 391,
+     "ms": 3278
+    }
+   ],
+   "chosen": "Samuel Taylor Coleridge",
+   "revisit": false
+  },
+  {
+   "page": "Samuel Taylor Coleridge",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Kubla Khan",
+     "valid": true,
+     "tokensIn": 755,
+     "tokensOut": 563,
+     "ms": 5009
+    }
+   ],
+   "chosen": "Kubla Khan",
+   "revisit": false
+  },
+  {
+   "page": "Kubla Khan",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Samuel Taylor Coleridge",
+     "valid": true,
+     "tokensIn": 670,
+     "tokensOut": 267,
+     "ms": 2484
+    }
+   ],
+   "chosen": "Samuel Taylor Coleridge",
+   "revisit": true
+  },
+  {
+   "page": "Samuel Taylor Coleridge",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Bristol",
+     "valid": true,
+     "tokensIn": 777,
+     "tokensOut": 492,
+     "ms": 4510
+    }
+   ],
+   "chosen": "Bristol",
+   "revisit": false
+  },
+  {
+   "page": "Bristol",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Beeching Axe",
+     "valid": true,
+     "tokensIn": 1076,
+     "tokensOut": 592,
+     "ms": 4511
+    }
+   ],
+   "chosen": "Beeching Axe",
+   "revisit": false
+  },
+  {
+   "page": "Beeching Axe",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 740,
+     "tokensOut": 308,
+     "ms": 2581
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 1907,
+     "tokensOut": 346,
+     "ms": 3429
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": true
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 820,
+     "tokensOut": 393,
+     "ms": 3286
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": true
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Carboniferous",
+     "valid": true,
+     "tokensIn": 693,
+     "tokensOut": 690,
+     "ms": 6056
+    }
+   ],
+   "chosen": "Carboniferous",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "pair": "test-163",
+ "start": "EMD F7",
+ "target": "Michigan State University",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "EMD F7",
+  "Canada",
+  "Great Lakes",
+  "Lake Superior",
+  "Minnesota",
+  "List of U.S. states by date of statehood",
+  "United States",
+  "Detroit, Michigan",
+  "Michigan State University"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 8484,
+ "tokensOut": 1421,
+ "costUsd": 0.031178,
+ "steps": [
+  {
+   "page": "EMD F7",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 559,
+     "tokensOut": 49,
+     "ms": 1250
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Great Lakes",
+     "valid": true,
+     "tokensIn": 1040,
+     "tokensOut": 312,
+     "ms": 2884
+    }
+   ],
+   "chosen": "Great Lakes",
+   "revisit": false
+  },
+  {
+   "page": "Great Lakes",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Lake Superior",
+     "valid": true,
+     "tokensIn": 719,
+     "tokensOut": 190,
+     "ms": 1502
+    }
+   ],
+   "chosen": "Lake Superior",
+   "revisit": false
+  },
+  {
+   "page": "Lake Superior",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Minnesota",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 163,
+     "ms": 1878
+    }
+   ],
+   "chosen": "Minnesota",
+   "revisit": false
+  },
+  {
+   "page": "Minnesota",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "List of U.S. states by date of statehood",
+     "valid": true,
+     "tokensIn": 993,
+     "tokensOut": 384,
+     "ms": 7193
+    }
+   ],
+   "chosen": "List of U.S. states by date of statehood",
+   "revisit": false
+  },
+  {
+   "page": "List of U.S. states by date of statehood",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 648,
+     "tokensOut": 216,
+     "ms": 2637
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Detroit, Michigan",
+     "valid": true,
+     "tokensIn": 2819,
+     "tokensOut": 55,
+     "ms": 1320
+    }
+   ],
+   "chosen": "Detroit, Michigan",
+   "revisit": false
+  },
+  {
+   "page": "Detroit, Michigan",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Michigan State University",
+     "valid": true,
+     "tokensIn": 1008,
+     "tokensOut": 52,
+     "ms": 1183
+    }
+   ],
+   "chosen": "Michigan State University",
+   "revisit": false
+  }
+ ]
+}

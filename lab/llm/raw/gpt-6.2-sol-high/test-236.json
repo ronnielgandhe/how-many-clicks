@@ -1,0 +1,270 @@
+{
+ "pair": "test-236",
+ "start": "Rabat",
+ "target": "War in Somalia (2006\u2013present)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Rabat",
+  "Morocco",
+  "African Union",
+  "Somalia",
+  "Mogadishu",
+  "Ethiopia",
+  "Somalia",
+  "Kenya",
+  "Somalia",
+  "Horn of Africa",
+  "Somalia",
+  "Uganda",
+  "African Union",
+  "Eritrea",
+  "United States",
+  "War"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 9675,
+ "tokensOut": 1791,
+ "costUsd": 0.03726,
+ "steps": [
+  {
+   "page": "Rabat",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Morocco",
+     "valid": true,
+     "tokensIn": 212,
+     "tokensOut": 19,
+     "ms": 1139
+    }
+   ],
+   "chosen": "Morocco",
+   "revisit": false
+  },
+  {
+   "page": "Morocco",
+   "offered": 68,
+   "attempts": [
+    {
+     "raw": "African Union",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 36,
+     "ms": 1354
+    }
+   ],
+   "chosen": "African Union",
+   "revisit": false
+  },
+  {
+   "page": "African Union",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 537,
+     "tokensOut": 19,
+     "ms": 1116
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": false
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mogadishu",
+     "valid": true,
+     "tokensIn": 719,
+     "tokensOut": 40,
+     "ms": 1223
+    }
+   ],
+   "chosen": "Mogadishu",
+   "revisit": false
+  },
+  {
+   "page": "Mogadishu",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 320,
+     "tokensOut": 47,
+     "ms": 1348
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": false
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 123,
+     "ms": 2399
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Kenya",
+     "valid": true,
+     "tokensIn": 727,
+     "tokensOut": 72,
+     "ms": 2062
+    }
+   ],
+   "chosen": "Kenya",
+   "revisit": false
+  },
+  {
+   "page": "Kenya",
+   "offered": 133,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 710,
+     "tokensOut": 73,
+     "ms": 1673
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Horn of Africa",
+     "valid": true,
+     "tokensIn": 731,
+     "tokensOut": 262,
+     "ms": 5164
+    }
+   ],
+   "chosen": "Horn of Africa",
+   "revisit": false
+  },
+  {
+   "page": "Horn of Africa",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 335,
+     "tokensOut": 191,
+     "ms": 3056
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Uganda",
+     "valid": true,
+     "tokensIn": 737,
+     "tokensOut": 146,
+     "ms": 2929
+    }
+   ],
+   "chosen": "Uganda",
+   "revisit": false
+  },
+  {
+   "page": "Uganda",
+   "offered": 160,
+   "attempts": [
+    {
+     "raw": "African Union",
+     "valid": true,
+     "tokensIn": 842,
+     "tokensOut": 223,
+     "ms": 4390
+    }
+   ],
+   "chosen": "African Union",
+   "revisit": true
+  },
+  {
+   "page": "African Union",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Eritrea",
+     "valid": true,
+     "tokensIn": 562,
+     "tokensOut": 221,
+     "ms": 4956
+    }
+   ],
+   "chosen": "Eritrea",
+   "revisit": false
+  },
+  {
+   "page": "Eritrea",
+   "offered": 99,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 617,
+     "tokensOut": 200,
+     "ms": 3958
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "War",
+     "valid": true,
+     "tokensIn": 1482,
+     "tokensOut": 119,
+     "ms": 2796
+    }
+   ],
+   "chosen": "War",
+   "revisit": false
+  }
+ ]
+}

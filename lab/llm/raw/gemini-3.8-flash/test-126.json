@@ -1,0 +1,78 @@
+{
+ "pair": "test-126",
+ "start": "The Waste Land",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Waste Land",
+  "Switzerland",
+  "European Union",
+  "Malta"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1219,
+ "tokensOut": 396,
+ "costUsd": 0.002399,
+ "steps": [
+  {
+   "page": "The Waste Land",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Switzerland",
+     "valid": true,
+     "tokensIn": 234,
+     "tokensOut": 263,
+     "ms": 4022
+    }
+   ],
+   "chosen": "Switzerland",
+   "revisit": false
+  },
+  {
+   "page": "Switzerland",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "European Union",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 93,
+     "ms": 2988
+    }
+   ],
+   "chosen": "European Union",
+   "revisit": false
+  },
+  {
+   "page": "European Union",
+   "offered": 133,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 645,
+     "tokensOut": 40,
+     "ms": 1768
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

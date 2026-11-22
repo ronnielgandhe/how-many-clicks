@@ -1,0 +1,115 @@
+{
+ "pair": "test-347",
+ "start": "Fiberglass",
+ "target": "2004 Indian Ocean earthquake",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fiberglass",
+  "Oxygen",
+  "Water",
+  "Ocean",
+  "Indian Ocean",
+  "2004 Indian Ocean earthquake"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1944,
+ "tokensOut": 488,
+ "costUsd": 0.003288,
+ "steps": [
+  {
+   "page": "Fiberglass",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Oxygen",
+     "valid": true,
+     "tokensIn": 200,
+     "tokensOut": 95,
+     "ms": 2096
+    }
+   ],
+   "chosen": "Oxygen",
+   "revisit": false
+  },
+  {
+   "page": "Oxygen",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Water",
+     "valid": true,
+     "tokensIn": 288,
+     "tokensOut": 152,
+     "ms": 2708
+    }
+   ],
+   "chosen": "Water",
+   "revisit": false
+  },
+  {
+   "page": "Water",
+   "offered": 131,
+   "attempts": [
+    {
+     "raw": "Ocean",
+     "valid": true,
+     "tokensIn": 634,
+     "tokensOut": 154,
+     "ms": 2967
+    }
+   ],
+   "chosen": "Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Ocean",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Indian Ocean",
+     "valid": true,
+     "tokensIn": 361,
+     "tokensOut": 44,
+     "ms": 2645
+    }
+   ],
+   "chosen": "Indian Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Indian Ocean",
+   "offered": 75,
+   "attempts": [
+    {
+     "raw": "2004 Indian Ocean earthquake",
+     "valid": true,
+     "tokensIn": 461,
+     "tokensOut": 43,
+     "ms": 1629
+    }
+   ],
+   "chosen": "2004 Indian Ocean earthquake",
+   "revisit": false
+  }
+ ]
+}

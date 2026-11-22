@@ -1,0 +1,62 @@
+{
+ "pair": "test-127",
+ "start": "Atlantic Ocean",
+ "target": "Cattle",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Atlantic Ocean",
+  "Argentina",
+  "Cattle"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1416,
+ "tokensOut": 37,
+ "costUsd": 0.012808,
+ "steps": [
+  {
+   "page": "Atlantic Ocean",
+   "offered": 125,
+   "attempts": [
+    {
+     "raw": "Argentina",
+     "valid": true,
+     "tokensIn": 659,
+     "tokensOut": 18,
+     "ms": 1358
+    }
+   ],
+   "chosen": "Argentina",
+   "revisit": false
+  },
+  {
+   "page": "Argentina",
+   "offered": 163,
+   "attempts": [
+    {
+     "raw": "Cattle",
+     "valid": true,
+     "tokensIn": 757,
+     "tokensOut": 19,
+     "ms": 1036
+    }
+   ],
+   "chosen": "Cattle",
+   "revisit": false
+  }
+ ]
+}

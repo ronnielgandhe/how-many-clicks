@@ -1,0 +1,99 @@
+{
+ "pair": "test-346",
+ "start": "Islamic republic",
+ "target": "Shrine of Remembrance",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Islamic republic",
+  "Pakistan",
+  "Cricket",
+  "Melbourne",
+  "Shrine of Remembrance"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3257,
+ "tokensOut": 840,
+ "costUsd": 0.014914,
+ "steps": [
+  {
+   "page": "Islamic republic",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Pakistan",
+     "valid": true,
+     "tokensIn": 604,
+     "tokensOut": 438,
+     "ms": 6976
+    }
+   ],
+   "chosen": "Pakistan",
+   "revisit": false
+  },
+  {
+   "page": "Pakistan",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Cricket",
+     "valid": true,
+     "tokensIn": 896,
+     "tokensOut": 266,
+     "ms": 2804
+    }
+   ],
+   "chosen": "Cricket",
+   "revisit": false
+  },
+  {
+   "page": "Cricket",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Melbourne",
+     "valid": true,
+     "tokensIn": 732,
+     "tokensOut": 80,
+     "ms": 2272
+    }
+   ],
+   "chosen": "Melbourne",
+   "revisit": false
+  },
+  {
+   "page": "Melbourne",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Shrine of Remembrance",
+     "valid": true,
+     "tokensIn": 1025,
+     "tokensOut": 56,
+     "ms": 1549
+    }
+   ],
+   "chosen": "Shrine of Remembrance",
+   "revisit": false
+  }
+ ]
+}

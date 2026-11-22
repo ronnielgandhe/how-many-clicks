@@ -1,0 +1,270 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Citizenship",
+  "City",
+  "Chicago",
+  "New York City",
+  "Grand Central Terminal",
+  "Toronto",
+  "France",
+  "Paris",
+  "Pablo Picasso",
+  "Cubism",
+  "Architecture",
+  "Frank Lloyd Wright",
+  "Los Angeles, California",
+  "Berlin",
+  "20th century",
+  "Cubism"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 14020,
+ "tokensOut": 2933,
+ "costUsd": 0.11474,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "City",
+     "valid": true,
+     "tokensIn": 702,
+     "tokensOut": 88,
+     "ms": 1285
+    }
+   ],
+   "chosen": "City",
+   "revisit": false
+  },
+  {
+   "page": "City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 972,
+     "tokensOut": 264,
+     "ms": 3695
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  },
+  {
+   "page": "Chicago",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 785,
+     "tokensOut": 124,
+     "ms": 1832
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": false
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Grand Central Terminal",
+     "valid": true,
+     "tokensIn": 1038,
+     "tokensOut": 193,
+     "ms": 3261
+    }
+   ],
+   "chosen": "Grand Central Terminal",
+   "revisit": false
+  },
+  {
+   "page": "Grand Central Terminal",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Toronto",
+     "valid": true,
+     "tokensIn": 673,
+     "tokensOut": 138,
+     "ms": 1581
+    }
+   ],
+   "chosen": "Toronto",
+   "revisit": false
+  },
+  {
+   "page": "Toronto",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 865,
+     "tokensOut": 283,
+     "ms": 3130
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Paris",
+     "valid": true,
+     "tokensIn": 1135,
+     "tokensOut": 107,
+     "ms": 1222
+    }
+   ],
+   "chosen": "Paris",
+   "revisit": false
+  },
+  {
+   "page": "Paris",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Pablo Picasso",
+     "valid": true,
+     "tokensIn": 1304,
+     "tokensOut": 236,
+     "ms": 2640
+    }
+   ],
+   "chosen": "Pablo Picasso",
+   "revisit": false
+  },
+  {
+   "page": "Pablo Picasso",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Cubism",
+     "valid": true,
+     "tokensIn": 693,
+     "tokensOut": 139,
+     "ms": 1665
+    }
+   ],
+   "chosen": "Cubism",
+   "revisit": false
+  },
+  {
+   "page": "Cubism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 652,
+     "tokensOut": 50,
+     "ms": 1872
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": false
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 853,
+     "tokensOut": 194,
+     "ms": 2936
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": false
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 699,
+     "tokensOut": 174,
+     "ms": 2141
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  },
+  {
+   "page": "Los Angeles, California",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 1319,
+     "tokensOut": 255,
+     "ms": 2824
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": false
+  },
+  {
+   "page": "Berlin",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "20th century",
+     "valid": true,
+     "tokensIn": 1133,
+     "tokensOut": 302,
+     "ms": 3349
+    }
+   ],
+   "chosen": "20th century",
+   "revisit": false
+  },
+  {
+   "page": "20th century",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Cubism",
+     "valid": true,
+     "tokensIn": 1197,
+     "tokensOut": 386,
+     "ms": 4132
+    }
+   ],
+   "chosen": "Cubism",
+   "revisit": true
+  }
+ ]
+}

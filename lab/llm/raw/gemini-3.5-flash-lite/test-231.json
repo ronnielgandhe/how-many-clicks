@@ -1,0 +1,110 @@
+{
+ "pair": "test-231",
+ "start": "Jacques Cartier",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jacques Cartier",
+  "Canada",
+  "Rocky Mountains",
+  "Cretaceous",
+  "Dinosaur",
+  "Fossil"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1899,
+ "tokensOut": 85,
+ "costUsd": 0.000782,
+ "steps": [
+  {
+   "page": "Jacques Cartier",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 198,
+     "tokensOut": 16,
+     "ms": 746
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Rocky Mountains",
+     "valid": true,
+     "tokensIn": 435,
+     "tokensOut": 17,
+     "ms": 715
+    }
+   ],
+   "chosen": "Rocky Mountains",
+   "revisit": false
+  },
+  {
+   "page": "Rocky Mountains",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Cretaceous",
+     "valid": true,
+     "tokensIn": 339,
+     "tokensOut": 18,
+     "ms": 862
+    }
+   ],
+   "chosen": "Cretaceous",
+   "revisit": false
+  },
+  {
+   "page": "Cretaceous",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Dinosaur",
+     "valid": true,
+     "tokensIn": 358,
+     "tokensOut": 17,
+     "ms": 746
+    }
+   ],
+   "chosen": "Dinosaur",
+   "revisit": false
+  },
+  {
+   "page": "Dinosaur",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 569,
+     "tokensOut": 17,
+     "ms": 760
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

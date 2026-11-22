@@ -1,0 +1,131 @@
+{
+ "pair": "test-330",
+ "start": "African dwarf frog",
+ "target": "Jaws (film)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "African dwarf frog",
+  "Chordate",
+  "Vertebrate",
+  "Fish",
+  "Whale shark",
+  "Shark",
+  "Jaws (film)"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 1546,
+ "tokensOut": 118,
+ "costUsd": 0.004272,
+ "steps": [
+  {
+   "page": "African dwarf frog",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Chordate",
+     "valid": true,
+     "tokensIn": 207,
+     "tokensOut": 19,
+     "ms": 1261
+    }
+   ],
+   "chosen": "Chordate",
+   "revisit": false
+  },
+  {
+   "page": "Chordate",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Vertebrate",
+     "valid": true,
+     "tokensIn": 221,
+     "tokensOut": 20,
+     "ms": 1263
+    }
+   ],
+   "chosen": "Vertebrate",
+   "revisit": false
+  },
+  {
+   "page": "Vertebrate",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Fish",
+     "valid": true,
+     "tokensIn": 239,
+     "tokensOut": 18,
+     "ms": 904
+    }
+   ],
+   "chosen": "Fish",
+   "revisit": false
+  },
+  {
+   "page": "Fish",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Whale shark",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 20,
+     "ms": 1392
+    }
+   ],
+   "chosen": "Whale shark",
+   "revisit": false
+  },
+  {
+   "page": "Whale shark",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Shark",
+     "valid": true,
+     "tokensIn": 294,
+     "tokensOut": 19,
+     "ms": 1380
+    }
+   ],
+   "chosen": "Shark",
+   "revisit": false
+  },
+  {
+   "page": "Shark",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Jaws (film)",
+     "valid": true,
+     "tokensIn": 342,
+     "tokensOut": 22,
+     "ms": 1056
+    }
+   ],
+   "chosen": "Jaws (film)",
+   "revisit": false
+  }
+ ]
+}

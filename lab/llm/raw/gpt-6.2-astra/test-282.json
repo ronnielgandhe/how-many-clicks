@@ -1,0 +1,142 @@
+{
+ "pair": "test-282",
+ "start": "Sri Lanka",
+ "target": "Number",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sri Lanka",
+  "India",
+  "Chess",
+  "Dice",
+  "Greece",
+  "Pythagoras",
+  "Mathematics",
+  "Number"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2754,
+ "tokensOut": 132,
+ "costUsd": 0.027312,
+ "steps": [
+  {
+   "page": "Sri Lanka",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 407,
+     "tokensOut": 18,
+     "ms": 1321
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Chess",
+     "valid": true,
+     "tokensIn": 507,
+     "tokensOut": 18,
+     "ms": 1495
+    }
+   ],
+   "chosen": "Chess",
+   "revisit": false
+  },
+  {
+   "page": "Chess",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Dice",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 18,
+     "ms": 1428
+    }
+   ],
+   "chosen": "Dice",
+   "revisit": false
+  },
+  {
+   "page": "Dice",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Greece",
+     "valid": true,
+     "tokensIn": 295,
+     "tokensOut": 19,
+     "ms": 1342
+    }
+   ],
+   "chosen": "Greece",
+   "revisit": false
+  },
+  {
+   "page": "Greece",
+   "offered": 114,
+   "attempts": [
+    {
+     "raw": "Pythagoras",
+     "valid": true,
+     "tokensIn": 598,
+     "tokensOut": 21,
+     "ms": 1297
+    }
+   ],
+   "chosen": "Pythagoras",
+   "revisit": false
+  },
+  {
+   "page": "Pythagoras",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 254,
+     "tokensOut": 20,
+     "ms": 1367
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": false
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Number",
+     "valid": true,
+     "tokensIn": 435,
+     "tokensOut": 18,
+     "ms": 1296
+    }
+   ],
+   "chosen": "Number",
+   "revisit": false
+  }
+ ]
+}

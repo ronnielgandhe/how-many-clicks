@@ -1,0 +1,163 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "France",
+  "Middle Ages",
+  "Mediterranean Sea",
+  "Mesopotamia",
+  "Barley",
+  "Cereal",
+  "Seed",
+  "Pea"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 6913,
+ "tokensOut": 1614,
+ "costUsd": 0.029966,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 632,
+     "tokensOut": 184,
+     "ms": 5727
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 1104,
+     "tokensOut": 309,
+     "ms": 2784
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Mediterranean Sea",
+     "valid": true,
+     "tokensIn": 1023,
+     "tokensOut": 351,
+     "ms": 6865
+    }
+   ],
+   "chosen": "Mediterranean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Mediterranean Sea",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Mesopotamia",
+     "valid": true,
+     "tokensIn": 981,
+     "tokensOut": 206,
+     "ms": 2533
+    }
+   ],
+   "chosen": "Mesopotamia",
+   "revisit": false
+  },
+  {
+   "page": "Mesopotamia",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Barley",
+     "valid": true,
+     "tokensIn": 920,
+     "tokensOut": 178,
+     "ms": 5525
+    }
+   ],
+   "chosen": "Barley",
+   "revisit": false
+  },
+  {
+   "page": "Barley",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Cereal",
+     "valid": true,
+     "tokensIn": 724,
+     "tokensOut": 210,
+     "ms": 1904
+    }
+   ],
+   "chosen": "Cereal",
+   "revisit": false
+  },
+  {
+   "page": "Cereal",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Seed",
+     "valid": true,
+     "tokensIn": 779,
+     "tokensOut": 127,
+     "ms": 1493
+    }
+   ],
+   "chosen": "Seed",
+   "revisit": false
+  },
+  {
+   "page": "Seed",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 750,
+     "tokensOut": 49,
+     "ms": 8341
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

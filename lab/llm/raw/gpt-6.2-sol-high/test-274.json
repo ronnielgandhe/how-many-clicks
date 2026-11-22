@@ -1,0 +1,174 @@
+{
+ "pair": "test-274",
+ "start": "Hippopotamus",
+ "target": "Retinol",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Hippopotamus",
+  "Pigment",
+  "Eye",
+  "Retina",
+  "Color blindness",
+  "Retina",
+  "Light",
+  "Vitamin D",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 2615,
+ "tokensOut": 1066,
+ "costUsd": 0.01589,
+ "steps": [
+  {
+   "page": "Hippopotamus",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Pigment",
+     "valid": true,
+     "tokensIn": 353,
+     "tokensOut": 65,
+     "ms": 1513
+    }
+   ],
+   "chosen": "Pigment",
+   "revisit": false
+  },
+  {
+   "page": "Pigment",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 70,
+     "ms": 1820
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 311,
+     "tokensOut": 28,
+     "ms": 1400
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Color blindness",
+     "valid": true,
+     "tokensIn": 225,
+     "tokensOut": 194,
+     "ms": 3749
+    }
+   ],
+   "chosen": "Color blindness",
+   "revisit": false
+  },
+  {
+   "page": "Color blindness",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 239,
+     "tokensOut": 208,
+     "ms": 4571
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Light",
+     "valid": true,
+     "tokensIn": 230,
+     "tokensOut": 394,
+     "ms": 7445
+    }
+   ],
+   "chosen": "Light",
+   "revisit": false
+  },
+  {
+   "page": "Light",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Vitamin D",
+     "valid": true,
+     "tokensIn": 421,
+     "tokensOut": 70,
+     "ms": 1775
+    }
+   ],
+   "chosen": "Vitamin D",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin D",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 246,
+     "tokensOut": 18,
+     "ms": 1131
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 307,
+     "tokensOut": 19,
+     "ms": 1070
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

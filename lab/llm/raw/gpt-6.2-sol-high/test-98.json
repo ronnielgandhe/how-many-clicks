@@ -1,0 +1,62 @@
+{
+ "pair": "test-98",
+ "start": "Viking",
+ "target": "Middle Ages",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Viking",
+  "Europe",
+  "Middle Ages"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1174,
+ "tokensOut": 134,
+ "costUsd": 0.003688,
+ "steps": [
+  {
+   "page": "Viking",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 428,
+     "tokensOut": 115,
+     "ms": 2750
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 746,
+     "tokensOut": 19,
+     "ms": 1173
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  }
+ ]
+}

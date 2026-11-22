@@ -1,0 +1,270 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Zara Yaqob",
+  "Europe",
+  "World War II",
+  "United States",
+  "Amtrak",
+  "Train",
+  "Rail transport",
+  "Canadian Pacific Railway",
+  "The Canadian",
+  "Canadian Pacific Railway",
+  "Amtrak",
+  "Super Chief",
+  "Pennsylvania Railroad",
+  "Amtrak",
+  "Railway post office",
+  "Chicago"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6988,
+ "tokensOut": 288,
+ "costUsd": 0.016856,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 202,
+     "tokensOut": 18,
+     "ms": 1050
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 750,
+     "tokensOut": 20,
+     "ms": 1207
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 668,
+     "tokensOut": 19,
+     "ms": 1039
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 1452,
+     "tokensOut": 19,
+     "ms": 1206
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": false
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 418,
+     "tokensOut": 18,
+     "ms": 1114
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 367,
+     "tokensOut": 19,
+     "ms": 1246
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Canadian Pacific Railway",
+     "valid": true,
+     "tokensIn": 363,
+     "tokensOut": 20,
+     "ms": 1270
+    }
+   ],
+   "chosen": "Canadian Pacific Railway",
+   "revisit": false
+  },
+  {
+   "page": "Canadian Pacific Railway",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "The Canadian",
+     "valid": true,
+     "tokensIn": 396,
+     "tokensOut": 19,
+     "ms": 1172
+    }
+   ],
+   "chosen": "The Canadian",
+   "revisit": false
+  },
+  {
+   "page": "The Canadian",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Canadian Pacific Railway",
+     "valid": true,
+     "tokensIn": 240,
+     "tokensOut": 20,
+     "ms": 1049
+    }
+   ],
+   "chosen": "Canadian Pacific Railway",
+   "revisit": true
+  },
+  {
+   "page": "Canadian Pacific Railway",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 403,
+     "tokensOut": 19,
+     "ms": 1020
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": true
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Super Chief",
+     "valid": true,
+     "tokensIn": 437,
+     "tokensOut": 19,
+     "ms": 1218
+    }
+   ],
+   "chosen": "Super Chief",
+   "revisit": false
+  },
+  {
+   "page": "Super Chief",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Pennsylvania Railroad",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 20,
+     "ms": 1102
+    }
+   ],
+   "chosen": "Pennsylvania Railroad",
+   "revisit": false
+  },
+  {
+   "page": "Pennsylvania Railroad",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 286,
+     "tokensOut": 19,
+     "ms": 1094
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": true
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Railway post office",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 21,
+     "ms": 1105
+    }
+   ],
+   "chosen": "Railway post office",
+   "revisit": false
+  },
+  {
+   "page": "Railway post office",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 255,
+     "tokensOut": 18,
+     "ms": 1016
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  }
+ ]
+}

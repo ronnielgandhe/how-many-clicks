@@ -1,0 +1,270 @@
+{
+ "pair": "test-132",
+ "start": "Spanish Inquisition",
+ "target": "Beeching Axe",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Spanish Inquisition",
+  "England",
+  "Industrial Revolution",
+  "Rail transport",
+  "United Kingdom",
+  "Industrial Revolution",
+  "Rail transport",
+  "United Kingdom",
+  "Industrial Revolution",
+  "Rail transport",
+  "United Kingdom",
+  "Industrial Revolution",
+  "Liverpool and Manchester Railway",
+  "England",
+  "Industrial Revolution",
+  "Rail transport"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 10,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 8379,
+ "tokensOut": 285,
+ "costUsd": 0.00098,
+ "steps": [
+  {
+   "page": "Spanish Inquisition",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 315,
+     "tokensOut": 18,
+     "ms": 1062
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 909,
+     "tokensOut": 19,
+     "ms": 827
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 402,
+     "tokensOut": 19,
+     "ms": 2716
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 19,
+     "ms": 750
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 921,
+     "tokensOut": 19,
+     "ms": 696
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": true
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 411,
+     "tokensOut": 19,
+     "ms": 782
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": true
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 353,
+     "tokensOut": 19,
+     "ms": 816
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 930,
+     "tokensOut": 19,
+     "ms": 904
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": true
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 420,
+     "tokensOut": 19,
+     "ms": 742
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": true
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 362,
+     "tokensOut": 19,
+     "ms": 808
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 939,
+     "tokensOut": 19,
+     "ms": 770
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": true
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Liverpool and Manchester Railway",
+     "valid": true,
+     "tokensIn": 429,
+     "tokensOut": 21,
+     "ms": 805
+    }
+   ],
+   "chosen": "Liverpool and Manchester Railway",
+   "revisit": false
+  },
+  {
+   "page": "Liverpool and Manchester Railway",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 259,
+     "tokensOut": 18,
+     "ms": 695
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 946,
+     "tokensOut": 19,
+     "ms": 886
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": true
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 439,
+     "tokensOut": 19,
+     "ms": 728
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": true
+  }
+ ]
+}

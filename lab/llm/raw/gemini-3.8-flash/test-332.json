@@ -1,0 +1,115 @@
+{
+ "pair": "test-332",
+ "start": "Abhidhamma Pitaka",
+ "target": "Zulu",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 9.0,
+  "median_pages": 11.0
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Abhidhamma Pitaka",
+  "University of Bristol",
+  "United Kingdom",
+  "British Empire",
+  "South Africa",
+  "Zulu"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2666,
+ "tokensOut": 283,
+ "costUsd": 0.003061,
+ "steps": [
+  {
+   "page": "Abhidhamma Pitaka",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "University of Bristol",
+     "valid": true,
+     "tokensIn": 196,
+     "tokensOut": 18,
+     "ms": 2036
+    }
+   ],
+   "chosen": "University of Bristol",
+   "revisit": false
+  },
+  {
+   "page": "University of Bristol",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 108,
+     "ms": 6335
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "British Empire",
+     "valid": true,
+     "tokensIn": 923,
+     "tokensOut": 61,
+     "ms": 2469
+    }
+   ],
+   "chosen": "British Empire",
+   "revisit": false
+  },
+  {
+   "page": "British Empire",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "South Africa",
+     "valid": true,
+     "tokensIn": 697,
+     "tokensOut": 49,
+     "ms": 2378
+    }
+   ],
+   "chosen": "South Africa",
+   "revisit": false
+  },
+  {
+   "page": "South Africa",
+   "offered": 101,
+   "attempts": [
+    {
+     "raw": "Zulu",
+     "valid": true,
+     "tokensIn": 561,
+     "tokensOut": 47,
+     "ms": 5471
+    }
+   ],
+   "chosen": "Zulu",
+   "revisit": false
+  }
+ ]
+}

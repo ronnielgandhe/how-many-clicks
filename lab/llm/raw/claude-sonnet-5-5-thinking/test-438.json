@@ -1,0 +1,206 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Zara Yaqob",
+  "Europe",
+  "World War II",
+  "United States",
+  "Amtrak",
+  "Train",
+  "Rail transport",
+  "Train",
+  "Super Chief",
+  "Train",
+  "Refrigerator car",
+  "Troop sleeper"
+ ],
+ "clicks": 11,
+ "stepsTaken": 11,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 11,
+ "tokensIn": 12392,
+ "tokensOut": 3182,
+ "costUsd": 0.056604,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 578,
+     "tokensOut": 229,
+     "ms": 6085
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 1610,
+     "tokensOut": 134,
+     "ms": 2004
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1434,
+     "tokensOut": 328,
+     "ms": 3710
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 2792,
+     "tokensOut": 211,
+     "ms": 2377
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": false
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 955,
+     "tokensOut": 165,
+     "ms": 2178
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 851,
+     "tokensOut": 271,
+     "ms": 2687
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 851,
+     "tokensOut": 253,
+     "ms": 2629
+    }
+   ],
+   "chosen": "Train",
+   "revisit": true
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Super Chief",
+     "valid": true,
+     "tokensIn": 860,
+     "tokensOut": 631,
+     "ms": 5338
+    }
+   ],
+   "chosen": "Super Chief",
+   "revisit": false
+  },
+  {
+   "page": "Super Chief",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 736,
+     "tokensOut": 393,
+     "ms": 3986
+    }
+   ],
+   "chosen": "Train",
+   "revisit": true
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Refrigerator car",
+     "valid": true,
+     "tokensIn": 869,
+     "tokensOut": 514,
+     "ms": 4706
+    }
+   ],
+   "chosen": "Refrigerator car",
+   "revisit": false
+  },
+  {
+   "page": "Refrigerator car",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Troop sleeper",
+     "valid": true,
+     "tokensIn": 856,
+     "tokensOut": 53,
+     "ms": 1137
+    }
+   ],
+   "chosen": "Troop sleeper",
+   "revisit": false
+  }
+ ]
+}

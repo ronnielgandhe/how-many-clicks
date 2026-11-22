@@ -1,0 +1,270 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Zara Yaqob",
+  "Egypt",
+  "World War I",
+  "Tank",
+  "World War II",
+  "United States",
+  "Amtrak",
+  "Train",
+  "Rail transport",
+  "World War II",
+  "United States",
+  "World War II",
+  "United States",
+  "World War II",
+  "United States",
+  "World War II"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 7,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 10983,
+ "tokensOut": 258,
+ "costUsd": 0.00394,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Egypt",
+     "valid": true,
+     "tokensIn": 193,
+     "tokensOut": 16,
+     "ms": 685
+    }
+   ],
+   "chosen": "Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Egypt",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "World War I",
+     "valid": true,
+     "tokensIn": 447,
+     "tokensOut": 18,
+     "ms": 787
+    }
+   ],
+   "chosen": "World War I",
+   "revisit": false
+  },
+  {
+   "page": "World War I",
+   "offered": 82,
+   "attempts": [
+    {
+     "raw": "Tank",
+     "valid": true,
+     "tokensIn": 503,
+     "tokensOut": 16,
+     "ms": 746
+    }
+   ],
+   "chosen": "Tank",
+   "revisit": false
+  },
+  {
+   "page": "Tank",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 268,
+     "tokensOut": 18,
+     "ms": 692
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 649,
+     "tokensOut": 17,
+     "ms": 722
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 1425,
+     "tokensOut": 17,
+     "ms": 742
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": false
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 421,
+     "tokensOut": 16,
+     "ms": 663
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 368,
+     "tokensOut": 17,
+     "ms": 787
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 361,
+     "tokensOut": 18,
+     "ms": 696
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 663,
+     "tokensOut": 17,
+     "ms": 763
+    }
+   ],
+   "chosen": "United States",
+   "revisit": true
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 1439,
+     "tokensOut": 18,
+     "ms": 723
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 670,
+     "tokensOut": 17,
+     "ms": 898
+    }
+   ],
+   "chosen": "United States",
+   "revisit": true
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 1446,
+     "tokensOut": 18,
+     "ms": 708
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 677,
+     "tokensOut": 17,
+     "ms": 663
+    }
+   ],
+   "chosen": "United States",
+   "revisit": true
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 1453,
+     "tokensOut": 18,
+     "ms": 651
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": true
+  }
+ ]
+}

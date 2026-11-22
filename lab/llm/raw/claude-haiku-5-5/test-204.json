@@ -1,0 +1,83 @@
+{
+ "pair": "test-204",
+ "start": "Svart\u00e1lfar",
+ "target": "Jazz",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Svart\u00e1lfar",
+  "Norse mythology",
+  "United States",
+  "Jazz"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 4038,
+ "tokensOut": 529,
+ "costUsd": 0.000668,
+ "steps": [
+  {
+   "page": "Svart\u00e1lfar",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Norse mythology",
+     "valid": true,
+     "tokensIn": 560,
+     "tokensOut": 263,
+     "ms": 1527
+    }
+   ],
+   "chosen": "Norse mythology",
+   "revisit": false
+  },
+  {
+   "page": "Norse mythology",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 692,
+     "tokensOut": 192,
+     "ms": 1207
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Jazz",
+     "valid": true,
+     "tokensIn": 2786,
+     "tokensOut": 74,
+     "ms": 730
+    }
+   ],
+   "chosen": "Jazz",
+   "revisit": false
+  }
+ ]
+}

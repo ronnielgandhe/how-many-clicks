@@ -1,0 +1,78 @@
+{
+ "pair": "test-238",
+ "start": "Benjamin Harrison",
+ "target": "Mount Everest",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Benjamin Harrison",
+  "United Kingdom",
+  "Earth",
+  "Mount Everest"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1822,
+ "tokensOut": 56,
+ "costUsd": 0.016816,
+ "steps": [
+  {
+   "page": "Benjamin Harrison",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 275,
+     "tokensOut": 19,
+     "ms": 1195
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 920,
+     "tokensOut": 18,
+     "ms": 1397
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Mount Everest",
+     "valid": true,
+     "tokensIn": 627,
+     "tokensOut": 19,
+     "ms": 1699
+    }
+   ],
+   "chosen": "Mount Everest",
+   "revisit": false
+  }
+ ]
+}

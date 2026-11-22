@@ -1,0 +1,131 @@
+{
+ "pair": "test-355",
+ "start": "Mount Everest",
+ "target": "Demosthenes",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.0,
+  "median_pages": 11.5
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Mount Everest",
+  "United Kingdom",
+  "Olympic Games",
+  "Athens",
+  "Aristotle",
+  "Alexander the Great",
+  "Demosthenes"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 3035,
+ "tokensOut": 119,
+ "costUsd": 0.00726,
+ "steps": [
+  {
+   "page": "Mount Everest",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 19,
+     "ms": 858
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Olympic Games",
+     "valid": true,
+     "tokensIn": 922,
+     "tokensOut": 20,
+     "ms": 999
+    }
+   ],
+   "chosen": "Olympic Games",
+   "revisit": false
+  },
+  {
+   "page": "Olympic Games",
+   "offered": 116,
+   "attempts": [
+    {
+     "raw": "Athens",
+     "valid": true,
+     "tokensIn": 621,
+     "tokensOut": 19,
+     "ms": 1349
+    }
+   ],
+   "chosen": "Athens",
+   "revisit": false
+  },
+  {
+   "page": "Athens",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 485,
+     "tokensOut": 20,
+     "ms": 993
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Alexander the Great",
+     "valid": true,
+     "tokensIn": 316,
+     "tokensOut": 20,
+     "ms": 1228
+    }
+   ],
+   "chosen": "Alexander the Great",
+   "revisit": false
+  },
+  {
+   "page": "Alexander the Great",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Demosthenes",
+     "valid": true,
+     "tokensIn": 400,
+     "tokensOut": 21,
+     "ms": 1039
+    }
+   ],
+   "chosen": "Demosthenes",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Citizenship",
+  "City",
+  "New York City",
+  "Grand Central Terminal",
+  "France",
+  "Paris",
+  "Prague",
+  "Neoclassicism",
+  "Architecture",
+  "Frank Lloyd Wright",
+  "Los Angeles, California",
+  "Frank Lloyd Wright",
+  "New York City",
+  "Spain",
+  "Renaissance",
+  "Architecture"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 6332,
+ "tokensOut": 288,
+ "costUsd": 0.015544,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "City",
+     "valid": true,
+     "tokensIn": 271,
+     "tokensOut": 18,
+     "ms": 1031
+    }
+   ],
+   "chosen": "City",
+   "revisit": false
+  },
+  {
+   "page": "City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 426,
+     "tokensOut": 20,
+     "ms": 1300
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": false
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Grand Central Terminal",
+     "valid": true,
+     "tokensIn": 471,
+     "tokensOut": 20,
+     "ms": 1281
+    }
+   ],
+   "chosen": "Grand Central Terminal",
+   "revisit": false
+  },
+  {
+   "page": "Grand Central Terminal",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 256,
+     "tokensOut": 18,
+     "ms": 1073
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Paris",
+     "valid": true,
+     "tokensIn": 518,
+     "tokensOut": 18,
+     "ms": 1255
+    }
+   ],
+   "chosen": "Paris",
+   "revisit": false
+  },
+  {
+   "page": "Paris",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Prague",
+     "valid": true,
+     "tokensIn": 617,
+     "tokensOut": 19,
+     "ms": 1015
+    }
+   ],
+   "chosen": "Prague",
+   "revisit": false
+  },
+  {
+   "page": "Prague",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Neoclassicism",
+     "valid": true,
+     "tokensIn": 369,
+     "tokensOut": 21,
+     "ms": 1197
+    }
+   ],
+   "chosen": "Neoclassicism",
+   "revisit": false
+  },
+  {
+   "page": "Neoclassicism",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 358,
+     "tokensOut": 18,
+     "ms": 989
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": false
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 349,
+     "tokensOut": 20,
+     "ms": 1316
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": false
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 21,
+     "ms": 1236
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  },
+  {
+   "page": "Los Angeles, California",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 610,
+     "tokensOut": 20,
+     "ms": 1136
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": true
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 274,
+     "tokensOut": 20,
+     "ms": 1281
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": true
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Spain",
+     "valid": true,
+     "tokensIn": 505,
+     "tokensOut": 18,
+     "ms": 1131
+    }
+   ],
+   "chosen": "Spain",
+   "revisit": false
+  },
+  {
+   "page": "Spain",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Renaissance",
+     "valid": true,
+     "tokensIn": 569,
+     "tokensOut": 19,
+     "ms": 1024
+    }
+   ],
+   "chosen": "Renaissance",
+   "revisit": false
+  },
+  {
+   "page": "Renaissance",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 474,
+     "tokensOut": 18,
+     "ms": 1023
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  }
+ ]
+}

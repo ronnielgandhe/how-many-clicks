@@ -1,0 +1,83 @@
+{
+ "pair": "test-204",
+ "start": "Svart\u00e1lfar",
+ "target": "Jazz",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Svart\u00e1lfar",
+  "German language",
+  "Chicago",
+  "Jazz"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 979,
+ "tokensOut": 55,
+ "costUsd": 0.010032,
+ "steps": [
+  {
+   "page": "Svart\u00e1lfar",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "German language",
+     "valid": true,
+     "tokensIn": 195,
+     "tokensOut": 19,
+     "ms": 1313
+    }
+   ],
+   "chosen": "German language",
+   "revisit": false
+  },
+  {
+   "page": "German language",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 466,
+     "tokensOut": 18,
+     "ms": 1417
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  },
+  {
+   "page": "Chicago",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Jazz",
+     "valid": true,
+     "tokensIn": 318,
+     "tokensOut": 18,
+     "ms": 1468
+    }
+   ],
+   "chosen": "Jazz",
+   "revisit": false
+  }
+ ]
+}

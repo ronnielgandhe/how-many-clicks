@@ -1,0 +1,270 @@
+{
+ "pair": "test-437",
+ "start": "La Paz",
+ "target": "Bandicoot",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "La Paz",
+  "Bolivia",
+  "Alpaca",
+  "Mammal",
+  "Platypus",
+  "Tasmanian Devil",
+  "Kangaroo",
+  "Wallaby",
+  "Australia",
+  "Wombat",
+  "Dingo",
+  "Australia",
+  "Kangaroo",
+  "Wallaby",
+  "Kangaroo",
+  "Mammal"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 11691,
+ "tokensOut": 4323,
+ "costUsd": 0.066612,
+ "steps": [
+  {
+   "page": "La Paz",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Bolivia",
+     "valid": true,
+     "tokensIn": 578,
+     "tokensOut": 187,
+     "ms": 5867
+    }
+   ],
+   "chosen": "Bolivia",
+   "revisit": false
+  },
+  {
+   "page": "Bolivia",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Alpaca",
+     "valid": true,
+     "tokensIn": 934,
+     "tokensOut": 249,
+     "ms": 2594
+    }
+   ],
+   "chosen": "Alpaca",
+   "revisit": false
+  },
+  {
+   "page": "Alpaca",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 667,
+     "tokensOut": 202,
+     "ms": 2024
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Platypus",
+     "valid": true,
+     "tokensIn": 833,
+     "tokensOut": 305,
+     "ms": 2577
+    }
+   ],
+   "chosen": "Platypus",
+   "revisit": false
+  },
+  {
+   "page": "Platypus",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Tasmanian Devil",
+     "valid": true,
+     "tokensIn": 727,
+     "tokensOut": 167,
+     "ms": 1678
+    }
+   ],
+   "chosen": "Tasmanian Devil",
+   "revisit": false
+  },
+  {
+   "page": "Tasmanian Devil",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 654,
+     "tokensOut": 234,
+     "ms": 2433
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": false
+  },
+  {
+   "page": "Kangaroo",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Wallaby",
+     "valid": true,
+     "tokensIn": 701,
+     "tokensOut": 132,
+     "ms": 2016
+    }
+   ],
+   "chosen": "Wallaby",
+   "revisit": false
+  },
+  {
+   "page": "Wallaby",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 657,
+     "tokensOut": 185,
+     "ms": 1593
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Wombat",
+     "valid": true,
+     "tokensIn": 1222,
+     "tokensOut": 250,
+     "ms": 2947
+    }
+   ],
+   "chosen": "Wombat",
+   "revisit": false
+  },
+  {
+   "page": "Wombat",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Dingo",
+     "valid": true,
+     "tokensIn": 658,
+     "tokensOut": 377,
+     "ms": 2910
+    }
+   ],
+   "chosen": "Dingo",
+   "revisit": false
+  },
+  {
+   "page": "Dingo",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 659,
+     "tokensOut": 503,
+     "ms": 3623
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 1236,
+     "tokensOut": 264,
+     "ms": 2407
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": true
+  },
+  {
+   "page": "Kangaroo",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Wallaby",
+     "valid": true,
+     "tokensIn": 732,
+     "tokensOut": 268,
+     "ms": 2585
+    }
+   ],
+   "chosen": "Wallaby",
+   "revisit": true
+  },
+  {
+   "page": "Wallaby",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 688,
+     "tokensOut": 688,
+     "ms": 5614
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": true
+  },
+  {
+   "page": "Kangaroo",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 745,
+     "tokensOut": 312,
+     "ms": 2987
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  }
+ ]
+}

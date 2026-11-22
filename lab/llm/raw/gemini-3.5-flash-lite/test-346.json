@@ -1,0 +1,87 @@
+{
+ "pair": "test-346",
+ "start": "Islamic republic",
+ "target": "Shrine of Remembrance",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "invalid_move",
+ "path": [
+  "Islamic republic",
+  "Pakistan",
+  "United Kingdom"
+ ],
+ "clicks": 2,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 2,
+ "calls": 4,
+ "tokensIn": 2445,
+ "tokensOut": 65,
+ "costUsd": 0.000896,
+ "steps": [
+  {
+   "page": "Islamic republic",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Pakistan",
+     "valid": true,
+     "tokensIn": 203,
+     "tokensOut": 16,
+     "ms": 668
+    }
+   ],
+   "chosen": "Pakistan",
+   "revisit": false
+  },
+  {
+   "page": "Pakistan",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 381,
+     "tokensOut": 17,
+     "ms": 632
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": false,
+     "tokensIn": 919,
+     "tokensOut": 16,
+     "ms": 694
+    },
+    {
+     "raw": "Australia",
+     "valid": false,
+     "tokensIn": 942,
+     "tokensOut": 16,
+     "ms": 667
+    }
+   ]
+  }
+ ]
+}

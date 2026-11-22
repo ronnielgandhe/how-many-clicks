@@ -1,0 +1,222 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Citizenship",
+  "City",
+  "New York City",
+  "Grand Central Terminal",
+  "Toronto",
+  "Chicago",
+  "Germany",
+  "Berlin",
+  "Weimar Republic",
+  "Russia",
+  "Moscow",
+  "Constructivism (art)",
+  "Deconstructivism"
+ ],
+ "clicks": 12,
+ "stepsTaken": 12,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 12,
+ "tokensIn": 11840,
+ "tokensOut": 2767,
+ "costUsd": 0.05135,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "City",
+     "valid": true,
+     "tokensIn": 702,
+     "tokensOut": 218,
+     "ms": 1878
+    }
+   ],
+   "chosen": "City",
+   "revisit": false
+  },
+  {
+   "page": "City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "New York City",
+     "valid": true,
+     "tokensIn": 972,
+     "tokensOut": 191,
+     "ms": 2425
+    }
+   ],
+   "chosen": "New York City",
+   "revisit": false
+  },
+  {
+   "page": "New York City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Grand Central Terminal",
+     "valid": true,
+     "tokensIn": 1033,
+     "tokensOut": 441,
+     "ms": 4103
+    }
+   ],
+   "chosen": "Grand Central Terminal",
+   "revisit": false
+  },
+  {
+   "page": "Grand Central Terminal",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Toronto",
+     "valid": true,
+     "tokensIn": 668,
+     "tokensOut": 278,
+     "ms": 3321
+    }
+   ],
+   "chosen": "Toronto",
+   "revisit": false
+  },
+  {
+   "page": "Toronto",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 860,
+     "tokensOut": 150,
+     "ms": 1979
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  },
+  {
+   "page": "Chicago",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 804,
+     "tokensOut": 288,
+     "ms": 2801
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 1809,
+     "tokensOut": 221,
+     "ms": 2493
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": false
+  },
+  {
+   "page": "Berlin",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "Weimar Republic",
+     "valid": true,
+     "tokensIn": 1091,
+     "tokensOut": 283,
+     "ms": 2978
+    }
+   ],
+   "chosen": "Weimar Republic",
+   "revisit": false
+  },
+  {
+   "page": "Weimar Republic",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Russia",
+     "valid": true,
+     "tokensIn": 839,
+     "tokensOut": 301,
+     "ms": 3153
+    }
+   ],
+   "chosen": "Russia",
+   "revisit": false
+  },
+  {
+   "page": "Russia",
+   "offered": 105,
+   "attempts": [
+    {
+     "raw": "Moscow",
+     "valid": true,
+     "tokensIn": 1326,
+     "tokensOut": 217,
+     "ms": 2081
+    }
+   ],
+   "chosen": "Moscow",
+   "revisit": false
+  },
+  {
+   "page": "Moscow",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Constructivism (art)",
+     "valid": true,
+     "tokensIn": 1034,
+     "tokensOut": 126,
+     "ms": 1591
+    }
+   ],
+   "chosen": "Constructivism (art)",
+   "revisit": false
+  },
+  {
+   "page": "Constructivism (art)",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Deconstructivism",
+     "valid": true,
+     "tokensIn": 702,
+     "tokensOut": 53,
+     "ms": 1502
+    }
+   ],
+   "chosen": "Deconstructivism",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "pair": "test-108",
+ "start": "Ice hockey",
+ "target": "Continent",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Ice hockey",
+  "Arctic",
+  "Earth",
+  "Geography",
+  "Earth",
+  "Geography",
+  "Earth",
+  "Geography",
+  "Earth",
+  "Geography",
+  "Earth",
+  "Geography",
+  "Earth",
+  "Geography",
+  "Earth",
+  "Africa"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 11,
+ "invalidAttempts": 1,
+ "calls": 16,
+ "tokensIn": 7921,
+ "tokensOut": 296,
+ "costUsd": 0.00094,
+ "steps": [
+  {
+   "page": "Ice hockey",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 376,
+     "tokensOut": 19,
+     "ms": 1160
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 18,
+     "ms": 677
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 616,
+     "tokensOut": 19,
+     "ms": 2009
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": false
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 360,
+     "tokensOut": 18,
+     "ms": 928
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": true
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 620,
+     "tokensOut": 19,
+     "ms": 728
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": true
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 364,
+     "tokensOut": 18,
+     "ms": 1373
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": true
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 624,
+     "tokensOut": 19,
+     "ms": 1122
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": true
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 368,
+     "tokensOut": 18,
+     "ms": 936
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": true
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Continent",
+     "valid": false,
+     "tokensIn": 628,
+     "tokensOut": 19,
+     "ms": 1173
+    },
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 652,
+     "tokensOut": 19,
+     "ms": 691
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": true
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 372,
+     "tokensOut": 18,
+     "ms": 846
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": true
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 632,
+     "tokensOut": 19,
+     "ms": 2406
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": true
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 376,
+     "tokensOut": 18,
+     "ms": 694
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": true
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Geography",
+     "valid": true,
+     "tokensIn": 636,
+     "tokensOut": 19,
+     "ms": 668
+    }
+   ],
+   "chosen": "Geography",
+   "revisit": true
+  },
+  {
+   "page": "Geography",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 380,
+     "tokensOut": 18,
+     "ms": 917
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": true
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 640,
+     "tokensOut": 18,
+     "ms": 855
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  }
+ ]
+}

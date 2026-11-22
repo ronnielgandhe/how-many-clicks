@@ -1,0 +1,99 @@
+{
+ "pair": "test-366",
+ "start": "Urial",
+ "target": "3 Juno",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Urial",
+  "Russia",
+  "Earth",
+  "Asteroid",
+  "3 Juno"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1653,
+ "tokensOut": 135,
+ "costUsd": 0.001746,
+ "steps": [
+  {
+   "page": "Urial",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Russia",
+     "valid": true,
+     "tokensIn": 203,
+     "tokensOut": 16,
+     "ms": 2162
+    }
+   ],
+   "chosen": "Russia",
+   "revisit": false
+  },
+  {
+   "page": "Russia",
+   "offered": 105,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 586,
+     "tokensOut": 16,
+     "ms": 1733
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Asteroid",
+     "valid": true,
+     "tokensIn": 608,
+     "tokensOut": 58,
+     "ms": 2030
+    }
+   ],
+   "chosen": "Asteroid",
+   "revisit": false
+  },
+  {
+   "page": "Asteroid",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "3 Juno",
+     "valid": true,
+     "tokensIn": 256,
+     "tokensOut": 45,
+     "ms": 2253
+    }
+   ],
+   "chosen": "3 Juno",
+   "revisit": false
+  }
+ ]
+}

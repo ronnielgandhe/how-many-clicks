@@ -1,0 +1,94 @@
+{
+ "pair": "test-126",
+ "start": "The Waste Land",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Waste Land",
+  "Fishing",
+  "Ancient Rome",
+  "Mediterranean Sea",
+  "Malta"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1485,
+ "tokensOut": 78,
+ "costUsd": 0.000188,
+ "steps": [
+  {
+   "page": "The Waste Land",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Fishing",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 18,
+     "ms": 1330
+    }
+   ],
+   "chosen": "Fishing",
+   "revisit": false
+  },
+  {
+   "page": "Fishing",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Ancient Rome",
+     "valid": true,
+     "tokensIn": 339,
+     "tokensOut": 20,
+     "ms": 1486
+    }
+   ],
+   "chosen": "Ancient Rome",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Rome",
+   "offered": 88,
+   "attempts": [
+    {
+     "raw": "Mediterranean Sea",
+     "valid": true,
+     "tokensIn": 513,
+     "tokensOut": 21,
+     "ms": 968
+    }
+   ],
+   "chosen": "Mediterranean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Mediterranean Sea",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 402,
+     "tokensOut": 19,
+     "ms": 1065
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

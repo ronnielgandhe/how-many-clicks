@@ -1,0 +1,147 @@
+{
+ "pair": "test-9",
+ "start": "Alcohol",
+ "target": "Cancer",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 3,
+  "unfinished": 1,
+  "median_clicks": 6,
+  "median_pages": 7
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Alcohol",
+  "Carbon",
+  "Life",
+  "Cell (biology)",
+  "Human",
+  "DNA",
+  "DNA repair",
+  "Cancer"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2433,
+ "tokensOut": 130,
+ "costUsd": 0.000308,
+ "steps": [
+  {
+   "page": "Alcohol",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Carbon",
+     "valid": true,
+     "tokensIn": 294,
+     "tokensOut": 18,
+     "ms": 1487
+    }
+   ],
+   "chosen": "Carbon",
+   "revisit": false
+  },
+  {
+   "page": "Carbon",
+   "offered": 72,
+   "attempts": [
+    {
+     "raw": "Life",
+     "valid": true,
+     "tokensIn": 430,
+     "tokensOut": 18,
+     "ms": 884
+    }
+   ],
+   "chosen": "Life",
+   "revisit": false
+  },
+  {
+   "page": "Life",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Cell (biology)",
+     "valid": true,
+     "tokensIn": 222,
+     "tokensOut": 21,
+     "ms": 1110
+    }
+   ],
+   "chosen": "Cell (biology)",
+   "revisit": false
+  },
+  {
+   "page": "Cell (biology)",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 18,
+     "ms": 850
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "DNA",
+     "valid": true,
+     "tokensIn": 665,
+     "tokensOut": 18,
+     "ms": 992
+    }
+   ],
+   "chosen": "DNA",
+   "revisit": false
+  },
+  {
+   "page": "DNA",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "DNA repair",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 19,
+     "ms": 973
+    }
+   ],
+   "chosen": "DNA repair",
+   "revisit": false
+  },
+  {
+   "page": "DNA repair",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Cancer",
+     "valid": true,
+     "tokensIn": 240,
+     "tokensOut": 18,
+     "ms": 1039
+    }
+   ],
+   "chosen": "Cancer",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Manorialism",
+  "Europe",
+  "North America",
+  "United States",
+  "Television",
+  "Broadcasting",
+  "Mass media",
+  "Drama",
+  "Television",
+  "DVD",
+  "Sony",
+  "Television",
+  "Broadcasting",
+  "United States",
+  "Pacific Ocean",
+  "Los Angeles, California"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 16393,
+ "tokensOut": 2606,
+ "costUsd": 0.117692,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 623,
+     "tokensOut": 105,
+     "ms": 1244
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 1608,
+     "tokensOut": 158,
+     "ms": 2829
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1114,
+     "tokensOut": 108,
+     "ms": 1957
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 2789,
+     "tokensOut": 103,
+     "ms": 2104
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 672,
+     "tokensOut": 209,
+     "ms": 2321
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": false
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Mass media",
+     "valid": true,
+     "tokensIn": 656,
+     "tokensOut": 203,
+     "ms": 3047
+    }
+   ],
+   "chosen": "Mass media",
+   "revisit": false
+  },
+  {
+   "page": "Mass media",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "Drama",
+     "valid": true,
+     "tokensIn": 862,
+     "tokensOut": 127,
+     "ms": 2062
+    }
+   ],
+   "chosen": "Drama",
+   "revisit": false
+  },
+  {
+   "page": "Drama",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 655,
+     "tokensOut": 48,
+     "ms": 2302
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "DVD",
+     "valid": true,
+     "tokensIn": 691,
+     "tokensOut": 194,
+     "ms": 2672
+    }
+   ],
+   "chosen": "DVD",
+   "revisit": false
+  },
+  {
+   "page": "DVD",
+   "offered": 4,
+   "attempts": [
+    {
+     "raw": "Sony",
+     "valid": true,
+     "tokensIn": 600,
+     "tokensOut": 139,
+     "ms": 1751
+    }
+   ],
+   "chosen": "Sony",
+   "revisit": false
+  },
+  {
+   "page": "Sony",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 702,
+     "tokensOut": 277,
+     "ms": 3277
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 702,
+     "tokensOut": 278,
+     "ms": 3353
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": true
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 686,
+     "tokensOut": 201,
+     "ms": 2833
+    }
+   ],
+   "chosen": "United States",
+   "revisit": true
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Pacific Ocean",
+     "valid": true,
+     "tokensIn": 2832,
+     "tokensOut": 250,
+     "ms": 2790
+    }
+   ],
+   "chosen": "Pacific Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Pacific Ocean",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 1201,
+     "tokensOut": 206,
+     "ms": 2808
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  }
+ ]
+}

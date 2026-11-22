@@ -1,0 +1,142 @@
+{
+ "pair": "test-400",
+ "start": "Expressionism",
+ "target": "Blackpool",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Expressionism",
+  "Germany",
+  "England",
+  "Irish Sea",
+  "Liverpool",
+  "England",
+  "Tourism",
+  "Blackpool"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 3963,
+ "tokensOut": 129,
+ "costUsd": 0.009216,
+ "steps": [
+  {
+   "page": "Expressionism",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 219,
+     "tokensOut": 18,
+     "ms": 1171
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 845,
+     "tokensOut": 18,
+     "ms": 946
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Irish Sea",
+     "valid": true,
+     "tokensIn": 918,
+     "tokensOut": 19,
+     "ms": 1143
+    }
+   ],
+   "chosen": "Irish Sea",
+   "revisit": false
+  },
+  {
+   "page": "Irish Sea",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Liverpool",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 18,
+     "ms": 1016
+    }
+   ],
+   "chosen": "Liverpool",
+   "revisit": false
+  },
+  {
+   "page": "Liverpool",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 337,
+     "tokensOut": 18,
+     "ms": 1173
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Tourism",
+     "valid": true,
+     "tokensIn": 925,
+     "tokensOut": 19,
+     "ms": 1217
+    }
+   ],
+   "chosen": "Tourism",
+   "revisit": false
+  },
+  {
+   "page": "Tourism",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Blackpool",
+     "valid": true,
+     "tokensIn": 428,
+     "tokensOut": 19,
+     "ms": 1295
+    }
+   ],
+   "chosen": "Blackpool",
+   "revisit": false
+  }
+ ]
+}

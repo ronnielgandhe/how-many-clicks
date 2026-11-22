@@ -1,0 +1,62 @@
+{
+ "pair": "test-98",
+ "start": "Viking",
+ "target": "Middle Ages",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Viking",
+  "Charlemagne",
+  "Middle Ages"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 785,
+ "tokensOut": 38,
+ "costUsd": 0.0078,
+ "steps": [
+  {
+   "page": "Viking",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Charlemagne",
+     "valid": true,
+     "tokensIn": 428,
+     "tokensOut": 19,
+     "ms": 1629
+    }
+   ],
+   "chosen": "Charlemagne",
+   "revisit": false
+  },
+  {
+   "page": "Charlemagne",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 357,
+     "tokensOut": 19,
+     "ms": 1253
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  }
+ ]
+}

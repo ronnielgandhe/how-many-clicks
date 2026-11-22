@@ -1,0 +1,115 @@
+{
+ "pair": "test-332",
+ "start": "Abhidhamma Pitaka",
+ "target": "Zulu",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 9.0,
+  "median_pages": 11.0
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Abhidhamma Pitaka",
+  "University of Bristol",
+  "United Kingdom",
+  "British Empire",
+  "South Africa",
+  "Zulu"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 5945,
+ "tokensOut": 500,
+ "costUsd": 0.03378,
+ "steps": [
+  {
+   "page": "Abhidhamma Pitaka",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "University of Bristol",
+     "valid": true,
+     "tokensIn": 588,
+     "tokensOut": 182,
+     "ms": 2485
+    }
+   ],
+   "chosen": "University of Bristol",
+   "revisit": false
+  },
+  {
+   "page": "University of Bristol",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 749,
+     "tokensOut": 128,
+     "ms": 1501
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "British Empire",
+     "valid": true,
+     "tokensIn": 1885,
+     "tokensOut": 90,
+     "ms": 1321
+    }
+   ],
+   "chosen": "British Empire",
+   "revisit": false
+  },
+  {
+   "page": "British Empire",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "South Africa",
+     "valid": true,
+     "tokensIn": 1476,
+     "tokensOut": 50,
+     "ms": 2216
+    }
+   ],
+   "chosen": "South Africa",
+   "revisit": false
+  },
+  {
+   "page": "South Africa",
+   "offered": 101,
+   "attempts": [
+    {
+     "raw": "Zulu",
+     "valid": true,
+     "tokensIn": 1247,
+     "tokensOut": 50,
+     "ms": 1835
+    }
+   ],
+   "chosen": "Zulu",
+   "revisit": false
+  }
+ ]
+}

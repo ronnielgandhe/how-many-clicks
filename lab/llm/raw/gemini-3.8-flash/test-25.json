@@ -1,0 +1,99 @@
+{
+ "pair": "test-25",
+ "start": "Citizenship",
+ "target": "Turkmenistan",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.5,
+  "median_pages": 7.5
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Citizenship",
+  "Country",
+  "United Nations",
+  "List of sovereign states",
+  "Turkmenistan"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2055,
+ "tokensOut": 395,
+ "costUsd": 0.003022,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Country",
+     "valid": true,
+     "tokensIn": 258,
+     "tokensOut": 112,
+     "ms": 2111
+    }
+   ],
+   "chosen": "Country",
+   "revisit": false
+  },
+  {
+   "page": "Country",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "United Nations",
+     "valid": true,
+     "tokensIn": 233,
+     "tokensOut": 102,
+     "ms": 2903
+    }
+   ],
+   "chosen": "United Nations",
+   "revisit": false
+  },
+  {
+   "page": "United Nations",
+   "offered": 113,
+   "attempts": [
+    {
+     "raw": "List of sovereign states",
+     "valid": true,
+     "tokensIn": 594,
+     "tokensOut": 139,
+     "ms": 4186
+    }
+   ],
+   "chosen": "List of sovereign states",
+   "revisit": false
+  },
+  {
+   "page": "List of sovereign states",
+   "offered": 216,
+   "attempts": [
+    {
+     "raw": "Turkmenistan",
+     "valid": true,
+     "tokensIn": 970,
+     "tokensOut": 42,
+     "ms": 2236
+    }
+   ],
+   "chosen": "Turkmenistan",
+   "revisit": false
+  }
+ ]
+}

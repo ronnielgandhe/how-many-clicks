@@ -1,0 +1,67 @@
+{
+ "pair": "test-44",
+ "start": "Jake Gyllenhaal",
+ "target": "Great Lakes",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jake Gyllenhaal",
+  "United States",
+  "Great Lakes"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1713,
+ "tokensOut": 38,
+ "costUsd": 0.003806,
+ "steps": [
+  {
+   "page": "Jake Gyllenhaal",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 19,
+     "ms": 1032
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Great Lakes",
+     "valid": true,
+     "tokensIn": 1446,
+     "tokensOut": 19,
+     "ms": 1099
+    }
+   ],
+   "chosen": "Great Lakes",
+   "revisit": false
+  }
+ ]
+}

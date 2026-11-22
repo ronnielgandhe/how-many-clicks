@@ -1,0 +1,174 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Europe",
+  "Switzerland",
+  "Z\u00fcrich",
+  "James Joyce",
+  "Schizophrenia",
+  "Mind",
+  "Sigmund Freud",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 7837,
+ "tokensOut": 1725,
+ "costUsd": 0.032924,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 652,
+     "tokensOut": 221,
+     "ms": 5426
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Switzerland",
+     "valid": true,
+     "tokensIn": 1619,
+     "tokensOut": 293,
+     "ms": 2574
+    }
+   ],
+   "chosen": "Switzerland",
+   "revisit": false
+  },
+  {
+   "page": "Switzerland",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Z\u00fcrich",
+     "valid": true,
+     "tokensIn": 844,
+     "tokensOut": 128,
+     "ms": 1093
+    }
+   ],
+   "chosen": "Z\u00fcrich",
+   "revisit": false
+  },
+  {
+   "page": "Z\u00fcrich",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "James Joyce",
+     "valid": true,
+     "tokensIn": 707,
+     "tokensOut": 222,
+     "ms": 2228
+    }
+   ],
+   "chosen": "James Joyce",
+   "revisit": false
+  },
+  {
+   "page": "James Joyce",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Schizophrenia",
+     "valid": true,
+     "tokensIn": 824,
+     "tokensOut": 258,
+     "ms": 2590
+    }
+   ],
+   "chosen": "Schizophrenia",
+   "revisit": false
+  },
+  {
+   "page": "Schizophrenia",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Mind",
+     "valid": true,
+     "tokensIn": 851,
+     "tokensOut": 221,
+     "ms": 2418
+    }
+   ],
+   "chosen": "Mind",
+   "revisit": false
+  },
+  {
+   "page": "Mind",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Sigmund Freud",
+     "valid": true,
+     "tokensIn": 682,
+     "tokensOut": 230,
+     "ms": 2352
+    }
+   ],
+   "chosen": "Sigmund Freud",
+   "revisit": false
+  },
+  {
+   "page": "Sigmund Freud",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 845,
+     "tokensOut": 92,
+     "ms": 1420
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 813,
+     "tokensOut": 60,
+     "ms": 1262
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

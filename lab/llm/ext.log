@@ -1,0 +1,389 @@
+{
+ "spentSoFar": 7.7548,
+ "estimate": {
+  "claude-haiku-5-5": [
+   30,
+   0.0893
+  ],
+  "gpt-6-luna": [
+   30,
+   0.0239
+  ],
+  "gemini-3.5-flash-lite": [
+   30,
+   0.0736
+  ],
+  "gemini-3.8-flash": [
+   30,
+   0.3461
+  ],
+  "gpt-6.2-sol": [
+   30,
+   0.4101
+  ],
+  "gemini-4-carbon": [
+   30,
+   0.4485
+  ],
+  "claude-sonnet-5-5": [
+   30,
+   1.579
+  ],
+  "claude-sonnet-5-5-thinking": [
+   30,
+   1.8851
+  ],
+  "gpt-6.2-sol-high": [
+   30,
+   0.5976
+  ],
+  "claude-opus-5-5": [
+   30,
+   2.8193
+  ],
+  "gpt-6.2-astra": [
+   30,
+   1.552
+  ]
+ },
+ "estimateTotal": 9.8245,
+ "cap": 20.0
+}
+claude-haiku-5-5             test-8    easy   solved clicks= 2 opt=2 $0.0003
+claude-haiku-5-5             test-21   easy   solved clicks= 2 opt=2 $0.0005
+claude-haiku-5-5             test-25   easy   solved clicks= 5 opt=2 $0.0009
+claude-haiku-5-5             test-28   easy   solved clicks= 2 opt=2 $0.0004
+claude-haiku-5-5             test-44   easy   solved clicks= 2 opt=2 $0.0005
+claude-haiku-5-5             test-48   easy   solved clicks= 2 opt=2 $0.0004
+claude-haiku-5-5             test-51   easy   solved clicks= 2 opt=2 $0.0003
+claude-haiku-5-5             test-108  easy   solved clicks= 4 opt=2 $0.0009
+claude-haiku-5-5             test-112  easy   solved clicks= 2 opt=2 $0.0004
+claude-haiku-5-5             test-146  easy   solved clicks= 2 opt=2 $0.0002
+claude-haiku-5-5             test-161  medium solved clicks= 3 opt=3 $0.0006
+claude-haiku-5-5             test-163  medium failed clicks=15 opt=3 $0.0045
+claude-haiku-5-5             test-166  medium solved clicks= 3 opt=3 $0.0004
+claude-haiku-5-5             test-180  medium solved clicks= 3 opt=3 $0.0004
+claude-haiku-5-5             test-228  medium solved clicks= 5 opt=3 $0.0012
+claude-haiku-5-5             test-231  medium solved clicks=10 opt=3 $0.0021
+claude-haiku-5-5             test-245  medium solved clicks= 5 opt=3 $0.0006
+claude-haiku-5-5             test-249  medium solved clicks= 4 opt=3 $0.0006
+claude-haiku-5-5             test-274  medium solved clicks= 7 opt=3 $0.0013
+claude-haiku-5-5             test-287  medium solved clicks= 3 opt=3 $0.0007
+claude-haiku-5-5             test-312  hard   solved clicks=15 opt=4 $0.0026
+claude-haiku-5-5             test-330  hard   solved clicks= 5 opt=4 $0.0007
+claude-haiku-5-5             test-356  hard   solved clicks= 4 opt=4 $0.0008
+claude-haiku-5-5             test-366  hard   solved clicks= 4 opt=4 $0.0008
+claude-haiku-5-5             test-377  hard   solved clicks= 5 opt=4 $0.0010
+claude-haiku-5-5             test-392  hard   solved clicks= 5 opt=5 $0.0008
+claude-haiku-5-5             test-418  hard   solved clicks=15 opt=4 $0.0047
+claude-haiku-5-5             test-419  hard   solved clicks= 5 opt=4 $0.0009
+claude-haiku-5-5             test-435  hard   solved clicks= 5 opt=4 $0.0008
+claude-haiku-5-5             test-438  hard   failed clicks=15 opt=5 $0.0044
+gpt-6-luna                   test-8    easy   solved clicks= 4 opt=2 $0.0003
+gpt-6-luna                   test-21   easy   solved clicks= 2 opt=2 $0.0002
+gpt-6-luna                   test-25   easy   solved clicks= 5 opt=2 $0.0002
+gpt-6-luna                   test-28   easy   solved clicks= 2 opt=2 $0.0002
+gpt-6-luna                   test-44   easy   solved clicks= 2 opt=2 $0.0002
+gpt-6-luna                   test-48   easy   solved clicks= 2 opt=2 $0.0001
+gpt-6-luna                   test-51   easy   solved clicks= 2 opt=2 $0.0001
+gpt-6-luna                   test-108  easy   failed clicks=15 opt=2 $0.0009
+gpt-6-luna                   test-112  easy   solved clicks= 2 opt=2 $0.0001
+gpt-6-luna                   test-146  easy   solved clicks= 2 opt=2 $0.0001
+gpt-6-luna                   test-161  medium solved clicks= 5 opt=3 $0.0002
+gpt-6-luna                   test-163  medium solved clicks= 4 opt=3 $0.0003
+gpt-6-luna                   test-166  medium solved clicks= 3 opt=3 $0.0001
+gpt-6-luna                   test-180  medium solved clicks= 4 opt=3 $0.0003
+gpt-6-luna                   test-228  medium solved clicks= 3 opt=3 $0.0002
+gpt-6-luna                   test-231  medium solved clicks= 3 opt=3 $0.0001
+gpt-6-luna                   test-245  medium solved clicks= 5 opt=3 $0.0002
+gpt-6-luna                   test-249  medium solved clicks= 4 opt=3 $0.0002
+gpt-6-luna                   test-274  medium solved clicks= 4 opt=3 $0.0002
+gpt-6-luna                   test-287  medium solved clicks= 3 opt=3 $0.0002
+gpt-6-luna                   test-312  hard   solved clicks= 8 opt=4 $0.0003
+gpt-6-luna                   test-330  hard   solved clicks= 6 opt=4 $0.0003
+gpt-6-luna                   test-356  hard   solved clicks= 4 opt=4 $0.0002
+gpt-6-luna                   test-366  hard   solved clicks= 5 opt=4 $0.0002
+gpt-6-luna                   test-377  hard   solved clicks= 6 opt=4 $0.0003
+gpt-6-luna                   test-392  hard   failed clicks=15 opt=5 $0.0007
+gpt-6-luna                   test-418  hard   solved clicks= 6 opt=4 $0.0002
+gpt-6-luna                   test-419  hard   solved clicks= 6 opt=4 $0.0003
+gpt-6-luna                   test-435  hard   solved clicks= 5 opt=4 $0.0002
+gpt-6-luna                   test-438  hard   failed clicks=15 opt=5 $0.0008
+gemini-3.5-flash-lite        test-8    easy   solved clicks= 4 opt=2 $0.0007
+gemini-3.5-flash-lite        test-21   easy   solved clicks= 2 opt=2 $0.0006
+gemini-3.5-flash-lite        test-25   easy   solved clicks= 3 opt=2 $0.0004
+gemini-3.5-flash-lite        test-28   easy   solved clicks= 2 opt=2 $0.0005
+gemini-3.5-flash-lite        test-44   easy   solved clicks= 2 opt=2 $0.0006
+gemini-3.5-flash-lite        test-48   easy   solved clicks= 2 opt=2 $0.0004
+gemini-3.5-flash-lite        test-51   easy   solved clicks= 2 opt=2 $0.0003
+gemini-3.5-flash-lite        test-108  easy   solved clicks= 4 opt=2 $0.0008
+gemini-3.5-flash-lite        test-112  easy   solved clicks= 2 opt=2 $0.0005
+gemini-3.5-flash-lite        test-146  easy   solved clicks= 2 opt=2 $0.0002
+gemini-3.5-flash-lite        test-161  medium solved clicks= 3 opt=3 $0.0004
+gemini-3.5-flash-lite        test-163  medium solved clicks= 4 opt=3 $0.0009
+gemini-3.5-flash-lite        test-166  medium solved clicks= 4 opt=3 $0.0010
+gemini-3.5-flash-lite        test-180  medium solved clicks= 3 opt=3 $0.0004
+gemini-3.5-flash-lite        test-228  medium solved clicks= 4 opt=3 $0.0006
+gemini-3.5-flash-lite        test-231  medium solved clicks= 5 opt=3 $0.0008
+gemini-3.5-flash-lite        test-245  medium solved clicks= 5 opt=3 $0.0006
+gemini-3.5-flash-lite        test-249  medium solved clicks= 4 opt=3 $0.0007
+gemini-3.5-flash-lite        test-274  medium solved clicks= 5 opt=3 $0.0007
+gemini-3.5-flash-lite        test-287  medium solved clicks= 3 opt=3 $0.0008
+gemini-3.5-flash-lite        test-312  hard   solved clicks= 7 opt=4 $0.0009
+gemini-3.5-flash-lite        test-330  hard   solved clicks= 5 opt=4 $0.0006
+gemini-3.5-flash-lite        test-356  hard   solved clicks= 6 opt=4 $0.0010
+gemini-3.5-flash-lite        test-366  hard   solved clicks= 4 opt=4 $0.0007
+gemini-3.5-flash-lite        test-377  hard   solved clicks=10 opt=4 $0.0023
+gemini-3.5-flash-lite        test-392  hard   solved clicks= 5 opt=5 $0.0006
+gemini-3.5-flash-lite        test-418  hard   solved clicks= 6 opt=4 $0.0012
+gemini-3.5-flash-lite        test-419  hard   failed clicks=15 opt=4 $0.0024
+gemini-3.5-flash-lite        test-435  hard   solved clicks= 7 opt=4 $0.0010
+gemini-3.5-flash-lite        test-438  hard   failed clicks=15 opt=5 $0.0039
+gemini-3.8-flash             test-8    easy   solved clicks= 3 opt=2 $0.0023
+gemini-3.8-flash             test-21   easy   solved clicks= 2 opt=2 $0.0017
+gemini-3.8-flash             test-25   easy   solved clicks= 4 opt=2 $0.0030
+gemini-3.8-flash             test-28   easy   solved clicks= 2 opt=2 $0.0013
+gemini-3.8-flash             test-44   easy   solved clicks= 2 opt=2 $0.0016
+gemini-3.8-flash             test-48   easy   solved clicks= 2 opt=2 $0.0010
+gemini-3.8-flash             test-51   easy   solved clicks= 2 opt=2 $0.0011
+gemini-3.8-flash             test-108  easy   solved clicks= 3 opt=2 $0.0016
+gemini-3.8-flash             test-112  easy   solved clicks= 2 opt=2 $0.0013
+gemini-3.8-flash             test-146  easy   solved clicks= 2 opt=2 $0.0010
+gemini-3.8-flash             test-161  medium solved clicks= 5 opt=3 $0.0036
+gemini-3.8-flash             test-163  medium solved clicks= 4 opt=3 $0.0025
+gemini-3.8-flash             test-166  medium solved clicks= 3 opt=3 $0.0015
+gemini-3.8-flash             test-180  medium solved clicks= 3 opt=3 $0.0024
+gemini-3.8-flash             test-228  medium solved clicks= 4 opt=3 $0.0024
+gemini-3.8-flash             test-231  medium solved clicks= 4 opt=3 $0.0029
+gemini-3.8-flash             test-245  medium solved clicks= 5 opt=3 $0.0022
+gemini-3.8-flash             test-249  medium solved clicks= 4 opt=3 $0.0021
+gemini-3.8-flash             test-274  medium solved clicks=13 opt=3 $0.0092
+gemini-3.8-flash             test-287  medium solved clicks= 3 opt=3 $0.0021
+gemini-3.8-flash             test-312  hard   solved clicks=14 opt=4 $0.0082
+gemini-3.8-flash             test-330  hard   solved clicks= 5 opt=4 $0.0028
+gemini-3.8-flash             test-356  hard   solved clicks= 4 opt=4 $0.0019
+gemini-3.8-flash             test-366  hard   solved clicks= 4 opt=4 $0.0017
+gemini-3.8-flash             test-377  hard   solved clicks= 7 opt=4 $0.0042
+gemini-3.8-flash             test-392  hard   solved clicks= 5 opt=5 $0.0028
+gemini-3.8-flash             test-418  hard   solved clicks= 6 opt=4 $0.0042
+gemini-3.8-flash             test-419  hard   solved clicks= 5 opt=4 $0.0032
+gemini-3.8-flash             test-435  hard   failed clicks=15 opt=4 $0.0116
+gemini-3.8-flash             test-438  hard   solved clicks= 9 opt=5 $0.0077
+ERROR gpt-6.2-sol test-8: BadRequestError: Error code: 400 - Unsupported parameter: 'temperature' is not supported with this model.
+m/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lab/llm/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - Unsupported parameter: 'temperature' is not supported with this model.
+
+gpt-6.2-sol                  test-21   easy   solved clicks= 2 opt=2 $0.0042
+gpt-6.2-sol                  test-25   easy   solved clicks= 4 opt=2 $0.0050
+gpt-6.2-sol                  test-28   easy   solved clicks= 2 opt=2 $0.0031
+gpt-6.2-sol                  test-44   easy   solved clicks= 2 opt=2 $0.0038
+gpt-6.2-sol                  test-48   easy   solved clicks= 2 opt=2 $0.0027
+gpt-6.2-sol                  test-51   easy   solved clicks= 2 opt=2 $0.0021
+gpt-6.2-sol                  test-108  easy   solved clicks= 3 opt=2 $0.0043
+gpt-6.2-sol                  test-112  easy   solved clicks= 2 opt=2 $0.0029
+gpt-6.2-sol                  test-146  easy   solved clicks= 2 opt=2 $0.0014
+gpt-6.2-sol                  test-161  medium solved clicks= 4 opt=3 $0.0038
+gpt-6.2-sol                  test-163  medium solved clicks= 4 opt=3 $0.0059
+gpt-6.2-sol                  test-166  medium solved clicks= 3 opt=3 $0.0026
+gpt-6.2-sol                  test-180  medium solved clicks= 3 opt=3 $0.0030
+gpt-6.2-sol                  test-228  medium solved clicks= 4 opt=3 $0.0036
+gpt-6.2-sol                  test-231  medium solved clicks= 4 opt=3 $0.0036
+gpt-6.2-sol                  test-245  medium solved clicks= 5 opt=3 $0.0038
+gpt-6.2-sol                  test-249  medium solved clicks= 4 opt=3 $0.0042
+gpt-6.2-sol                  test-274  medium solved clicks= 4 opt=3 $0.0033
+gpt-6.2-sol                  test-287  medium solved clicks= 3 opt=3 $0.0050
+gpt-6.2-sol                  test-312  hard   solved clicks=15 opt=4 $0.0126
+gpt-6.2-sol                  test-330  hard   solved clicks= 6 opt=4 $0.0043
+gpt-6.2-sol                  test-356  hard   solved clicks= 4 opt=4 $0.0045
+gpt-6.2-sol                  test-366  hard   solved clicks= 4 opt=4 $0.0043
+gpt-6.2-sol                  test-377  hard   solved clicks= 7 opt=4 $0.0066
+gpt-6.2-sol                  test-392  hard   solved clicks= 5 opt=5 $0.0039
+gpt-6.2-sol                  test-418  hard   solved clicks= 8 opt=4 $0.0072
+gpt-6.2-sol                  test-419  hard   solved clicks= 5 opt=4 $0.0049
+gpt-6.2-sol                  test-435  hard   solved clicks= 5 opt=4 $0.0048
+gpt-6.2-sol                  test-438  hard   failed clicks=15 opt=5 $0.0169
+gemini-4-carbon              test-8    easy   solved clicks= 3 opt=2 $0.0050
+gemini-4-carbon              test-21   easy   solved clicks= 2 opt=2 $0.0046
+gemini-4-carbon              test-25   easy   solved clicks= 4 opt=2 $0.0046
+gemini-4-carbon              test-28   easy   solved clicks= 2 opt=2 $0.0033
+gemini-4-carbon              test-44   easy   solved clicks= 2 opt=2 $0.0039
+gemini-4-carbon              test-48   easy   solved clicks= 2 opt=2 $0.0032
+gemini-4-carbon              test-51   easy   solved clicks= 2 opt=2 $0.0025
+gemini-4-carbon              test-108  easy   solved clicks= 5 opt=2 $0.0092
+gemini-4-carbon              test-112  easy   solved clicks= 2 opt=2 $0.0033
+gemini-4-carbon              test-146  easy   solved clicks= 2 opt=2 $0.0017
+gemini-4-carbon              test-161  medium solved clicks= 7 opt=3 $0.0103
+gemini-4-carbon              test-163  medium solved clicks= 4 opt=3 $0.0063
+gemini-4-carbon              test-166  medium solved clicks= 3 opt=3 $0.0028
+gemini-4-carbon              test-180  medium solved clicks= 3 opt=3 $0.0048
+gemini-4-carbon              test-228  medium solved clicks= 4 opt=3 $0.0042
+gemini-4-carbon              test-231  medium solved clicks= 3 opt=3 $0.0044
+gemini-4-carbon              test-245  medium solved clicks= 5 opt=3 $0.0047
+gemini-4-carbon              test-249  medium solved clicks= 4 opt=3 $0.0052
+gemini-4-carbon              test-274  medium solved clicks= 9 opt=3 $0.0113
+gemini-4-carbon              test-287  medium solved clicks= 3 opt=3 $0.0052
+gemini-4-carbon              test-312  hard   solved clicks=12 opt=4 $0.0136
+gemini-4-carbon              test-330  hard   solved clicks= 6 opt=4 $0.0056
+gemini-4-carbon              test-356  hard   solved clicks= 4 opt=4 $0.0039
+gemini-4-carbon              test-366  hard   solved clicks= 4 opt=4 $0.0050
+gemini-4-carbon              test-377  hard   solved clicks= 7 opt=4 $0.0079
+gemini-4-carbon              test-392  hard   solved clicks= 5 opt=5 $0.0046
+gemini-4-carbon              test-418  hard   solved clicks= 7 opt=4 $0.0106
+gemini-4-carbon              test-419  hard   solved clicks= 5 opt=4 $0.0057
+gemini-4-carbon              test-435  hard   solved clicks=13 opt=4 $0.0178
+gemini-4-carbon              test-438  hard   solved clicks=15 opt=5 $0.0220
+claude-sonnet-5-5            test-8    easy   solved clicks= 4 opt=2 $0.0143
+claude-sonnet-5-5            test-21   easy   solved clicks= 3 opt=2 $0.0112
+claude-sonnet-5-5            test-25   easy   solved clicks= 4 opt=2 $0.0133
+claude-sonnet-5-5            test-28   easy   solved clicks= 2 opt=2 $0.0067
+claude-sonnet-5-5            test-44   easy   solved clicks= 2 opt=2 $0.0080
+claude-sonnet-5-5            test-48   easy   solved clicks= 2 opt=2 $0.0068
+claude-sonnet-5-5            test-51   easy   solved clicks= 2 opt=2 $0.0045
+claude-sonnet-5-5            test-108  easy   solved clicks= 3 opt=2 $0.0088
+claude-sonnet-5-5            test-112  easy   solved clicks= 2 opt=2 $0.0063
+claude-sonnet-5-5            test-146  easy   solved clicks= 2 opt=2 $0.0043
+claude-sonnet-5-5            test-161  medium solved clicks= 8 opt=3 $0.0300
+claude-sonnet-5-5            test-163  medium solved clicks= 8 opt=3 $0.0312
+claude-sonnet-5-5            test-166  medium solved clicks= 3 opt=3 $0.0063
+claude-sonnet-5-5            test-180  medium solved clicks= 3 opt=3 $0.0061
+claude-sonnet-5-5            test-228  medium solved clicks= 3 opt=3 $0.0107
+claude-sonnet-5-5            test-231  medium solved clicks= 4 opt=3 $0.0132
+claude-sonnet-5-5            test-245  medium solved clicks= 5 opt=3 $0.0110
+claude-sonnet-5-5            test-249  medium solved clicks= 4 opt=3 $0.0098
+claude-sonnet-5-5            test-274  medium solved clicks= 8 opt=3 $0.0265
+claude-sonnet-5-5            test-287  medium solved clicks= 3 opt=3 $0.0118
+claude-sonnet-5-5            test-312  hard   solved clicks=10 opt=4 $0.0312
+claude-sonnet-5-5            test-330  hard   solved clicks= 5 opt=4 $0.0135
+claude-sonnet-5-5            test-356  hard   solved clicks= 4 opt=4 $0.0099
+claude-sonnet-5-5            test-366  hard   solved clicks= 4 opt=4 $0.0135
+claude-sonnet-5-5            test-377  hard   solved clicks= 5 opt=4 $0.0111
+claude-sonnet-5-5            test-392  hard   solved clicks= 5 opt=5 $0.0122
+claude-sonnet-5-5            test-418  hard   solved clicks= 7 opt=4 $0.0229
+claude-sonnet-5-5            test-419  hard   solved clicks= 5 opt=4 $0.0159
+claude-sonnet-5-5            test-435  hard   solved clicks=14 opt=4 $0.0605
+claude-sonnet-5-5            test-438  hard   failed clicks=15 opt=5 $0.0679
+claude-sonnet-5-5-thinking   test-8    easy   solved clicks= 3 opt=2 $0.0119
+claude-sonnet-5-5-thinking   test-21   easy   solved clicks= 2 opt=2 $0.0095
+claude-sonnet-5-5-thinking   test-25   easy   solved clicks= 4 opt=2 $0.0164
+claude-sonnet-5-5-thinking   test-28   easy   solved clicks= 2 opt=2 $0.0071
+claude-sonnet-5-5-thinking   test-44   easy   solved clicks= 2 opt=2 $0.0085
+claude-sonnet-5-5-thinking   test-48   easy   solved clicks= 3 opt=2 $0.0103
+claude-sonnet-5-5-thinking   test-51   easy   solved clicks= 2 opt=2 $0.0059
+claude-sonnet-5-5-thinking   test-108  easy   solved clicks= 3 opt=2 $0.0137
+claude-sonnet-5-5-thinking   test-112  easy   solved clicks= 2 opt=2 $0.0066
+claude-sonnet-5-5-thinking   test-146  easy   solved clicks= 2 opt=2 $0.0045
+claude-sonnet-5-5-thinking   test-161  medium solved clicks= 7 opt=3 $0.0385
+claude-sonnet-5-5-thinking   test-163  medium solved clicks= 8 opt=3 $0.0372
+claude-sonnet-5-5-thinking   test-166  medium solved clicks= 3 opt=3 $0.0076
+claude-sonnet-5-5-thinking   test-180  medium solved clicks= 3 opt=3 $0.0086
+claude-sonnet-5-5-thinking   test-228  medium solved clicks= 4 opt=3 $0.0155
+claude-sonnet-5-5-thinking   test-231  medium solved clicks= 8 opt=3 $0.0314
+claude-sonnet-5-5-thinking   test-245  medium solved clicks= 5 opt=3 $0.0127
+claude-sonnet-5-5-thinking   test-249  medium solved clicks= 4 opt=3 $0.0115
+claude-sonnet-5-5-thinking   test-274  medium solved clicks=10 opt=3 $0.0438
+claude-sonnet-5-5-thinking   test-287  medium solved clicks= 3 opt=3 $0.0132
+claude-sonnet-5-5-thinking   test-312  hard   solved clicks=14 opt=4 $0.0609
+claude-sonnet-5-5-thinking   test-330  hard   solved clicks= 5 opt=4 $0.0132
+claude-sonnet-5-5-thinking   test-356  hard   solved clicks= 4 opt=4 $0.0109
+claude-sonnet-5-5-thinking   test-366  hard   solved clicks= 4 opt=4 $0.0176
+claude-sonnet-5-5-thinking   test-377  hard   solved clicks= 9 opt=4 $0.0329
+claude-sonnet-5-5-thinking   test-392  hard   solved clicks= 5 opt=5 $0.0143
+claude-sonnet-5-5-thinking   test-418  hard   solved clicks= 5 opt=4 $0.0262
+claude-sonnet-5-5-thinking   test-419  hard   solved clicks= 5 opt=4 $0.0196
+claude-sonnet-5-5-thinking   test-435  hard   solved clicks=12 opt=4 $0.0519
+claude-sonnet-5-5-thinking   test-438  hard   solved clicks=11 opt=5 $0.0566
+gpt-6.2-sol-high             test-8    easy   solved clicks= 3 opt=2 $0.0050
+gpt-6.2-sol-high             test-21   easy   solved clicks= 2 opt=2 $0.0045
+gpt-6.2-sol-high             test-25   easy   solved clicks= 4 opt=2 $0.0057
+gpt-6.2-sol-high             test-28   easy   solved clicks= 2 opt=2 $0.0031
+gpt-6.2-sol-high             test-44   easy   solved clicks= 2 opt=2 $0.0038
+gpt-6.2-sol-high             test-48   easy   solved clicks= 2 opt=2 $0.0032
+gpt-6.2-sol-high             test-51   easy   solved clicks= 2 opt=2 $0.0021
+gpt-6.2-sol-high             test-108  easy   solved clicks= 3 opt=2 $0.0039
+gpt-6.2-sol-high             test-112  easy   solved clicks= 2 opt=2 $0.0029
+gpt-6.2-sol-high             test-146  easy   solved clicks= 2 opt=2 $0.0014
+gpt-6.2-sol-high             test-161  medium solved clicks= 4 opt=3 $0.0065
+gpt-6.2-sol-high             test-163  medium solved clicks= 4 opt=3 $0.0069
+gpt-6.2-sol-high             test-166  medium solved clicks= 3 opt=3 $0.0026
+gpt-6.2-sol-high             test-180  medium solved clicks= 3 opt=3 $0.0036
+gpt-6.2-sol-high             test-228  medium solved clicks= 4 opt=3 $0.0050
+gpt-6.2-sol-high             test-231  medium solved clicks= 3 opt=3 $0.0033
+gpt-6.2-sol-high             test-245  medium solved clicks= 5 opt=3 $0.0038
+gpt-6.2-sol-high             test-249  medium solved clicks= 4 opt=3 $0.0047
+gpt-6.2-sol-high             test-274  medium solved clicks= 9 opt=3 $0.0159
+gpt-6.2-sol-high             test-287  medium solved clicks= 3 opt=3 $0.0057
+gpt-6.2-sol-high             test-312  hard   failed clicks=15 opt=4 $0.0223
+gpt-6.2-sol-high             test-330  hard   solved clicks= 6 opt=4 $0.0053
+gpt-6.2-sol-high             test-356  hard   solved clicks= 4 opt=4 $0.0047
+gpt-6.2-sol-high             test-366  hard   solved clicks= 4 opt=4 $0.0053
+gpt-6.2-sol-high             test-377  hard   solved clicks= 6 opt=4 $0.0074
+gpt-6.2-sol-high             test-392  hard   solved clicks= 6 opt=5 $0.0079
+gpt-6.2-sol-high             test-418  hard   solved clicks= 6 opt=4 $0.0069
+gpt-6.2-sol-high             test-419  hard   solved clicks= 5 opt=4 $0.0058
+gpt-6.2-sol-high             test-435  hard   solved clicks= 5 opt=4 $0.0054
+gpt-6.2-sol-high             test-438  hard   failed clicks=15 opt=5 $0.0283
+claude-opus-5-5              test-8    easy   solved clicks= 3 opt=2 $0.0222
+claude-opus-5-5              test-21   easy   solved clicks= 2 opt=2 $0.0172
+claude-opus-5-5              test-25   easy   solved clicks= 4 opt=2 $0.0225
+claude-opus-5-5              test-28   easy   solved clicks= 2 opt=2 $0.0134
+claude-opus-5-5              test-44   easy   solved clicks= 2 opt=2 $0.0159
+claude-opus-5-5              test-48   easy   solved clicks= 2 opt=2 $0.0126
+claude-opus-5-5              test-51   easy   solved clicks= 2 opt=2 $0.0091
+claude-opus-5-5              test-108  easy   solved clicks= 3 opt=2 $0.0140
+claude-opus-5-5              test-112  easy   solved clicks= 2 opt=2 $0.0126
+claude-opus-5-5              test-146  easy   solved clicks= 2 opt=2 $0.0074
+claude-opus-5-5              test-161  medium solved clicks= 6 opt=3 $0.0319
+claude-opus-5-5              test-163  medium solved clicks= 4 opt=3 $0.0258
+claude-opus-5-5              test-166  medium solved clicks= 3 opt=3 $0.0127
+claude-opus-5-5              test-180  medium solved clicks= 3 opt=3 $0.0126
+claude-opus-5-5              test-228  medium solved clicks= 4 opt=3 $0.0200
+claude-opus-5-5              test-231  medium solved clicks= 7 opt=3 $0.0372
+claude-opus-5-5              test-245  medium solved clicks= 5 opt=3 $0.0208
+claude-opus-5-5              test-249  medium solved clicks= 4 opt=3 $0.0181
+claude-opus-5-5              test-274  medium solved clicks= 8 opt=3 $0.0432
+claude-opus-5-5              test-287  medium solved clicks= 3 opt=3 $0.0226
+claude-opus-5-5              test-312  hard   solved clicks= 7 opt=4 $0.0388
+claude-opus-5-5              test-330  hard   solved clicks= 5 opt=4 $0.0211
+claude-opus-5-5              test-356  hard   solved clicks= 4 opt=4 $0.0194
+claude-opus-5-5              test-366  hard   solved clicks= 5 opt=4 $0.0259
+claude-opus-5-5              test-377  hard   solved clicks= 8 opt=4 $0.0469
+claude-opus-5-5              test-392  hard   solved clicks= 6 opt=5 $0.0305
+claude-opus-5-5              test-418  hard   solved clicks= 7 opt=4 $0.0405
+claude-opus-5-5              test-419  hard   solved clicks= 5 opt=4 $0.0267
+claude-opus-5-5              test-435  hard   solved clicks= 5 opt=4 $0.0270
+claude-opus-5-5              test-438  hard   solved clicks=15 opt=5 $0.1229
+gpt-6.2-astra                test-8    easy   solved clicks= 3 opt=2 $0.0176
+gpt-6.2-astra                test-21   easy   solved clicks= 2 opt=2 $0.0168
+gpt-6.2-astra                test-25   easy   solved clicks= 3 opt=2 $0.0149
+gpt-6.2-astra                test-28   easy   solved clicks= 2 opt=2 $0.0123
+gpt-6.2-astra                test-44   easy   solved clicks= 2 opt=2 $0.0152
+gpt-6.2-astra                test-48   easy   solved clicks= 2 opt=2 $0.0107
+gpt-6.2-astra                test-51   easy   solved clicks= 2 opt=2 $0.0084
+gpt-6.2-astra                test-108  easy   solved clicks= 3 opt=2 $0.0111
+gpt-6.2-astra                test-112  easy   solved clicks= 2 opt=2 $0.0117
+gpt-6.2-astra                test-146  easy   solved clicks= 2 opt=2 $0.0057
+gpt-6.2-astra                test-161  medium solved clicks= 5 opt=3 $0.0201
+gpt-6.2-astra                test-163  medium solved clicks=10 opt=3 $0.0358
+gpt-6.2-astra                test-166  medium solved clicks= 3 opt=3 $0.0103
+gpt-6.2-astra                test-180  medium solved clicks= 3 opt=3 $0.0175
+gpt-6.2-astra                test-228  medium solved clicks= 4 opt=3 $0.0170
+gpt-6.2-astra                test-231  medium solved clicks= 3 opt=3 $0.0106
+gpt-6.2-astra                test-245  medium solved clicks= 5 opt=3 $0.0154
+gpt-6.2-astra                test-249  medium solved clicks= 4 opt=3 $0.0166
+gpt-6.2-astra                test-274  medium solved clicks= 9 opt=3 $0.0287
+gpt-6.2-astra                test-287  medium solved clicks= 3 opt=3 $0.0199
+gpt-6.2-astra                test-312  hard   solved clicks=14 opt=4 $0.0471
+gpt-6.2-astra                test-330  hard   solved clicks= 6 opt=4 $0.0171
+gpt-6.2-astra                test-356  hard   solved clicks= 4 opt=4 $0.0143
+gpt-6.2-astra                test-366  hard   solved clicks= 4 opt=4 $0.0172
+gpt-6.2-astra                test-377  hard   solved clicks= 7 opt=4 $0.0267
+gpt-6.2-astra                test-392  hard   solved clicks= 5 opt=5 $0.0155
+gpt-6.2-astra                test-418  hard   solved clicks= 6 opt=4 $0.0238
+gpt-6.2-astra                test-419  hard   solved clicks= 5 opt=4 $0.0196
+gpt-6.2-astra                test-435  hard   solved clicks= 8 opt=4 $0.0292
+gpt-6.2-astra                test-438  hard   solved clicks= 6 opt=5 $0.0240
+{"batchActual": 3.153, "totalUsd": 10.9078}

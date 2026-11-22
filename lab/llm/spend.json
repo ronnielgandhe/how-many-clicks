@@ -1,0 +1,411 @@
+{
+ "capUsd": 20.0,
+ "totalUsd": 10.9122,
+ "batches": [
+  {
+   "kind": "adhoc",
+   "models": [
+    "all"
+   ],
+   "note": "single-request API checks (model list, settings probes); upper-bound estimate",
+   "actualUsd": 0.03
+  },
+  {
+   "kind": "pilot",
+   "models": [
+    "claude-haiku-5-5",
+    "gpt-6-luna",
+    "gemini-3.5-flash-lite"
+   ],
+   "games": 15,
+   "estimateUsd": 0.75,
+   "spentBeforeUsd": 0.0,
+   "started": "2026-11-22T01:15:02",
+   "finished": "2026-11-22T01:15:16",
+   "actualUsd": 0.0015,
+   "stoppedAtCap": false,
+   "settings": {
+    "claude-haiku-5-5": {
+     "temperature": 0,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6-luna": {
+     "temperature": 0,
+     "reasoning_effort": "none",
+     "thinking": false
+    },
+    "gemini-3.5-flash-lite": {
+     "temperature": 0,
+     "reasoning_effort": "none",
+     "thinking": false
+    }
+   }
+  },
+  {
+   "kind": "pilot",
+   "models": [
+    "claude-haiku-5-5",
+    "gpt-6-luna",
+    "gemini-3.5-flash-lite"
+   ],
+   "games": 10,
+   "estimateUsd": 0.5,
+   "spentBeforeUsd": 0.0015,
+   "started": "2026-11-22T01:16:19",
+   "finished": "2026-11-22T01:16:34",
+   "actualUsd": 0.0071,
+   "stoppedAtCap": false,
+   "settings": {
+    "claude-haiku-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6-luna": {
+     "temperature": 0,
+     "reasoning_effort": "none",
+     "thinking": false
+    },
+    "gemini-3.5-flash-lite": {
+     "temperature": 0,
+     "reasoning_effort": "minimal",
+     "thinking": false
+    }
+   }
+  },
+  {
+   "kind": "pilot",
+   "models": [
+    "claude-sonnet-5-5",
+    "claude-opus-5-5",
+    "gpt-6.2-sol",
+    "gpt-6.2-astra",
+    "gemini-3.8-flash",
+    "gemini-4-carbon",
+    "claude-sonnet-5-5-thinking",
+    "gpt-6.2-sol-high"
+   ],
+   "games": 40,
+   "estimateUsd": 2.0,
+   "spentBeforeUsd": 0.0085,
+   "started": "2026-11-22T01:16:42",
+   "finished": "2026-11-22T01:18:13",
+   "actualUsd": 0.1209,
+   "stoppedAtCap": false,
+   "settings": {
+    "claude-sonnet-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "claude-opus-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6.2-sol": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gpt-6.2-astra": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gemini-3.8-flash": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gemini-4-carbon": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "claude-sonnet-5-5-thinking": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": true
+    },
+    "gpt-6.2-sol-high": {
+     "temperature": 0,
+     "reasoning_effort": "high",
+     "thinking": false
+    }
+   }
+  },
+  {
+   "kind": "pilot",
+   "models": [
+    "gpt-6-luna",
+    "gpt-6.2-sol",
+    "gpt-6.2-astra",
+    "gpt-6.2-sol-high"
+   ],
+   "games": 20,
+   "estimateUsd": 1.0,
+   "spentBeforeUsd": 0.128,
+   "started": "2026-11-22T01:18:26",
+   "finished": "2026-11-22T01:19:02",
+   "actualUsd": 0.1507,
+   "stoppedAtCap": false,
+   "settings": {
+    "gpt-6-luna": {
+     "temperature": 0,
+     "reasoning_effort": "none",
+     "thinking": false
+    },
+    "gpt-6.2-sol": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gpt-6.2-astra": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gpt-6.2-sol-high": {
+     "temperature": null,
+     "reasoning_effort": "high",
+     "thinking": false
+    }
+   }
+  },
+  {
+   "kind": "pilot",
+   "models": [
+    "claude-haiku-5-5",
+    "claude-sonnet-5-5",
+    "claude-opus-5-5"
+   ],
+   "games": 15,
+   "estimateUsd": 0.75,
+   "spentBeforeUsd": 0.2755,
+   "started": "2026-11-22T01:19:39",
+   "finished": "2026-11-22T01:20:28",
+   "actualUsd": 0.2342,
+   "stoppedAtCap": false,
+   "settings": {
+    "claude-haiku-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "claude-sonnet-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "claude-opus-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    }
+   }
+  },
+  {
+   "kind": "pilot",
+   "models": [
+    "claude-sonnet-5-5-thinking"
+   ],
+   "games": 5,
+   "estimateUsd": 0.25,
+   "spentBeforeUsd": 0.4332,
+   "started": "2026-11-22T01:21:25",
+   "finished": "2026-11-22T01:21:49",
+   "actualUsd": 0.0792,
+   "stoppedAtCap": false,
+   "settings": {
+    "claude-sonnet-5-5-thinking": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": "xhigh"
+    }
+   }
+  },
+  {
+   "kind": "main",
+   "models": [
+    "claude-haiku-5-5",
+    "gpt-6-luna",
+    "gemini-3.5-flash-lite",
+    "gemini-3.8-flash",
+    "gpt-6.2-sol",
+    "gemini-4-carbon",
+    "claude-sonnet-5-5",
+    "claude-sonnet-5-5-thinking",
+    "gpt-6.2-sol-high",
+    "claude-opus-5-5",
+    "gpt-6.2-astra"
+   ],
+   "games": 605,
+   "estimateUsd": 6.7784,
+   "spentBeforeUsd": 0.6236,
+   "started": "2026-11-22T01:24:15",
+   "actualUsd": 7.1312,
+   "finished": "2026-11-22T01:54:27",
+   "stoppedAtCap": false,
+   "settings": {
+    "claude-haiku-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6-luna": {
+     "temperature": 0,
+     "reasoning_effort": "none",
+     "thinking": false
+    },
+    "gemini-3.5-flash-lite": {
+     "temperature": 0,
+     "reasoning_effort": "minimal",
+     "thinking": false
+    },
+    "gemini-3.8-flash": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gpt-6.2-sol": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gemini-4-carbon": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "claude-sonnet-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "claude-sonnet-5-5-thinking": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": "xhigh"
+    },
+    "gpt-6.2-sol-high": {
+     "temperature": null,
+     "reasoning_effort": "high",
+     "thinking": false
+    },
+    "claude-opus-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6.2-astra": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    }
+   }
+  },
+  {
+   "kind": "main",
+   "models": [
+    "claude-haiku-5-5",
+    "gpt-6-luna",
+    "gemini-3.5-flash-lite",
+    "gemini-3.8-flash",
+    "gpt-6.2-sol",
+    "gemini-4-carbon",
+    "claude-sonnet-5-5",
+    "claude-sonnet-5-5-thinking",
+    "gpt-6.2-sol-high",
+    "claude-opus-5-5",
+    "gpt-6.2-astra"
+   ],
+   "games": 330,
+   "estimateUsd": 9.8245,
+   "spentBeforeUsd": 7.7548,
+   "started": "2026-11-22T01:55:24",
+   "actualUsd": 3.153,
+   "finished": "2026-11-22T02:09:02",
+   "stoppedAtCap": false,
+   "settings": {
+    "claude-haiku-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6-luna": {
+     "temperature": 0,
+     "reasoning_effort": "none",
+     "thinking": false
+    },
+    "gemini-3.5-flash-lite": {
+     "temperature": 0,
+     "reasoning_effort": "minimal",
+     "thinking": false
+    },
+    "gemini-3.8-flash": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gpt-6.2-sol": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "gemini-4-carbon": {
+     "temperature": 0,
+     "reasoning_effort": "low",
+     "thinking": false
+    },
+    "claude-sonnet-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "claude-sonnet-5-5-thinking": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": "xhigh"
+    },
+    "gpt-6.2-sol-high": {
+     "temperature": null,
+     "reasoning_effort": "high",
+     "thinking": false
+    },
+    "claude-opus-5-5": {
+     "temperature": null,
+     "reasoning_effort": null,
+     "thinking": false
+    },
+    "gpt-6.2-astra": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    }
+   }
+  },
+  {
+   "kind": "main",
+   "models": [
+    "gpt-6.2-sol"
+   ],
+   "games": 1,
+   "estimateUsd": 0.0127,
+   "spentBeforeUsd": 10.9078,
+   "started": "2026-11-22T02:09:38",
+   "actualUsd": 0.0044,
+   "finished": "2026-11-22T02:09:42",
+   "stoppedAtCap": false,
+   "settings": {
+    "gpt-6.2-sol": {
+     "temperature": null,
+     "reasoning_effort": "low",
+     "thinking": false
+    }
+   }
+  }
+ ],
+ "note": "totalUsd = sum of batch actuals (tokens x published price), including discarded pilot runs and ad hoc smoke calls"
+}

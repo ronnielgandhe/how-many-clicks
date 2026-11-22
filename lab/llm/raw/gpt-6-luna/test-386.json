@@ -1,0 +1,117 @@
+{
+ "pair": "test-386",
+ "start": "Dallas, Texas",
+ "target": "Comet Hale-Bopp",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Dallas, Texas",
+  "United States",
+  "Moon",
+  "Solar System",
+  "Comet",
+  "Comet Hale-Bopp"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 1,
+ "calls": 6,
+ "tokensIn": 4388,
+ "tokensOut": 116,
+ "costUsd": 0.000497,
+ "steps": [
+  {
+   "page": "Dallas, Texas",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 338,
+     "tokensOut": 19,
+     "ms": 833
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Astronomy",
+     "valid": false,
+     "tokensIn": 1437,
+     "tokensOut": 19,
+     "ms": 762
+    },
+    {
+     "raw": "Moon",
+     "valid": true,
+     "tokensIn": 1461,
+     "tokensOut": 18,
+     "ms": 1159
+    }
+   ],
+   "chosen": "Moon",
+   "revisit": false
+  },
+  {
+   "page": "Moon",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "Solar System",
+     "valid": true,
+     "tokensIn": 359,
+     "tokensOut": 19,
+     "ms": 868
+    }
+   ],
+   "chosen": "Solar System",
+   "revisit": false
+  },
+  {
+   "page": "Solar System",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Comet",
+     "valid": true,
+     "tokensIn": 434,
+     "tokensOut": 19,
+     "ms": 1036
+    }
+   ],
+   "chosen": "Comet",
+   "revisit": false
+  },
+  {
+   "page": "Comet",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Comet Hale-Bopp",
+     "valid": true,
+     "tokensIn": 359,
+     "tokensOut": 22,
+     "ms": 870
+    }
+   ],
+   "chosen": "Comet Hale-Bopp",
+   "revisit": false
+  }
+ ]
+}

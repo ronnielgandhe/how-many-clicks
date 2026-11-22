@@ -1,0 +1,115 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "Europe",
+  "Herbivore",
+  "Plant",
+  "Gregor Mendel",
+  "Pea"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1828,
+ "tokensOut": 601,
+ "costUsd": 0.003625,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 230,
+     "tokensOut": 155,
+     "ms": 3065
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Herbivore",
+     "valid": true,
+     "tokensIn": 722,
+     "tokensOut": 114,
+     "ms": 2448
+    }
+   ],
+   "chosen": "Herbivore",
+   "revisit": false
+  },
+  {
+   "page": "Herbivore",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Plant",
+     "valid": true,
+     "tokensIn": 230,
+     "tokensOut": 250,
+     "ms": 3906
+    }
+   ],
+   "chosen": "Plant",
+   "revisit": false
+  },
+  {
+   "page": "Plant",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Gregor Mendel",
+     "valid": true,
+     "tokensIn": 418,
+     "tokensOut": 44,
+     "ms": 2009
+    }
+   ],
+   "chosen": "Gregor Mendel",
+   "revisit": false
+  },
+  {
+   "page": "Gregor Mendel",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 228,
+     "tokensOut": 38,
+     "ms": 3262
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

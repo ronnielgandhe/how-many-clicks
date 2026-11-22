@@ -1,0 +1,282 @@
+{
+ "pair": "test-321",
+ "start": "Button",
+ "target": "Working poor",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 9,
+  "median_pages": 12
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Button",
+  "Clothing",
+  "Business",
+  "Economics",
+  "Employment",
+  "Economics",
+  "Employment",
+  "Trade union",
+  "Employment",
+  "Economics",
+  "Employment",
+  "Capitalism",
+  "Karl Marx",
+  "Economics",
+  "Employment",
+  "Economics"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 8,
+ "invalidAttempts": 1,
+ "calls": 16,
+ "tokensIn": 4675,
+ "tokensOut": 297,
+ "costUsd": 0.000616,
+ "steps": [
+  {
+   "page": "Button",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Clothing",
+     "valid": true,
+     "tokensIn": 218,
+     "tokensOut": 19,
+     "ms": 1578
+    }
+   ],
+   "chosen": "Clothing",
+   "revisit": false
+  },
+  {
+   "page": "Clothing",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Business",
+     "valid": true,
+     "tokensIn": 279,
+     "tokensOut": 18,
+     "ms": 1014
+    }
+   ],
+   "chosen": "Business",
+   "revisit": false
+  },
+  {
+   "page": "Business",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Economics",
+     "valid": true,
+     "tokensIn": 227,
+     "tokensOut": 19,
+     "ms": 1223
+    }
+   ],
+   "chosen": "Economics",
+   "revisit": false
+  },
+  {
+   "page": "Economics",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 312,
+     "tokensOut": 18,
+     "ms": 1125
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": false
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Economics",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 19,
+     "ms": 1100
+    }
+   ],
+   "chosen": "Economics",
+   "revisit": true
+  },
+  {
+   "page": "Economics",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 316,
+     "tokensOut": 18,
+     "ms": 856
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": true
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Trade union",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 19,
+     "ms": 1036
+    }
+   ],
+   "chosen": "Trade union",
+   "revisit": false
+  },
+  {
+   "page": "Trade union",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 228,
+     "tokensOut": 18,
+     "ms": 1224
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": true
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Economics",
+     "valid": true,
+     "tokensIn": 240,
+     "tokensOut": 19,
+     "ms": 894
+    }
+   ],
+   "chosen": "Economics",
+   "revisit": true
+  },
+  {
+   "page": "Economics",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 18,
+     "ms": 788
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": true
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Capitalism",
+     "valid": true,
+     "tokensIn": 244,
+     "tokensOut": 19,
+     "ms": 1036
+    }
+   ],
+   "chosen": "Capitalism",
+   "revisit": false
+  },
+  {
+   "page": "Capitalism",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": false,
+     "tokensIn": 389,
+     "tokensOut": 18,
+     "ms": 887
+    },
+    {
+     "raw": "Karl Marx",
+     "valid": true,
+     "tokensIn": 412,
+     "tokensOut": 19,
+     "ms": 1108
+    }
+   ],
+   "chosen": "Karl Marx",
+   "revisit": false
+  },
+  {
+   "page": "Karl Marx",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Economics",
+     "valid": true,
+     "tokensIn": 430,
+     "tokensOut": 19,
+     "ms": 906
+    }
+   ],
+   "chosen": "Economics",
+   "revisit": true
+  },
+  {
+   "page": "Economics",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 335,
+     "tokensOut": 18,
+     "ms": 2199
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": true
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Economics",
+     "valid": true,
+     "tokensIn": 254,
+     "tokensOut": 19,
+     "ms": 846
+    }
+   ],
+   "chosen": "Economics",
+   "revisit": true
+  }
+ ]
+}

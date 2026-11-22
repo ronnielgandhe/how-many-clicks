@@ -1,0 +1,131 @@
+{
+ "pair": "test-222",
+ "start": "David Cameron",
+ "target": "Eagle",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "David Cameron",
+  "United Kingdom",
+  "England",
+  "Lion",
+  "Animal",
+  "Bird",
+  "Eagle"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 3273,
+ "tokensOut": 97,
+ "costUsd": 0.001224,
+ "steps": [
+  {
+   "page": "David Cameron",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 440,
+     "tokensOut": 17,
+     "ms": 813
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 915,
+     "tokensOut": 16,
+     "ms": 649
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Lion",
+     "valid": true,
+     "tokensIn": 894,
+     "tokensOut": 16,
+     "ms": 772
+    }
+   ],
+   "chosen": "Lion",
+   "revisit": false
+  },
+  {
+   "page": "Lion",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Animal",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 16,
+     "ms": 819
+    }
+   ],
+   "chosen": "Animal",
+   "revisit": false
+  },
+  {
+   "page": "Animal",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Bird",
+     "valid": true,
+     "tokensIn": 287,
+     "tokensOut": 16,
+     "ms": 855
+    }
+   ],
+   "chosen": "Bird",
+   "revisit": false
+  },
+  {
+   "page": "Bird",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Eagle",
+     "valid": true,
+     "tokensIn": 397,
+     "tokensOut": 16,
+     "ms": 557
+    }
+   ],
+   "chosen": "Eagle",
+   "revisit": false
+  }
+ ]
+}

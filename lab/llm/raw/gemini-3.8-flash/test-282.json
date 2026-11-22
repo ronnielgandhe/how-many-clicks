@@ -1,0 +1,110 @@
+{
+ "pair": "test-282",
+ "start": "Sri Lanka",
+ "target": "Number",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sri Lanka",
+  "India",
+  "Europe",
+  "Ancient Greece",
+  "Arithmetic",
+  "Number"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2254,
+ "tokensOut": 830,
+ "costUsd": 0.004803,
+ "steps": [
+  {
+   "page": "Sri Lanka",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 399,
+     "tokensOut": 73,
+     "ms": 2068
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 486,
+     "tokensOut": 588,
+     "ms": 10069
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Ancient Greece",
+     "valid": true,
+     "tokensIn": 725,
+     "tokensOut": 85,
+     "ms": 2467
+    }
+   ],
+   "chosen": "Ancient Greece",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Greece",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Arithmetic",
+     "valid": true,
+     "tokensIn": 429,
+     "tokensOut": 52,
+     "ms": 1734
+    }
+   ],
+   "chosen": "Arithmetic",
+   "revisit": false
+  },
+  {
+   "page": "Arithmetic",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Number",
+     "valid": true,
+     "tokensIn": 215,
+     "tokensOut": 32,
+     "ms": 1491
+    }
+   ],
+   "chosen": "Number",
+   "revisit": false
+  }
+ ]
+}

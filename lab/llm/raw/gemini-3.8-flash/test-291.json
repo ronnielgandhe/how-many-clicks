@@ -1,0 +1,126 @@
+{
+ "pair": "test-291",
+ "start": "Tsunami",
+ "target": "Snowy Owl",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tsunami",
+  "Canada",
+  "Arctic",
+  "Wolverine",
+  "Chordate",
+  "Bird",
+  "Snowy Owl"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 1950,
+ "tokensOut": 446,
+ "costUsd": 0.003135,
+ "steps": [
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 387,
+     "tokensOut": 63,
+     "ms": 2261
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 436,
+     "tokensOut": 75,
+     "ms": 2535
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Wolverine",
+     "valid": true,
+     "tokensIn": 278,
+     "tokensOut": 161,
+     "ms": 3193
+    }
+   ],
+   "chosen": "Wolverine",
+   "revisit": false
+  },
+  {
+   "page": "Wolverine",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Chordate",
+     "valid": true,
+     "tokensIn": 238,
+     "tokensOut": 17,
+     "ms": 1636
+    }
+   ],
+   "chosen": "Chordate",
+   "revisit": false
+  },
+  {
+   "page": "Chordate",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Bird",
+     "valid": true,
+     "tokensIn": 213,
+     "tokensOut": 80,
+     "ms": 2220
+    }
+   ],
+   "chosen": "Bird",
+   "revisit": false
+  },
+  {
+   "page": "Bird",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Snowy Owl",
+     "valid": true,
+     "tokensIn": 398,
+     "tokensOut": 50,
+     "ms": 2455
+    }
+   ],
+   "chosen": "Snowy Owl",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "pair": "test-377",
+ "start": "North Atlantic oscillation",
+ "target": "Myers-Briggs Type Indicator",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "North Atlantic oscillation",
+  "Europe",
+  "Switzerland",
+  "Z\u00fcrich",
+  "Austria",
+  "Sigmund Freud",
+  "Carl Jung",
+  "Myers-Briggs Type Indicator"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2650,
+ "tokensOut": 138,
+ "costUsd": 0.02672,
+ "steps": [
+  {
+   "page": "North Atlantic oscillation",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 236,
+     "tokensOut": 18,
+     "ms": 1457
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Switzerland",
+     "valid": true,
+     "tokensIn": 752,
+     "tokensOut": 19,
+     "ms": 1595
+    }
+   ],
+   "chosen": "Switzerland",
+   "revisit": false
+  },
+  {
+   "page": "Switzerland",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Z\u00fcrich",
+     "valid": true,
+     "tokensIn": 358,
+     "tokensOut": 20,
+     "ms": 1429
+    }
+   ],
+   "chosen": "Z\u00fcrich",
+   "revisit": false
+  },
+  {
+   "page": "Z\u00fcrich",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Austria",
+     "valid": true,
+     "tokensIn": 266,
+     "tokensOut": 19,
+     "ms": 1730
+    }
+   ],
+   "chosen": "Austria",
+   "revisit": false
+  },
+  {
+   "page": "Austria",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "Sigmund Freud",
+     "valid": true,
+     "tokensIn": 383,
+     "tokensOut": 20,
+     "ms": 1507
+    }
+   ],
+   "chosen": "Sigmund Freud",
+   "revisit": false
+  },
+  {
+   "page": "Sigmund Freud",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Carl Jung",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 19,
+     "ms": 1686
+    }
+   ],
+   "chosen": "Carl Jung",
+   "revisit": false
+  },
+  {
+   "page": "Carl Jung",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Myers-Briggs Type Indicator",
+     "valid": true,
+     "tokensIn": 315,
+     "tokensOut": 23,
+     "ms": 1328
+    }
+   ],
+   "chosen": "Myers-Briggs Type Indicator",
+   "revisit": false
+  }
+ ]
+}

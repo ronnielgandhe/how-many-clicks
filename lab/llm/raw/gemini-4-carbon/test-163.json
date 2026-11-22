@@ -1,0 +1,99 @@
+{
+ "pair": "test-163",
+ "start": "EMD F7",
+ "target": "Michigan State University",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "EMD F7",
+  "Newark, New Jersey",
+  "United States",
+  "Detroit, Michigan",
+  "Michigan State University"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2524,
+ "tokensOut": 125,
+ "costUsd": 0.006298,
+ "steps": [
+  {
+   "page": "EMD F7",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Newark, New Jersey",
+     "valid": true,
+     "tokensIn": 225,
+     "tokensOut": 26,
+     "ms": 3328
+    }
+   ],
+   "chosen": "Newark, New Jersey",
+   "revisit": false
+  },
+  {
+   "page": "Newark, New Jersey",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 370,
+     "tokensOut": 23,
+     "ms": 2857
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Detroit, Michigan",
+     "valid": true,
+     "tokensIn": 1452,
+     "tokensOut": 52,
+     "ms": 4064
+    }
+   ],
+   "chosen": "Detroit, Michigan",
+   "revisit": false
+  },
+  {
+   "page": "Detroit, Michigan",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Michigan State University",
+     "valid": true,
+     "tokensIn": 477,
+     "tokensOut": 24,
+     "ms": 40057
+    }
+   ],
+   "chosen": "Michigan State University",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "pair": "test-43",
+ "start": "St Paul's Cathedral",
+ "target": "Portugal",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "St Paul's Cathedral",
+  "United Kingdom",
+  "Europe",
+  "Portugal"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1965,
+ "tokensOut": 55,
+ "costUsd": 0.000224,
+ "steps": [
+  {
+   "page": "St Paul's Cathedral",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 315,
+     "tokensOut": 19,
+     "ms": 1064
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 910,
+     "tokensOut": 18,
+     "ms": 1054
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Portugal",
+     "valid": true,
+     "tokensIn": 740,
+     "tokensOut": 18,
+     "ms": 984
+    }
+   ],
+   "chosen": "Portugal",
+   "revisit": false
+  }
+ ]
+}

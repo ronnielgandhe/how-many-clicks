@@ -1,0 +1,83 @@
+{
+ "pair": "test-185",
+ "start": "Quantum chemistry",
+ "target": "Belgium",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Quantum chemistry",
+  "Quantum mechanics",
+  "German language",
+  "Belgium"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1033,
+ "tokensOut": 227,
+ "costUsd": 0.004336,
+ "steps": [
+  {
+   "page": "Quantum chemistry",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Quantum mechanics",
+     "valid": true,
+     "tokensIn": 221,
+     "tokensOut": 165,
+     "ms": 3530
+    }
+   ],
+   "chosen": "Quantum mechanics",
+   "revisit": false
+  },
+  {
+   "page": "Quantum mechanics",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "German language",
+     "valid": true,
+     "tokensIn": 345,
+     "tokensOut": 43,
+     "ms": 1201
+    }
+   ],
+   "chosen": "German language",
+   "revisit": false
+  },
+  {
+   "page": "German language",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "Belgium",
+     "valid": true,
+     "tokensIn": 467,
+     "tokensOut": 19,
+     "ms": 1097
+    }
+   ],
+   "chosen": "Belgium",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "pair": "test-382",
+ "start": "Toluene",
+ "target": "Saffron",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Toluene",
+  "Ethanol",
+  "India",
+  "Flag of India",
+  "Hinduism",
+  "Onion",
+  "Chives",
+  "Parsley",
+  "Saffron"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 2763,
+ "tokensOut": 532,
+ "costUsd": 0.010846,
+ "steps": [
+  {
+   "page": "Toluene",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Ethanol",
+     "valid": true,
+     "tokensIn": 242,
+     "tokensOut": 55,
+     "ms": 4610
+    }
+   ],
+   "chosen": "Ethanol",
+   "revisit": false
+  },
+  {
+   "page": "Ethanol",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 370,
+     "tokensOut": 48,
+     "ms": 4816
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Flag of India",
+     "valid": true,
+     "tokensIn": 526,
+     "tokensOut": 58,
+     "ms": 4112
+    }
+   ],
+   "chosen": "Flag of India",
+   "revisit": false
+  },
+  {
+   "page": "Flag of India",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Hinduism",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 23,
+     "ms": 9427
+    }
+   ],
+   "chosen": "Hinduism",
+   "revisit": false
+  },
+  {
+   "page": "Hinduism",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Onion",
+     "valid": true,
+     "tokensIn": 343,
+     "tokensOut": 22,
+     "ms": 4850
+    }
+   ],
+   "chosen": "Onion",
+   "revisit": false
+  },
+  {
+   "page": "Onion",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Chives",
+     "valid": true,
+     "tokensIn": 301,
+     "tokensOut": 128,
+     "ms": 6361
+    }
+   ],
+   "chosen": "Chives",
+   "revisit": false
+  },
+  {
+   "page": "Chives",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Parsley",
+     "valid": true,
+     "tokensIn": 309,
+     "tokensOut": 174,
+     "ms": 6106
+    }
+   ],
+   "chosen": "Parsley",
+   "revisit": false
+  },
+  {
+   "page": "Parsley",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Saffron",
+     "valid": true,
+     "tokensIn": 380,
+     "tokensOut": 24,
+     "ms": 4196
+    }
+   ],
+   "chosen": "Saffron",
+   "revisit": false
+  }
+ ]
+}

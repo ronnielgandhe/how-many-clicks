@@ -1,0 +1,78 @@
+{
+ "pair": "test-108",
+ "start": "Ice hockey",
+ "target": "Continent",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Ice hockey",
+  "Canada",
+  "North America",
+  "Continent"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1290,
+ "tokensOut": 168,
+ "costUsd": 0.001597,
+ "steps": [
+  {
+   "page": "Ice hockey",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 376,
+     "tokensOut": 97,
+     "ms": 2447
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 435,
+     "tokensOut": 55,
+     "ms": 1985
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "Continent",
+     "valid": true,
+     "tokensIn": 479,
+     "tokensOut": 16,
+     "ms": 1736
+    }
+   ],
+   "chosen": "Continent",
+   "revisit": false
+  }
+ ]
+}

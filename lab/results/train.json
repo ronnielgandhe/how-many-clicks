@@ -1,0 +1,620 @@
+{
+ "date": "2026-11-22",
+ "seed": 7,
+ "quick": false,
+ "machine": "laptop cpu, numpy 2.5.1, 2 blas threads, single process",
+ "data": {
+  "articles": 4604,
+  "links": 119882,
+  "split_articles": {
+   "train": 3222,
+   "val": 691,
+   "test": 691
+  },
+  "pairs": {
+   "train": 1200000,
+   "val": 30000,
+   "test": 30000
+  },
+  "human_clicks": {
+   "train": 157519,
+   "val": 30977,
+   "test": 34923
+  },
+  "hop_cases": {
+   "val": 1500,
+   "test": 1500
+  },
+  "prep_secs": 16.3
+ },
+ "architecture": {
+  "tokens": "whole words + char trigrams, fnv1a hashed",
+  "sizes": {
+   "tiny": {
+    "buckets": 4096,
+    "dim": 16,
+    "hid": 16,
+    "mlp": 32
+   },
+   "base": {
+    "buckets": 16384,
+    "dim": 32,
+    "hid": 32,
+    "mlp": 64
+   }
+  },
+  "tower": "tanh",
+  "head": "[link, target, link*target, 6 hand features] -> relu -> clicks",
+  "hand_features": [
+   "word jaccard",
+   "trigram jaccard",
+   "link word count",
+   "target inside link",
+   "link has a number",
+   "exact match"
+  ],
+  "loss": {
+   "distance": "huber on clicks",
+   "imitation": "pairwise logistic: clicked link closer than a random other link on the page"
+  },
+  "optimizer": "adam, cosine lr",
+  "batch": 1024,
+  "rank_batch": 512,
+  "steps": 4000,
+  "fine_tune_steps": 1500,
+  "dropout": 0.3,
+  "weight_decay": 0.05
+ },
+ "family": [
+  {
+   "id": "tiny",
+   "name": "tiny",
+   "size": "tiny",
+   "params": 67873,
+   "sizeBytes": 91268,
+   "trainSeconds": 41.2,
+   "trainedOn": "1.2M (link, target) shortest-path pairs",
+   "note": "distance predictor, 4,096 buckets x 16 dims",
+   "curve": [
+    {
+     "step": 250,
+     "train_loss": 0.1883,
+     "val_mae": 0.7121,
+     "val_hop": 0.55,
+     "secs": 2.5
+    },
+    {
+     "step": 500,
+     "train_loss": 0.1423,
+     "val_mae": 0.7526,
+     "val_hop": 0.55,
+     "secs": 5.0
+    },
+    {
+     "step": 750,
+     "train_loss": 0.1323,
+     "val_mae": 0.7538,
+     "val_hop": 0.545,
+     "secs": 7.8
+    },
+    {
+     "step": 1000,
+     "train_loss": 0.1284,
+     "val_mae": 0.7796,
+     "val_hop": 0.54,
+     "secs": 10.7
+    },
+    {
+     "step": 1250,
+     "train_loss": 0.1261,
+     "val_mae": 0.7646,
+     "val_hop": 0.5275,
+     "secs": 13.3
+    },
+    {
+     "step": 1500,
+     "train_loss": 0.1237,
+     "val_mae": 0.7777,
+     "val_hop": 0.5375,
+     "secs": 15.7
+    },
+    {
+     "step": 1750,
+     "train_loss": 0.1219,
+     "val_mae": 0.7768,
+     "val_hop": 0.525,
+     "secs": 18.7
+    },
+    {
+     "step": 2000,
+     "train_loss": 0.1212,
+     "val_mae": 0.774,
+     "val_hop": 0.535,
+     "secs": 21.3
+    },
+    {
+     "step": 2250,
+     "train_loss": 0.1197,
+     "val_mae": 0.7874,
+     "val_hop": 0.5475,
+     "secs": 23.9
+    },
+    {
+     "step": 2500,
+     "train_loss": 0.1176,
+     "val_mae": 0.785,
+     "val_hop": 0.5375,
+     "secs": 26.2
+    },
+    {
+     "step": 2750,
+     "train_loss": 0.1166,
+     "val_mae": 0.7865,
+     "val_hop": 0.535,
+     "secs": 28.6
+    },
+    {
+     "step": 3000,
+     "train_loss": 0.116,
+     "val_mae": 0.7857,
+     "val_hop": 0.5425,
+     "secs": 31.1
+    },
+    {
+     "step": 3250,
+     "train_loss": 0.1146,
+     "val_mae": 0.7906,
+     "val_hop": 0.545,
+     "secs": 33.4
+    },
+    {
+     "step": 3500,
+     "train_loss": 0.1147,
+     "val_mae": 0.7942,
+     "val_hop": 0.55,
+     "secs": 35.8
+    },
+    {
+     "step": 3750,
+     "train_loss": 0.1145,
+     "val_mae": 0.7893,
+     "val_hop": 0.5425,
+     "secs": 38.5
+    },
+    {
+     "step": 4000,
+     "train_loss": 0.1146,
+     "val_mae": 0.7928,
+     "val_hop": 0.545,
+     "secs": 41.2
+    }
+   ],
+   "val": {
+    "mae": 0.7834,
+    "mae_predict_3": 0.5476,
+    "pearson": 0.1997,
+    "hop_acc": 0.5633,
+    "hop_random": 0.2774,
+    "human_agree": 0.1187,
+    "human_agree_random": 0.0362
+   },
+   "test": {
+    "mae": 0.8141,
+    "mae_predict_3": 0.5509,
+    "pearson": 0.1261,
+    "hop_acc": 0.5953,
+    "hop_random": 0.2878,
+    "human_agree": 0.1247,
+    "human_agree_random": 0.0357
+   }
+  },
+  {
+   "id": "base",
+   "name": "base",
+   "size": "base",
+   "params": 533057,
+   "sizeBytes": 624900,
+   "trainSeconds": 96.8,
+   "trainedOn": "1.2M (link, target) shortest-path pairs",
+   "note": "distance predictor, 16,384 buckets x 32 dims",
+   "curve": [
+    {
+     "step": 250,
+     "train_loss": 0.1571,
+     "val_mae": 0.7002,
+     "val_hop": 0.545,
+     "secs": 5.8
+    },
+    {
+     "step": 500,
+     "train_loss": 0.1275,
+     "val_mae": 0.7316,
+     "val_hop": 0.5525,
+     "secs": 12.3
+    },
+    {
+     "step": 750,
+     "train_loss": 0.1217,
+     "val_mae": 0.7173,
+     "val_hop": 0.535,
+     "secs": 17.6
+    },
+    {
+     "step": 1000,
+     "train_loss": 0.1179,
+     "val_mae": 0.7222,
+     "val_hop": 0.5475,
+     "secs": 25.1
+    },
+    {
+     "step": 1250,
+     "train_loss": 0.1158,
+     "val_mae": 0.7331,
+     "val_hop": 0.54,
+     "secs": 32.3
+    },
+    {
+     "step": 1500,
+     "train_loss": 0.1125,
+     "val_mae": 0.7308,
+     "val_hop": 0.56,
+     "secs": 38.6
+    },
+    {
+     "step": 1750,
+     "train_loss": 0.1102,
+     "val_mae": 0.7238,
+     "val_hop": 0.555,
+     "secs": 44.5
+    },
+    {
+     "step": 2000,
+     "train_loss": 0.1093,
+     "val_mae": 0.7238,
+     "val_hop": 0.535,
+     "secs": 50.8
+    },
+    {
+     "step": 2250,
+     "train_loss": 0.1084,
+     "val_mae": 0.7236,
+     "val_hop": 0.5475,
+     "secs": 57.2
+    },
+    {
+     "step": 2500,
+     "train_loss": 0.1066,
+     "val_mae": 0.7295,
+     "val_hop": 0.5575,
+     "secs": 62.5
+    },
+    {
+     "step": 2750,
+     "train_loss": 0.1058,
+     "val_mae": 0.731,
+     "val_hop": 0.56,
+     "secs": 69.2
+    },
+    {
+     "step": 3000,
+     "train_loss": 0.1052,
+     "val_mae": 0.7282,
+     "val_hop": 0.5525,
+     "secs": 75.2
+    },
+    {
+     "step": 3250,
+     "train_loss": 0.1038,
+     "val_mae": 0.7345,
+     "val_hop": 0.565,
+     "secs": 80.7
+    },
+    {
+     "step": 3500,
+     "train_loss": 0.104,
+     "val_mae": 0.7296,
+     "val_hop": 0.5625,
+     "secs": 86.1
+    },
+    {
+     "step": 3750,
+     "train_loss": 0.1038,
+     "val_mae": 0.7344,
+     "val_hop": 0.5575,
+     "secs": 91.5
+    },
+    {
+     "step": 4000,
+     "train_loss": 0.1035,
+     "val_mae": 0.7335,
+     "val_hop": 0.57,
+     "secs": 96.8
+    }
+   ],
+   "val": {
+    "mae": 0.7289,
+    "mae_predict_3": 0.5476,
+    "pearson": 0.2611,
+    "hop_acc": 0.564,
+    "hop_random": 0.2774,
+    "human_agree": 0.1153,
+    "human_agree_random": 0.0362
+   },
+   "test": {
+    "mae": 0.7544,
+    "mae_predict_3": 0.5509,
+    "pearson": 0.175,
+    "hop_acc": 0.5953,
+    "hop_random": 0.2878,
+    "human_agree": 0.1127,
+    "human_agree_random": 0.0357
+   }
+  },
+  {
+   "id": "imitate",
+   "name": "imitation",
+   "size": "base",
+   "params": 533057,
+   "sizeBytes": 624900,
+   "trainSeconds": 210.0,
+   "trainedOn": "157,519 real player clicks",
+   "note": "base size, trained only to copy the link real players clicked",
+   "curve": [
+    {
+     "step": 250,
+     "train_loss": 0.5446,
+     "val_mae": 1.0521,
+     "val_hop": 0.465,
+     "secs": 12.0
+    },
+    {
+     "step": 500,
+     "train_loss": 0.5024,
+     "val_mae": 1.1217,
+     "val_hop": 0.5,
+     "secs": 23.3
+    },
+    {
+     "step": 750,
+     "train_loss": 0.4698,
+     "val_mae": 1.5237,
+     "val_hop": 0.4975,
+     "secs": 35.0
+    },
+    {
+     "step": 1000,
+     "train_loss": 0.4515,
+     "val_mae": 1.4916,
+     "val_hop": 0.4675,
+     "secs": 46.6
+    },
+    {
+     "step": 1250,
+     "train_loss": 0.4359,
+     "val_mae": 1.6059,
+     "val_hop": 0.4825,
+     "secs": 58.8
+    },
+    {
+     "step": 1500,
+     "train_loss": 0.4246,
+     "val_mae": 1.7395,
+     "val_hop": 0.4875,
+     "secs": 71.5
+    },
+    {
+     "step": 1750,
+     "train_loss": 0.4083,
+     "val_mae": 1.6693,
+     "val_hop": 0.4725,
+     "secs": 83.0
+    },
+    {
+     "step": 2000,
+     "train_loss": 0.3955,
+     "val_mae": 1.7094,
+     "val_hop": 0.475,
+     "secs": 99.2
+    },
+    {
+     "step": 2250,
+     "train_loss": 0.3895,
+     "val_mae": 1.695,
+     "val_hop": 0.505,
+     "secs": 113.1
+    },
+    {
+     "step": 2500,
+     "train_loss": 0.3829,
+     "val_mae": 1.6253,
+     "val_hop": 0.495,
+     "secs": 126.1
+    },
+    {
+     "step": 2750,
+     "train_loss": 0.3771,
+     "val_mae": 1.6833,
+     "val_hop": 0.49,
+     "secs": 138.9
+    },
+    {
+     "step": 3000,
+     "train_loss": 0.372,
+     "val_mae": 1.6189,
+     "val_hop": 0.5025,
+     "secs": 152.6
+    },
+    {
+     "step": 3250,
+     "train_loss": 0.3688,
+     "val_mae": 1.6223,
+     "val_hop": 0.51,
+     "secs": 167.4
+    },
+    {
+     "step": 3500,
+     "train_loss": 0.3664,
+     "val_mae": 1.6241,
+     "val_hop": 0.515,
+     "secs": 181.8
+    },
+    {
+     "step": 3750,
+     "train_loss": 0.3628,
+     "val_mae": 1.6389,
+     "val_hop": 0.515,
+     "secs": 194.3
+    },
+    {
+     "step": 4000,
+     "train_loss": 0.3608,
+     "val_mae": 1.7003,
+     "val_hop": 0.5075,
+     "secs": 210.0
+    }
+   ],
+   "val": {
+    "mae": 1.692,
+    "mae_predict_3": 0.5476,
+    "pearson": 0.1154,
+    "hop_acc": 0.5033,
+    "hop_random": 0.2774,
+    "human_agree": 0.1973,
+    "human_agree_random": 0.0362
+   },
+   "test": {
+    "mae": 1.7322,
+    "mae_predict_3": 0.5509,
+    "pearson": 0.0973,
+    "hop_acc": 0.5227,
+    "hop_random": 0.2878,
+    "human_agree": 0.1833,
+    "human_agree_random": 0.0357
+   }
+  },
+  {
+   "id": "human",
+   "name": "base + human clicks",
+   "size": "base",
+   "params": 533057,
+   "sizeBytes": 624900,
+   "trainSeconds": 214.2,
+   "trainedOn": "1.2M shortest-path pairs, then 157,519 player clicks",
+   "note": "base, then fine-tuned on distances and real player clicks together",
+   "curve": [
+    {
+     "step": 250,
+     "train_loss": 0.6879,
+     "val_mae": 0.7348,
+     "val_hop": 0.525,
+     "secs": 23.9
+    },
+    {
+     "step": 500,
+     "train_loss": 0.6619,
+     "val_mae": 0.7502,
+     "val_hop": 0.5175,
+     "secs": 44.0
+    },
+    {
+     "step": 750,
+     "train_loss": 0.6516,
+     "val_mae": 0.7491,
+     "val_hop": 0.5125,
+     "secs": 61.7
+    },
+    {
+     "step": 1000,
+     "train_loss": 0.6455,
+     "val_mae": 0.7545,
+     "val_hop": 0.5075,
+     "secs": 80.5
+    },
+    {
+     "step": 1250,
+     "train_loss": 0.6402,
+     "val_mae": 0.7573,
+     "val_hop": 0.4975,
+     "secs": 100.3
+    },
+    {
+     "step": 1500,
+     "train_loss": 0.6385,
+     "val_mae": 0.7604,
+     "val_hop": 0.5025,
+     "secs": 117.4
+    }
+   ],
+   "val": {
+    "mae": 0.7592,
+    "mae_predict_3": 0.5476,
+    "pearson": 0.2896,
+    "hop_acc": 0.5087,
+    "hop_random": 0.2774,
+    "human_agree": 0.1533,
+    "human_agree_random": 0.0362
+   },
+   "test": {
+    "mae": 0.7921,
+    "mae_predict_3": 0.5509,
+    "pearson": 0.1881,
+    "hop_acc": 0.5353,
+    "hop_random": 0.2878,
+    "human_agree": 0.132,
+    "human_agree_random": 0.0357
+   }
+  }
+ ],
+ "ablations": [
+  {
+   "variant": "full model",
+   "steps": 1500,
+   "secs": 32.8,
+   "val_hop_acc": 0.5613,
+   "val_mae": 0.7318
+  },
+  {
+   "variant": "no char trigrams (whole words only)",
+   "steps": 1500,
+   "secs": 18.9,
+   "val_hop_acc": 0.5633,
+   "val_mae": 0.6973
+  },
+  {
+   "variant": "no whole words (trigrams only)",
+   "steps": 1500,
+   "secs": 29.9,
+   "val_hop_acc": 0.5527,
+   "val_mae": 0.7389
+  },
+  {
+   "variant": "no hand features (embeddings only)",
+   "steps": 1500,
+   "secs": 31.2,
+   "val_hop_acc": 0.5607,
+   "val_mae": 0.7296
+  },
+  {
+   "variant": "hand features only (no embeddings)",
+   "steps": 1500,
+   "secs": 0.7,
+   "val_hop_acc": 0.3153,
+   "val_mae": 0.579
+  }
+ ],
+ "baselines_val_hop_acc": {
+  "random link": 0.2774,
+  "word overlap": 0.2863,
+  "semantic embedding": 0.368
+ },
+ "semantic": {
+  "buckets": 8192,
+  "dim": 24,
+  "bias": -1.4836030006408691,
+  "sizeBytes": 229376,
+  "train_secs": 40.3,
+  "val_hop_acc": 0.368,
+  "test_hop_acc": 0.386
+ },
+ "total_secs": 652.3
+}

@@ -1,0 +1,67 @@
+{
+ "pair": "test-9",
+ "start": "Alcohol",
+ "target": "Cancer",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 3,
+  "unfinished": 1,
+  "median_clicks": 6,
+  "median_pages": 7
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Alcohol",
+  "Ethanol",
+  "Cancer"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1603,
+ "tokensOut": 140,
+ "costUsd": 0.009212,
+ "steps": [
+  {
+   "page": "Alcohol",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Ethanol",
+     "valid": true,
+     "tokensIn": 755,
+     "tokensOut": 90,
+     "ms": 1785
+    }
+   ],
+   "chosen": "Ethanol",
+   "revisit": false
+  },
+  {
+   "page": "Ethanol",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Cancer",
+     "valid": true,
+     "tokensIn": 848,
+     "tokensOut": 50,
+     "ms": 889
+    }
+   ],
+   "chosen": "Cancer",
+   "revisit": false
+  }
+ ]
+}

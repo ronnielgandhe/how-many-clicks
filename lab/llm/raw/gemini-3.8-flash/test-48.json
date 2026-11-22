@@ -1,0 +1,67 @@
+{
+ "pair": "test-48",
+ "start": "Eagle",
+ "target": "Sweden",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 4.0,
+  "median_pages": 5.5
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Eagle",
+  "Germany",
+  "Sweden"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1115,
+ "tokensOut": 51,
+ "costUsd": 0.001027,
+ "steps": [
+  {
+   "page": "Eagle",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 307,
+     "tokensOut": 16,
+     "ms": 1184
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Sweden",
+     "valid": true,
+     "tokensIn": 808,
+     "tokensOut": 35,
+     "ms": 1686
+    }
+   ],
+   "chosen": "Sweden",
+   "revisit": false
+  }
+ ]
+}

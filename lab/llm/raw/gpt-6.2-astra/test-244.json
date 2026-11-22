@@ -1,0 +1,94 @@
+{
+ "pair": "test-244",
+ "start": "Viking",
+ "target": "James Callaghan",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Viking",
+  "Cardiff",
+  "Liberal Democrats",
+  "Tony Blair",
+  "James Callaghan"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1580,
+ "tokensOut": 78,
+ "costUsd": 0.01576,
+ "steps": [
+  {
+   "page": "Viking",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Cardiff",
+     "valid": true,
+     "tokensIn": 429,
+     "tokensOut": 19,
+     "ms": 1492
+    }
+   ],
+   "chosen": "Cardiff",
+   "revisit": false
+  },
+  {
+   "page": "Cardiff",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Liberal Democrats",
+     "valid": true,
+     "tokensIn": 293,
+     "tokensOut": 20,
+     "ms": 1286
+    }
+   ],
+   "chosen": "Liberal Democrats",
+   "revisit": false
+  },
+  {
+   "page": "Liberal Democrats",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Tony Blair",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 19,
+     "ms": 1199
+    }
+   ],
+   "chosen": "Tony Blair",
+   "revisit": false
+  },
+  {
+   "page": "Tony Blair",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "James Callaghan",
+     "valid": true,
+     "tokensIn": 598,
+     "tokensOut": 20,
+     "ms": 1418
+    }
+   ],
+   "chosen": "James Callaghan",
+   "revisit": false
+  }
+ ]
+}

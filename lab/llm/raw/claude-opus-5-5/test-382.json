@@ -1,0 +1,158 @@
+{
+ "pair": "test-382",
+ "start": "Toluene",
+ "target": "Saffron",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Toluene",
+  "Ethanol",
+  "India",
+  "Flag of India",
+  "Hinduism",
+  "Onion",
+  "Plant",
+  "Safflower",
+  "Saffron"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 6414,
+ "tokensOut": 1078,
+ "costUsd": 0.047216,
+ "steps": [
+  {
+   "page": "Toluene",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Ethanol",
+     "valid": true,
+     "tokensIn": 602,
+     "tokensOut": 115,
+     "ms": 2387
+    }
+   ],
+   "chosen": "Ethanol",
+   "revisit": false
+  },
+  {
+   "page": "Ethanol",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 847,
+     "tokensOut": 141,
+     "ms": 2532
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Flag of India",
+     "valid": true,
+     "tokensIn": 1112,
+     "tokensOut": 84,
+     "ms": 1203
+    }
+   ],
+   "chosen": "Flag of India",
+   "revisit": false
+  },
+  {
+   "page": "Flag of India",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Hinduism",
+     "valid": true,
+     "tokensIn": 684,
+     "tokensOut": 99,
+     "ms": 1323
+    }
+   ],
+   "chosen": "Hinduism",
+   "revisit": false
+  },
+  {
+   "page": "Hinduism",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Onion",
+     "valid": true,
+     "tokensIn": 800,
+     "tokensOut": 251,
+     "ms": 3400
+    }
+   ],
+   "chosen": "Onion",
+   "revisit": false
+  },
+  {
+   "page": "Onion",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Plant",
+     "valid": true,
+     "tokensIn": 701,
+     "tokensOut": 241,
+     "ms": 2712
+    }
+   ],
+   "chosen": "Plant",
+   "revisit": false
+  },
+  {
+   "page": "Plant",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Safflower",
+     "valid": true,
+     "tokensIn": 1017,
+     "tokensOut": 97,
+     "ms": 1310
+    }
+   ],
+   "chosen": "Safflower",
+   "revisit": false
+  },
+  {
+   "page": "Safflower",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Saffron",
+     "valid": true,
+     "tokensIn": 651,
+     "tokensOut": 50,
+     "ms": 1547
+    }
+   ],
+   "chosen": "Saffron",
+   "revisit": false
+  }
+ ]
+}

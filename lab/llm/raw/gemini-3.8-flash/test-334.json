@@ -1,0 +1,115 @@
+{
+ "pair": "test-334",
+ "start": "Great Lakes Storm of 1913",
+ "target": "Magellanic Penguin",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Great Lakes Storm of 1913",
+  "North America",
+  "South America",
+  "Falkland Islands",
+  "Penguin",
+  "Magellanic Penguin"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1995,
+ "tokensOut": 370,
+ "costUsd": 0.002884,
+ "steps": [
+  {
+   "page": "Great Lakes Storm of 1913",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 139,
+     "ms": 2469
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "South America",
+     "valid": true,
+     "tokensIn": 486,
+     "tokensOut": 61,
+     "ms": 2058
+    }
+   ],
+   "chosen": "South America",
+   "revisit": false
+  },
+  {
+   "page": "South America",
+   "offered": 99,
+   "attempts": [
+    {
+     "raw": "Falkland Islands",
+     "valid": true,
+     "tokensIn": 554,
+     "tokensOut": 61,
+     "ms": 2365
+    }
+   ],
+   "chosen": "Falkland Islands",
+   "revisit": false
+  },
+  {
+   "page": "Falkland Islands",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Penguin",
+     "valid": true,
+     "tokensIn": 372,
+     "tokensOut": 58,
+     "ms": 2001
+    }
+   ],
+   "chosen": "Penguin",
+   "revisit": false
+  },
+  {
+   "page": "Penguin",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Magellanic Penguin",
+     "valid": true,
+     "tokensIn": 306,
+     "tokensOut": 51,
+     "ms": 2620
+    }
+   ],
+   "chosen": "Magellanic Penguin",
+   "revisit": false
+  }
+ ]
+}

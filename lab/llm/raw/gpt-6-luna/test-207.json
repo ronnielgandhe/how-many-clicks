@@ -1,0 +1,115 @@
+{
+ "pair": "test-207",
+ "start": "HIV",
+ "target": "Permian",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 1,
+  "median_clicks": 4.5,
+  "median_pages": 5.5
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "HIV",
+  "DNA",
+  "Evolution",
+  "Geology",
+  "History of Earth",
+  "Permian"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1871,
+ "tokensOut": 94,
+ "costUsd": 0.000234,
+ "steps": [
+  {
+   "page": "HIV",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "DNA",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 18,
+     "ms": 833
+    }
+   ],
+   "chosen": "DNA",
+   "revisit": false
+  },
+  {
+   "page": "DNA",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Evolution",
+     "valid": true,
+     "tokensIn": 295,
+     "tokensOut": 18,
+     "ms": 841
+    }
+   ],
+   "chosen": "Evolution",
+   "revisit": false
+  },
+  {
+   "page": "Evolution",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Geology",
+     "valid": true,
+     "tokensIn": 478,
+     "tokensOut": 19,
+     "ms": 1148
+    }
+   ],
+   "chosen": "Geology",
+   "revisit": false
+  },
+  {
+   "page": "Geology",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "History of Earth",
+     "valid": true,
+     "tokensIn": 306,
+     "tokensOut": 20,
+     "ms": 1327
+    }
+   ],
+   "chosen": "History of Earth",
+   "revisit": false
+  },
+  {
+   "page": "History of Earth",
+   "offered": 97,
+   "attempts": [
+    {
+     "raw": "Permian",
+     "valid": true,
+     "tokensIn": 560,
+     "tokensOut": 19,
+     "ms": 1086
+    }
+   ],
+   "chosen": "Permian",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "pair": "test-253",
+ "start": "Milan",
+ "target": "Common cold",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Milan",
+  "Black Death",
+  "Medicine",
+  "Health",
+  "Scurvy",
+  "Vitamin C",
+  "Common cold"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2034,
+ "tokensOut": 231,
+ "costUsd": 0.006378,
+ "steps": [
+  {
+   "page": "Milan",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Black Death",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 33,
+     "ms": 7026
+    }
+   ],
+   "chosen": "Black Death",
+   "revisit": false
+  },
+  {
+   "page": "Black Death",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 427,
+     "tokensOut": 22,
+     "ms": 3741
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Health",
+     "valid": true,
+     "tokensIn": 363,
+     "tokensOut": 22,
+     "ms": 4039
+    }
+   ],
+   "chosen": "Health",
+   "revisit": false
+  },
+  {
+   "page": "Health",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Scurvy",
+     "valid": true,
+     "tokensIn": 264,
+     "tokensOut": 79,
+     "ms": 5263
+    }
+   ],
+   "chosen": "Scurvy",
+   "revisit": false
+  },
+  {
+   "page": "Scurvy",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Vitamin C",
+     "valid": true,
+     "tokensIn": 311,
+     "tokensOut": 52,
+     "ms": 32005
+    }
+   ],
+   "chosen": "Vitamin C",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin C",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Common cold",
+     "valid": true,
+     "tokensIn": 337,
+     "tokensOut": 23,
+     "ms": 3479
+    }
+   ],
+   "chosen": "Common cold",
+   "revisit": false
+  }
+ ]
+}

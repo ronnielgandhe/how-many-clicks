@@ -1,0 +1,190 @@
+{
+ "pair": "test-445",
+ "start": "Edward the Confessor",
+ "target": "Coconut oil",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Edward the Confessor",
+  "England",
+  "United Kingdom",
+  "India",
+  "Kerala",
+  "Black pepper",
+  "India",
+  "Kerala",
+  "Kochi (India)",
+  "Coconut",
+  "Coconut oil"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 10,
+ "tokensIn": 4760,
+ "tokensOut": 167,
+ "costUsd": 0.001846,
+ "steps": [
+  {
+   "page": "Edward the Confessor",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 16,
+     "ms": 775
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 894,
+     "tokensOut": 17,
+     "ms": 697
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 920,
+     "tokensOut": 16,
+     "ms": 931
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Kerala",
+     "valid": true,
+     "tokensIn": 494,
+     "tokensOut": 16,
+     "ms": 731
+    }
+   ],
+   "chosen": "Kerala",
+   "revisit": false
+  },
+  {
+   "page": "Kerala",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Black pepper",
+     "valid": true,
+     "tokensIn": 328,
+     "tokensOut": 17,
+     "ms": 792
+    }
+   ],
+   "chosen": "Black pepper",
+   "revisit": false
+  },
+  {
+   "page": "Black pepper",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 352,
+     "tokensOut": 16,
+     "ms": 633
+    }
+   ],
+   "chosen": "India",
+   "revisit": true
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Kerala",
+     "valid": true,
+     "tokensIn": 501,
+     "tokensOut": 16,
+     "ms": 491
+    }
+   ],
+   "chosen": "Kerala",
+   "revisit": true
+  },
+  {
+   "page": "Kerala",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Kochi (India)",
+     "valid": true,
+     "tokensIn": 335,
+     "tokensOut": 20,
+     "ms": 665
+    }
+   ],
+   "chosen": "Kochi (India)",
+   "revisit": false
+  },
+  {
+   "page": "Kochi (India)",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Coconut",
+     "valid": true,
+     "tokensIn": 353,
+     "tokensOut": 16,
+     "ms": 738
+    }
+   ],
+   "chosen": "Coconut",
+   "revisit": false
+  },
+  {
+   "page": "Coconut",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Coconut oil",
+     "valid": true,
+     "tokensIn": 322,
+     "tokensOut": 17,
+     "ms": 682
+    }
+   ],
+   "chosen": "Coconut oil",
+   "revisit": false
+  }
+ ]
+}

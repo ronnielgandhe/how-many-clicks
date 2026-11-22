@@ -1,0 +1,94 @@
+{
+ "pair": "test-299",
+ "start": "Egg (food)",
+ "target": "Antwerp",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Egg (food)",
+  "United Kingdom",
+  "European Union",
+  "Belgium",
+  "Antwerp"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2284,
+ "tokensOut": 76,
+ "costUsd": 0.005328,
+ "steps": [
+  {
+   "page": "Egg (food)",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 19,
+     "ms": 1238
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "European Union",
+     "valid": true,
+     "tokensIn": 921,
+     "tokensOut": 19,
+     "ms": 1190
+    }
+   ],
+   "chosen": "European Union",
+   "revisit": false
+  },
+  {
+   "page": "European Union",
+   "offered": 133,
+   "attempts": [
+    {
+     "raw": "Belgium",
+     "valid": true,
+     "tokensIn": 667,
+     "tokensOut": 19,
+     "ms": 979
+    }
+   ],
+   "chosen": "Belgium",
+   "revisit": false
+  },
+  {
+   "page": "Belgium",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Antwerp",
+     "valid": true,
+     "tokensIn": 435,
+     "tokensOut": 19,
+     "ms": 1005
+    }
+   ],
+   "chosen": "Antwerp",
+   "revisit": false
+  }
+ ]
+}

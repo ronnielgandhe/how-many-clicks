@@ -1,0 +1,94 @@
+{
+ "pair": "test-238",
+ "start": "Benjamin Harrison",
+ "target": "Mount Everest",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Benjamin Harrison",
+  "United Kingdom",
+  "India",
+  "Himalayas",
+  "Mount Everest"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2014,
+ "tokensOut": 284,
+ "costUsd": 0.002576,
+ "steps": [
+  {
+   "page": "Benjamin Harrison",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 263,
+     "tokensOut": 53,
+     "ms": 2337
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 916,
+     "tokensOut": 77,
+     "ms": 2107
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Himalayas",
+     "valid": true,
+     "tokensIn": 490,
+     "tokensOut": 103,
+     "ms": 3341
+    }
+   ],
+   "chosen": "Himalayas",
+   "revisit": false
+  },
+  {
+   "page": "Himalayas",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Mount Everest",
+     "valid": true,
+     "tokensIn": 345,
+     "tokensOut": 51,
+     "ms": 2504
+    }
+   ],
+   "chosen": "Mount Everest",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "pair": "test-435",
+ "start": "Inner Hebrides",
+ "target": "Dam",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Inner Hebrides",
+  "Scotland",
+  "Agriculture",
+  "Irrigation",
+  "Canal",
+  "River",
+  "Columbia River",
+  "Missouri River",
+  "Dam"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 2882,
+ "tokensOut": 153,
+ "costUsd": 0.029176,
+ "steps": [
+  {
+   "page": "Inner Hebrides",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 208,
+     "tokensOut": 19,
+     "ms": 1555
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 640,
+     "tokensOut": 19,
+     "ms": 1583
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  },
+  {
+   "page": "Agriculture",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Irrigation",
+     "valid": true,
+     "tokensIn": 393,
+     "tokensOut": 20,
+     "ms": 1673
+    }
+   ],
+   "chosen": "Irrigation",
+   "revisit": false
+  },
+  {
+   "page": "Irrigation",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Canal",
+     "valid": true,
+     "tokensIn": 259,
+     "tokensOut": 19,
+     "ms": 1516
+    }
+   ],
+   "chosen": "Canal",
+   "revisit": false
+  },
+  {
+   "page": "Canal",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "River",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 18,
+     "ms": 1426
+    }
+   ],
+   "chosen": "River",
+   "revisit": false
+  },
+  {
+   "page": "River",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Columbia River",
+     "valid": true,
+     "tokensIn": 546,
+     "tokensOut": 20,
+     "ms": 1725
+    }
+   ],
+   "chosen": "Columbia River",
+   "revisit": false
+  },
+  {
+   "page": "Columbia River",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Missouri River",
+     "valid": true,
+     "tokensIn": 271,
+     "tokensOut": 20,
+     "ms": 1403
+    }
+   ],
+   "chosen": "Missouri River",
+   "revisit": false
+  },
+  {
+   "page": "Missouri River",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Dam",
+     "valid": true,
+     "tokensIn": 288,
+     "tokensOut": 18,
+     "ms": 1369
+    }
+   ],
+   "chosen": "Dam",
+   "revisit": false
+  }
+ ]
+}

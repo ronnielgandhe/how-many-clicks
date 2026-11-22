@@ -1,0 +1,275 @@
+{
+ "pair": "test-312",
+ "start": "Number",
+ "target": "Retinol",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 9
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Number",
+  "Aristotle",
+  "Biology",
+  "Medicine",
+  "Eye",
+  "Retina",
+  "Eye",
+  "Cornea",
+  "Eye",
+  "Retina",
+  "Color blindness",
+  "Human",
+  "Pigment",
+  "Food",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 4918,
+ "tokensOut": 279,
+ "costUsd": 0.012626,
+ "steps": [
+  {
+   "page": "Number",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Aristotle",
+     "valid": true,
+     "tokensIn": 350,
+     "tokensOut": 20,
+     "ms": 1209
+    }
+   ],
+   "chosen": "Aristotle",
+   "revisit": false
+  },
+  {
+   "page": "Aristotle",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Biology",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 19,
+     "ms": 917
+    }
+   ],
+   "chosen": "Biology",
+   "revisit": false
+  },
+  {
+   "page": "Biology",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Medicine",
+     "valid": true,
+     "tokensIn": 382,
+     "tokensOut": 18,
+     "ms": 1079
+    }
+   ],
+   "chosen": "Medicine",
+   "revisit": false
+  },
+  {
+   "page": "Medicine",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 336,
+     "tokensOut": 18,
+     "ms": 1147
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 312,
+     "tokensOut": 19,
+     "ms": 1395
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 226,
+     "tokensOut": 18,
+     "ms": 1046
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": true
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Cornea",
+     "valid": true,
+     "tokensIn": 316,
+     "tokensOut": 19,
+     "ms": 997
+    }
+   ],
+   "chosen": "Cornea",
+   "revisit": false
+  },
+  {
+   "page": "Cornea",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 222,
+     "tokensOut": 18,
+     "ms": 1003
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": true
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 321,
+     "tokensOut": 19,
+     "ms": 978
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": true
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Color blindness",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 19,
+     "ms": 1187
+    }
+   ],
+   "chosen": "Color blindness",
+   "revisit": false
+  },
+  {
+   "page": "Color blindness",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 249,
+     "tokensOut": 18,
+     "ms": 959
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Pigment",
+     "valid": true,
+     "tokensIn": 689,
+     "tokensOut": 19,
+     "ms": 1065
+    }
+   ],
+   "chosen": "Pigment",
+   "revisit": false
+  },
+  {
+   "page": "Pigment",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Food",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 18,
+     "ms": 987
+    }
+   ],
+   "chosen": "Food",
+   "revisit": false
+  },
+  {
+   "page": "Food",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 353,
+     "tokensOut": 18,
+     "ms": 918
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 317,
+     "tokensOut": 19,
+     "ms": 996
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

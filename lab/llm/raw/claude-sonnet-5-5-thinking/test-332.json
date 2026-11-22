@@ -1,0 +1,99 @@
+{
+ "pair": "test-332",
+ "start": "Abhidhamma Pitaka",
+ "target": "Zulu",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 9.0,
+  "median_pages": 11.0
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Abhidhamma Pitaka",
+  "Buddhism",
+  "Europe",
+  "Africa",
+  "Zulu"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 5134,
+ "tokensOut": 795,
+ "costUsd": 0.018218,
+ "steps": [
+  {
+   "page": "Abhidhamma Pitaka",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Buddhism",
+     "valid": true,
+     "tokensIn": 588,
+     "tokensOut": 251,
+     "ms": 4067
+    }
+   ],
+   "chosen": "Buddhism",
+   "revisit": false
+  },
+  {
+   "page": "Buddhism",
+   "offered": 50,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 899,
+     "tokensOut": 370,
+     "ms": 3423
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 1617,
+     "tokensOut": 124,
+     "ms": 1984
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Zulu",
+     "valid": true,
+     "tokensIn": 2030,
+     "tokensOut": 50,
+     "ms": 1498
+    }
+   ],
+   "chosen": "Zulu",
+   "revisit": false
+  }
+ ]
+}

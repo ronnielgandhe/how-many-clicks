@@ -1,0 +1,270 @@
+{
+ "pair": "test-418",
+ "start": "The Lorax",
+ "target": "Hovercraft",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Lorax",
+  "Dr. Seuss",
+  "World War II",
+  "Vietnam",
+  "Mekong",
+  "Vietnam War",
+  "United States",
+  "United Kingdom",
+  "Royal Navy",
+  "Royal Marines",
+  "Royal Navy",
+  "Persian Gulf",
+  "United Kingdom",
+  "Royal Navy",
+  "Portsmouth",
+  "Hovercraft"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 17772,
+ "tokensOut": 5914,
+ "costUsd": 0.004734,
+ "steps": [
+  {
+   "page": "The Lorax",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Dr. Seuss",
+     "valid": true,
+     "tokensIn": 592,
+     "tokensOut": 409,
+     "ms": 2280
+    }
+   ],
+   "chosen": "Dr. Seuss",
+   "revisit": false
+  },
+  {
+   "page": "Dr. Seuss",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 670,
+     "tokensOut": 447,
+     "ms": 2461
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "Vietnam",
+     "valid": true,
+     "tokensIn": 1435,
+     "tokensOut": 463,
+     "ms": 2485
+    }
+   ],
+   "chosen": "Vietnam",
+   "revisit": false
+  },
+  {
+   "page": "Vietnam",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Mekong",
+     "valid": true,
+     "tokensIn": 897,
+     "tokensOut": 196,
+     "ms": 1261
+    }
+   ],
+   "chosen": "Mekong",
+   "revisit": false
+  },
+  {
+   "page": "Mekong",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Vietnam War",
+     "valid": true,
+     "tokensIn": 699,
+     "tokensOut": 209,
+     "ms": 1368
+    }
+   ],
+   "chosen": "Vietnam War",
+   "revisit": false
+  },
+  {
+   "page": "Vietnam War",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 805,
+     "tokensOut": 293,
+     "ms": 1855
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 2811,
+     "tokensOut": 610,
+     "ms": 3671
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Royal Navy",
+     "valid": true,
+     "tokensIn": 1907,
+     "tokensOut": 362,
+     "ms": 2300
+    }
+   ],
+   "chosen": "Royal Navy",
+   "revisit": false
+  },
+  {
+   "page": "Royal Navy",
+   "offered": 64,
+   "attempts": [
+    {
+     "raw": "Royal Marines",
+     "valid": true,
+     "tokensIn": 1123,
+     "tokensOut": 283,
+     "ms": 1770
+    }
+   ],
+   "chosen": "Royal Marines",
+   "revisit": false
+  },
+  {
+   "page": "Royal Marines",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Royal Navy",
+     "valid": true,
+     "tokensIn": 917,
+     "tokensOut": 426,
+     "ms": 2200
+    }
+   ],
+   "chosen": "Royal Navy",
+   "revisit": true
+  },
+  {
+   "page": "Royal Navy",
+   "offered": 64,
+   "attempts": [
+    {
+     "raw": "Persian Gulf",
+     "valid": true,
+     "tokensIn": 1137,
+     "tokensOut": 706,
+     "ms": 3639
+    }
+   ],
+   "chosen": "Persian Gulf",
+   "revisit": false
+  },
+  {
+   "page": "Persian Gulf",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 721,
+     "tokensOut": 442,
+     "ms": 2505
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Royal Navy",
+     "valid": true,
+     "tokensIn": 1943,
+     "tokensOut": 522,
+     "ms": 2968
+    }
+   ],
+   "chosen": "Royal Navy",
+   "revisit": true
+  },
+  {
+   "page": "Royal Navy",
+   "offered": 64,
+   "attempts": [
+    {
+     "raw": "Portsmouth",
+     "valid": true,
+     "tokensIn": 1159,
+     "tokensOut": 494,
+     "ms": 2580
+    }
+   ],
+   "chosen": "Portsmouth",
+   "revisit": false
+  },
+  {
+   "page": "Portsmouth",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hovercraft",
+     "valid": true,
+     "tokensIn": 956,
+     "tokensOut": 52,
+     "ms": 608
+    }
+   ],
+   "chosen": "Hovercraft",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Zara Yaqob",
+  "India",
+  "United Kingdom",
+  "World War II",
+  "United States",
+  "Amtrak",
+  "Train",
+  "Rail transport",
+  "Amtrak",
+  "Super Chief",
+  "Train",
+  "Rail transport",
+  "Train",
+  "Super Chief",
+  "Train",
+  "Refrigerator car"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 6,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 16494,
+ "tokensOut": 3487,
+ "costUsd": 0.067858,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 578,
+     "tokensOut": 176,
+     "ms": 2578
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 1113,
+     "tokensOut": 172,
+     "ms": 2830
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "World War II",
+     "valid": true,
+     "tokensIn": 1879,
+     "tokensOut": 165,
+     "ms": 1899
+    }
+   ],
+   "chosen": "World War II",
+   "revisit": false
+  },
+  {
+   "page": "World War II",
+   "offered": 119,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1439,
+     "tokensOut": 322,
+     "ms": 3950
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 2797,
+     "tokensOut": 163,
+     "ms": 2567
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": false
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 960,
+     "tokensOut": 186,
+     "ms": 2263
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 856,
+     "tokensOut": 190,
+     "ms": 1510
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Amtrak",
+     "valid": true,
+     "tokensIn": 856,
+     "tokensOut": 226,
+     "ms": 2710
+    }
+   ],
+   "chosen": "Amtrak",
+   "revisit": true
+  },
+  {
+   "page": "Amtrak",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Super Chief",
+     "valid": true,
+     "tokensIn": 975,
+     "tokensOut": 268,
+     "ms": 2614
+    }
+   ],
+   "chosen": "Super Chief",
+   "revisit": false
+  },
+  {
+   "page": "Super Chief",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 744,
+     "tokensOut": 211,
+     "ms": 2289
+    }
+   ],
+   "chosen": "Train",
+   "revisit": true
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 877,
+     "tokensOut": 214,
+     "ms": 2171
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": true
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 877,
+     "tokensOut": 263,
+     "ms": 2573
+    }
+   ],
+   "chosen": "Train",
+   "revisit": true
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Super Chief",
+     "valid": true,
+     "tokensIn": 886,
+     "tokensOut": 326,
+     "ms": 3014
+    }
+   ],
+   "chosen": "Super Chief",
+   "revisit": true
+  },
+  {
+   "page": "Super Chief",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 762,
+     "tokensOut": 336,
+     "ms": 2964
+    }
+   ],
+   "chosen": "Train",
+   "revisit": true
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Refrigerator car",
+     "valid": true,
+     "tokensIn": 895,
+     "tokensOut": 269,
+     "ms": 3302
+    }
+   ],
+   "chosen": "Refrigerator car",
+   "revisit": false
+  }
+ ]
+}

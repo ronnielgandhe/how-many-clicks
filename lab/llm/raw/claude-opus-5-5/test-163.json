@@ -1,0 +1,99 @@
+{
+ "pair": "test-163",
+ "start": "EMD F7",
+ "target": "Michigan State University",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "EMD F7",
+  "North America",
+  "United States",
+  "Detroit, Michigan",
+  "Michigan State University"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 5425,
+ "tokensOut": 203,
+ "costUsd": 0.02576,
+ "steps": [
+  {
+   "page": "EMD F7",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 559,
+     "tokensOut": 48,
+     "ms": 2383
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1109,
+     "tokensOut": 48,
+     "ms": 1003
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Detroit, Michigan",
+     "valid": true,
+     "tokensIn": 2784,
+     "tokensOut": 55,
+     "ms": 1796
+    }
+   ],
+   "chosen": "Detroit, Michigan",
+   "revisit": false
+  },
+  {
+   "page": "Detroit, Michigan",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Michigan State University",
+     "valid": true,
+     "tokensIn": 973,
+     "tokensOut": 52,
+     "ms": 1405
+    }
+   ],
+   "chosen": "Michigan State University",
+   "revisit": false
+  }
+ ]
+}

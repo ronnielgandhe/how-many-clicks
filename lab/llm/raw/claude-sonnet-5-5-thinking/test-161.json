@@ -1,0 +1,147 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "France",
+  "Middle Ages",
+  "Abbot",
+  "Egypt",
+  "Cereal",
+  "Seed",
+  "Pea"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 6009,
+ "tokensOut": 2645,
+ "costUsd": 0.038468,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 632,
+     "tokensOut": 394,
+     "ms": 3959
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 1104,
+     "tokensOut": 733,
+     "ms": 5709
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Abbot",
+     "valid": true,
+     "tokensIn": 1023,
+     "tokensOut": 429,
+     "ms": 3877
+    }
+   ],
+   "chosen": "Abbot",
+   "revisit": false
+  },
+  {
+   "page": "Abbot",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Egypt",
+     "valid": true,
+     "tokensIn": 692,
+     "tokensOut": 517,
+     "ms": 4655
+    }
+   ],
+   "chosen": "Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Egypt",
+   "offered": 70,
+   "attempts": [
+    {
+     "raw": "Cereal",
+     "valid": true,
+     "tokensIn": 1053,
+     "tokensOut": 343,
+     "ms": 3359
+    }
+   ],
+   "chosen": "Cereal",
+   "revisit": false
+  },
+  {
+   "page": "Cereal",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Seed",
+     "valid": true,
+     "tokensIn": 767,
+     "tokensOut": 180,
+     "ms": 2206
+    }
+   ],
+   "chosen": "Seed",
+   "revisit": false
+  },
+  {
+   "page": "Seed",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 738,
+     "tokensOut": 49,
+     "ms": 1615
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

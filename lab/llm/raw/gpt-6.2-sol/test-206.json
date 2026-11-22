@@ -1,0 +1,163 @@
+{
+ "pair": "test-206",
+ "start": "Charles Sumner",
+ "target": "Hippopotamus",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 6,
+  "median_pages": 7
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Charles Sumner",
+  "Bible",
+  "Ancient Egypt",
+  "Nile",
+  "Africa",
+  "Elephant",
+  "Bottlenose Dolphin",
+  "Mammal",
+  "Hippopotamus"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 3328,
+ "tokensOut": 157,
+ "costUsd": 0.008226,
+ "steps": [
+  {
+   "page": "Charles Sumner",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Bible",
+     "valid": true,
+     "tokensIn": 241,
+     "tokensOut": 18,
+     "ms": 953
+    }
+   ],
+   "chosen": "Bible",
+   "revisit": false
+  },
+  {
+   "page": "Bible",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Ancient Egypt",
+     "valid": true,
+     "tokensIn": 266,
+     "tokensOut": 20,
+     "ms": 1017
+    }
+   ],
+   "chosen": "Ancient Egypt",
+   "revisit": false
+  },
+  {
+   "page": "Ancient Egypt",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Nile",
+     "valid": true,
+     "tokensIn": 440,
+     "tokensOut": 19,
+     "ms": 1423
+    }
+   ],
+   "chosen": "Nile",
+   "revisit": false
+  },
+  {
+   "page": "Nile",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 307,
+     "tokensOut": 18,
+     "ms": 1052
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Elephant",
+     "valid": true,
+     "tokensIn": 1040,
+     "tokensOut": 19,
+     "ms": 1111
+    }
+   ],
+   "chosen": "Elephant",
+   "revisit": false
+  },
+  {
+   "page": "Elephant",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Bottlenose Dolphin",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 22,
+     "ms": 1143
+    }
+   ],
+   "chosen": "Bottlenose Dolphin",
+   "revisit": false
+  },
+  {
+   "page": "Bottlenose Dolphin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 315,
+     "tokensOut": 20,
+     "ms": 972
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hippopotamus",
+     "valid": true,
+     "tokensIn": 375,
+     "tokensOut": 21,
+     "ms": 1004
+    }
+   ],
+   "chosen": "Hippopotamus",
+   "revisit": false
+  }
+ ]
+}

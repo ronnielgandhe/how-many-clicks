@@ -1,0 +1,62 @@
+{
+ "pair": "test-135",
+ "start": "Barnacle",
+ "target": "Berlin Wall",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Barnacle",
+  "Europe",
+  "Berlin Wall"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 942,
+ "tokensOut": 33,
+ "costUsd": 0.000365,
+ "steps": [
+  {
+   "page": "Barnacle",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 218,
+     "tokensOut": 16,
+     "ms": 692
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Berlin Wall",
+     "valid": true,
+     "tokensIn": 724,
+     "tokensOut": 17,
+     "ms": 770
+    }
+   ],
+   "chosen": "Berlin Wall",
+   "revisit": false
+  }
+ ]
+}

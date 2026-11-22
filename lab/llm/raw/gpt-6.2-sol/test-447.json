@@ -1,0 +1,270 @@
+{
+ "pair": "test-447",
+ "start": "Manorialism",
+ "target": "Lost (TV series)",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Manorialism",
+  "France",
+  "United States",
+  "Television",
+  "Broadcasting",
+  "Television",
+  "DVD",
+  "Sony",
+  "Television",
+  "BBC",
+  "Doctor Who",
+  "The Simpsons",
+  "Seinfeld",
+  "Television",
+  "Broadcasting",
+  "Television"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 5578,
+ "tokensOut": 281,
+ "costUsd": 0.013966,
+ "steps": [
+  {
+   "page": "Manorialism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 18,
+     "ms": 884
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 510,
+     "tokensOut": 19,
+     "ms": 1046
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 1448,
+     "tokensOut": 19,
+     "ms": 1029
+    }
+   ],
+   "chosen": "Television",
+   "revisit": false
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 19,
+     "ms": 1178
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": false
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 252,
+     "tokensOut": 19,
+     "ms": 1046
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "DVD",
+     "valid": true,
+     "tokensIn": 264,
+     "tokensOut": 18,
+     "ms": 1221
+    }
+   ],
+   "chosen": "DVD",
+   "revisit": false
+  },
+  {
+   "page": "DVD",
+   "offered": 4,
+   "attempts": [
+    {
+     "raw": "Sony",
+     "valid": true,
+     "tokensIn": 209,
+     "tokensOut": 18,
+     "ms": 1299
+    }
+   ],
+   "chosen": "Sony",
+   "revisit": false
+  },
+  {
+   "page": "Sony",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 274,
+     "tokensOut": 19,
+     "ms": 999
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "BBC",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 18,
+     "ms": 1230
+    }
+   ],
+   "chosen": "BBC",
+   "revisit": false
+  },
+  {
+   "page": "BBC",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Doctor Who",
+     "valid": true,
+     "tokensIn": 361,
+     "tokensOut": 19,
+     "ms": 1514
+    }
+   ],
+   "chosen": "Doctor Who",
+   "revisit": false
+  },
+  {
+   "page": "Doctor Who",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "The Simpsons",
+     "valid": true,
+     "tokensIn": 376,
+     "tokensOut": 19,
+     "ms": 1768
+    }
+   ],
+   "chosen": "The Simpsons",
+   "revisit": false
+  },
+  {
+   "page": "The Simpsons",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Seinfeld",
+     "valid": true,
+     "tokensIn": 333,
+     "tokensOut": 19,
+     "ms": 1194
+    }
+   ],
+   "chosen": "Seinfeld",
+   "revisit": false
+  },
+  {
+   "page": "Seinfeld",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 19,
+     "ms": 1495
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  },
+  {
+   "page": "Television",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Broadcasting",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 19,
+     "ms": 911
+    }
+   ],
+   "chosen": "Broadcasting",
+   "revisit": true
+  },
+  {
+   "page": "Broadcasting",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Television",
+     "valid": true,
+     "tokensIn": 275,
+     "tokensOut": 19,
+     "ms": 1049
+    }
+   ],
+   "chosen": "Television",
+   "revisit": true
+  }
+ ]
+}

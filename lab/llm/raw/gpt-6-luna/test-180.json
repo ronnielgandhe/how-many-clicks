@@ -1,0 +1,99 @@
+{
+ "pair": "test-180",
+ "start": "Working poor",
+ "target": "Fresh water",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 3.5,
+  "median_pages": 4.5
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Working poor",
+  "United States",
+  "Agriculture",
+  "River",
+  "Fresh water"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2528,
+ "tokensOut": 75,
+ "costUsd": 0.00029,
+ "steps": [
+  {
+   "page": "Working poor",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 179,
+     "tokensOut": 19,
+     "ms": 809
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 1433,
+     "tokensOut": 19,
+     "ms": 839
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  },
+  {
+   "page": "Agriculture",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "River",
+     "valid": true,
+     "tokensIn": 384,
+     "tokensOut": 18,
+     "ms": 1080
+    }
+   ],
+   "chosen": "River",
+   "revisit": false
+  },
+  {
+   "page": "River",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Fresh water",
+     "valid": true,
+     "tokensIn": 532,
+     "tokensOut": 19,
+     "ms": 930
+    }
+   ],
+   "chosen": "Fresh water",
+   "revisit": false
+  }
+ ]
+}

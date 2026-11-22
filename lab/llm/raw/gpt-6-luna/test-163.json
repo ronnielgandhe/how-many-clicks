@@ -1,0 +1,99 @@
+{
+ "pair": "test-163",
+ "start": "EMD F7",
+ "target": "Michigan State University",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "EMD F7",
+  "Canada",
+  "United States",
+  "Detroit, Michigan",
+  "Michigan State University"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2487,
+ "tokensOut": 77,
+ "costUsd": 0.000287,
+ "steps": [
+  {
+   "page": "EMD F7",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 187,
+     "tokensOut": 18,
+     "ms": 773
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 437,
+     "tokensOut": 19,
+     "ms": 826
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Detroit, Michigan",
+     "valid": true,
+     "tokensIn": 1438,
+     "tokensOut": 20,
+     "ms": 954
+    }
+   ],
+   "chosen": "Detroit, Michigan",
+   "revisit": false
+  },
+  {
+   "page": "Detroit, Michigan",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Michigan State University",
+     "valid": true,
+     "tokensIn": 425,
+     "tokensOut": 20,
+     "ms": 820
+    }
+   ],
+   "chosen": "Michigan State University",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "pair": "test-175",
+ "start": "Retinol",
+ "target": "Islamic republic",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Retinol",
+  "World Health Organization",
+  "Sudan",
+  "List of countries by system of government",
+  "Iran",
+  "Islamic republic"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 6258,
+ "tokensOut": 1060,
+ "costUsd": 0.001156,
+ "steps": [
+  {
+   "page": "Retinol",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "World Health Organization",
+     "valid": true,
+     "tokensIn": 640,
+     "tokensOut": 300,
+     "ms": 1995
+    }
+   ],
+   "chosen": "World Health Organization",
+   "revisit": false
+  },
+  {
+   "page": "World Health Organization",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "Sudan",
+     "valid": true,
+     "tokensIn": 837,
+     "tokensOut": 301,
+     "ms": 1773
+    }
+   ],
+   "chosen": "Sudan",
+   "revisit": false
+  },
+  {
+   "page": "Sudan",
+   "offered": 132,
+   "attempts": [
+    {
+     "raw": "List of countries by system of government",
+     "valid": true,
+     "tokensIn": 1501,
+     "tokensOut": 324,
+     "ms": 1692
+    }
+   ],
+   "chosen": "List of countries by system of government",
+   "revisit": false
+  },
+  {
+   "page": "List of countries by system of government",
+   "offered": 207,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 2017,
+     "tokensOut": 83,
+     "ms": 646
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Islamic republic",
+     "valid": true,
+     "tokensIn": 1263,
+     "tokensOut": 52,
+     "ms": 751
+    }
+   ],
+   "chosen": "Islamic republic",
+   "revisit": false
+  }
+ ]
+}

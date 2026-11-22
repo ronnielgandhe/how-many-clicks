@@ -1,0 +1,158 @@
+{
+ "pair": "test-265",
+ "start": "Fundamental Rights in India",
+ "target": "Demand Note",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fundamental Rights in India",
+  "United States Bill of Rights",
+  "Alexander Hamilton",
+  "American Civil War",
+  "Abraham Lincoln",
+  "American Civil War",
+  "United States",
+  "United States dollar",
+  "Demand Note"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 3670,
+ "tokensOut": 969,
+ "costUsd": 0.006386,
+ "steps": [
+  {
+   "page": "Fundamental Rights in India",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United States Bill of Rights",
+     "valid": true,
+     "tokensIn": 257,
+     "tokensOut": 104,
+     "ms": 4183
+    }
+   ],
+   "chosen": "United States Bill of Rights",
+   "revisit": false
+  },
+  {
+   "page": "United States Bill of Rights",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Alexander Hamilton",
+     "valid": true,
+     "tokensIn": 280,
+     "tokensOut": 269,
+     "ms": 4732
+    }
+   ],
+   "chosen": "Alexander Hamilton",
+   "revisit": false
+  },
+  {
+   "page": "Alexander Hamilton",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "American Civil War",
+     "valid": true,
+     "tokensIn": 282,
+     "tokensOut": 107,
+     "ms": 2463
+    }
+   ],
+   "chosen": "American Civil War",
+   "revisit": false
+  },
+  {
+   "page": "American Civil War",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Abraham Lincoln",
+     "valid": true,
+     "tokensIn": 341,
+     "tokensOut": 128,
+     "ms": 3552
+    }
+   ],
+   "chosen": "Abraham Lincoln",
+   "revisit": false
+  },
+  {
+   "page": "Abraham Lincoln",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "American Civil War",
+     "valid": true,
+     "tokensIn": 354,
+     "tokensOut": 177,
+     "ms": 3415
+    }
+   ],
+   "chosen": "American Civil War",
+   "revisit": true
+  },
+  {
+   "page": "American Civil War",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 348,
+     "tokensOut": 149,
+     "ms": 5898
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "United States dollar",
+     "valid": true,
+     "tokensIn": 1433,
+     "tokensOut": 18,
+     "ms": 1858
+    }
+   ],
+   "chosen": "United States dollar",
+   "revisit": false
+  },
+  {
+   "page": "United States dollar",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Demand Note",
+     "valid": true,
+     "tokensIn": 375,
+     "tokensOut": 17,
+     "ms": 1912
+    }
+   ],
+   "chosen": "Demand Note",
+   "revisit": false
+  }
+ ]
+}

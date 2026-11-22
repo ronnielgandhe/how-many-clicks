@@ -1,0 +1,99 @@
+{
+ "pair": "test-8",
+ "start": "Tehran",
+ "target": "Malta",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 3
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tehran",
+  "United Kingdom",
+  "Italy",
+  "Mediterranean Sea",
+  "Malta"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 2124,
+ "tokensOut": 77,
+ "costUsd": 0.000251,
+ "steps": [
+  {
+   "page": "Tehran",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 324,
+     "tokensOut": 19,
+     "ms": 1188
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Italy",
+     "valid": true,
+     "tokensIn": 908,
+     "tokensOut": 18,
+     "ms": 1247
+    }
+   ],
+   "chosen": "Italy",
+   "revisit": false
+  },
+  {
+   "page": "Italy",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Mediterranean Sea",
+     "valid": true,
+     "tokensIn": 492,
+     "tokensOut": 21,
+     "ms": 853
+    }
+   ],
+   "chosen": "Mediterranean Sea",
+   "revisit": false
+  },
+  {
+   "page": "Mediterranean Sea",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Malta",
+     "valid": true,
+     "tokensIn": 400,
+     "tokensOut": 19,
+     "ms": 998
+    }
+   ],
+   "chosen": "Malta",
+   "revisit": false
+  }
+ ]
+}

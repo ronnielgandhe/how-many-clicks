@@ -1,0 +1,131 @@
+{
+ "pair": "test-367",
+ "start": "The Ashes",
+ "target": "Thermodynamic temperature",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Ashes",
+  "Film",
+  "Color",
+  "Physics",
+  "Thermodynamics",
+  "Absolute zero",
+  "Thermodynamic temperature"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 4666,
+ "tokensOut": 586,
+ "costUsd": 0.030384,
+ "steps": [
+  {
+   "page": "The Ashes",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Film",
+     "valid": true,
+     "tokensIn": 623,
+     "tokensOut": 194,
+     "ms": 2338
+    }
+   ],
+   "chosen": "Film",
+   "revisit": false
+  },
+  {
+   "page": "Film",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Color",
+     "valid": true,
+     "tokensIn": 647,
+     "tokensOut": 119,
+     "ms": 2430
+    }
+   ],
+   "chosen": "Color",
+   "revisit": false
+  },
+  {
+   "page": "Color",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Physics",
+     "valid": true,
+     "tokensIn": 670,
+     "tokensOut": 73,
+     "ms": 1215
+    }
+   ],
+   "chosen": "Physics",
+   "revisit": false
+  },
+  {
+   "page": "Physics",
+   "offered": 107,
+   "attempts": [
+    {
+     "raw": "Thermodynamics",
+     "valid": true,
+     "tokensIn": 1327,
+     "tokensOut": 53,
+     "ms": 1026
+    }
+   ],
+   "chosen": "Thermodynamics",
+   "revisit": false
+  },
+  {
+   "page": "Thermodynamics",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Absolute zero",
+     "valid": true,
+     "tokensIn": 690,
+     "tokensOut": 91,
+     "ms": 1607
+    }
+   ],
+   "chosen": "Absolute zero",
+   "revisit": false
+  },
+  {
+   "page": "Absolute zero",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Thermodynamic temperature",
+     "valid": true,
+     "tokensIn": 709,
+     "tokensOut": 56,
+     "ms": 915
+    }
+   ],
+   "chosen": "Thermodynamic temperature",
+   "revisit": false
+  }
+ ]
+}

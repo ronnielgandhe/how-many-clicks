@@ -1,0 +1,78 @@
+{
+ "pair": "test-282",
+ "start": "Sri Lanka",
+ "target": "Number",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Sri Lanka",
+  "Finance",
+  "Mathematics",
+  "Number"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2490,
+ "tokensOut": 680,
+ "costUsd": 0.01178,
+ "steps": [
+  {
+   "page": "Sri Lanka",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Finance",
+     "valid": true,
+     "tokensIn": 947,
+     "tokensOut": 535,
+     "ms": 4412
+    }
+   ],
+   "chosen": "Finance",
+   "revisit": false
+  },
+  {
+   "page": "Finance",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Mathematics",
+     "valid": true,
+     "tokensIn": 585,
+     "tokensOut": 97,
+     "ms": 1704
+    }
+   ],
+   "chosen": "Mathematics",
+   "revisit": false
+  },
+  {
+   "page": "Mathematics",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Number",
+     "valid": true,
+     "tokensIn": 958,
+     "tokensOut": 48,
+     "ms": 1481
+    }
+   ],
+   "chosen": "Number",
+   "revisit": false
+  }
+ ]
+}

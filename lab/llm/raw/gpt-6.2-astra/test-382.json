@@ -1,0 +1,142 @@
+{
+ "pair": "test-382",
+ "start": "Toluene",
+ "target": "Saffron",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Toluene",
+  "Ethanol",
+  "India",
+  "Flag of India",
+  "Mesopotamia",
+  "Iran",
+  "Flower",
+  "Saffron"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2667,
+ "tokensOut": 134,
+ "costUsd": 0.026696,
+ "steps": [
+  {
+   "page": "Toluene",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Ethanol",
+     "valid": true,
+     "tokensIn": 223,
+     "tokensOut": 20,
+     "ms": 1548
+    }
+   ],
+   "chosen": "Ethanol",
+   "revisit": false
+  },
+  {
+   "page": "Ethanol",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 360,
+     "tokensOut": 18,
+     "ms": 1394
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Flag of India",
+     "valid": true,
+     "tokensIn": 513,
+     "tokensOut": 20,
+     "ms": 1392
+    }
+   ],
+   "chosen": "Flag of India",
+   "revisit": false
+  },
+  {
+   "page": "Flag of India",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Mesopotamia",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 20,
+     "ms": 1489
+    }
+   ],
+   "chosen": "Mesopotamia",
+   "revisit": false
+  },
+  {
+   "page": "Mesopotamia",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 408,
+     "tokensOut": 18,
+     "ms": 1345
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Flower",
+     "valid": true,
+     "tokensIn": 602,
+     "tokensOut": 18,
+     "ms": 1626
+    }
+   ],
+   "chosen": "Flower",
+   "revisit": false
+  },
+  {
+   "page": "Flower",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Saffron",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 20,
+     "ms": 1465
+    }
+   ],
+   "chosen": "Saffron",
+   "revisit": false
+  }
+ ]
+}

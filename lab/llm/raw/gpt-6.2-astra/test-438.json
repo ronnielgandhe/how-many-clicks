@@ -1,0 +1,126 @@
+{
+ "pair": "test-438",
+ "start": "Zara Yaqob",
+ "target": "Troop sleeper",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Zara Yaqob",
+  "Europe",
+  "Industrial Revolution",
+  "Rail transport",
+  "Train",
+  "Refrigerator car",
+  "Troop sleeper"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2423,
+ "tokensOut": 115,
+ "costUsd": 0.023984,
+ "steps": [
+  {
+   "page": "Zara Yaqob",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 202,
+     "tokensOut": 18,
+     "ms": 1379
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 750,
+     "tokensOut": 19,
+     "ms": 1509
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 412,
+     "tokensOut": 19,
+     "ms": 1369
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 354,
+     "tokensOut": 18,
+     "ms": 1598
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Refrigerator car",
+     "valid": true,
+     "tokensIn": 363,
+     "tokensOut": 21,
+     "ms": 1606
+    }
+   ],
+   "chosen": "Refrigerator car",
+   "revisit": false
+  },
+  {
+   "page": "Refrigerator car",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Troop sleeper",
+     "valid": true,
+     "tokensIn": 342,
+     "tokensOut": 20,
+     "ms": 1347
+    }
+   ],
+   "chosen": "Troop sleeper",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "pair": "test-221",
+ "start": "Bob Dylan",
+ "target": "Viking",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Bob Dylan",
+  "Russia",
+  "Kiev",
+  "Khazars",
+  "Viking"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3917,
+ "tokensOut": 880,
+ "costUsd": 0.000832,
+ "steps": [
+  {
+   "page": "Bob Dylan",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Russia",
+     "valid": true,
+     "tokensIn": 843,
+     "tokensOut": 328,
+     "ms": 1925
+    }
+   ],
+   "chosen": "Russia",
+   "revisit": false
+  },
+  {
+   "page": "Russia",
+   "offered": 105,
+   "attempts": [
+    {
+     "raw": "Kiev",
+     "valid": true,
+     "tokensIn": 1281,
+     "tokensOut": 284,
+     "ms": 1557
+    }
+   ],
+   "chosen": "Kiev",
+   "revisit": false
+  },
+  {
+   "page": "Kiev",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Khazars",
+     "valid": true,
+     "tokensIn": 847,
+     "tokensOut": 219,
+     "ms": 1243
+    }
+   ],
+   "chosen": "Khazars",
+   "revisit": false
+  },
+  {
+   "page": "Khazars",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Viking",
+     "valid": true,
+     "tokensIn": 946,
+     "tokensOut": 49,
+     "ms": 485
+    }
+   ],
+   "chosen": "Viking",
+   "revisit": false
+  }
+ ]
+}

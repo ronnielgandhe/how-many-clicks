@@ -1,0 +1,222 @@
+{
+ "pair": "test-435",
+ "start": "Inner Hebrides",
+ "target": "Dam",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Inner Hebrides",
+  "Scotland",
+  "China",
+  "River",
+  "Flood",
+  "River",
+  "Columbia River",
+  "Irrigation",
+  "Canal",
+  "Panama Canal",
+  "Engineering",
+  "Three Gorges Dam",
+  "Dam"
+ ],
+ "clicks": 12,
+ "stepsTaken": 12,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 12,
+ "tokensIn": 10548,
+ "tokensOut": 3077,
+ "costUsd": 0.051866,
+ "steps": [
+  {
+   "page": "Inner Hebrides",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 588,
+     "tokensOut": 165,
+     "ms": 4581
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 1328,
+     "tokensOut": 707,
+     "ms": 6062
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "River",
+     "valid": true,
+     "tokensIn": 1161,
+     "tokensOut": 151,
+     "ms": 2214
+    }
+   ],
+   "chosen": "River",
+   "revisit": false
+  },
+  {
+   "page": "River",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Flood",
+     "valid": true,
+     "tokensIn": 1167,
+     "tokensOut": 183,
+     "ms": 2959
+    }
+   ],
+   "chosen": "Flood",
+   "revisit": false
+  },
+  {
+   "page": "Flood",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "River",
+     "valid": true,
+     "tokensIn": 834,
+     "tokensOut": 429,
+     "ms": 3782
+    }
+   ],
+   "chosen": "River",
+   "revisit": true
+  },
+  {
+   "page": "River",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Columbia River",
+     "valid": true,
+     "tokensIn": 1173,
+     "tokensOut": 342,
+     "ms": 2970
+    }
+   ],
+   "chosen": "Columbia River",
+   "revisit": false
+  },
+  {
+   "page": "Columbia River",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Irrigation",
+     "valid": true,
+     "tokensIn": 681,
+     "tokensOut": 90,
+     "ms": 1817
+    }
+   ],
+   "chosen": "Irrigation",
+   "revisit": false
+  },
+  {
+   "page": "Irrigation",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Canal",
+     "valid": true,
+     "tokensIn": 686,
+     "tokensOut": 169,
+     "ms": 1897
+    }
+   ],
+   "chosen": "Canal",
+   "revisit": false
+  },
+  {
+   "page": "Canal",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Panama Canal",
+     "valid": true,
+     "tokensIn": 727,
+     "tokensOut": 536,
+     "ms": 4695
+    }
+   ],
+   "chosen": "Panama Canal",
+   "revisit": false
+  },
+  {
+   "page": "Panama Canal",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Engineering",
+     "valid": true,
+     "tokensIn": 785,
+     "tokensOut": 201,
+     "ms": 2368
+    }
+   ],
+   "chosen": "Engineering",
+   "revisit": false
+  },
+  {
+   "page": "Engineering",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Three Gorges Dam",
+     "valid": true,
+     "tokensIn": 708,
+     "tokensOut": 55,
+     "ms": 1856
+    }
+   ],
+   "chosen": "Three Gorges Dam",
+   "revisit": false
+  },
+  {
+   "page": "Three Gorges Dam",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Dam",
+     "valid": true,
+     "tokensIn": 710,
+     "tokensOut": 49,
+     "ms": 1690
+    }
+   ],
+   "chosen": "Dam",
+   "revisit": false
+  }
+ ]
+}

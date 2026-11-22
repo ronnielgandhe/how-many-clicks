@@ -1,0 +1,270 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Citizenship",
+  "City",
+  "Paris",
+  "Berlin",
+  "20th century",
+  "Cubism",
+  "Architecture",
+  "Art",
+  "Architecture",
+  "Aesthetics",
+  "Architecture",
+  "Art",
+  "Architecture",
+  "Art",
+  "Architecture",
+  "Art"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 7,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 5941,
+ "tokensOut": 275,
+ "costUsd": 0.000732,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "City",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 18,
+     "ms": 823
+    }
+   ],
+   "chosen": "City",
+   "revisit": false
+  },
+  {
+   "page": "City",
+   "offered": 71,
+   "attempts": [
+    {
+     "raw": "Paris",
+     "valid": true,
+     "tokensIn": 416,
+     "tokensOut": 18,
+     "ms": 1210
+    }
+   ],
+   "chosen": "Paris",
+   "revisit": false
+  },
+  {
+   "page": "Paris",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Berlin",
+     "valid": true,
+     "tokensIn": 597,
+     "tokensOut": 18,
+     "ms": 1970
+    }
+   ],
+   "chosen": "Berlin",
+   "revisit": false
+  },
+  {
+   "page": "Berlin",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "20th century",
+     "valid": true,
+     "tokensIn": 472,
+     "tokensOut": 20,
+     "ms": 1839
+    }
+   ],
+   "chosen": "20th century",
+   "revisit": false
+  },
+  {
+   "page": "20th century",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Cubism",
+     "valid": true,
+     "tokensIn": 576,
+     "tokensOut": 19,
+     "ms": 1182
+    }
+   ],
+   "chosen": "Cubism",
+   "revisit": false
+  },
+  {
+   "page": "Cubism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 222,
+     "tokensOut": 18,
+     "ms": 1178
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": false
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 18,
+     "ms": 680
+    }
+   ],
+   "chosen": "Art",
+   "revisit": false
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 428,
+     "tokensOut": 18,
+     "ms": 694
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Aesthetics",
+     "valid": true,
+     "tokensIn": 336,
+     "tokensOut": 20,
+     "ms": 1080
+    }
+   ],
+   "chosen": "Aesthetics",
+   "revisit": false
+  },
+  {
+   "page": "Aesthetics",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 383,
+     "tokensOut": 18,
+     "ms": 795
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 342,
+     "tokensOut": 18,
+     "ms": 968
+    }
+   ],
+   "chosen": "Art",
+   "revisit": true
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 438,
+     "tokensOut": 18,
+     "ms": 743
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 346,
+     "tokensOut": 18,
+     "ms": 707
+    }
+   ],
+   "chosen": "Art",
+   "revisit": true
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 442,
+     "tokensOut": 18,
+     "ms": 815
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 350,
+     "tokensOut": 18,
+     "ms": 565
+    }
+   ],
+   "chosen": "Art",
+   "revisit": true
+  }
+ ]
+}

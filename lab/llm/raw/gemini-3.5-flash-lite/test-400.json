@@ -1,0 +1,277 @@
+{
+ "pair": "test-400",
+ "start": "Expressionism",
+ "target": "Blackpool",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Expressionism",
+  "Germany",
+  "United Kingdom",
+  "England",
+  "Brighton",
+  "England",
+  "Manchester",
+  "England",
+  "Leeds",
+  "Manchester",
+  "Liverpool",
+  "England",
+  "Manchester",
+  "England",
+  "Manchester",
+  "England"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 8,
+ "invalidAttempts": 1,
+ "calls": 16,
+ "tokensIn": 10483,
+ "tokensOut": 259,
+ "costUsd": 0.003792,
+ "steps": [
+  {
+   "page": "Expressionism",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 211,
+     "tokensOut": 16,
+     "ms": 725
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 809,
+     "tokensOut": 17,
+     "ms": 658
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 917,
+     "tokensOut": 16,
+     "ms": 719
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Brighton",
+     "valid": true,
+     "tokensIn": 896,
+     "tokensOut": 17,
+     "ms": 649
+    }
+   ],
+   "chosen": "Brighton",
+   "revisit": false
+  },
+  {
+   "page": "Brighton",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 285,
+     "tokensOut": 16,
+     "ms": 788
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Lancashire",
+     "valid": false,
+     "tokensIn": 900,
+     "tokensOut": 17,
+     "ms": 739
+    },
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 924,
+     "tokensOut": 16,
+     "ms": 942
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": false
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 532,
+     "tokensOut": 16,
+     "ms": 691
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Leeds",
+     "valid": true,
+     "tokensIn": 904,
+     "tokensOut": 16,
+     "ms": 678
+    }
+   ],
+   "chosen": "Leeds",
+   "revisit": false
+  },
+  {
+   "page": "Leeds",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 303,
+     "tokensOut": 16,
+     "ms": 862
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": true
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Liverpool",
+     "valid": true,
+     "tokensIn": 538,
+     "tokensOut": 16,
+     "ms": 567
+    }
+   ],
+   "chosen": "Liverpool",
+   "revisit": false
+  },
+  {
+   "page": "Liverpool",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 16,
+     "ms": 671
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 912,
+     "tokensOut": 16,
+     "ms": 744
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": true
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 544,
+     "tokensOut": 16,
+     "ms": 702
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Manchester",
+     "valid": true,
+     "tokensIn": 916,
+     "tokensOut": 16,
+     "ms": 837
+    }
+   ],
+   "chosen": "Manchester",
+   "revisit": true
+  },
+  {
+   "page": "Manchester",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 548,
+     "tokensOut": 16,
+     "ms": 779
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  }
+ ]
+}

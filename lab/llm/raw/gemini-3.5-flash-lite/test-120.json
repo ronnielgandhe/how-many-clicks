@@ -1,0 +1,62 @@
+{
+ "pair": "test-120",
+ "start": "Zulu",
+ "target": "NATO",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Zulu",
+  "United Kingdom",
+  "NATO"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1147,
+ "tokensOut": 33,
+ "costUsd": 0.000427,
+ "steps": [
+  {
+   "page": "Zulu",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 233,
+     "tokensOut": 17,
+     "ms": 710
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "NATO",
+     "valid": true,
+     "tokensIn": 914,
+     "tokensOut": 16,
+     "ms": 815
+    }
+   ],
+   "chosen": "NATO",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "pair": "test-441",
+ "start": "Ben Nevis",
+ "target": "Lake Kariba",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Ben Nevis",
+  "Loch",
+  "Water",
+  "Dam",
+  "River",
+  "Zambezi",
+  "Lake Kariba"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2270,
+ "tokensOut": 313,
+ "costUsd": 0.00767,
+ "steps": [
+  {
+   "page": "Ben Nevis",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Loch",
+     "valid": true,
+     "tokensIn": 239,
+     "tokensOut": 71,
+     "ms": 1804
+    }
+   ],
+   "chosen": "Loch",
+   "revisit": false
+  },
+  {
+   "page": "Loch",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Water",
+     "valid": true,
+     "tokensIn": 207,
+     "tokensOut": 93,
+     "ms": 1895
+    }
+   ],
+   "chosen": "Water",
+   "revisit": false
+  },
+  {
+   "page": "Water",
+   "offered": 131,
+   "attempts": [
+    {
+     "raw": "Dam",
+     "valid": true,
+     "tokensIn": 656,
+     "tokensOut": 49,
+     "ms": 1718
+    }
+   ],
+   "chosen": "Dam",
+   "revisit": false
+  },
+  {
+   "page": "Dam",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "River",
+     "valid": true,
+     "tokensIn": 279,
+     "tokensOut": 60,
+     "ms": 1670
+    }
+   ],
+   "chosen": "River",
+   "revisit": false
+  },
+  {
+   "page": "River",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Zambezi",
+     "valid": true,
+     "tokensIn": 545,
+     "tokensOut": 20,
+     "ms": 1163
+    }
+   ],
+   "chosen": "Zambezi",
+   "revisit": false
+  },
+  {
+   "page": "Zambezi",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Lake Kariba",
+     "valid": true,
+     "tokensIn": 344,
+     "tokensOut": 20,
+     "ms": 1184
+    }
+   ],
+   "chosen": "Lake Kariba",
+   "revisit": false
+  }
+ ]
+}

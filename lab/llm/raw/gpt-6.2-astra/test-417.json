@@ -1,0 +1,270 @@
+{
+ "pair": "test-417",
+ "start": "Amsterdam",
+ "target": "Lynton and Barnstaple Railway",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Amsterdam",
+  "Train",
+  "Rail transport",
+  "England",
+  "National parks of England and Wales",
+  "Dartmoor",
+  "England",
+  "National parks of England and Wales",
+  "Snowdonia National Park",
+  "England",
+  "Isambard Kingdom Brunel",
+  "Plymouth",
+  "Dartmoor",
+  "England",
+  "Wales",
+  "Aberystwyth"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 7363,
+ "tokensOut": 314,
+ "costUsd": 0.071464,
+ "steps": [
+  {
+   "page": "Amsterdam",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 332,
+     "tokensOut": 18,
+     "ms": 1205
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 358,
+     "tokensOut": 19,
+     "ms": 1267
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 354,
+     "tokensOut": 18,
+     "ms": 1412
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 927,
+     "tokensOut": 23,
+     "ms": 1447
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": false
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 20,
+     "ms": 1937
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": false
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 230,
+     "tokensOut": 18,
+     "ms": 1241
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "National parks of England and Wales",
+     "valid": true,
+     "tokensIn": 939,
+     "tokensOut": 23,
+     "ms": 1342
+    }
+   ],
+   "chosen": "National parks of England and Wales",
+   "revisit": true
+  },
+  {
+   "page": "National parks of England and Wales",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Snowdonia National Park",
+     "valid": true,
+     "tokensIn": 320,
+     "tokensOut": 37,
+     "ms": 1608
+    }
+   ],
+   "chosen": "Snowdonia National Park",
+   "revisit": false
+  },
+  {
+   "page": "Snowdonia National Park",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 237,
+     "tokensOut": 18,
+     "ms": 1945
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 954,
+     "tokensOut": 23,
+     "ms": 1464
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Plymouth",
+     "valid": true,
+     "tokensIn": 323,
+     "tokensOut": 20,
+     "ms": 1201
+    }
+   ],
+   "chosen": "Plymouth",
+   "revisit": false
+  },
+  {
+   "page": "Plymouth",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Dartmoor",
+     "valid": true,
+     "tokensIn": 359,
+     "tokensOut": 20,
+     "ms": 1326
+    }
+   ],
+   "chosen": "Dartmoor",
+   "revisit": true
+  },
+  {
+   "page": "Dartmoor",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 259,
+     "tokensOut": 18,
+     "ms": 1251
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Wales",
+     "valid": true,
+     "tokensIn": 968,
+     "tokensOut": 19,
+     "ms": 1819
+    }
+   ],
+   "chosen": "Wales",
+   "revisit": false
+  },
+  {
+   "page": "Wales",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Aberystwyth",
+     "valid": true,
+     "tokensIn": 495,
+     "tokensOut": 20,
+     "ms": 1651
+    }
+   ],
+   "chosen": "Aberystwyth",
+   "revisit": false
+  }
+ ]
+}

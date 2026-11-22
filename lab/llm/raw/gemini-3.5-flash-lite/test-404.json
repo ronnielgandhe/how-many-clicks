@@ -1,0 +1,270 @@
+{
+ "pair": "test-404",
+ "start": "Citizenship",
+ "target": "Deconstructivism",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Citizenship",
+  "Political philosophy",
+  "Philosophy",
+  "Friedrich Nietzsche",
+  "Existentialism",
+  "Philosophy",
+  "Jacques-Louis David",
+  "Neoclassicism",
+  "Architecture",
+  "Frank Lloyd Wright",
+  "20th century",
+  "Cubism",
+  "Architecture",
+  "Philosophy",
+  "Jacques-Louis David",
+  "Neoclassicism"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 5700,
+ "tokensOut": 263,
+ "costUsd": 0.002367,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Political philosophy",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 17,
+     "ms": 656
+    }
+   ],
+   "chosen": "Political philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Political philosophy",
+   "offered": 68,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 16,
+     "ms": 798
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": false
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Friedrich Nietzsche",
+     "valid": true,
+     "tokensIn": 519,
+     "tokensOut": 18,
+     "ms": 881
+    }
+   ],
+   "chosen": "Friedrich Nietzsche",
+   "revisit": false
+  },
+  {
+   "page": "Friedrich Nietzsche",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Existentialism",
+     "valid": true,
+     "tokensIn": 376,
+     "tokensOut": 18,
+     "ms": 772
+    }
+   ],
+   "chosen": "Existentialism",
+   "revisit": false
+  },
+  {
+   "page": "Existentialism",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 285,
+     "tokensOut": 16,
+     "ms": 758
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": true
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Jacques-Louis David",
+     "valid": true,
+     "tokensIn": 528,
+     "tokensOut": 19,
+     "ms": 748
+    }
+   ],
+   "chosen": "Jacques-Louis David",
+   "revisit": false
+  },
+  {
+   "page": "Jacques-Louis David",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Neoclassicism",
+     "valid": true,
+     "tokensIn": 263,
+     "tokensOut": 19,
+     "ms": 781
+    }
+   ],
+   "chosen": "Neoclassicism",
+   "revisit": false
+  },
+  {
+   "page": "Neoclassicism",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 353,
+     "tokensOut": 16,
+     "ms": 809
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": false
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Frank Lloyd Wright",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 18,
+     "ms": 781
+    }
+   ],
+   "chosen": "Frank Lloyd Wright",
+   "revisit": false
+  },
+  {
+   "page": "Frank Lloyd Wright",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "20th century",
+     "valid": true,
+     "tokensIn": 261,
+     "tokensOut": 19,
+     "ms": 609
+    }
+   ],
+   "chosen": "20th century",
+   "revisit": false
+  },
+  {
+   "page": "20th century",
+   "offered": 93,
+   "attempts": [
+    {
+     "raw": "Cubism",
+     "valid": true,
+     "tokensIn": 616,
+     "tokensOut": 17,
+     "ms": 796
+    }
+   ],
+   "chosen": "Cubism",
+   "revisit": false
+  },
+  {
+   "page": "Cubism",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Architecture",
+     "valid": true,
+     "tokensIn": 249,
+     "tokensOut": 16,
+     "ms": 698
+    }
+   ],
+   "chosen": "Architecture",
+   "revisit": true
+  },
+  {
+   "page": "Architecture",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Philosophy",
+     "valid": true,
+     "tokensIn": 355,
+     "tokensOut": 16,
+     "ms": 725
+    }
+   ],
+   "chosen": "Philosophy",
+   "revisit": true
+  },
+  {
+   "page": "Philosophy",
+   "offered": 87,
+   "attempts": [
+    {
+     "raw": "Jacques-Louis David",
+     "valid": true,
+     "tokensIn": 557,
+     "tokensOut": 19,
+     "ms": 651
+    }
+   ],
+   "chosen": "Jacques-Louis David",
+   "revisit": true
+  },
+  {
+   "page": "Jacques-Louis David",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Neoclassicism",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 19,
+     "ms": 684
+    }
+   ],
+   "chosen": "Neoclassicism",
+   "revisit": true
+  }
+ ]
+}

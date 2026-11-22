@@ -1,0 +1,115 @@
+{
+ "pair": "test-347",
+ "start": "Fiberglass",
+ "target": "2004 Indian Ocean earthquake",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fiberglass",
+  "Textile",
+  "China",
+  "Indonesia",
+  "Tsunami",
+  "2004 Indian Ocean earthquake"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1886,
+ "tokensOut": 199,
+ "costUsd": 0.005762,
+ "steps": [
+  {
+   "page": "Fiberglass",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Textile",
+     "valid": true,
+     "tokensIn": 240,
+     "tokensOut": 59,
+     "ms": 8556
+    }
+   ],
+   "chosen": "Textile",
+   "revisit": false
+  },
+  {
+   "page": "Textile",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 46,
+     "ms": 3675
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Indonesia",
+     "valid": true,
+     "tokensIn": 555,
+     "tokensOut": 22,
+     "ms": 4172
+    }
+   ],
+   "chosen": "Indonesia",
+   "revisit": false
+  },
+  {
+   "page": "Indonesia",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Tsunami",
+     "valid": true,
+     "tokensIn": 425,
+     "tokensOut": 24,
+     "ms": 4548
+    }
+   ],
+   "chosen": "Tsunami",
+   "revisit": false
+  },
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "2004 Indian Ocean earthquake",
+     "valid": true,
+     "tokensIn": 435,
+     "tokensOut": 48,
+     "ms": 5025
+    }
+   ],
+   "chosen": "2004 Indian Ocean earthquake",
+   "revisit": false
+  }
+ ]
+}

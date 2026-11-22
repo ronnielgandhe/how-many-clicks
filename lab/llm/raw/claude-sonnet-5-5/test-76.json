@@ -1,0 +1,78 @@
+{
+ "pair": "test-76",
+ "start": "Gypsum",
+ "target": "Taoism",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Gypsum",
+  "Tofu",
+  "China",
+  "Taoism"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2551,
+ "tokensOut": 268,
+ "costUsd": 0.007782,
+ "steps": [
+  {
+   "page": "Gypsum",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Tofu",
+     "valid": true,
+     "tokensIn": 635,
+     "tokensOut": 171,
+     "ms": 2038
+    }
+   ],
+   "chosen": "Tofu",
+   "revisit": false
+  },
+  {
+   "page": "Tofu",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 757,
+     "tokensOut": 47,
+     "ms": 1291
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Taoism",
+     "valid": true,
+     "tokensIn": 1159,
+     "tokensOut": 50,
+     "ms": 1445
+    }
+   ],
+   "chosen": "Taoism",
+   "revisit": false
+  }
+ ]
+}

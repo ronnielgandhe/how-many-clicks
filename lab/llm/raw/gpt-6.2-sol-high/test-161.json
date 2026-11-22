@@ -1,0 +1,99 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "France",
+  "California",
+  "Vegetable",
+  "Pea"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1376,
+ "tokensOut": 375,
+ "costUsd": 0.006502,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 125,
+     "ms": 3138
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "California",
+     "valid": true,
+     "tokensIn": 508,
+     "tokensOut": 212,
+     "ms": 4807
+    }
+   ],
+   "chosen": "California",
+   "revisit": false
+  },
+  {
+   "page": "California",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Vegetable",
+     "valid": true,
+     "tokensIn": 348,
+     "tokensOut": 19,
+     "ms": 1149
+    }
+   ],
+   "chosen": "Vegetable",
+   "revisit": false
+  },
+  {
+   "page": "Vegetable",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 19,
+     "ms": 1084
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "date": "2026-11-22",
+ "partial": true,
+ "note": "stopped by wikimedia api rate limiting (HTTP 429, retry-after ~47s) on this network after a handful of calls; only my-model-both-ends finished races. rerun with: node bench/live.mjs",
+ "pairs": [{"start": "Pizza", "target": "Albert Einstein", "bestKnown": 3}, {"start": "Mount Everest", "target": "Jazz", "bestKnown": 2}],
+ "strategies": [{"id": "guided", "success": 1, "clicksMean": 2.5, "overBestKnown": 0, "pagesOpenedMean": 4,
+   "runs": [{"start": "Pizza", "target": "Albert Einstein", "clicks": 3, "pages": 5}, {"start": "Mount Everest", "target": "Jazz", "clicks": 2, "pages": 3}]}]
+}

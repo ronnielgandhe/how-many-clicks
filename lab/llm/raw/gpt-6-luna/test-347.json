@@ -1,0 +1,131 @@
+{
+ "pair": "test-347",
+ "start": "Fiberglass",
+ "target": "2004 Indian Ocean earthquake",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fiberglass",
+  "Oxygen",
+  "Water",
+  "Asia",
+  "Indonesia",
+  "Tsunami",
+  "2004 Indian Ocean earthquake"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2613,
+ "tokensOut": 115,
+ "costUsd": 0.000319,
+ "steps": [
+  {
+   "page": "Fiberglass",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Oxygen",
+     "valid": true,
+     "tokensIn": 198,
+     "tokensOut": 19,
+     "ms": 1106
+    }
+   ],
+   "chosen": "Oxygen",
+   "revisit": false
+  },
+  {
+   "page": "Oxygen",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Water",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 18,
+     "ms": 1121
+    }
+   ],
+   "chosen": "Water",
+   "revisit": false
+  },
+  {
+   "page": "Water",
+   "offered": 131,
+   "attempts": [
+    {
+     "raw": "Asia",
+     "valid": true,
+     "tokensIn": 648,
+     "tokensOut": 18,
+     "ms": 983
+    }
+   ],
+   "chosen": "Asia",
+   "revisit": false
+  },
+  {
+   "page": "Asia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Indonesia",
+     "valid": true,
+     "tokensIn": 686,
+     "tokensOut": 18,
+     "ms": 1050
+    }
+   ],
+   "chosen": "Indonesia",
+   "revisit": false
+  },
+  {
+   "page": "Indonesia",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Tsunami",
+     "valid": true,
+     "tokensIn": 393,
+     "tokensOut": 20,
+     "ms": 1190
+    }
+   ],
+   "chosen": "Tsunami",
+   "revisit": false
+  },
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "2004 Indian Ocean earthquake",
+     "valid": true,
+     "tokensIn": 399,
+     "tokensOut": 22,
+     "ms": 1078
+    }
+   ],
+   "chosen": "2004 Indian Ocean earthquake",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "pair": "test-347",
+ "start": "Fiberglass",
+ "target": "2004 Indian Ocean earthquake",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fiberglass",
+  "Textile",
+  "China",
+  "Indonesia",
+  "Earthquake",
+  "Tsunami",
+  "2004 Indian Ocean earthquake"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 4947,
+ "tokensOut": 595,
+ "costUsd": 0.015844,
+ "steps": [
+  {
+   "page": "Fiberglass",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Textile",
+     "valid": true,
+     "tokensIn": 598,
+     "tokensOut": 203,
+     "ms": 2273
+    }
+   ],
+   "chosen": "Textile",
+   "revisit": false
+  },
+  {
+   "page": "Textile",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "China",
+     "valid": true,
+     "tokensIn": 575,
+     "tokensOut": 107,
+     "ms": 2403
+    }
+   ],
+   "chosen": "China",
+   "revisit": false
+  },
+  {
+   "page": "China",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Indonesia",
+     "valid": true,
+     "tokensIn": 1170,
+     "tokensOut": 51,
+     "ms": 1617
+    }
+   ],
+   "chosen": "Indonesia",
+   "revisit": false
+  },
+  {
+   "page": "Indonesia",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Earthquake",
+     "valid": true,
+     "tokensIn": 928,
+     "tokensOut": 51,
+     "ms": 726
+    }
+   ],
+   "chosen": "Earthquake",
+   "revisit": false
+  },
+  {
+   "page": "Earthquake",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Tsunami",
+     "valid": true,
+     "tokensIn": 708,
+     "tokensOut": 123,
+     "ms": 1904
+    }
+   ],
+   "chosen": "Tsunami",
+   "revisit": false
+  },
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "2004 Indian Ocean earthquake",
+     "valid": true,
+     "tokensIn": 968,
+     "tokensOut": 60,
+     "ms": 1546
+    }
+   ],
+   "chosen": "2004 Indian Ocean earthquake",
+   "revisit": false
+  }
+ ]
+}

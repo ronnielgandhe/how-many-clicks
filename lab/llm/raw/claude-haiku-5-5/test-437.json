@@ -1,0 +1,270 @@
+{
+ "pair": "test-437",
+ "start": "La Paz",
+ "target": "Bandicoot",
+ "optimal": 5,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "La Paz",
+  "Bolivia",
+  "Rainforest",
+  "Mammal",
+  "Australia",
+  "Wombat",
+  "Australia",
+  "Kangaroo",
+  "Wallaby",
+  "Australia",
+  "Mammal",
+  "Australia",
+  "Wombat",
+  "Mammal",
+  "Australia",
+  "Kangaroo"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 8,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 13581,
+ "tokensOut": 4467,
+ "costUsd": 0.003592,
+ "steps": [
+  {
+   "page": "La Paz",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Bolivia",
+     "valid": true,
+     "tokensIn": 578,
+     "tokensOut": 203,
+     "ms": 1153
+    }
+   ],
+   "chosen": "Bolivia",
+   "revisit": false
+  },
+  {
+   "page": "Bolivia",
+   "offered": 61,
+   "attempts": [
+    {
+     "raw": "Rainforest",
+     "valid": true,
+     "tokensIn": 934,
+     "tokensOut": 355,
+     "ms": 1890
+    }
+   ],
+   "chosen": "Rainforest",
+   "revisit": false
+  },
+  {
+   "page": "Rainforest",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 748,
+     "tokensOut": 264,
+     "ms": 1470
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": false
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 833,
+     "tokensOut": 189,
+     "ms": 1332
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Wombat",
+     "valid": true,
+     "tokensIn": 1194,
+     "tokensOut": 269,
+     "ms": 1481
+    }
+   ],
+   "chosen": "Wombat",
+   "revisit": false
+  },
+  {
+   "page": "Wombat",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 630,
+     "tokensOut": 201,
+     "ms": 1288
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 1203,
+     "tokensOut": 252,
+     "ms": 1386
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": false
+  },
+  {
+   "page": "Kangaroo",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Wallaby",
+     "valid": true,
+     "tokensIn": 699,
+     "tokensOut": 177,
+     "ms": 1019
+    }
+   ],
+   "chosen": "Wallaby",
+   "revisit": false
+  },
+  {
+   "page": "Wallaby",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 655,
+     "tokensOut": 361,
+     "ms": 1946
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 1220,
+     "tokensOut": 323,
+     "ms": 1699
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 868,
+     "tokensOut": 242,
+     "ms": 1524
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Wombat",
+     "valid": true,
+     "tokensIn": 1229,
+     "tokensOut": 644,
+     "ms": 3610
+    }
+   ],
+   "chosen": "Wombat",
+   "revisit": true
+  },
+  {
+   "page": "Wombat",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Mammal",
+     "valid": true,
+     "tokensIn": 665,
+     "tokensOut": 273,
+     "ms": 1584
+    }
+   ],
+   "chosen": "Mammal",
+   "revisit": true
+  },
+  {
+   "page": "Mammal",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 882,
+     "tokensOut": 316,
+     "ms": 1891
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": true
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Kangaroo",
+     "valid": true,
+     "tokensIn": 1243,
+     "tokensOut": 398,
+     "ms": 1991
+    }
+   ],
+   "chosen": "Kangaroo",
+   "revisit": true
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "pair": "test-386",
+ "start": "Dallas, Texas",
+ "target": "Comet Hale-Bopp",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Dallas, Texas",
+  "International Space Station",
+  "Earth",
+  "Comet",
+  "Comet Hale-Bopp"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3735,
+ "tokensOut": 539,
+ "costUsd": 0.01286,
+ "steps": [
+  {
+   "page": "Dallas, Texas",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "International Space Station",
+     "valid": true,
+     "tokensIn": 821,
+     "tokensOut": 118,
+     "ms": 2565
+    }
+   ],
+   "chosen": "International Space Station",
+   "revisit": false
+  },
+  {
+   "page": "International Space Station",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 713,
+     "tokensOut": 315,
+     "ms": 3195
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Comet",
+     "valid": true,
+     "tokensIn": 1334,
+     "tokensOut": 49,
+     "ms": 2501
+    }
+   ],
+   "chosen": "Comet",
+   "revisit": false
+  },
+  {
+   "page": "Comet",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Comet Hale-Bopp",
+     "valid": true,
+     "tokensIn": 867,
+     "tokensOut": 57,
+     "ms": 4874
+    }
+   ],
+   "chosen": "Comet Hale-Bopp",
+   "revisit": false
+  }
+ ]
+}

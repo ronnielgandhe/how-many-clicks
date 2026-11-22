@@ -1,0 +1,115 @@
+{
+ "pair": "test-347",
+ "start": "Fiberglass",
+ "target": "2004 Indian Ocean earthquake",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Fiberglass",
+  "Oxygen",
+  "Water",
+  "Ocean",
+  "Indian Ocean",
+  "2004 Indian Ocean earthquake"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2014,
+ "tokensOut": 322,
+ "costUsd": 0.007248,
+ "steps": [
+  {
+   "page": "Fiberglass",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Oxygen",
+     "valid": true,
+     "tokensIn": 208,
+     "tokensOut": 164,
+     "ms": 2958
+    }
+   ],
+   "chosen": "Oxygen",
+   "revisit": false
+  },
+  {
+   "page": "Oxygen",
+   "offered": 30,
+   "attempts": [
+    {
+     "raw": "Water",
+     "valid": true,
+     "tokensIn": 299,
+     "tokensOut": 68,
+     "ms": 1914
+    }
+   ],
+   "chosen": "Water",
+   "revisit": false
+  },
+  {
+   "page": "Water",
+   "offered": 131,
+   "attempts": [
+    {
+     "raw": "Ocean",
+     "valid": true,
+     "tokensIn": 658,
+     "tokensOut": 49,
+     "ms": 1608
+    }
+   ],
+   "chosen": "Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Ocean",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Indian Ocean",
+     "valid": true,
+     "tokensIn": 373,
+     "tokensOut": 19,
+     "ms": 1099
+    }
+   ],
+   "chosen": "Indian Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Indian Ocean",
+   "offered": 75,
+   "attempts": [
+    {
+     "raw": "2004 Indian Ocean earthquake",
+     "valid": true,
+     "tokensIn": 476,
+     "tokensOut": 22,
+     "ms": 1253
+    }
+   ],
+   "chosen": "2004 Indian Ocean earthquake",
+   "revisit": false
+  }
+ ]
+}

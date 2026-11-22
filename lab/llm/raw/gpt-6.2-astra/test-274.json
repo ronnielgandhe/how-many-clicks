@@ -1,0 +1,174 @@
+{
+ "pair": "test-274",
+ "start": "Hippopotamus",
+ "target": "Retinol",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Hippopotamus",
+  "Pigment",
+  "Eye",
+  "Retina",
+  "Cancer",
+  "Ultraviolet",
+  "Sunlight",
+  "Vitamin D",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 9,
+ "stepsTaken": 9,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 9,
+ "tokensIn": 2636,
+ "tokensOut": 190,
+ "costUsd": 0.028688,
+ "steps": [
+  {
+   "page": "Hippopotamus",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Pigment",
+     "valid": true,
+     "tokensIn": 353,
+     "tokensOut": 19,
+     "ms": 1388
+    }
+   ],
+   "chosen": "Pigment",
+   "revisit": false
+  },
+  {
+   "page": "Pigment",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 283,
+     "tokensOut": 18,
+     "ms": 1231
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 311,
+     "tokensOut": 19,
+     "ms": 1731
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Cancer",
+     "valid": true,
+     "tokensIn": 225,
+     "tokensOut": 18,
+     "ms": 1011
+    }
+   ],
+   "chosen": "Cancer",
+   "revisit": false
+  },
+  {
+   "page": "Cancer",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Ultraviolet",
+     "valid": true,
+     "tokensIn": 317,
+     "tokensOut": 41,
+     "ms": 2203
+    }
+   ],
+   "chosen": "Ultraviolet",
+   "revisit": false
+  },
+  {
+   "page": "Ultraviolet",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Sunlight",
+     "valid": true,
+     "tokensIn": 320,
+     "tokensOut": 19,
+     "ms": 1655
+    }
+   ],
+   "chosen": "Sunlight",
+   "revisit": false
+  },
+  {
+   "page": "Sunlight",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Vitamin D",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 19,
+     "ms": 1238
+    }
+   ],
+   "chosen": "Vitamin D",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin D",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 248,
+     "tokensOut": 18,
+     "ms": 1471
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 309,
+     "tokensOut": 19,
+     "ms": 1405
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

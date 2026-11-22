@@ -1,0 +1,270 @@
+{
+ "pair": "test-236",
+ "start": "Rabat",
+ "target": "War in Somalia (2006\u2013present)",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Rabat",
+  "Morocco",
+  "African Union",
+  "Somalia",
+  "Mogadishu",
+  "Ethiopia",
+  "Horn of Africa",
+  "Somalia",
+  "Eritrea",
+  "Somalia",
+  "Kenya",
+  "Somalia",
+  "Uganda",
+  "Second Congo War",
+  "Burundi",
+  "United Nations"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 3,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 8421,
+ "tokensOut": 291,
+ "costUsd": 0.079008,
+ "steps": [
+  {
+   "page": "Rabat",
+   "offered": 8,
+   "attempts": [
+    {
+     "raw": "Morocco",
+     "valid": true,
+     "tokensIn": 212,
+     "tokensOut": 19,
+     "ms": 1223
+    }
+   ],
+   "chosen": "Morocco",
+   "revisit": false
+  },
+  {
+   "page": "Morocco",
+   "offered": 68,
+   "attempts": [
+    {
+     "raw": "African Union",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 19,
+     "ms": 1869
+    }
+   ],
+   "chosen": "African Union",
+   "revisit": false
+  },
+  {
+   "page": "African Union",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 537,
+     "tokensOut": 19,
+     "ms": 1274
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": false
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Mogadishu",
+     "valid": true,
+     "tokensIn": 719,
+     "tokensOut": 21,
+     "ms": 1495
+    }
+   ],
+   "chosen": "Mogadishu",
+   "revisit": false
+  },
+  {
+   "page": "Mogadishu",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Ethiopia",
+     "valid": true,
+     "tokensIn": 320,
+     "tokensOut": 20,
+     "ms": 1166
+    }
+   ],
+   "chosen": "Ethiopia",
+   "revisit": false
+  },
+  {
+   "page": "Ethiopia",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "Horn of Africa",
+     "valid": true,
+     "tokensIn": 698,
+     "tokensOut": 20,
+     "ms": 1124
+    }
+   ],
+   "chosen": "Horn of Africa",
+   "revisit": false
+  },
+  {
+   "page": "Horn of Africa",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 329,
+     "tokensOut": 19,
+     "ms": 1793
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Eritrea",
+     "valid": true,
+     "tokensIn": 731,
+     "tokensOut": 20,
+     "ms": 1840
+    }
+   ],
+   "chosen": "Eritrea",
+   "revisit": false
+  },
+  {
+   "page": "Eritrea",
+   "offered": 99,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 606,
+     "tokensOut": 19,
+     "ms": 1215
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Kenya",
+     "valid": true,
+     "tokensIn": 736,
+     "tokensOut": 19,
+     "ms": 1471
+    }
+   ],
+   "chosen": "Kenya",
+   "revisit": false
+  },
+  {
+   "page": "Kenya",
+   "offered": 133,
+   "attempts": [
+    {
+     "raw": "Somalia",
+     "valid": true,
+     "tokensIn": 719,
+     "tokensOut": 19,
+     "ms": 1509
+    }
+   ],
+   "chosen": "Somalia",
+   "revisit": true
+  },
+  {
+   "page": "Somalia",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Uganda",
+     "valid": true,
+     "tokensIn": 740,
+     "tokensOut": 19,
+     "ms": 1225
+    }
+   ],
+   "chosen": "Uganda",
+   "revisit": false
+  },
+  {
+   "page": "Uganda",
+   "offered": 160,
+   "attempts": [
+    {
+     "raw": "Second Congo War",
+     "valid": true,
+     "tokensIn": 845,
+     "tokensOut": 20,
+     "ms": 1685
+    }
+   ],
+   "chosen": "Second Congo War",
+   "revisit": false
+  },
+  {
+   "page": "Second Congo War",
+   "offered": 53,
+   "attempts": [
+    {
+     "raw": "Burundi",
+     "valid": true,
+     "tokensIn": 426,
+     "tokensOut": 19,
+     "ms": 1722
+    }
+   ],
+   "chosen": "Burundi",
+   "revisit": false
+  },
+  {
+   "page": "Burundi",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "United Nations",
+     "valid": true,
+     "tokensIn": 357,
+     "tokensOut": 19,
+     "ms": 1771
+    }
+   ],
+   "chosen": "United Nations",
+   "revisit": false
+  }
+ ]
+}

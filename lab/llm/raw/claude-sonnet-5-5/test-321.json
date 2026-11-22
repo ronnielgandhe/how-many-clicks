@@ -1,0 +1,195 @@
+{
+ "pair": "test-321",
+ "start": "Button",
+ "target": "Working poor",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 9,
+  "median_pages": 12
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Button",
+  "Clothing",
+  "Industrial Revolution",
+  "Trade union",
+  "Employment",
+  "Marxism",
+  "Capitalism",
+  "United States",
+  "Household income in the United States",
+  "Poverty",
+  "Working poor"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 10,
+ "tokensIn": 9978,
+ "tokensOut": 1298,
+ "costUsd": 0.032936,
+ "steps": [
+  {
+   "page": "Button",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Clothing",
+     "valid": true,
+     "tokensIn": 617,
+     "tokensOut": 50,
+     "ms": 1164
+    }
+   ],
+   "chosen": "Clothing",
+   "revisit": false
+  },
+  {
+   "page": "Clothing",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 718,
+     "tokensOut": 146,
+     "ms": 2121
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Trade union",
+     "valid": true,
+     "tokensIn": 947,
+     "tokensOut": 153,
+     "ms": 2097
+    }
+   ],
+   "chosen": "Trade union",
+   "revisit": false
+  },
+  {
+   "page": "Trade union",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 629,
+     "tokensOut": 49,
+     "ms": 737
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": false
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Marxism",
+     "valid": true,
+     "tokensIn": 635,
+     "tokensOut": 267,
+     "ms": 3549
+    }
+   ],
+   "chosen": "Marxism",
+   "revisit": false
+  },
+  {
+   "page": "Marxism",
+   "offered": 82,
+   "attempts": [
+    {
+     "raw": "Capitalism",
+     "valid": true,
+     "tokensIn": 1125,
+     "tokensOut": 251,
+     "ms": 2639
+    }
+   ],
+   "chosen": "Capitalism",
+   "revisit": false
+  },
+  {
+   "page": "Capitalism",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 899,
+     "tokensOut": 229,
+     "ms": 3015
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Household income in the United States",
+     "valid": true,
+     "tokensIn": 2809,
+     "tokensOut": 53,
+     "ms": 1501
+    }
+   ],
+   "chosen": "Household income in the United States",
+   "revisit": false
+  },
+  {
+   "page": "Household income in the United States",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Poverty",
+     "valid": true,
+     "tokensIn": 680,
+     "tokensOut": 50,
+     "ms": 1533
+    }
+   ],
+   "chosen": "Poverty",
+   "revisit": false
+  },
+  {
+   "page": "Poverty",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Working poor",
+     "valid": true,
+     "tokensIn": 919,
+     "tokensOut": 50,
+     "ms": 1493
+    }
+   ],
+   "chosen": "Working poor",
+   "revisit": false
+  }
+ ]
+}

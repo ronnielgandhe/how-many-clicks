@@ -1,0 +1,62 @@
+{
+ "pair": "test-111",
+ "start": "San Jose, California",
+ "target": "Corundum",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "San Jose, California",
+  "Aluminium",
+  "Corundum"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1968,
+ "tokensOut": 178,
+ "costUsd": 0.005716,
+ "steps": [
+  {
+   "page": "San Jose, California",
+   "offered": 55,
+   "attempts": [
+    {
+     "raw": "Aluminium",
+     "valid": true,
+     "tokensIn": 891,
+     "tokensOut": 128,
+     "ms": 2023
+    }
+   ],
+   "chosen": "Aluminium",
+   "revisit": false
+  },
+  {
+   "page": "Aluminium",
+   "offered": 80,
+   "attempts": [
+    {
+     "raw": "Corundum",
+     "valid": true,
+     "tokensIn": 1077,
+     "tokensOut": 50,
+     "ms": 2054
+    }
+   ],
+   "chosen": "Corundum",
+   "revisit": false
+  }
+ ]
+}

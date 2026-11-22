@@ -1,0 +1,62 @@
+{
+ "pair": "test-112",
+ "start": "Netherlands",
+ "target": "Dundee",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Netherlands",
+  "Scotland",
+  "Dundee"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2662,
+ "tokensOut": 100,
+ "costUsd": 0.006324,
+ "steps": [
+  {
+   "page": "Netherlands",
+   "offered": 116,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 1336,
+     "tokensOut": 50,
+     "ms": 1520
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Dundee",
+     "valid": true,
+     "tokensIn": 1326,
+     "tokensOut": 50,
+     "ms": 1266
+    }
+   ],
+   "chosen": "Dundee",
+   "revisit": false
+  }
+ ]
+}

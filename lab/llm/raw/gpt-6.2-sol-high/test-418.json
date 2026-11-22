@@ -1,0 +1,126 @@
+{
+ "pair": "test-418",
+ "start": "The Lorax",
+ "target": "Hovercraft",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Lorax",
+  "Theodore Roosevelt",
+  "France",
+  "English Channel",
+  "Dover",
+  "Boat",
+  "Hovercraft"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 1989,
+ "tokensOut": 288,
+ "costUsd": 0.006858,
+ "steps": [
+  {
+   "page": "The Lorax",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Theodore Roosevelt",
+     "valid": true,
+     "tokensIn": 210,
+     "tokensOut": 77,
+     "ms": 2117
+    }
+   ],
+   "chosen": "Theodore Roosevelt",
+   "revisit": false
+  },
+  {
+   "page": "Theodore Roosevelt",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 435,
+     "tokensOut": 86,
+     "ms": 1857
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "English Channel",
+     "valid": true,
+     "tokensIn": 511,
+     "tokensOut": 19,
+     "ms": 951
+    }
+   ],
+   "chosen": "English Channel",
+   "revisit": false
+  },
+  {
+   "page": "English Channel",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Dover",
+     "valid": true,
+     "tokensIn": 323,
+     "tokensOut": 69,
+     "ms": 1780
+    }
+   ],
+   "chosen": "Dover",
+   "revisit": false
+  },
+  {
+   "page": "Dover",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Boat",
+     "valid": true,
+     "tokensIn": 294,
+     "tokensOut": 18,
+     "ms": 1216
+    }
+   ],
+   "chosen": "Boat",
+   "revisit": false
+  },
+  {
+   "page": "Boat",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Hovercraft",
+     "valid": true,
+     "tokensIn": 216,
+     "tokensOut": 19,
+     "ms": 1086
+    }
+   ],
+   "chosen": "Hovercraft",
+   "revisit": false
+  }
+ ]
+}

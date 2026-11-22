@@ -1,0 +1,158 @@
+{
+ "pair": "test-382",
+ "start": "Toluene",
+ "target": "Saffron",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Toluene",
+  "Ethanol",
+  "India",
+  "Flag of India",
+  "Hinduism",
+  "Buddhism",
+  "Iran",
+  "Flower",
+  "Saffron"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 6950,
+ "tokensOut": 2697,
+ "costUsd": 0.04087,
+ "steps": [
+  {
+   "page": "Toluene",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Ethanol",
+     "valid": true,
+     "tokensIn": 602,
+     "tokensOut": 242,
+     "ms": 2152
+    }
+   ],
+   "chosen": "Ethanol",
+   "revisit": false
+  },
+  {
+   "page": "Ethanol",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 847,
+     "tokensOut": 193,
+     "ms": 5869
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Flag of India",
+     "valid": true,
+     "tokensIn": 1112,
+     "tokensOut": 367,
+     "ms": 3735
+    }
+   ],
+   "chosen": "Flag of India",
+   "revisit": false
+  },
+  {
+   "page": "Flag of India",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Hinduism",
+     "valid": true,
+     "tokensIn": 684,
+     "tokensOut": 187,
+     "ms": 2288
+    }
+   ],
+   "chosen": "Hinduism",
+   "revisit": false
+  },
+  {
+   "page": "Hinduism",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Buddhism",
+     "valid": true,
+     "tokensIn": 800,
+     "tokensOut": 1004,
+     "ms": 8441
+    }
+   ],
+   "chosen": "Buddhism",
+   "revisit": false
+  },
+  {
+   "page": "Buddhism",
+   "offered": 50,
+   "attempts": [
+    {
+     "raw": "Iran",
+     "valid": true,
+     "tokensIn": 911,
+     "tokensOut": 275,
+     "ms": 4226
+    }
+   ],
+   "chosen": "Iran",
+   "revisit": false
+  },
+  {
+   "page": "Iran",
+   "offered": 108,
+   "attempts": [
+    {
+     "raw": "Flower",
+     "valid": true,
+     "tokensIn": 1266,
+     "tokensOut": 379,
+     "ms": 5615
+    }
+   ],
+   "chosen": "Flower",
+   "revisit": false
+  },
+  {
+   "page": "Flower",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Saffron",
+     "valid": true,
+     "tokensIn": 728,
+     "tokensOut": 50,
+     "ms": 1568
+    }
+   ],
+   "chosen": "Saffron",
+   "revisit": false
+  }
+ ]
+}

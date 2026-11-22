@@ -1,0 +1,83 @@
+{
+ "pair": "test-180",
+ "start": "Working poor",
+ "target": "Fresh water",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 3.5,
+  "median_pages": 4.5
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Working poor",
+  "United States",
+  "Great Lakes",
+  "Fresh water"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1862,
+ "tokensOut": 258,
+ "costUsd": 0.002364,
+ "steps": [
+  {
+   "page": "Working poor",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 181,
+     "tokensOut": 141,
+     "ms": 3169
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Great Lakes",
+     "valid": true,
+     "tokensIn": 1411,
+     "tokensOut": 77,
+     "ms": 2608
+    }
+   ],
+   "chosen": "Great Lakes",
+   "revisit": false
+  },
+  {
+   "page": "Great Lakes",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Fresh water",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 40,
+     "ms": 1513
+    }
+   ],
+   "chosen": "Fresh water",
+   "revisit": false
+  }
+ ]
+}

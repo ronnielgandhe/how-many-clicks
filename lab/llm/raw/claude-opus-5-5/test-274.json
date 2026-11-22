@@ -1,0 +1,158 @@
+{
+ "pair": "test-274",
+ "start": "Hippopotamus",
+ "target": "Retinol",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Hippopotamus",
+  "Pigment",
+  "Eye",
+  "Retina",
+  "Cancer",
+  "Anemia",
+  "Vitamin C",
+  "Vitamin",
+  "Retinol"
+ ],
+ "clicks": 8,
+ "stepsTaken": 8,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 8,
+ "tokensIn": 5890,
+ "tokensOut": 980,
+ "costUsd": 0.04316,
+ "steps": [
+  {
+   "page": "Hippopotamus",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Pigment",
+     "valid": true,
+     "tokensIn": 852,
+     "tokensOut": 143,
+     "ms": 2438
+    }
+   ],
+   "chosen": "Pigment",
+   "revisit": false
+  },
+  {
+   "page": "Pigment",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Eye",
+     "valid": true,
+     "tokensIn": 717,
+     "tokensOut": 85,
+     "ms": 1168
+    }
+   ],
+   "chosen": "Eye",
+   "revisit": false
+  },
+  {
+   "page": "Eye",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Retina",
+     "valid": true,
+     "tokensIn": 754,
+     "tokensOut": 100,
+     "ms": 1366
+    }
+   ],
+   "chosen": "Retina",
+   "revisit": false
+  },
+  {
+   "page": "Retina",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Cancer",
+     "valid": true,
+     "tokensIn": 622,
+     "tokensOut": 205,
+     "ms": 3233
+    }
+   ],
+   "chosen": "Cancer",
+   "revisit": false
+  },
+  {
+   "page": "Cancer",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Anemia",
+     "valid": true,
+     "tokensIn": 773,
+     "tokensOut": 198,
+     "ms": 2609
+    }
+   ],
+   "chosen": "Anemia",
+   "revisit": false
+  },
+  {
+   "page": "Anemia",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Vitamin C",
+     "valid": true,
+     "tokensIn": 663,
+     "tokensOut": 148,
+     "ms": 2263
+    }
+   ],
+   "chosen": "Vitamin C",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin C",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Vitamin",
+     "valid": true,
+     "tokensIn": 758,
+     "tokensOut": 51,
+     "ms": 3212
+    }
+   ],
+   "chosen": "Vitamin",
+   "revisit": false
+  },
+  {
+   "page": "Vitamin",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "Retinol",
+     "valid": true,
+     "tokensIn": 751,
+     "tokensOut": 50,
+     "ms": 1828
+    }
+   ],
+   "chosen": "Retinol",
+   "revisit": false
+  }
+ ]
+}

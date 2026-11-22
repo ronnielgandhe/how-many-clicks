@@ -1,0 +1,67 @@
+{
+ "pair": "test-60",
+ "start": "Bonobo",
+ "target": "Agriculture",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 3
+ },
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Bonobo",
+  "Human",
+  "Agriculture"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 2002,
+ "tokensOut": 99,
+ "costUsd": 0.009988,
+ "steps": [
+  {
+   "page": "Bonobo",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 630,
+     "tokensOut": 48,
+     "ms": 904
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 1372,
+     "tokensOut": 51,
+     "ms": 797
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  }
+ ]
+}

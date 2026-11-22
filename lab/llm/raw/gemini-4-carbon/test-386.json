@@ -1,0 +1,110 @@
+{
+ "pair": "test-386",
+ "start": "Dallas, Texas",
+ "target": "Comet Hale-Bopp",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Dallas, Texas",
+  "International Space Station",
+  "European Space Agency",
+  "Comet Halley",
+  "Comet",
+  "Comet Hale-Bopp"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1782,
+ "tokensOut": 147,
+ "costUsd": 0.005034,
+ "steps": [
+  {
+   "page": "Dallas, Texas",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "International Space Station",
+     "valid": true,
+     "tokensIn": 376,
+     "tokensOut": 24,
+     "ms": 3788
+    }
+   ],
+   "chosen": "International Space Station",
+   "revisit": false
+  },
+  {
+   "page": "International Space Station",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "European Space Agency",
+     "valid": true,
+     "tokensIn": 305,
+     "tokensOut": 24,
+     "ms": 4089
+    }
+   ],
+   "chosen": "European Space Agency",
+   "revisit": false
+  },
+  {
+   "page": "European Space Agency",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Comet Halley",
+     "valid": true,
+     "tokensIn": 396,
+     "tokensOut": 49,
+     "ms": 41290
+    }
+   ],
+   "chosen": "Comet Halley",
+   "revisit": false
+  },
+  {
+   "page": "Comet Halley",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Comet",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 23,
+     "ms": 4124
+    }
+   ],
+   "chosen": "Comet",
+   "revisit": false
+  },
+  {
+   "page": "Comet",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Comet Hale-Bopp",
+     "valid": true,
+     "tokensIn": 397,
+     "tokensOut": 27,
+     "ms": 5506
+    }
+   ],
+   "chosen": "Comet Hale-Bopp",
+   "revisit": false
+  }
+ ]
+}

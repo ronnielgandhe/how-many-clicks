@@ -1,0 +1,99 @@
+{
+ "pair": "test-25",
+ "start": "Citizenship",
+ "target": "Turkmenistan",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 5.5,
+  "median_pages": 7.5
+ },
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Citizenship",
+  "Country",
+  "United Nations",
+  "Afghanistan",
+  "Turkmenistan"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 3672,
+ "tokensOut": 596,
+ "costUsd": 0.013304,
+ "steps": [
+  {
+   "page": "Citizenship",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Country",
+     "valid": true,
+     "tokensIn": 702,
+     "tokensOut": 174,
+     "ms": 1822
+    }
+   ],
+   "chosen": "Country",
+   "revisit": false
+  },
+  {
+   "page": "Country",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "United Nations",
+     "valid": true,
+     "tokensIn": 641,
+     "tokensOut": 124,
+     "ms": 2123
+    }
+   ],
+   "chosen": "United Nations",
+   "revisit": false
+  },
+  {
+   "page": "United Nations",
+   "offered": 113,
+   "attempts": [
+    {
+     "raw": "Afghanistan",
+     "valid": true,
+     "tokensIn": 1311,
+     "tokensOut": 245,
+     "ms": 5887
+    }
+   ],
+   "chosen": "Afghanistan",
+   "revisit": false
+  },
+  {
+   "page": "Afghanistan",
+   "offered": 66,
+   "attempts": [
+    {
+     "raw": "Turkmenistan",
+     "valid": true,
+     "tokensIn": 1018,
+     "tokensOut": 53,
+     "ms": 7817
+    }
+   ],
+   "chosen": "Turkmenistan",
+   "revisit": false
+  }
+ ]
+}

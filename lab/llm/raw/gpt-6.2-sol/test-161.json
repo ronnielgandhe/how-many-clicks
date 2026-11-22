@@ -1,0 +1,99 @@
+{
+ "pair": "test-161",
+ "start": "Limerick",
+ "target": "Pea",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 7,
+  "median_pages": 8
+ },
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Limerick",
+  "Europe",
+  "Herbivore",
+  "Seed",
+  "Pea"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1525,
+ "tokensOut": 75,
+ "costUsd": 0.0038,
+ "steps": [
+  {
+   "page": "Limerick",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 243,
+     "tokensOut": 18,
+     "ms": 1230
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Herbivore",
+     "valid": true,
+     "tokensIn": 748,
+     "tokensOut": 20,
+     "ms": 975
+    }
+   ],
+   "chosen": "Herbivore",
+   "revisit": false
+  },
+  {
+   "page": "Herbivore",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Seed",
+     "valid": true,
+     "tokensIn": 242,
+     "tokensOut": 18,
+     "ms": 949
+    }
+   ],
+   "chosen": "Seed",
+   "revisit": false
+  },
+  {
+   "page": "Seed",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Pea",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 19,
+     "ms": 1030
+    }
+   ],
+   "chosen": "Pea",
+   "revisit": false
+  }
+ ]
+}

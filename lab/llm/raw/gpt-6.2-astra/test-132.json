@@ -1,0 +1,222 @@
+{
+ "pair": "test-132",
+ "start": "Spanish Inquisition",
+ "target": "Beeching Axe",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Spanish Inquisition",
+  "England",
+  "Isle of Wight",
+  "London Underground",
+  "Derby",
+  "York",
+  "England",
+  "Isambard Kingdom Brunel",
+  "Plymouth",
+  "London",
+  "United Kingdom",
+  "Peak District",
+  "Beeching Axe"
+ ],
+ "clicks": 12,
+ "stepsTaken": 12,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 12,
+ "tokensIn": 5892,
+ "tokensOut": 233,
+ "costUsd": 0.056456,
+ "steps": [
+  {
+   "page": "Spanish Inquisition",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 18,
+     "ms": 1208
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isle of Wight",
+     "valid": true,
+     "tokensIn": 919,
+     "tokensOut": 22,
+     "ms": 1403
+    }
+   ],
+   "chosen": "Isle of Wight",
+   "revisit": false
+  },
+  {
+   "page": "Isle of Wight",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "London Underground",
+     "valid": true,
+     "tokensIn": 341,
+     "tokensOut": 19,
+     "ms": 1180
+    }
+   ],
+   "chosen": "London Underground",
+   "revisit": false
+  },
+  {
+   "page": "London Underground",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Derby",
+     "valid": true,
+     "tokensIn": 237,
+     "tokensOut": 19,
+     "ms": 1617
+    }
+   ],
+   "chosen": "Derby",
+   "revisit": false
+  },
+  {
+   "page": "Derby",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "York",
+     "valid": true,
+     "tokensIn": 318,
+     "tokensOut": 18,
+     "ms": 1449
+    }
+   ],
+   "chosen": "York",
+   "revisit": false
+  },
+  {
+   "page": "York",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 259,
+     "tokensOut": 18,
+     "ms": 1422
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 933,
+     "tokensOut": 23,
+     "ms": 1365
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Plymouth",
+     "valid": true,
+     "tokensIn": 302,
+     "tokensOut": 20,
+     "ms": 1353
+    }
+   ],
+   "chosen": "Plymouth",
+   "revisit": false
+  },
+  {
+   "page": "Plymouth",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "London",
+     "valid": true,
+     "tokensIn": 338,
+     "tokensOut": 18,
+     "ms": 1618
+    }
+   ],
+   "chosen": "London",
+   "revisit": false
+  },
+  {
+   "page": "London",
+   "offered": 102,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 641,
+     "tokensOut": 19,
+     "ms": 3423
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Peak District",
+     "valid": true,
+     "tokensIn": 950,
+     "tokensOut": 19,
+     "ms": 3246
+    }
+   ],
+   "chosen": "Peak District",
+   "revisit": false
+  },
+  {
+   "page": "Peak District",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Beeching Axe",
+     "valid": true,
+     "tokensIn": 329,
+     "tokensOut": 20,
+     "ms": 1829
+    }
+   ],
+   "chosen": "Beeching Axe",
+   "revisit": false
+  }
+ ]
+}

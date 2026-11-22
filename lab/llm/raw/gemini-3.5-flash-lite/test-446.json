@@ -1,0 +1,291 @@
+{
+ "pair": "test-446",
+ "start": "Panama Canal",
+ "target": "Bernard Hinault",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Panama Canal",
+  "France",
+  "Louis XIV of France",
+  "List of French monarchs",
+  "France",
+  "Napoleon I of France",
+  "France",
+  "United Kingdom",
+  "France",
+  "Louis XIV of France",
+  "France",
+  "Italy",
+  "France",
+  "Louis XIV of France",
+  "France",
+  "Paris"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 8,
+ "invalidAttempts": 3,
+ "calls": 18,
+ "tokensIn": 8772,
+ "tokensOut": 310,
+ "costUsd": 0.003407,
+ "steps": [
+  {
+   "page": "Panama Canal",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 288,
+     "tokensOut": 16,
+     "ms": 743
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Tour de France",
+     "valid": false,
+     "tokensIn": 495,
+     "tokensOut": 18,
+     "ms": 652
+    },
+    {
+     "raw": "Louis XIV of France",
+     "valid": true,
+     "tokensIn": 520,
+     "tokensOut": 19,
+     "ms": 733
+    }
+   ],
+   "chosen": "Louis XIV of France",
+   "revisit": false
+  },
+  {
+   "page": "Louis XIV of France",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "List of French monarchs",
+     "valid": true,
+     "tokensIn": 366,
+     "tokensOut": 19,
+     "ms": 663
+    }
+   ],
+   "chosen": "List of French monarchs",
+   "revisit": false
+  },
+  {
+   "page": "List of French monarchs",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 242,
+     "tokensOut": 16,
+     "ms": 720
+    }
+   ],
+   "chosen": "France",
+   "revisit": true
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Napoleon I of France",
+     "valid": true,
+     "tokensIn": 507,
+     "tokensOut": 19,
+     "ms": 825
+    }
+   ],
+   "chosen": "Napoleon I of France",
+   "revisit": false
+  },
+  {
+   "page": "Napoleon I of France",
+   "offered": 48,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 373,
+     "tokensOut": 16,
+     "ms": 861
+    }
+   ],
+   "chosen": "France",
+   "revisit": true
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Tour de France",
+     "valid": false,
+     "tokensIn": 514,
+     "tokensOut": 18,
+     "ms": 587
+    },
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 539,
+     "tokensOut": 17,
+     "ms": 728
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 939,
+     "tokensOut": 16,
+     "ms": 686
+    }
+   ],
+   "chosen": "France",
+   "revisit": true
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Louis XIV of France",
+     "valid": true,
+     "tokensIn": 519,
+     "tokensOut": 19,
+     "ms": 846
+    }
+   ],
+   "chosen": "Louis XIV of France",
+   "revisit": true
+  },
+  {
+   "page": "Louis XIV of France",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 390,
+     "tokensOut": 16,
+     "ms": 671
+    }
+   ],
+   "chosen": "France",
+   "revisit": true
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Italy",
+     "valid": true,
+     "tokensIn": 526,
+     "tokensOut": 16,
+     "ms": 659
+    }
+   ],
+   "chosen": "Italy",
+   "revisit": false
+  },
+  {
+   "page": "Italy",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 524,
+     "tokensOut": 16,
+     "ms": 736
+    }
+   ],
+   "chosen": "France",
+   "revisit": true
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Louis XIV of France",
+     "valid": true,
+     "tokensIn": 530,
+     "tokensOut": 19,
+     "ms": 702
+    }
+   ],
+   "chosen": "Louis XIV of France",
+   "revisit": true
+  },
+  {
+   "page": "Louis XIV of France",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 401,
+     "tokensOut": 16,
+     "ms": 779
+    }
+   ],
+   "chosen": "France",
+   "revisit": true
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Tour de France",
+     "valid": false,
+     "tokensIn": 537,
+     "tokensOut": 18,
+     "ms": 863
+    },
+    {
+     "raw": "Paris",
+     "valid": true,
+     "tokensIn": 562,
+     "tokensOut": 16,
+     "ms": 736
+    }
+   ],
+   "chosen": "Paris",
+   "revisit": false
+  }
+ ]
+}

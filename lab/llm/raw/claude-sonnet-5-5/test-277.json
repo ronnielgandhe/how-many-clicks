@@ -1,0 +1,110 @@
+{
+ "pair": "test-277",
+ "start": "Louis Freeh",
+ "target": "Hasekura Tsunenaga",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Louis Freeh",
+  "Opus Dei",
+  "Spain",
+  "Mexico",
+  "Japan",
+  "Hasekura Tsunenaga"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4572,
+ "tokensOut": 672,
+ "costUsd": 0.015864,
+ "steps": [
+  {
+   "page": "Louis Freeh",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Opus Dei",
+     "valid": true,
+     "tokensIn": 603,
+     "tokensOut": 179,
+     "ms": 2145
+    }
+   ],
+   "chosen": "Opus Dei",
+   "revisit": false
+  },
+  {
+   "page": "Opus Dei",
+   "offered": 6,
+   "attempts": [
+    {
+     "raw": "Spain",
+     "valid": true,
+     "tokensIn": 613,
+     "tokensOut": 177,
+     "ms": 1639
+    }
+   ],
+   "chosen": "Spain",
+   "revisit": false
+  },
+  {
+   "page": "Spain",
+   "offered": 89,
+   "attempts": [
+    {
+     "raw": "Mexico",
+     "valid": true,
+     "tokensIn": 1177,
+     "tokensOut": 209,
+     "ms": 2513
+    }
+   ],
+   "chosen": "Mexico",
+   "revisit": false
+  },
+  {
+   "page": "Mexico",
+   "offered": 67,
+   "attempts": [
+    {
+     "raw": "Japan",
+     "valid": true,
+     "tokensIn": 967,
+     "tokensOut": 49,
+     "ms": 1553
+    }
+   ],
+   "chosen": "Japan",
+   "revisit": false
+  },
+  {
+   "page": "Japan",
+   "offered": 98,
+   "attempts": [
+    {
+     "raw": "Hasekura Tsunenaga",
+     "valid": true,
+     "tokensIn": 1212,
+     "tokensOut": 58,
+     "ms": 1336
+    }
+   ],
+   "chosen": "Hasekura Tsunenaga",
+   "revisit": false
+  }
+ ]
+}

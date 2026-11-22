@@ -1,0 +1,190 @@
+{
+ "pair": "test-415",
+ "start": "Jake Gyllenhaal",
+ "target": "Cultural diversity",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Jake Gyllenhaal",
+  "United States",
+  "Multiculturalism",
+  "Cultural identity",
+  "Culture",
+  "Multiculturalism",
+  "Ethnic group",
+  "Claude L\u00e9vi-Strauss",
+  "Anthropology",
+  "Globalization",
+  "Cultural diversity"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 1,
+ "invalidAttempts": 0,
+ "calls": 10,
+ "tokensIn": 10061,
+ "tokensOut": 1735,
+ "costUsd": 0.037472,
+ "steps": [
+  {
+   "page": "Jake Gyllenhaal",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 692,
+     "tokensOut": 295,
+     "ms": 3196
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Multiculturalism",
+     "valid": true,
+     "tokensIn": 2787,
+     "tokensOut": 53,
+     "ms": 1256
+    }
+   ],
+   "chosen": "Multiculturalism",
+   "revisit": false
+  },
+  {
+   "page": "Multiculturalism",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Cultural identity",
+     "valid": true,
+     "tokensIn": 944,
+     "tokensOut": 52,
+     "ms": 748
+    }
+   ],
+   "chosen": "Cultural identity",
+   "revisit": false
+  },
+  {
+   "page": "Cultural identity",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Culture",
+     "valid": true,
+     "tokensIn": 588,
+     "tokensOut": 49,
+     "ms": 739
+    }
+   ],
+   "chosen": "Culture",
+   "revisit": false
+  },
+  {
+   "page": "Culture",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "Multiculturalism",
+     "valid": true,
+     "tokensIn": 926,
+     "tokensOut": 315,
+     "ms": 3083
+    }
+   ],
+   "chosen": "Multiculturalism",
+   "revisit": true
+  },
+  {
+   "page": "Multiculturalism",
+   "offered": 54,
+   "attempts": [
+    {
+     "raw": "Ethnic group",
+     "valid": true,
+     "tokensIn": 963,
+     "tokensOut": 227,
+     "ms": 2585
+    }
+   ],
+   "chosen": "Ethnic group",
+   "revisit": false
+  },
+  {
+   "page": "Ethnic group",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Claude L\u00e9vi-Strauss",
+     "valid": true,
+     "tokensIn": 730,
+     "tokensOut": 317,
+     "ms": 3022
+    }
+   ],
+   "chosen": "Claude L\u00e9vi-Strauss",
+   "revisit": false
+  },
+  {
+   "page": "Claude L\u00e9vi-Strauss",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Anthropology",
+     "valid": true,
+     "tokensIn": 681,
+     "tokensOut": 245,
+     "ms": 2256
+    }
+   ],
+   "chosen": "Anthropology",
+   "revisit": false
+  },
+  {
+   "page": "Anthropology",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Globalization",
+     "valid": true,
+     "tokensIn": 873,
+     "tokensOut": 129,
+     "ms": 1741
+    }
+   ],
+   "chosen": "Globalization",
+   "revisit": false
+  },
+  {
+   "page": "Globalization",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Cultural diversity",
+     "valid": true,
+     "tokensIn": 877,
+     "tokensOut": 53,
+     "ms": 1569
+    }
+   ],
+   "chosen": "Cultural diversity",
+   "revisit": false
+  }
+ ]
+}

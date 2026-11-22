@@ -1,0 +1,222 @@
+{
+ "pair": "test-382",
+ "start": "Toluene",
+ "target": "Saffron",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Toluene",
+  "Benzene",
+  "Color",
+  "Art",
+  "Painting",
+  "India",
+  "Flag of India",
+  "Hinduism",
+  "India",
+  "Flag of India",
+  "Sikhism",
+  "Kashmir region",
+  "Saffron"
+ ],
+ "clicks": 12,
+ "stepsTaken": 12,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 12,
+ "tokensIn": 9906,
+ "tokensOut": 3371,
+ "costUsd": 0.002676,
+ "steps": [
+  {
+   "page": "Toluene",
+   "offered": 9,
+   "attempts": [
+    {
+     "raw": "Benzene",
+     "valid": true,
+     "tokensIn": 602,
+     "tokensOut": 202,
+     "ms": 1397
+    }
+   ],
+   "chosen": "Benzene",
+   "revisit": false
+  },
+  {
+   "page": "Benzene",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Color",
+     "valid": true,
+     "tokensIn": 697,
+     "tokensOut": 210,
+     "ms": 1423
+    }
+   ],
+   "chosen": "Color",
+   "revisit": false
+  },
+  {
+   "page": "Color",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 665,
+     "tokensOut": 396,
+     "ms": 2008
+    }
+   ],
+   "chosen": "Art",
+   "revisit": false
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Painting",
+     "valid": true,
+     "tokensIn": 985,
+     "tokensOut": 320,
+     "ms": 1862
+    }
+   ],
+   "chosen": "Painting",
+   "revisit": false
+  },
+  {
+   "page": "Painting",
+   "offered": 73,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 1050,
+     "tokensOut": 374,
+     "ms": 2281
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Flag of India",
+     "valid": true,
+     "tokensIn": 1121,
+     "tokensOut": 342,
+     "ms": 2047
+    }
+   ],
+   "chosen": "Flag of India",
+   "revisit": false
+  },
+  {
+   "page": "Flag of India",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Hinduism",
+     "valid": true,
+     "tokensIn": 693,
+     "tokensOut": 337,
+     "ms": 1888
+    }
+   ],
+   "chosen": "Hinduism",
+   "revisit": false
+  },
+  {
+   "page": "Hinduism",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 809,
+     "tokensOut": 366,
+     "ms": 2350
+    }
+   ],
+   "chosen": "India",
+   "revisit": true
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Flag of India",
+     "valid": true,
+     "tokensIn": 1135,
+     "tokensOut": 353,
+     "ms": 1926
+    }
+   ],
+   "chosen": "Flag of India",
+   "revisit": true
+  },
+  {
+   "page": "Flag of India",
+   "offered": 21,
+   "attempts": [
+    {
+     "raw": "Sikhism",
+     "valid": true,
+     "tokensIn": 707,
+     "tokensOut": 248,
+     "ms": 1493
+    }
+   ],
+   "chosen": "Sikhism",
+   "revisit": false
+  },
+  {
+   "page": "Sikhism",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Kashmir region",
+     "valid": true,
+     "tokensIn": 731,
+     "tokensOut": 173,
+     "ms": 1202
+    }
+   ],
+   "chosen": "Kashmir region",
+   "revisit": false
+  },
+  {
+   "page": "Kashmir region",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Saffron",
+     "valid": true,
+     "tokensIn": 711,
+     "tokensOut": 50,
+     "ms": 649
+    }
+   ],
+   "chosen": "Saffron",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "pair": "test-99",
+ "start": "M*A*S*H (TV series)",
+ "target": "Heraldry",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "M*A*S*H (TV series)",
+  "United States",
+  "France",
+  "Middle Ages",
+  "12th century",
+  "13th century",
+  "Holy Roman Empire",
+  "Germany",
+  "Holy Roman Empire",
+  "Middle Ages",
+  "Art",
+  "Middle Ages",
+  "Art",
+  "Europe",
+  "Middle Ages",
+  "England"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 5,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 8229,
+ "tokensOut": 283,
+ "costUsd": 0.000964,
+ "steps": [
+  {
+   "page": "M*A*S*H (TV series)",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 222,
+     "tokensOut": 19,
+     "ms": 992
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 1440,
+     "tokensOut": 18,
+     "ms": 1080
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 507,
+     "tokensOut": 19,
+     "ms": 980
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": false
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "12th century",
+     "valid": true,
+     "tokensIn": 478,
+     "tokensOut": 20,
+     "ms": 1213
+    }
+   ],
+   "chosen": "12th century",
+   "revisit": false
+  },
+  {
+   "page": "12th century",
+   "offered": 45,
+   "attempts": [
+    {
+     "raw": "13th century",
+     "valid": true,
+     "tokensIn": 418,
+     "tokensOut": 20,
+     "ms": 832
+    }
+   ],
+   "chosen": "13th century",
+   "revisit": false
+  },
+  {
+   "page": "13th century",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Holy Roman Empire",
+     "valid": true,
+     "tokensIn": 333,
+     "tokensOut": 20,
+     "ms": 1016
+    }
+   ],
+   "chosen": "Holy Roman Empire",
+   "revisit": false
+  },
+  {
+   "page": "Holy Roman Empire",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Germany",
+     "valid": true,
+     "tokensIn": 378,
+     "tokensOut": 18,
+     "ms": 1044
+    }
+   ],
+   "chosen": "Germany",
+   "revisit": false
+  },
+  {
+   "page": "Germany",
+   "offered": 169,
+   "attempts": [
+    {
+     "raw": "Holy Roman Empire",
+     "valid": true,
+     "tokensIn": 864,
+     "tokensOut": 20,
+     "ms": 941
+    }
+   ],
+   "chosen": "Holy Roman Empire",
+   "revisit": true
+  },
+  {
+   "page": "Holy Roman Empire",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 384,
+     "tokensOut": 19,
+     "ms": 887
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": true
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 501,
+     "tokensOut": 18,
+     "ms": 983
+    }
+   ],
+   "chosen": "Art",
+   "revisit": false
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 449,
+     "tokensOut": 19,
+     "ms": 817
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": true
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "Art",
+     "valid": true,
+     "tokensIn": 506,
+     "tokensOut": 18,
+     "ms": 897
+    }
+   ],
+   "chosen": "Art",
+   "revisit": true
+  },
+  {
+   "page": "Art",
+   "offered": 65,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 454,
+     "tokensOut": 18,
+     "ms": 862
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Middle Ages",
+     "valid": true,
+     "tokensIn": 782,
+     "tokensOut": 19,
+     "ms": 868
+    }
+   ],
+   "chosen": "Middle Ages",
+   "revisit": true
+  },
+  {
+   "page": "Middle Ages",
+   "offered": 69,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 513,
+     "tokensOut": 18,
+     "ms": 888
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  }
+ ]
+}

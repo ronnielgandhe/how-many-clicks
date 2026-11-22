@@ -1,0 +1,67 @@
+{
+ "pair": "test-60",
+ "start": "Bonobo",
+ "target": "Agriculture",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 2,
+  "median_pages": 3
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Bonobo",
+  "Africa",
+  "Agriculture"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 1245,
+ "tokensOut": 37,
+ "costUsd": 0.000143,
+ "steps": [
+  {
+   "page": "Bonobo",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 225,
+     "tokensOut": 18,
+     "ms": 833
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Agriculture",
+     "valid": true,
+     "tokensIn": 1020,
+     "tokensOut": 19,
+     "ms": 1034
+    }
+   ],
+   "chosen": "Agriculture",
+   "revisit": false
+  }
+ ]
+}

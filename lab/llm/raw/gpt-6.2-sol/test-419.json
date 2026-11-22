@@ -1,0 +1,110 @@
+{
+ "pair": "test-419",
+ "start": "Lake Victoria",
+ "target": "Fedora Core",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Lake Victoria",
+  "United Kingdom",
+  "Computer",
+  "Linux",
+  "GNOME",
+  "Fedora Core"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1977,
+ "tokensOut": 94,
+ "costUsd": 0.004894,
+ "steps": [
+  {
+   "page": "Lake Victoria",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 259,
+     "tokensOut": 19,
+     "ms": 1003
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Computer",
+     "valid": true,
+     "tokensIn": 920,
+     "tokensOut": 18,
+     "ms": 986
+    }
+   ],
+   "chosen": "Computer",
+   "revisit": false
+  },
+  {
+   "page": "Computer",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Linux",
+     "valid": true,
+     "tokensIn": 331,
+     "tokensOut": 18,
+     "ms": 1202
+    }
+   ],
+   "chosen": "Linux",
+   "revisit": false
+  },
+  {
+   "page": "Linux",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "GNOME",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 19,
+     "ms": 1210
+    }
+   ],
+   "chosen": "GNOME",
+   "revisit": false
+  },
+  {
+   "page": "GNOME",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Fedora Core",
+     "valid": true,
+     "tokensIn": 232,
+     "tokensOut": 20,
+     "ms": 984
+    }
+   ],
+   "chosen": "Fedora Core",
+   "revisit": false
+  }
+ ]
+}

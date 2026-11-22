@@ -1,0 +1,131 @@
+{
+ "pair": "test-165",
+ "start": "Crustacean",
+ "target": "Leonardo da Vinci",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 4.0,
+  "median_pages": 5.0
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Crustacean",
+  "Fossil record",
+  "Paleontology",
+  "Fossil",
+  "History",
+  "15th century",
+  "Leonardo da Vinci"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 1826,
+ "tokensOut": 392,
+ "costUsd": 0.007572,
+ "steps": [
+  {
+   "page": "Crustacean",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Fossil record",
+     "valid": true,
+     "tokensIn": 242,
+     "tokensOut": 125,
+     "ms": 2712
+    }
+   ],
+   "chosen": "Fossil record",
+   "revisit": false
+  },
+  {
+   "page": "Fossil record",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Paleontology",
+     "valid": true,
+     "tokensIn": 281,
+     "tokensOut": 91,
+     "ms": 2502
+    }
+   ],
+   "chosen": "Paleontology",
+   "revisit": false
+  },
+  {
+   "page": "Paleontology",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 277,
+     "tokensOut": 86,
+     "ms": 2099
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  },
+  {
+   "page": "Fossil",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "History",
+     "valid": true,
+     "tokensIn": 286,
+     "tokensOut": 49,
+     "ms": 1652
+    }
+   ],
+   "chosen": "History",
+   "revisit": false
+  },
+  {
+   "page": "History",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "15th century",
+     "valid": true,
+     "tokensIn": 263,
+     "tokensOut": 20,
+     "ms": 1264
+    }
+   ],
+   "chosen": "15th century",
+   "revisit": false
+  },
+  {
+   "page": "15th century",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Leonardo da Vinci",
+     "valid": true,
+     "tokensIn": 477,
+     "tokensOut": 21,
+     "ms": 977
+    }
+   ],
+   "chosen": "Leonardo da Vinci",
+   "revisit": false
+  }
+ ]
+}

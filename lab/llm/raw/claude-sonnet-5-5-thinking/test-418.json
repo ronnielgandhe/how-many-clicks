@@ -1,0 +1,110 @@
+{
+ "pair": "test-418",
+ "start": "The Lorax",
+ "target": "Hovercraft",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "The Lorax",
+  "Theodore Roosevelt",
+  "France",
+  "English Channel",
+  "Portsmouth",
+  "Hovercraft"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 4410,
+ "tokensOut": 1737,
+ "costUsd": 0.02619,
+ "steps": [
+  {
+   "page": "The Lorax",
+   "offered": 7,
+   "attempts": [
+    {
+     "raw": "Theodore Roosevelt",
+     "valid": true,
+     "tokensIn": 592,
+     "tokensOut": 497,
+     "ms": 4631
+    }
+   ],
+   "chosen": "Theodore Roosevelt",
+   "revisit": false
+  },
+  {
+   "page": "Theodore Roosevelt",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 1007,
+     "tokensOut": 596,
+     "ms": 5732
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "English Channel",
+     "valid": true,
+     "tokensIn": 1119,
+     "tokensOut": 115,
+     "ms": 1600
+    }
+   ],
+   "chosen": "English Channel",
+   "revisit": false
+  },
+  {
+   "page": "English Channel",
+   "offered": 33,
+   "attempts": [
+    {
+     "raw": "Portsmouth",
+     "valid": true,
+     "tokensIn": 802,
+     "tokensOut": 477,
+     "ms": 3943
+    }
+   ],
+   "chosen": "Portsmouth",
+   "revisit": false
+  },
+  {
+   "page": "Portsmouth",
+   "offered": 42,
+   "attempts": [
+    {
+     "raw": "Hovercraft",
+     "valid": true,
+     "tokensIn": 890,
+     "tokensOut": 52,
+     "ms": 1258
+    }
+   ],
+   "chosen": "Hovercraft",
+   "revisit": false
+  }
+ ]
+}

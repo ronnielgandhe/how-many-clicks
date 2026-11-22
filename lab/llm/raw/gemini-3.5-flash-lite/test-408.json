@@ -1,0 +1,110 @@
+{
+ "pair": "test-408",
+ "start": "Kakariki",
+ "target": "Quantum chemistry",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Kakariki",
+  "New Zealand",
+  "United Kingdom",
+  "Electron",
+  "Chemistry",
+  "Quantum chemistry"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2252,
+ "tokensOut": 83,
+ "costUsd": 0.000883,
+ "steps": [
+  {
+   "page": "Kakariki",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "New Zealand",
+     "valid": true,
+     "tokensIn": 212,
+     "tokensOut": 17,
+     "ms": 773
+    }
+   ],
+   "chosen": "New Zealand",
+   "revisit": false
+  },
+  {
+   "page": "New Zealand",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 509,
+     "tokensOut": 17,
+     "ms": 709
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Electron",
+     "valid": true,
+     "tokensIn": 920,
+     "tokensOut": 16,
+     "ms": 676
+    }
+   ],
+   "chosen": "Electron",
+   "revisit": false
+  },
+  {
+   "page": "Electron",
+   "offered": 22,
+   "attempts": [
+    {
+     "raw": "Chemistry",
+     "valid": true,
+     "tokensIn": 263,
+     "tokensOut": 16,
+     "ms": 804
+    }
+   ],
+   "chosen": "Chemistry",
+   "revisit": false
+  },
+  {
+   "page": "Chemistry",
+   "offered": 49,
+   "attempts": [
+    {
+     "raw": "Quantum chemistry",
+     "valid": true,
+     "tokensIn": 348,
+     "tokensOut": 17,
+     "ms": 691
+    }
+   ],
+   "chosen": "Quantum chemistry",
+   "revisit": false
+  }
+ ]
+}

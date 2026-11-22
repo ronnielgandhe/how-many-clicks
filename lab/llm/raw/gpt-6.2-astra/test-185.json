@@ -1,0 +1,83 @@
+{
+ "pair": "test-185",
+ "start": "Quantum chemistry",
+ "target": "Belgium",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 4,
+  "median_pages": 5
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Quantum chemistry",
+  "Robert Oppenheimer",
+  "Netherlands",
+  "Belgium"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 1242,
+ "tokensOut": 59,
+ "costUsd": 0.012296,
+ "steps": [
+  {
+   "page": "Quantum chemistry",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "Robert Oppenheimer",
+     "valid": true,
+     "tokensIn": 221,
+     "tokensOut": 21,
+     "ms": 1544
+    }
+   ],
+   "chosen": "Robert Oppenheimer",
+   "revisit": false
+  },
+  {
+   "page": "Robert Oppenheimer",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Netherlands",
+     "valid": true,
+     "tokensIn": 381,
+     "tokensOut": 19,
+     "ms": 1445
+    }
+   ],
+   "chosen": "Netherlands",
+   "revisit": false
+  },
+  {
+   "page": "Netherlands",
+   "offered": 116,
+   "attempts": [
+    {
+     "raw": "Belgium",
+     "valid": true,
+     "tokensIn": 640,
+     "tokensOut": 19,
+     "ms": 1558
+    }
+   ],
+   "chosen": "Belgium",
+   "revisit": false
+  }
+ ]
+}

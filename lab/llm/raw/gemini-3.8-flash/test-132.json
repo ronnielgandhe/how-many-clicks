@@ -1,0 +1,270 @@
+{
+ "pair": "test-132",
+ "start": "Spanish Inquisition",
+ "target": "Beeching Axe",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Spanish Inquisition",
+  "England",
+  "London Underground",
+  "Derby",
+  "M1 motorway",
+  "United Kingdom",
+  "Isambard Kingdom Brunel",
+  "Parliament of the United Kingdom",
+  "Prime Minister of the United Kingdom",
+  "Harold Macmillan",
+  "Harold Wilson",
+  "England",
+  "Isambard Kingdom Brunel",
+  "London Underground",
+  "Scotland",
+  "United Kingdom"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 7024,
+ "tokensOut": 2139,
+ "costUsd": 0.013289,
+ "steps": [
+  {
+   "page": "Spanish Inquisition",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 308,
+     "tokensOut": 62,
+     "ms": 2751
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "London Underground",
+     "valid": true,
+     "tokensIn": 893,
+     "tokensOut": 203,
+     "ms": 3667
+    }
+   ],
+   "chosen": "London Underground",
+   "revisit": false
+  },
+  {
+   "page": "London Underground",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Derby",
+     "valid": true,
+     "tokensIn": 223,
+     "tokensOut": 147,
+     "ms": 3101
+    }
+   ],
+   "chosen": "Derby",
+   "revisit": false
+  },
+  {
+   "page": "Derby",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "M1 motorway",
+     "valid": true,
+     "tokensIn": 304,
+     "tokensOut": 338,
+     "ms": 5122
+    }
+   ],
+   "chosen": "M1 motorway",
+   "revisit": false
+  },
+  {
+   "page": "M1 motorway",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 237,
+     "tokensOut": 126,
+     "ms": 3311
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 928,
+     "tokensOut": 212,
+     "ms": 3051
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Parliament of the United Kingdom",
+     "valid": true,
+     "tokensIn": 293,
+     "tokensOut": 137,
+     "ms": 2822
+    }
+   ],
+   "chosen": "Parliament of the United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "Parliament of the United Kingdom",
+   "offered": 51,
+   "attempts": [
+    {
+     "raw": "Prime Minister of the United Kingdom",
+     "valid": true,
+     "tokensIn": 475,
+     "tokensOut": 21,
+     "ms": 2058
+    }
+   ],
+   "chosen": "Prime Minister of the United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "Prime Minister of the United Kingdom",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Harold Macmillan",
+     "valid": true,
+     "tokensIn": 424,
+     "tokensOut": 65,
+     "ms": 2121
+    }
+   ],
+   "chosen": "Harold Macmillan",
+   "revisit": false
+  },
+  {
+   "page": "Harold Macmillan",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "Harold Wilson",
+     "valid": true,
+     "tokensIn": 393,
+     "tokensOut": 125,
+     "ms": 2297
+    }
+   ],
+   "chosen": "Harold Wilson",
+   "revisit": false
+  },
+  {
+   "page": "Harold Wilson",
+   "offered": 27,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 340,
+     "tokensOut": 275,
+     "ms": 4804
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 933,
+     "tokensOut": 21,
+     "ms": 1888
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": true
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "London Underground",
+     "valid": true,
+     "tokensIn": 321,
+     "tokensOut": 134,
+     "ms": 4036
+    }
+   ],
+   "chosen": "London Underground",
+   "revisit": true
+  },
+  {
+   "page": "London Underground",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 270,
+     "tokensOut": 149,
+     "ms": 2535
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 682,
+     "tokensOut": 124,
+     "ms": 3541
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": true
+  }
+ ]
+}

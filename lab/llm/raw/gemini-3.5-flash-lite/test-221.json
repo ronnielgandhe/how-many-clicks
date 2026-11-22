@@ -1,0 +1,106 @@
+{
+ "pair": "test-221",
+ "start": "Bob Dylan",
+ "target": "Viking",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Bob Dylan",
+  "Minnesota",
+  "Europe",
+  "Denmark",
+  "Viking"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 1,
+ "calls": 5,
+ "tokensIn": 2607,
+ "tokensOut": 83,
+ "costUsd": 0.00099,
+ "steps": [
+  {
+   "page": "Bob Dylan",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Minnesota",
+     "valid": true,
+     "tokensIn": 337,
+     "tokensOut": 16,
+     "ms": 756
+    }
+   ],
+   "chosen": "Minnesota",
+   "revisit": false
+  },
+  {
+   "page": "Minnesota",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "Europe",
+     "valid": true,
+     "tokensIn": 415,
+     "tokensOut": 16,
+     "ms": 752
+    }
+   ],
+   "chosen": "Europe",
+   "revisit": false
+  },
+  {
+   "page": "Europe",
+   "offered": 159,
+   "attempts": [
+    {
+     "raw": "Scandinavia",
+     "valid": false,
+     "tokensIn": 725,
+     "tokensOut": 18,
+     "ms": 995
+    },
+    {
+     "raw": "Denmark",
+     "valid": true,
+     "tokensIn": 750,
+     "tokensOut": 16,
+     "ms": 725
+    }
+   ],
+   "chosen": "Denmark",
+   "revisit": false
+  },
+  {
+   "page": "Denmark",
+   "offered": 51,
+   "attempts": [
+    {
+     "raw": "Viking",
+     "valid": true,
+     "tokensIn": 380,
+     "tokensOut": 17,
+     "ms": 777
+    }
+   ],
+   "chosen": "Viking",
+   "revisit": false
+  }
+ ]
+}

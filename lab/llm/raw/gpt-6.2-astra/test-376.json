@@ -1,0 +1,110 @@
+{
+ "pair": "test-376",
+ "start": "Tiktaalik",
+ "target": "Pete Sampras",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tiktaalik",
+  "Canada",
+  "France",
+  "Australia",
+  "Grand Slam (tennis)",
+  "Pete Sampras"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 2007,
+ "tokensOut": 97,
+ "costUsd": 0.019936,
+ "steps": [
+  {
+   "page": "Tiktaalik",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 235,
+     "tokensOut": 18,
+     "ms": 1267
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 18,
+     "ms": 1515
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Australia",
+     "valid": true,
+     "tokensIn": 511,
+     "tokensOut": 18,
+     "ms": 1995
+    }
+   ],
+   "chosen": "Australia",
+   "revisit": false
+  },
+  {
+   "page": "Australia",
+   "offered": 86,
+   "attempts": [
+    {
+     "raw": "Grand Slam (tennis)",
+     "valid": true,
+     "tokensIn": 555,
+     "tokensOut": 23,
+     "ms": 1619
+    }
+   ],
+   "chosen": "Grand Slam (tennis)",
+   "revisit": false
+  },
+  {
+   "page": "Grand Slam (tennis)",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Pete Sampras",
+     "valid": true,
+     "tokensIn": 260,
+     "tokensOut": 20,
+     "ms": 1841
+    }
+   ],
+   "chosen": "Pete Sampras",
+   "revisit": false
+  }
+ ]
+}

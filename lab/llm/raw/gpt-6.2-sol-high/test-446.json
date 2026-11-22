@@ -1,0 +1,94 @@
+{
+ "pair": "test-446",
+ "start": "Panama Canal",
+ "target": "Bernard Hinault",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Panama Canal",
+  "France",
+  "Paris",
+  "Tour de France",
+  "Bernard Hinault"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1675,
+ "tokensOut": 114,
+ "costUsd": 0.00449,
+ "steps": [
+  {
+   "page": "Panama Canal",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "France",
+     "valid": true,
+     "tokensIn": 295,
+     "tokensOut": 18,
+     "ms": 1112
+    }
+   ],
+   "chosen": "France",
+   "revisit": false
+  },
+  {
+   "page": "France",
+   "offered": 85,
+   "attempts": [
+    {
+     "raw": "Paris",
+     "valid": true,
+     "tokensIn": 508,
+     "tokensOut": 55,
+     "ms": 1601
+    }
+   ],
+   "chosen": "Paris",
+   "revisit": false
+  },
+  {
+   "page": "Paris",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Tour de France",
+     "valid": true,
+     "tokensIn": 607,
+     "tokensOut": 20,
+     "ms": 1109
+    }
+   ],
+   "chosen": "Tour de France",
+   "revisit": false
+  },
+  {
+   "page": "Tour de France",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Bernard Hinault",
+     "valid": true,
+     "tokensIn": 265,
+     "tokensOut": 21,
+     "ms": 1163
+    }
+   ],
+   "chosen": "Bernard Hinault",
+   "revisit": false
+  }
+ ]
+}

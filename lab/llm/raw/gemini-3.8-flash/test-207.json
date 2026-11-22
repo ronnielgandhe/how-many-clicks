@@ -1,0 +1,99 @@
+{
+ "pair": "test-207",
+ "start": "HIV",
+ "target": "Permian",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 1,
+  "median_clicks": 4.5,
+  "median_pages": 5.5
+ },
+ "model": "gemini-3.8-flash",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "HIV",
+  "Human",
+  "Earth",
+  "Devonian",
+  "Permian"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 1773,
+ "tokensOut": 379,
+ "costUsd": 0.002751,
+ "steps": [
+  {
+   "page": "HIV",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Human",
+     "valid": true,
+     "tokensIn": 233,
+     "tokensOut": 160,
+     "ms": 2474
+    }
+   ],
+   "chosen": "Human",
+   "revisit": false
+  },
+  {
+   "page": "Human",
+   "offered": 137,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 636,
+     "tokensOut": 99,
+     "ms": 1957
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Devonian",
+     "valid": true,
+     "tokensIn": 606,
+     "tokensOut": 75,
+     "ms": 2680
+    }
+   ],
+   "chosen": "Devonian",
+   "revisit": false
+  },
+  {
+   "page": "Devonian",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Permian",
+     "valid": true,
+     "tokensIn": 298,
+     "tokensOut": 45,
+     "ms": 2201
+    }
+   ],
+   "chosen": "Permian",
+   "revisit": false
+  }
+ ]
+}

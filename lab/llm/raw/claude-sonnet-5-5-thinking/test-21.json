@@ -1,0 +1,67 @@
+{
+ "pair": "test-21",
+ "start": "Montreal",
+ "target": "Houston, Texas",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "claude-sonnet-5-5-thinking",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": "xhigh"
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Montreal",
+  "United States",
+  "Houston, Texas"
+ ],
+ "clicks": 2,
+ "stepsTaken": 2,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 2,
+ "tokensIn": 3802,
+ "tokensOut": 186,
+ "costUsd": 0.009464,
+ "steps": [
+  {
+   "page": "Montreal",
+   "offered": 79,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 1022,
+     "tokensOut": 133,
+     "ms": 1261
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Houston, Texas",
+     "valid": true,
+     "tokensIn": 2780,
+     "tokensOut": 53,
+     "ms": 1642
+    }
+   ],
+   "chosen": "Houston, Texas",
+   "revisit": false
+  }
+ ]
+}

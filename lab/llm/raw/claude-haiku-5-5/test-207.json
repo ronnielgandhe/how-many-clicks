@@ -1,0 +1,99 @@
+{
+ "pair": "test-207",
+ "start": "HIV",
+ "target": "Permian",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 2,
+  "unfinished": 1,
+  "median_clicks": 4.5,
+  "median_pages": 5.5
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "HIV",
+  "Africa",
+  "Fossil",
+  "Triassic",
+  "Permian"
+ ],
+ "clicks": 4,
+ "stepsTaken": 4,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 4,
+ "tokensIn": 4021,
+ "tokensOut": 901,
+ "costUsd": 0.000853,
+ "steps": [
+  {
+   "page": "HIV",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 638,
+     "tokensOut": 315,
+     "ms": 2152
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 2010,
+     "tokensOut": 255,
+     "ms": 1552
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  },
+  {
+   "page": "Fossil",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Triassic",
+     "valid": true,
+     "tokensIn": 704,
+     "tokensOut": 282,
+     "ms": 1598
+    }
+   ],
+   "chosen": "Triassic",
+   "revisit": false
+  },
+  {
+   "page": "Triassic",
+   "offered": 17,
+   "attempts": [
+    {
+     "raw": "Permian",
+     "valid": true,
+     "tokensIn": 669,
+     "tokensOut": 49,
+     "ms": 510
+    }
+   ],
+   "chosen": "Permian",
+   "revisit": false
+  }
+ ]
+}

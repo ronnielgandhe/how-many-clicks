@@ -1,0 +1,190 @@
+{
+ "pair": "test-445",
+ "start": "Edward the Confessor",
+ "target": "Coconut oil",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-4-carbon",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Edward the Confessor",
+  "England",
+  "British Empire",
+  "India",
+  "Kerala",
+  "Maldives",
+  "Indonesia",
+  "Palm oil",
+  "Biodiesel",
+  "List of vegetable oils",
+  "Coconut oil"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 10,
+ "tokensIn": 4678,
+ "tokensOut": 410,
+ "costUsd": 0.013456,
+ "steps": [
+  {
+   "page": "Edward the Confessor",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 300,
+     "tokensOut": 22,
+     "ms": 2684
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "British Empire",
+     "valid": true,
+     "tokensIn": 931,
+     "tokensOut": 65,
+     "ms": 4341
+    }
+   ],
+   "chosen": "British Empire",
+   "revisit": false
+  },
+  {
+   "page": "British Empire",
+   "offered": 129,
+   "attempts": [
+    {
+     "raw": "India",
+     "valid": true,
+     "tokensIn": 727,
+     "tokensOut": 22,
+     "ms": 4027
+    }
+   ],
+   "chosen": "India",
+   "revisit": false
+  },
+  {
+   "page": "India",
+   "offered": 81,
+   "attempts": [
+    {
+     "raw": "Kerala",
+     "valid": true,
+     "tokensIn": 533,
+     "tokensOut": 22,
+     "ms": 3189
+    }
+   ],
+   "chosen": "Kerala",
+   "revisit": false
+  },
+  {
+   "page": "Kerala",
+   "offered": 37,
+   "attempts": [
+    {
+     "raw": "Maldives",
+     "valid": true,
+     "tokensIn": 362,
+     "tokensOut": 62,
+     "ms": 6389
+    }
+   ],
+   "chosen": "Maldives",
+   "revisit": false
+  },
+  {
+   "page": "Maldives",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Indonesia",
+     "valid": true,
+     "tokensIn": 356,
+     "tokensOut": 48,
+     "ms": 4050
+    }
+   ],
+   "chosen": "Indonesia",
+   "revisit": false
+  },
+  {
+   "page": "Indonesia",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Palm oil",
+     "valid": true,
+     "tokensIn": 428,
+     "tokensOut": 36,
+     "ms": 6375
+    }
+   ],
+   "chosen": "Palm oil",
+   "revisit": false
+  },
+  {
+   "page": "Palm oil",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Biodiesel",
+     "valid": true,
+     "tokensIn": 290,
+     "tokensOut": 85,
+     "ms": 11470
+    }
+   ],
+   "chosen": "Biodiesel",
+   "revisit": false
+  },
+  {
+   "page": "Biodiesel",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "List of vegetable oils",
+     "valid": true,
+     "tokensIn": 350,
+     "tokensOut": 25,
+     "ms": 3989
+    }
+   ],
+   "chosen": "List of vegetable oils",
+   "revisit": false
+  },
+  {
+   "page": "List of vegetable oils",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Coconut oil",
+     "valid": true,
+     "tokensIn": 401,
+     "tokensOut": 23,
+     "ms": 3921
+    }
+   ],
+   "chosen": "Coconut oil",
+   "revisit": false
+  }
+ ]
+}

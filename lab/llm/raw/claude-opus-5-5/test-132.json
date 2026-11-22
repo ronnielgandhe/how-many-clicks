@@ -1,0 +1,270 @@
+{
+ "pair": "test-132",
+ "start": "Spanish Inquisition",
+ "target": "Beeching Axe",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-opus-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Spanish Inquisition",
+  "England",
+  "United Kingdom",
+  "Isambard Kingdom Brunel",
+  "London Underground",
+  "Derby",
+  "York",
+  "England",
+  "Isle of Wight",
+  "London Underground",
+  "Scotland",
+  "Industrial Revolution",
+  "Rail transport",
+  "Train",
+  "Coventry",
+  "Aberystwyth"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 2,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 15896,
+ "tokensOut": 2910,
+ "costUsd": 0.121784,
+ "steps": [
+  {
+   "page": "Spanish Inquisition",
+   "offered": 35,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 808,
+     "tokensOut": 91,
+     "ms": 2208
+    }
+   ],
+   "chosen": "England",
+   "revisit": false
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "United Kingdom",
+     "valid": true,
+     "tokensIn": 1820,
+     "tokensOut": 213,
+     "ms": 2794
+    }
+   ],
+   "chosen": "United Kingdom",
+   "revisit": false
+  },
+  {
+   "page": "United Kingdom",
+   "offered": 168,
+   "attempts": [
+    {
+     "raw": "Isambard Kingdom Brunel",
+     "valid": true,
+     "tokensIn": 1880,
+     "tokensOut": 142,
+     "ms": 1716
+    }
+   ],
+   "chosen": "Isambard Kingdom Brunel",
+   "revisit": false
+  },
+  {
+   "page": "Isambard Kingdom Brunel",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "London Underground",
+     "valid": true,
+     "tokensIn": 744,
+     "tokensOut": 285,
+     "ms": 3058
+    }
+   ],
+   "chosen": "London Underground",
+   "revisit": false
+  },
+  {
+   "page": "London Underground",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Derby",
+     "valid": true,
+     "tokensIn": 646,
+     "tokensOut": 133,
+     "ms": 1817
+    }
+   ],
+   "chosen": "Derby",
+   "revisit": false
+  },
+  {
+   "page": "Derby",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "York",
+     "valid": true,
+     "tokensIn": 788,
+     "tokensOut": 178,
+     "ms": 2652
+    }
+   ],
+   "chosen": "York",
+   "revisit": false
+  },
+  {
+   "page": "York",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "England",
+     "valid": true,
+     "tokensIn": 684,
+     "tokensOut": 95,
+     "ms": 1760
+    }
+   ],
+   "chosen": "England",
+   "revisit": true
+  },
+  {
+   "page": "England",
+   "offered": 172,
+   "attempts": [
+    {
+     "raw": "Isle of Wight",
+     "valid": true,
+     "tokensIn": 1854,
+     "tokensOut": 253,
+     "ms": 2756
+    }
+   ],
+   "chosen": "Isle of Wight",
+   "revisit": false
+  },
+  {
+   "page": "Isle of Wight",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "London Underground",
+     "valid": true,
+     "tokensIn": 851,
+     "tokensOut": 198,
+     "ms": 2399
+    }
+   ],
+   "chosen": "London Underground",
+   "revisit": true
+  },
+  {
+   "page": "London Underground",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Scotland",
+     "valid": true,
+     "tokensIn": 667,
+     "tokensOut": 266,
+     "ms": 3019
+    }
+   ],
+   "chosen": "Scotland",
+   "revisit": false
+  },
+  {
+   "page": "Scotland",
+   "offered": 112,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 1382,
+     "tokensOut": 247,
+     "ms": 3553
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Rail transport",
+     "valid": true,
+     "tokensIn": 1006,
+     "tokensOut": 173,
+     "ms": 2186
+    }
+   ],
+   "chosen": "Rail transport",
+   "revisit": false
+  },
+  {
+   "page": "Rail transport",
+   "offered": 44,
+   "attempts": [
+    {
+     "raw": "Train",
+     "valid": true,
+     "tokensIn": 895,
+     "tokensOut": 256,
+     "ms": 3332
+    }
+   ],
+   "chosen": "Train",
+   "revisit": false
+  },
+  {
+   "page": "Train",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Coventry",
+     "valid": true,
+     "tokensIn": 904,
+     "tokensOut": 236,
+     "ms": 2821
+    }
+   ],
+   "chosen": "Coventry",
+   "revisit": false
+  },
+  {
+   "page": "Coventry",
+   "offered": 52,
+   "attempts": [
+    {
+     "raw": "Aberystwyth",
+     "valid": true,
+     "tokensIn": 967,
+     "tokensOut": 144,
+     "ms": 1461
+    }
+   ],
+   "chosen": "Aberystwyth",
+   "revisit": false
+  }
+ ]
+}

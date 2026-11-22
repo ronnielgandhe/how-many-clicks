@@ -1,0 +1,83 @@
+{
+ "pair": "test-222",
+ "start": "David Cameron",
+ "target": "Eagle",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 3,
+  "median_pages": 4
+ },
+ "model": "gpt-6-luna",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "David Cameron",
+  "United States",
+  "Bald Eagle",
+  "Eagle"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2168,
+ "tokensOut": 58,
+ "costUsd": 0.000246,
+ "steps": [
+  {
+   "page": "David Cameron",
+   "offered": 58,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 447,
+     "tokensOut": 19,
+     "ms": 749
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Bald Eagle",
+     "valid": true,
+     "tokensIn": 1432,
+     "tokensOut": 20,
+     "ms": 1125
+    }
+   ],
+   "chosen": "Bald Eagle",
+   "revisit": false
+  },
+  {
+   "page": "Bald Eagle",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Eagle",
+     "valid": true,
+     "tokensIn": 289,
+     "tokensOut": 19,
+     "ms": 951
+    }
+   ],
+   "chosen": "Eagle",
+   "revisit": false
+  }
+ ]
+}

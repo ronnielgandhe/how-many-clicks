@@ -1,0 +1,275 @@
+{
+ "pair": "test-321",
+ "start": "Button",
+ "target": "Working poor",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 9,
+  "median_pages": 12
+ },
+ "model": "claude-haiku-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Button",
+  "Clothing",
+  "Industrial Revolution",
+  "Society",
+  "Business",
+  "Trade union",
+  "Employment",
+  "Economics",
+  "Employment",
+  "Economics",
+  "Employment",
+  "Capitalism",
+  "Socialism",
+  "Capitalism",
+  "Globalization",
+  "Sociology"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 4,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 11373,
+ "tokensOut": 3781,
+ "costUsd": 0.003028,
+ "steps": [
+  {
+   "page": "Button",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Clothing",
+     "valid": true,
+     "tokensIn": 617,
+     "tokensOut": 243,
+     "ms": 1627
+    }
+   ],
+   "chosen": "Clothing",
+   "revisit": false
+  },
+  {
+   "page": "Clothing",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Industrial Revolution",
+     "valid": true,
+     "tokensIn": 718,
+     "tokensOut": 176,
+     "ms": 1038
+    }
+   ],
+   "chosen": "Industrial Revolution",
+   "revisit": false
+  },
+  {
+   "page": "Industrial Revolution",
+   "offered": 60,
+   "attempts": [
+    {
+     "raw": "Society",
+     "valid": true,
+     "tokensIn": 947,
+     "tokensOut": 267,
+     "ms": 1462
+    }
+   ],
+   "chosen": "Society",
+   "revisit": false
+  },
+  {
+   "page": "Society",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Business",
+     "valid": true,
+     "tokensIn": 655,
+     "tokensOut": 193,
+     "ms": 1230
+    }
+   ],
+   "chosen": "Business",
+   "revisit": false
+  },
+  {
+   "page": "Business",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Trade union",
+     "valid": true,
+     "tokensIn": 645,
+     "tokensOut": 152,
+     "ms": 1043
+    }
+   ],
+   "chosen": "Trade union",
+   "revisit": false
+  },
+  {
+   "page": "Trade union",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 635,
+     "tokensOut": 101,
+     "ms": 807
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": false
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Economics",
+     "valid": true,
+     "tokensIn": 641,
+     "tokensOut": 243,
+     "ms": 1452
+    }
+   ],
+   "chosen": "Economics",
+   "revisit": false
+  },
+  {
+   "page": "Economics",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 802,
+     "tokensOut": 438,
+     "ms": 2496
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": true
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Economics",
+     "valid": true,
+     "tokensIn": 649,
+     "tokensOut": 301,
+     "ms": 1806
+    }
+   ],
+   "chosen": "Economics",
+   "revisit": true
+  },
+  {
+   "page": "Economics",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Employment",
+     "valid": true,
+     "tokensIn": 810,
+     "tokensOut": 257,
+     "ms": 1662
+    }
+   ],
+   "chosen": "Employment",
+   "revisit": true
+  },
+  {
+   "page": "Employment",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Capitalism",
+     "valid": true,
+     "tokensIn": 657,
+     "tokensOut": 229,
+     "ms": 1343
+    }
+   ],
+   "chosen": "Capitalism",
+   "revisit": false
+  },
+  {
+   "page": "Capitalism",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Socialism",
+     "valid": true,
+     "tokensIn": 916,
+     "tokensOut": 208,
+     "ms": 1482
+    }
+   ],
+   "chosen": "Socialism",
+   "revisit": false
+  },
+  {
+   "page": "Socialism",
+   "offered": 41,
+   "attempts": [
+    {
+     "raw": "Capitalism",
+     "valid": true,
+     "tokensIn": 883,
+     "tokensOut": 242,
+     "ms": 1443
+    }
+   ],
+   "chosen": "Capitalism",
+   "revisit": true
+  },
+  {
+   "page": "Capitalism",
+   "offered": 47,
+   "attempts": [
+    {
+     "raw": "Globalization",
+     "valid": true,
+     "tokensIn": 927,
+     "tokensOut": 322,
+     "ms": 1839
+    }
+   ],
+   "chosen": "Globalization",
+   "revisit": false
+  },
+  {
+   "page": "Globalization",
+   "offered": 40,
+   "attempts": [
+    {
+     "raw": "Sociology",
+     "valid": true,
+     "tokensIn": 871,
+     "tokensOut": 409,
+     "ms": 2287
+    }
+   ],
+   "chosen": "Sociology",
+   "revisit": false
+  }
+ ]
+}

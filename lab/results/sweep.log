@@ -1,0 +1,13 @@
+  d0.0w0.0s1500 step 1500 loss 0.0989 val_mae 0.7470 43s
+{'drop': 0.0, 'wd': 0.0, 'steps': 1500, 'val_mae': 0.747, 'hop_acc': np.float64(0.5538), 'secs': 42.6}
+  d0.3w0.0s1500 step 1500 loss 0.1115 val_mae 0.7403 40s
+{'drop': 0.3, 'wd': 0.0, 'steps': 1500, 'val_mae': 0.7403, 'hop_acc': np.float64(0.5612), 'secs': 40.2}
+  d0.3w0.05s1500 step 1500 loss 0.1111 val_mae 0.7394 46s
+{'drop': 0.3, 'wd': 0.05, 'steps': 1500, 'val_mae': 0.7394, 'hop_acc': np.float64(0.5638), 'secs': 45.6}
+  d0.5w0.05s1500 step 1500 loss 0.1204 val_mae 0.7331 44s
+{'drop': 0.5, 'wd': 0.05, 'steps': 1500, 'val_mae': 0.7331, 'hop_acc': np.float64(0.5575), 'secs': 43.7}
+  d0.3w0.2s1500 step 1500 loss 0.1103 val_mae 0.7395 52s
+{'drop': 0.3, 'wd': 0.2, 'steps': 1500, 'val_mae': 0.7395, 'hop_acc': np.float64(0.565), 'secs': 51.7}
+  d0.3w0.05s4000 step 4000 loss 0.1026 val_mae 0.7374 159s
+{'drop': 0.3, 'wd': 0.05, 'steps': 4000, 'val_mae': 0.7374, 'hop_acc': np.float64(0.5675), 'secs': 159.2}
+constant-median val mae 0.5391

@@ -1,0 +1,78 @@
+{
+ "pair": "test-102",
+ "start": "Southern Africa",
+ "target": "Los Angeles, California",
+ "optimal": 2,
+ "difficulty": "easy",
+ "human": null,
+ "model": "claude-sonnet-5-5",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": null,
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Southern Africa",
+  "North America",
+  "California",
+  "Los Angeles, California"
+ ],
+ "clicks": 3,
+ "stepsTaken": 3,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 3,
+ "tokensIn": 2857,
+ "tokensOut": 149,
+ "costUsd": 0.007204,
+ "steps": [
+  {
+   "page": "Southern Africa",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "North America",
+     "valid": true,
+     "tokensIn": 915,
+     "tokensOut": 48,
+     "ms": 1694
+    }
+   ],
+   "chosen": "North America",
+   "revisit": false
+  },
+  {
+   "page": "North America",
+   "offered": 77,
+   "attempts": [
+    {
+     "raw": "California",
+     "valid": true,
+     "tokensIn": 1111,
+     "tokensOut": 47,
+     "ms": 1344
+    }
+   ],
+   "chosen": "California",
+   "revisit": false
+  },
+  {
+   "page": "California",
+   "offered": 39,
+   "attempts": [
+    {
+     "raw": "Los Angeles, California",
+     "valid": true,
+     "tokensIn": 831,
+     "tokensOut": 54,
+     "ms": 1501
+    }
+   ],
+   "chosen": "Los Angeles, California",
+   "revisit": false
+  }
+ ]
+}

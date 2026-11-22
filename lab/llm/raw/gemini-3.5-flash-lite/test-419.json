@@ -1,0 +1,270 @@
+{
+ "pair": "test-419",
+ "start": "Lake Victoria",
+ "target": "Fedora Core",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": null,
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "failed",
+ "failReason": "step_limit",
+ "path": [
+  "Lake Victoria",
+  "Africa",
+  "United States",
+  "Computer",
+  "Linux",
+  "GNU Project",
+  "GNU",
+  "Linux",
+  "Linus Torvalds",
+  "Linux",
+  "Open source",
+  "Linus Torvalds",
+  "Linux",
+  "Open source",
+  "Linus Torvalds",
+  "Linux"
+ ],
+ "clicks": 15,
+ "stepsTaken": 15,
+ "revisits": 7,
+ "invalidAttempts": 0,
+ "calls": 15,
+ "tokensIn": 5730,
+ "tokensOut": 256,
+ "costUsd": 0.002359,
+ "steps": [
+  {
+   "page": "Lake Victoria",
+   "offered": 20,
+   "attempts": [
+    {
+     "raw": "Africa",
+     "valid": true,
+     "tokensIn": 250,
+     "tokensOut": 16,
+     "ms": 650
+    }
+   ],
+   "chosen": "Africa",
+   "revisit": false
+  },
+  {
+   "page": "Africa",
+   "offered": 212,
+   "attempts": [
+    {
+     "raw": "United States",
+     "valid": true,
+     "tokensIn": 982,
+     "tokensOut": 17,
+     "ms": 745
+    }
+   ],
+   "chosen": "United States",
+   "revisit": false
+  },
+  {
+   "page": "United States",
+   "offered": 294,
+   "attempts": [
+    {
+     "raw": "Computer",
+     "valid": true,
+     "tokensIn": 1413,
+     "tokensOut": 16,
+     "ms": 696
+    }
+   ],
+   "chosen": "Computer",
+   "revisit": false
+  },
+  {
+   "page": "Computer",
+   "offered": 36,
+   "attempts": [
+    {
+     "raw": "Linux",
+     "valid": true,
+     "tokensIn": 324,
+     "tokensOut": 16,
+     "ms": 720
+    }
+   ],
+   "chosen": "Linux",
+   "revisit": false
+  },
+  {
+   "page": "Linux",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "GNU Project",
+     "valid": true,
+     "tokensIn": 231,
+     "tokensOut": 17,
+     "ms": 705
+    }
+   ],
+   "chosen": "GNU Project",
+   "revisit": false
+  },
+  {
+   "page": "GNU Project",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "GNU",
+     "valid": true,
+     "tokensIn": 194,
+     "tokensOut": 16,
+     "ms": 878
+    }
+   ],
+   "chosen": "GNU",
+   "revisit": false
+  },
+  {
+   "page": "GNU",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Linux",
+     "valid": true,
+     "tokensIn": 249,
+     "tokensOut": 16,
+     "ms": 767
+    }
+   ],
+   "chosen": "Linux",
+   "revisit": true
+  },
+  {
+   "page": "Linux",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Linus Torvalds",
+     "valid": true,
+     "tokensIn": 238,
+     "tokensOut": 20,
+     "ms": 735
+    }
+   ],
+   "chosen": "Linus Torvalds",
+   "revisit": false
+  },
+  {
+   "page": "Linus Torvalds",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Linux",
+     "valid": true,
+     "tokensIn": 256,
+     "tokensOut": 16,
+     "ms": 722
+    }
+   ],
+   "chosen": "Linux",
+   "revisit": true
+  },
+  {
+   "page": "Linux",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Open source",
+     "valid": true,
+     "tokensIn": 246,
+     "tokensOut": 17,
+     "ms": 687
+    }
+   ],
+   "chosen": "Open source",
+   "revisit": false
+  },
+  {
+   "page": "Open source",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Linus Torvalds",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 20,
+     "ms": 749
+    }
+   ],
+   "chosen": "Linus Torvalds",
+   "revisit": true
+  },
+  {
+   "page": "Linus Torvalds",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Linux",
+     "valid": true,
+     "tokensIn": 267,
+     "tokensOut": 16,
+     "ms": 797
+    }
+   ],
+   "chosen": "Linux",
+   "revisit": true
+  },
+  {
+   "page": "Linux",
+   "offered": 12,
+   "attempts": [
+    {
+     "raw": "Open source",
+     "valid": true,
+     "tokensIn": 257,
+     "tokensOut": 17,
+     "ms": 807
+    }
+   ],
+   "chosen": "Open source",
+   "revisit": true
+  },
+  {
+   "page": "Open source",
+   "offered": 19,
+   "attempts": [
+    {
+     "raw": "Linus Torvalds",
+     "valid": true,
+     "tokensIn": 278,
+     "tokensOut": 20,
+     "ms": 762
+    }
+   ],
+   "chosen": "Linus Torvalds",
+   "revisit": true
+  },
+  {
+   "page": "Linus Torvalds",
+   "offered": 14,
+   "attempts": [
+    {
+     "raw": "Linux",
+     "valid": true,
+     "tokensIn": 278,
+     "tokensOut": 16,
+     "ms": 671
+    }
+   ],
+   "chosen": "Linux",
+   "revisit": true
+  }
+ ]
+}

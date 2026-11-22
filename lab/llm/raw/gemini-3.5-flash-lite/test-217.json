@@ -1,0 +1,115 @@
+{
+ "pair": "test-217",
+ "start": "Matter",
+ "target": "Fossil",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 3,
+  "unfinished": 0,
+  "median_clicks": 8,
+  "median_pages": 10
+ },
+ "model": "gemini-3.5-flash-lite",
+ "settings": {
+  "temperature": 0,
+  "reasoning_effort": "minimal",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Matter",
+  "Granite",
+  "Igneous rock",
+  "Earth",
+  "Dinosaur",
+  "Fossil"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1954,
+ "tokensOut": 86,
+ "costUsd": 0.000801,
+ "steps": [
+  {
+   "page": "Matter",
+   "offered": 16,
+   "attempts": [
+    {
+     "raw": "Granite",
+     "valid": true,
+     "tokensIn": 222,
+     "tokensOut": 17,
+     "ms": 821
+    }
+   ],
+   "chosen": "Granite",
+   "revisit": false
+  },
+  {
+   "page": "Granite",
+   "offered": 26,
+   "attempts": [
+    {
+     "raw": "Igneous rock",
+     "valid": true,
+     "tokensIn": 272,
+     "tokensOut": 19,
+     "ms": 656
+    }
+   ],
+   "chosen": "Igneous rock",
+   "revisit": false
+  },
+  {
+   "page": "Igneous rock",
+   "offered": 29,
+   "attempts": [
+    {
+     "raw": "Earth",
+     "valid": true,
+     "tokensIn": 280,
+     "tokensOut": 16,
+     "ms": 778
+    }
+   ],
+   "chosen": "Earth",
+   "revisit": false
+  },
+  {
+   "page": "Earth",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "Dinosaur",
+     "valid": true,
+     "tokensIn": 610,
+     "tokensOut": 17,
+     "ms": 747
+    }
+   ],
+   "chosen": "Dinosaur",
+   "revisit": false
+  },
+  {
+   "page": "Dinosaur",
+   "offered": 90,
+   "attempts": [
+    {
+     "raw": "Fossil",
+     "valid": true,
+     "tokensIn": 570,
+     "tokensOut": 17,
+     "ms": 683
+    }
+   ],
+   "chosen": "Fossil",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "pair": "test-245",
+ "start": "Northern Pacific Railway",
+ "target": "Barnacle",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Northern Pacific Railway",
+  "Ship",
+  "Sea",
+  "Ocean",
+  "Crustacean",
+  "Barnacle"
+ ],
+ "clicks": 5,
+ "stepsTaken": 5,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 5,
+ "tokensIn": 1451,
+ "tokensOut": 94,
+ "costUsd": 0.003842,
+ "steps": [
+  {
+   "page": "Northern Pacific Railway",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Ship",
+     "valid": true,
+     "tokensIn": 291,
+     "tokensOut": 18,
+     "ms": 1096
+    }
+   ],
+   "chosen": "Ship",
+   "revisit": false
+  },
+  {
+   "page": "Ship",
+   "offered": 18,
+   "attempts": [
+    {
+     "raw": "Sea",
+     "valid": true,
+     "tokensIn": 255,
+     "tokensOut": 18,
+     "ms": 999
+    }
+   ],
+   "chosen": "Sea",
+   "revisit": false
+  },
+  {
+   "page": "Sea",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "Ocean",
+     "valid": true,
+     "tokensIn": 284,
+     "tokensOut": 18,
+     "ms": 885
+    }
+   ],
+   "chosen": "Ocean",
+   "revisit": false
+  },
+  {
+   "page": "Ocean",
+   "offered": 43,
+   "attempts": [
+    {
+     "raw": "Crustacean",
+     "valid": true,
+     "tokensIn": 370,
+     "tokensOut": 21,
+     "ms": 940
+    }
+   ],
+   "chosen": "Crustacean",
+   "revisit": false
+  },
+  {
+   "page": "Crustacean",
+   "offered": 13,
+   "attempts": [
+    {
+     "raw": "Barnacle",
+     "valid": true,
+     "tokensIn": 251,
+     "tokensOut": 19,
+     "ms": 810
+    }
+   ],
+   "chosen": "Barnacle",
+   "revisit": false
+  }
+ ]
+}

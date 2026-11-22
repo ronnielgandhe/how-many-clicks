@@ -1,0 +1,195 @@
+{
+ "pair": "test-163",
+ "start": "EMD F7",
+ "target": "Michigan State University",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": {
+  "finished": 1,
+  "unfinished": 0,
+  "median_clicks": 5,
+  "median_pages": 6
+ },
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "EMD F7",
+  "Newark, New Jersey",
+  "Princeton University",
+  "University of Chicago",
+  "Chicago",
+  "Great Lakes",
+  "Minnesota",
+  "List of U.S. states by date of statehood",
+  "U.S. state",
+  "Detroit, Michigan",
+  "Michigan State University"
+ ],
+ "clicks": 10,
+ "stepsTaken": 10,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 10,
+ "tokensIn": 3442,
+ "tokensOut": 207,
+ "costUsd": 0.035816,
+ "steps": [
+  {
+   "page": "EMD F7",
+   "offered": 3,
+   "attempts": [
+    {
+     "raw": "Newark, New Jersey",
+     "valid": true,
+     "tokensIn": 197,
+     "tokensOut": 22,
+     "ms": 1498
+    }
+   ],
+   "chosen": "Newark, New Jersey",
+   "revisit": false
+  },
+  {
+   "page": "Newark, New Jersey",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "Princeton University",
+     "valid": true,
+     "tokensIn": 339,
+     "tokensOut": 20,
+     "ms": 1608
+    }
+   ],
+   "chosen": "Princeton University",
+   "revisit": false
+  },
+  {
+   "page": "Princeton University",
+   "offered": 38,
+   "attempts": [
+    {
+     "raw": "University of Chicago",
+     "valid": true,
+     "tokensIn": 349,
+     "tokensOut": 20,
+     "ms": 2050
+    }
+   ],
+   "chosen": "University of Chicago",
+   "revisit": false
+  },
+  {
+   "page": "University of Chicago",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Chicago",
+     "valid": true,
+     "tokensIn": 325,
+     "tokensOut": 18,
+     "ms": 1712
+    }
+   ],
+   "chosen": "Chicago",
+   "revisit": false
+  },
+  {
+   "page": "Chicago",
+   "offered": 34,
+   "attempts": [
+    {
+     "raw": "Great Lakes",
+     "valid": true,
+     "tokensIn": 329,
+     "tokensOut": 19,
+     "ms": 1181
+    }
+   ],
+   "chosen": "Great Lakes",
+   "revisit": false
+  },
+  {
+   "page": "Great Lakes",
+   "offered": 23,
+   "attempts": [
+    {
+     "raw": "Minnesota",
+     "valid": true,
+     "tokensIn": 290,
+     "tokensOut": 19,
+     "ms": 1749
+    }
+   ],
+   "chosen": "Minnesota",
+   "revisit": false
+  },
+  {
+   "page": "Minnesota",
+   "offered": 62,
+   "attempts": [
+    {
+     "raw": "List of U.S. states by date of statehood",
+     "valid": true,
+     "tokensIn": 446,
+     "tokensOut": 28,
+     "ms": 2204
+    }
+   ],
+   "chosen": "List of U.S. states by date of statehood",
+   "revisit": false
+  },
+  {
+   "page": "List of U.S. states by date of statehood",
+   "offered": 10,
+   "attempts": [
+    {
+     "raw": "U.S. state",
+     "valid": true,
+     "tokensIn": 262,
+     "tokensOut": 21,
+     "ms": 1624
+    }
+   ],
+   "chosen": "U.S. state",
+   "revisit": false
+  },
+  {
+   "page": "U.S. state",
+   "offered": 46,
+   "attempts": [
+    {
+     "raw": "Detroit, Michigan",
+     "valid": true,
+     "tokensIn": 439,
+     "tokensOut": 20,
+     "ms": 1379
+    }
+   ],
+   "chosen": "Detroit, Michigan",
+   "revisit": false
+  },
+  {
+   "page": "Detroit, Michigan",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Michigan State University",
+     "valid": true,
+     "tokensIn": 466,
+     "tokensOut": 20,
+     "ms": 1541
+    }
+   ],
+   "chosen": "Michigan State University",
+   "revisit": false
+  }
+ ]
+}

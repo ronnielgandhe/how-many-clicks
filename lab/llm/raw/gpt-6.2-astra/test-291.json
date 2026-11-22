@@ -1,0 +1,142 @@
+{
+ "pair": "test-291",
+ "start": "Tsunami",
+ "target": "Snowy Owl",
+ "optimal": 3,
+ "difficulty": "medium",
+ "human": null,
+ "model": "gpt-6.2-astra",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "low",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Tsunami",
+  "Canada",
+  "Arctic",
+  "Bj\u00f8rn\u00f8ya",
+  "Svalbard",
+  "Arctic Tern",
+  "Bird",
+  "Snowy Owl"
+ ],
+ "clicks": 7,
+ "stepsTaken": 7,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 7,
+ "tokensIn": 2406,
+ "tokensOut": 138,
+ "costUsd": 0.024768,
+ "steps": [
+  {
+   "page": "Tsunami",
+   "offered": 57,
+   "attempts": [
+    {
+     "raw": "Canada",
+     "valid": true,
+     "tokensIn": 395,
+     "tokensOut": 18,
+     "ms": 1151
+    }
+   ],
+   "chosen": "Canada",
+   "revisit": false
+  },
+  {
+   "page": "Canada",
+   "offered": 63,
+   "attempts": [
+    {
+     "raw": "Arctic",
+     "valid": true,
+     "tokensIn": 445,
+     "tokensOut": 19,
+     "ms": 1428
+    }
+   ],
+   "chosen": "Arctic",
+   "revisit": false
+  },
+  {
+   "page": "Arctic",
+   "offered": 28,
+   "attempts": [
+    {
+     "raw": "Bj\u00f8rn\u00f8ya",
+     "valid": true,
+     "tokensIn": 290,
+     "tokensOut": 22,
+     "ms": 1961
+    }
+   ],
+   "chosen": "Bj\u00f8rn\u00f8ya",
+   "revisit": false
+  },
+  {
+   "page": "Bj\u00f8rn\u00f8ya",
+   "offered": 15,
+   "attempts": [
+    {
+     "raw": "Svalbard",
+     "valid": true,
+     "tokensIn": 247,
+     "tokensOut": 20,
+     "ms": 1863
+    }
+   ],
+   "chosen": "Svalbard",
+   "revisit": false
+  },
+  {
+   "page": "Svalbard",
+   "offered": 25,
+   "attempts": [
+    {
+     "raw": "Arctic Tern",
+     "valid": true,
+     "tokensIn": 292,
+     "tokensOut": 21,
+     "ms": 1326
+    }
+   ],
+   "chosen": "Arctic Tern",
+   "revisit": false
+  },
+  {
+   "page": "Arctic Tern",
+   "offered": 31,
+   "attempts": [
+    {
+     "raw": "Bird",
+     "valid": true,
+     "tokensIn": 311,
+     "tokensOut": 18,
+     "ms": 1528
+    }
+   ],
+   "chosen": "Bird",
+   "revisit": false
+  },
+  {
+   "page": "Bird",
+   "offered": 56,
+   "attempts": [
+    {
+     "raw": "Snowy Owl",
+     "valid": true,
+     "tokensIn": 426,
+     "tokensOut": 20,
+     "ms": 1078
+    }
+   ],
+   "chosen": "Snowy Owl",
+   "revisit": false
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "pair": "test-332",
+ "start": "Abhidhamma Pitaka",
+ "target": "Zulu",
+ "optimal": 4,
+ "difficulty": "hard",
+ "human": {
+  "finished": 2,
+  "unfinished": 0,
+  "median_clicks": 9.0,
+  "median_pages": 11.0
+ },
+ "model": "gpt-6.2-sol-high",
+ "settings": {
+  "temperature": null,
+  "reasoning_effort": "high",
+  "thinking": false
+ },
+ "promptVersion": "v1",
+ "outcome": "solved",
+ "failReason": null,
+ "path": [
+  "Abhidhamma Pitaka",
+  "Sanskrit",
+  "Linguistics",
+  "Language",
+  "English language",
+  "South Africa",
+  "Zulu"
+ ],
+ "clicks": 6,
+ "stepsTaken": 6,
+ "revisits": 0,
+ "invalidAttempts": 0,
+ "calls": 6,
+ "tokensIn": 2271,
+ "tokensOut": 376,
+ "costUsd": 0.008302,
+ "steps": [
+  {
+   "page": "Abhidhamma Pitaka",
+   "offered": 5,
+   "attempts": [
+    {
+     "raw": "Sanskrit",
+     "valid": true,
+     "tokensIn": 206,
+     "tokensOut": 91,
+     "ms": 1902
+    }
+   ],
+   "chosen": "Sanskrit",
+   "revisit": false
+  },
+  {
+   "page": "Sanskrit",
+   "offered": 32,
+   "attempts": [
+    {
+     "raw": "Linguistics",
+     "valid": true,
+     "tokensIn": 297,
+     "tokensOut": 163,
+     "ms": 3286
+    }
+   ],
+   "chosen": "Linguistics",
+   "revisit": false
+  },
+  {
+   "page": "Linguistics",
+   "offered": 11,
+   "attempts": [
+    {
+     "raw": "Language",
+     "valid": true,
+     "tokensIn": 229,
+     "tokensOut": 18,
+     "ms": 1436
+    }
+   ],
+   "chosen": "Language",
+   "revisit": false
+  },
+  {
+   "page": "Language",
+   "offered": 24,
+   "attempts": [
+    {
+     "raw": "English language",
+     "valid": true,
+     "tokensIn": 284,
+     "tokensOut": 67,
+     "ms": 1563
+    }
+   ],
+   "chosen": "English language",
+   "revisit": false
+  },
+  {
+   "page": "English language",
+   "offered": 118,
+   "attempts": [
+    {
+     "raw": "South Africa",
+     "valid": true,
+     "tokensIn": 672,
+     "tokensOut": 19,
+     "ms": 1227
+    }
+   ],
+   "chosen": "South Africa",
+   "revisit": false
+  },
+  {
+   "page": "South Africa",
+   "offered": 101,
+   "attempts": [
+    {
+     "raw": "Zulu",
+     "valid": true,
+     "tokensIn": 583,
+     "tokensOut": 18,
+     "ms": 908
+    }
+   ],
+   "chosen": "Zulu",
+   "revisit": false
+  }
+ ]
+}
