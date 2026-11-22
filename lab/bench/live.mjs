@@ -1,5 +1,3 @@
-// Small live check on today's en.wikipedia.org: same strategies, real API, throttled, cached on disk.
-//   node bench/live.mjs            writes results/live.json (and refreshes benchmark.json)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -19,7 +17,6 @@ const cached = (kind) => async (title, signal) => {
 };
 const wiki = { resolve: cached('resolve'), links: cached('links'), backlinks: cached('backlinks') };
 
-// Kept small on purpose: wikimedia rate-limits anonymous api clients hard (we hit a 429 on a first, bigger attempt).
 export const LIVE_PAIRS = [['Pizza', 'Albert Einstein'], ['Mount Everest', 'Jazz'], ['Bitcoin', 'Ancient Egypt'], ['Eiffel Tower', 'Penguin']];
 const LIVE_IDS = (process.env.LIVE_IDS || 'guided,model,bidi,god,keyword').split(',');
 

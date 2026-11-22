@@ -1,6 +1,3 @@
-// Picks which trained model ships as "god" and the search knobs, on the TUNE races only
-// (start and target from validation articles). The test races are never touched here.
-// Objective per strategy: success*100 - extraClicks*10 - pages*0.2.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';

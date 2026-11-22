@@ -1,7 +1,3 @@
-// Offline benchmark: every browser strategy, same code, over the seeded Wikispeedia pairs.
-//   node bench/run.mjs                 test pairs, writes results/bench-test.json + src/data/clicks/benchmark.json
-//   node bench/run.mjs --split tune    tune pairs only (used by bench/tune.mjs), writes results/bench-tune.json
-//   node bench/run.mjs --limit 30      first N pairs per difficulty (smoke / preliminary)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';

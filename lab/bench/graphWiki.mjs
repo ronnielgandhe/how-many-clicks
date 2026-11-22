@@ -1,4 +1,3 @@
-// A Wiki backed by an in-memory link graph, so the exact browser strategies run offline.
 export function graphWiki(titles, adj) {
   const idx = new Map(titles.map((t, i) => [t.toLowerCase(), i]));
   const rev = titles.map(() => []);

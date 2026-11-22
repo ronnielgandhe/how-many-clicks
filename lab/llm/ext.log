@@ -173,7 +173,7 @@ ERROR gpt-6.2-sol test-8: BadRequestError: Error code: 400 - Unsupported paramet
 m/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1474, in post
     return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/ronniel/Desktop/rg-github/how-many-clicks/lab/llm/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
+  File "lab/llm/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1248, in request
     raise self._make_status_error_from_response(err.response) from None
 openai.BadRequestError: Error code: 400 - Unsupported parameter: 'temperature' is not supported with this model.
 

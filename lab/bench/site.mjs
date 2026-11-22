@@ -6,8 +6,6 @@ import { registerHooks } from 'node:module';
 export const SITE = process.env.SITE_DIR || join(dirname(fileURLToPath(import.meta.url)), '../../../../rg-portfolio');
 const BUILD = join(dirname(fileURLToPath(import.meta.url)), '../build');
 
-// The game page's pathfinder.ts runs untouched; only its `./wiki` import is pointed at a graph-backed stub,
-// and the stub forwards to whatever Wiki the current run passed in (globalThis.__wiki).
 mkdirSync(BUILD, { recursive: true });
 writeFileSync(join(BUILD, 'wikiStub.ts'), `
 export class WikiError extends Error {}

@@ -1,4 +1,3 @@
-// Folds results/*.json into the page's data file: src/data/clicks/benchmark.json
 import { readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';

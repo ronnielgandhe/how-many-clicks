@@ -6,8 +6,6 @@ import { graphWiki } from '../bench/graphWiki.mjs';
 const { STRATEGIES, strategyById } = strategies;
 const EVENT_TYPES = new Set(['status', 'resolved', 'visiting', 'links_found', 'scored', 'considering', 'clicking', 'skipped', 'found', 'not_found', 'error']);
 
-// Toy graph: shortest Paris -> Volcano is 3 (Paris > France > Iceland > Volcano).
-// Greedy title matching gets lured into the "Volcano Bay" water-park branch, which is 4 clicks.
 const EDGES = {
   Paris: ['France', 'Volcano Bay', 'Eiffel Tower'],
   France: ['Iceland', 'Europe', 'Paris'],

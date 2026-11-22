@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# Full pipeline: data -> model -> tuning -> benchmark -> live check -> tests.
-#   ./reproduce.sh          everything (about 15 min of CPU + ~20 min throttled live api)
-#   ./reproduce.sh bench    only the offline benchmark with the weights already in public/clicks-model
 set -euo pipefail
 cd "$(dirname "$0")"
 PY=.venv/bin/python
@@ -18,4 +15,4 @@ if [ "${1:-}" != "bench" ]; then
 fi
 node bench/run.mjs
 [ "${1:-}" = "bench" ] || node bench/live.mjs
-node --test test/
+node --test test/strategies.test.mjs
